@@ -1,0 +1,11 @@
+GET /q_frame.php?7 HTTP/1.1
+Host: queuev4.vk.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://vk.com/feed
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remixlang=0; remixstid=504176821_064f310482fac024c2; remixdt=0; remixsid=aee9b8b38a484cb7ed94f03b06f0aac4d60b060f69f17cb9c6e55; remixflash=0.0.0; remixscreen_depth=24
+

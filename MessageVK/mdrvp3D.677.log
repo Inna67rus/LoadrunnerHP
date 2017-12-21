@@ -1,0 +1,19 @@
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(154): Found resource "https://pp.userapi.com/c840728/v840728465/2e763/Rd_pybKOQwE.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(154): Found resource "https://pp.userapi.com/c837229/v837229199/66b9b/tS6K9k8hNkY.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(154): Found resource "https://pp.userapi.com/c840635/v840635757/2f2a3/YmVAawsAcHE.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(154): Found resource "https://pp.userapi.com/c824602/v824602757/4b526/3ewCsy54H1o.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(154): ssl_handle_status encounter error : SSL_ERROR_SYSCALL, error id : 0  	[MsgId: MMSG-26000]
+Action.c(154): Error -27723: Step download timeout (120 seconds) has expired when downloading resource "https://pp.userapi.com/c638628/v638628183/33455/vy115tYuJfk.jpg". Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively  	[MsgId: MERR-27723]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(154): No socket (out of 16) is CURRENTLY available for a regular connection for URL="https://sun9-6.userapi.com/c636826/v636826645/138ca/jpMSFsaFexI.jpg"  	[MsgId: MMSG-26000]
+Action.c(154): No socket (out of 16) is CURRENTLY available for a regular connection for URL="https://sun9-6.userapi.com/c626124/v626124856/278be/TgVLek3gTbE.jpg"  	[MsgId: MMSG-26000]
+Action.c(154): No socket (out of 16) is CURRENTLY available for a regular connection for URL="https://sun9-6.userapi.com/c637121/v637121012/35e01/0urAFswAL0s.jpg"  	[MsgId: MMSG-26000]
+Action.c(154): Warning -27772: Server "sun9-6.userapi.com" shut connection during attempt to negotiate SSL session  	[MsgId: MWAR-27772]
+Action.c(154): Error -27723: Step download timeout (120 seconds) has expired when downloading resource "https://sun9-6.userapi.com/c840230/v840230126/48c34/kw3q2nzJ2OE.jpg". Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively  	[MsgId: MERR-27723]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

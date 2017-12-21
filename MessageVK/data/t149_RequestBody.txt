@@ -1,0 +1,1 @@
+"act=get_emoji_list&al=1"

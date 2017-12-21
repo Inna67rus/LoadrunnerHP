@@ -1,0 +1,1 @@
+"act=current_info&al=1&hash=2cc9c5f3eb2d06673d&info=Test_1234567&oid=461703243"

@@ -1,0 +1,15 @@
+[t246]
+FileName1=t246.html
+URL1=https://queuev4.vk.com/im200
+Total=3
+RequestHeaderFile=t246_RequestHeader.txt
+RequestBodyFile=t246_RequestBody.txt
+ResponseHeaderFile=t246_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_246.xml
+FileName2=t246_imn.html
+URL2=https://vk.com/js/cmodules/web/imn.js?126482867599
+FileName3=t246_im.css
+URL3=https://vk.com/css/al/im.css?118223720864
+[ProtocolInfo]
+ProtocolId=QTWeb

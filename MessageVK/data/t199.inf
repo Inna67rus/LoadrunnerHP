@@ -1,0 +1,13 @@
+[t199]
+FileName1=t199.txt
+URL1=https://vk.com/upload_fails.php
+Total=2
+RequestHeaderFile=t199_RequestHeader.txt
+RequestBodyFile=t199_RequestBody.txt
+ResponseHeaderFile=t199_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_199.xml
+FileName2=t199_api.html
+URL2=https://pu.vk.com/adguard-ajax-api/api?type=gm-xml-http-request&unique_name=Web%20of%20Trust%20Beta&url=https%3A%2F%2Frating.adguard.com%2F0.4%2Fpublic_link_json2%3Fhosts%3Dpu.vk.com%2F%26key%3D04a3aa04ef92d65637d0633eb495e82ad648508e&data=&headers=&method=GET&overridemimetype=&user=&password=&sn=b11a17333cb3f1200b364f224783e4d94944a4ed21784640d6248c91795bbd5d
+[ProtocolInfo]
+ProtocolId=QTWeb

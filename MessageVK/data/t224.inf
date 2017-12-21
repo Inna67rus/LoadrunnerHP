@@ -1,0 +1,13 @@
+[t224]
+FileName1=t224.html
+URL1=https://queuev4.vk.com/im200
+Total=2
+RequestHeaderFile=t224_RequestHeader.txt
+RequestBodyFile=t224_RequestBody.txt
+ResponseHeaderFile=t224_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_224.xml
+FileName2=t224_im0200.html
+URL2=https://imv4.vk.com/im0200?act=a_check&key=9a497fcaf628fab8b564382d9263d0d6a622f276&mode=202&ts=1796357657&version=2&wait=25
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+GET /notifier.php?act=storage_frame&from=vk.com&4 HTTP/1.1
+Host: vk.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://vk.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remixlang=0; remixstid=1286444474_6bcae4185c3202f5a3; remixflash=0.0.0; remixscreen_depth=24; remixdt=0; tmr_detect=1%7C1511523384097; remixsid=ec24906090b9089271763f594078890c25ed8b02bc989e213bc35
+

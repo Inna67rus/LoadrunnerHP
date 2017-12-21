@@ -1,0 +1,24 @@
+
+<!-- Start: injected by Adguard -->
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts.js?ts=63647316365496&name=Adguard%20Assistant%20Beta&name=Web%20of%20Trust%20Beta" nonce="314156cfbe77423fac675dfc495b05e0" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63647504664731&amp;domain=vk.com&amp;mask=111" nonce="314156cfbe77423fac675dfc495b05e0" type="text/javascript"></script>
+
+<!-- End: injected by Adguard -->
+<script type="text/javascript">
+var _ua = navigator.userAgent;
+var locDomain = 'vk.com'.match(/[a-zA-Z]+\.[a-zA-Z]+\.?$/)[0];
+if (/opera/i.test(_ua) || !/msie 6/i.test(_ua) || document.domain != locDomain) {
+  document.domain = locDomain;
+}
+parent.__qlClear();
+addEvent = parent.addEvent;
+vk = parent.vk;
+parent.stManager.add(['notifier.js', 'notifier.css'], function() {
+  Notifier = parent.Notifier;
+    ;(function () {
+    var cb = function () {Notifier.init({"queue_id":"events_queue44752200","timestamp":1990545697,"key":"I5sCjxPTuop3CpAhIRiQsB22WLU2AYjk7o25dc4V9Oded2k5arS9uBG7MOF5TsKh","uid":"44752200","version":10,"debug":false,"instance_id":"MTA5MzI4","server_url":"https:\/\/queuev4.vk.com\/im200","frame_path":"https:\/\/queuev4.vk.com\/q_frame.php?7","frame_url":"im200","refresh_url":"https:\/\/vk.com\/notifier.php","mutedPeers":[1689465,4369912,31367495,43688087,58296300,138850047,150433773,189854967,192914539,2000000016,2000000056,2000000062,2000000069,2000000073,2000000081,2000000088,2000000089,2000000090,2000000092,2000000093,2000000095],"fc":{"version":23,"state":{"clist":{"min":true,"x":-1.000000,"y":0.095710},"tabs":[],"version":23},"state_hash":"1511950608_0d27e1f416e17cb186"}})}
+    if (window.vk && window.vk.loaded) cb(); else addEvent(window, 'DOMContentLoaded load', cb);
+  })();
+  parent.onLoginDone('/innapush');
+});
+</script>

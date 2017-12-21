@@ -1,0 +1,15 @@
+[t52]
+FileName1=t52.txt
+URL1=https://vk.com/al_feed.php?queue
+Total=3
+RequestHeaderFile=t52_RequestHeader.txt
+RequestBodyFile=t52_RequestBody.txt
+ResponseHeaderFile=t52_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_52.xml
+FileName2=t52_im_emoji.png
+URL2=https://vk.com/images/im_emoji.png?9
+FileName3=t52_post_icon.png
+URL3=https://vk.com/images/post_icon.png?10
+[ProtocolInfo]
+ProtocolId=QTWeb

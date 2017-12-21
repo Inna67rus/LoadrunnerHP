@@ -1,0 +1,13 @@
+[t40]
+FileName1=t40.html
+URL1=https://queuev4.vk.com/im200
+Total=2
+RequestHeaderFile=t40_RequestHeader.txt
+RequestBodyFile=t40_RequestBody.txt
+ResponseHeaderFile=t40_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_40.xml
+FileName2=t40_dev_radio.png
+URL2=https://vk.com/images/icons/dev_radio.png?1
+[ProtocolInfo]
+ProtocolId=QTWeb

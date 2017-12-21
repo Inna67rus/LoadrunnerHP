@@ -1,0 +1,13 @@
+[t35]
+FileName1=t35.html
+URL1=https://queuev4.vk.com/im200
+Total=2
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=t35_RequestBody.txt
+ResponseHeaderFile=t35_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_35.xml
+FileName2=t35_smile_icon.png
+URL2=https://vk.com/images/icons/smile_icon.png
+[ProtocolInfo]
+ProtocolId=QTWeb

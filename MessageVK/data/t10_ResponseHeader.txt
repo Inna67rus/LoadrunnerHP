@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache
+Date: Wed, 15 Nov 2017 08:21:34 GMT
+Content-Type: text/html; charset=windows-1251
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/3.14092
+Pragma: public
+Cache-Control: maxage=345600
+Expires: Sun, 19 Nov 2017 08:21:34 GMT
+X-Frontend: front832702
+Content-Encoding: gzip
+

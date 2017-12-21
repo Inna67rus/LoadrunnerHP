@@ -1,0 +1,15 @@
+[t191]
+FileName1=t191.html
+URL1=https://queuev4.vk.com/im200
+Total=3
+RequestHeaderFile=t191_RequestHeader.txt
+RequestBodyFile=t191_RequestBody.txt
+ResponseHeaderFile=t191_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_191.xml
+FileName2=t191_im.css
+URL2=https://vk.com/css/al/im.css?117014689418
+FileName3=t191_imn.html
+URL3=https://vk.com/js/cmodules/web/imn.js?132379391846
+[ProtocolInfo]
+ProtocolId=QTWeb

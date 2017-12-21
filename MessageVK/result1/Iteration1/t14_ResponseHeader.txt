@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 21 Dec 2017 08:54:55 GMT
+Content-Type: text/html; charset=windows-1251
+Content-Length: 7740
+Connection: keep-alive
+X-Powered-By: PHP/3.14337
+Pragma: no-cache
+Cache-control: no-store
+Set-Cookie: remixlo_hash=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com
+Set-Cookie: remixlhk=16b4228626dff1b62c; expires=Fri, 21 Dec 2018 00:47:18 GMT; path=/; domain=.vk.com
+X-Frame-Options: deny
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=0
+X-Frontend: front508119
+Access-Control-Expose-Headers: X-Frontend
+

@@ -1,0 +1,13 @@
+[t145]
+FileName1=t145.html
+URL1=https://queuev4.vk.com/im200
+Total=2
+RequestHeaderFile=t145_RequestHeader.txt
+RequestBodyFile=t145_RequestBody.txt
+ResponseHeaderFile=t145_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_145.xml
+FileName2=t145_mrtarg.html
+URL2=https://vk.com/js/al/mrtarg.js?1146267795
+[ProtocolInfo]
+ProtocolId=QTWeb

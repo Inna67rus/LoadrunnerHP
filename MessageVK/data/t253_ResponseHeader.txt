@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Wed, 29 Nov 2017 10:17:24 GMT
+Content-Type: text/html; charset=windows-1251
+X-Adguard-Filtered: AdGuard for Windows; version=6.2.433.2167
+Connection: keep-alive
+Pragma: no-cache
+Cache-control: no-store
+Vary: Accept-Encoding
+Content-Length: 742
+X-Frontend: front508127
+

@@ -1,0 +1,2915 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "range",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "chrome-proxy",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "video/mp4"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "audio/mpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "MaxUsedConnections": 48,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р вЂ Р Р†Р вЂљРЎвЂєР РЋРЎвЂєР В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р Р‹Р Р†РІР‚С›РЎС›Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В¦Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р вЂ Р Р†Р вЂљРЎвЂєР РЋРЎвЂєР В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РІР‚вЂњР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р Р‹Р Р†РІР‚С›РЎС›Р В Р’В Р вЂ™Р’В Р В Р’В Р В РІР‚в„–Р В Р’В Р В Р вЂ№Р В Р вЂ Р В РІР‚С™Р РЋРІР‚СњР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р вЂ Р Р†Р вЂљРЎвЂєР Р†Р вЂљРІР‚СљР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р В Р РЏ-15-2017",
+    "RecordingDuration": 166812,
+    "RecordingTimeStamp": 1510733987,
+    "TotalBytesReceived": 2142223,
+    "TotalBytesSent": 108951,
+    "TotalRequests": 166
+  },
+  "HostInfo": [
+    {
+      "DomainName": "www.tns-counter.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "194.226.130.229",
+          "IncludeInScript": false,
+          "Name": "www.tns-counter.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 12424,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.tns-counter.ru/V13a****vk_ad/ru/UTF-8/tmsec=vkad_cid1015708-posid1184675/615482929"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 12408,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.tns-counter.ru/V13a***R%3Ehttps://vk.com/feed*vk_com/ru/UTF-8/tmsec=vksite_total/578962060"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 12048,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.tns-counter.ru/V13a****vk_ad/ru/UTF-8/tmsec=vkad_cid1015708-posid1184675/570125223"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 12038,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.tns-counter.ru/V13a***R%3Ehttps://vk.com/feed*vk_com/ru/UTF-8/tmsec=vksite_total/122047008"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 32,
+              "EventId": 11223,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.tns-counter.ru/V13b****vk_ad/ru/UTF-8/tmsec=vkad_cid1015708-posid1184674/738952979"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 11218,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://www.tns-counter.ru/V13b***R%3E*vk_com/ru/UTF-8/tmsec=vksite_total/279903409"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 11215,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.tns-counter.ru/V13a****vk_ad/ru/UTF-8/tmsec=vkad_cid1015708-posid1184674/738952979"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 11199,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.tns-counter.ru/V13a***R%3E*vk_com/ru/UTF-8/tmsec=vksite_total/279903409"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "vk.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "95.213.11.181",
+          "IncludeInScript": true,
+          "Name": "vk.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 63,
+              "EventId": 12745,
+              "HttpStatus": 200,
+              "Size": 1530,
+              "URL": "https://vk.com/js/al/login.js?3551917100"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 140,
+              "EventId": 12740,
+              "HttpStatus": 200,
+              "Size": 20634,
+              "URL": "https://vk.com/login?act=mobile&hash=88003c2f7db3bbcc"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 12738,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://vk.com/login.php?op=logout&hash=911588a3651b8c28d3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 125,
+              "EventId": 12718,
+              "HttpStatus": 200,
+              "Size": 232,
+              "URL": "https://vk.com/al_im.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 12684,
+              "HttpStatus": 200,
+              "Size": 16741,
+              "URL": "https://vk.com/al_im.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 12680,
+              "HttpStatus": 200,
+              "Size": 110,
+              "URL": "https://vk.com/images/icons/mobile.png?1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 12677,
+              "HttpStatus": 200,
+              "Size": 176,
+              "URL": "https://vk.com/images/icons/cross.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 12674,
+              "HttpStatus": 200,
+              "Size": 368,
+              "URL": "https://vk.com/images/icons/smile_icon.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 12668,
+              "HttpStatus": 200,
+              "Size": 2259,
+              "URL": "https://vk.com/al_im.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 12662,
+              "HttpStatus": 200,
+              "Size": 2138,
+              "URL": "https://vk.com/css/al/wide_dd.css?16403188775"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 109,
+              "EventId": 12651,
+              "HttpStatus": 200,
+              "Size": 1348,
+              "URL": "https://vk.com/css/al/writebox.css?16829787750"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 62,
+              "EventId": 12645,
+              "HttpStatus": 200,
+              "Size": 54801,
+              "URL": "https://vk.com/js/cmodules/web/writebox.js?49846734284"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 63,
+              "EventId": 12632,
+              "HttpStatus": 200,
+              "Size": 5374,
+              "URL": "https://vk.com/js/al/wide_dd.js?452755344"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 12628,
+              "HttpStatus": 200,
+              "Size": 261,
+              "URL": "https://vk.com/images/zoom_photo.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 188,
+              "EventId": 12362,
+              "HttpStatus": 200,
+              "Size": 8820,
+              "URL": "https://vk.com/al_friends.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 12344,
+              "HttpStatus": 200,
+              "Size": 570,
+              "URL": "https://vk.com/images/camera_50.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 12332,
+              "HttpStatus": 200,
+              "Size": 4881,
+              "URL": "https://vk.com/images/camera_100.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 12264,
+              "HttpStatus": 200,
+              "Size": 608,
+              "URL": "https://vk.com/images/icons/round_spinner.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 12262,
+              "HttpStatus": 200,
+              "Size": 265,
+              "URL": "https://vk.com/images/search_icon.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 62,
+              "EventId": 12251,
+              "HttpStatus": 200,
+              "Size": 360,
+              "URL": "https://vk.com/images/svg_icons/contour_arrow.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 12248,
+              "HttpStatus": 200,
+              "Size": 158,
+              "URL": "https://vk.com/images/cross.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 12240,
+              "HttpStatus": 200,
+              "Size": 135,
+              "URL": "https://vk.com/images/icons/search_arrow.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 12238,
+              "HttpStatus": 200,
+              "Size": 192,
+              "URL": "https://vk.com/images/icons/multidd.png?2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 12235,
+              "HttpStatus": 200,
+              "Size": 187,
+              "URL": "https://vk.com/images/icons/ads_icons_blue.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 12232,
+              "HttpStatus": 200,
+              "Size": 151,
+              "URL": "https://vk.com/images/icons/calendar.png?2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 110,
+              "EventId": 12225,
+              "HttpStatus": 200,
+              "Size": 1344,
+              "URL": "https://vk.com/js/al/mrtarg.js?1146267795"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 110,
+              "EventId": 12223,
+              "HttpStatus": 200,
+              "Size": 25,
+              "URL": "https://vk.com/css/al/mrtarg.css?3142794554"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 12220,
+              "HttpStatus": 200,
+              "Size": 2376,
+              "URL": "https://vk.com/js/al/indexer.js?1700343828"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 12215,
+              "HttpStatus": 200,
+              "Size": 10675,
+              "URL": "https://vk.com/al_friends.php?__query=friends&_ref=left_nav&al=-1&al_id=44752200&_rndVer=61201"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 93,
+              "EventId": 12210,
+              "HttpStatus": 200,
+              "Size": 13070,
+              "URL": "https://vk.com/js/al/friends.js?140439177"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 78,
+              "EventId": 12202,
+              "HttpStatus": 200,
+              "Size": 2990,
+              "URL": "https://vk.com/css/al/privacy.css?14077004126"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 12198,
+              "HttpStatus": 200,
+              "Size": 6047,
+              "URL": "https://vk.com/css/al/friends.css?16251713303"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 125,
+              "EventId": 12101,
+              "HttpStatus": 200,
+              "Size": 70,
+              "URL": "https://vk.com/notifier.php?act=a_reset"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 109,
+              "EventId": 12092,
+              "HttpStatus": 200,
+              "Size": 17001,
+              "URL": "https://vk.com/al_im.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 12076,
+              "HttpStatus": 200,
+              "Size": 9785,
+              "URL": "https://vk.com/al_im.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "video/mp4",
+              "DownloadTime": 63,
+              "EventId": 11964,
+              "HttpStatus": 206,
+              "Size": 1507,
+              "URL": "https://vk.com/images/blank.mp4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 11962,
+              "HttpStatus": 200,
+              "Size": 510,
+              "URL": "https://vk.com/images/icons/msg_error.png?1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 11959,
+              "HttpStatus": 200,
+              "Size": 134,
+              "URL": "https://vk.com/images/icons/menu_arrow.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 11956,
+              "HttpStatus": 200,
+              "Size": 1890,
+              "URL": "https://vk.com/images/icons/common.png?6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 360,
+              "EventId": 11922,
+              "HttpStatus": 200,
+              "Size": 2526,
+              "URL": "https://vk.com/notifier.php?act=storage_frame&from=vk.com&4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 328,
+              "EventId": 11906,
+              "HttpStatus": 200,
+              "Size": 1011,
+              "URL": "https://vk.com/images/svg_icons/ic_head_audio.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 312,
+              "EventId": 11904,
+              "HttpStatus": 200,
+              "Size": 5749,
+              "URL": "https://vk.com/images/icons/menu_icon.png?7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 329,
+              "EventId": 11891,
+              "HttpStatus": 200,
+              "Size": 2457,
+              "URL": "https://vk.com/images/post_icon.png?10"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 188,
+              "EventId": 11888,
+              "HttpStatus": 200,
+              "Size": 187,
+              "URL": "https://vk.com/al_feed.php?queue"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 172,
+              "EventId": 11883,
+              "HttpStatus": 200,
+              "Size": 308,
+              "URL": "https://vk.com/images/svg_icons/stories_arrow.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 11851,
+              "HttpStatus": 200,
+              "Size": 142,
+              "URL": "https://vk.com/images/icons/edit_newsfeed.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 11848,
+              "HttpStatus": 200,
+              "Size": 2251,
+              "URL": "https://vk.com/images/attach_icons.png?4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 11845,
+              "HttpStatus": 200,
+              "Size": 102,
+              "URL": "https://vk.com/images/post_more.png?1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 11823,
+              "HttpStatus": 200,
+              "Size": 316,
+              "URL": "https://vk.com/images/icons/interesting.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 79,
+              "EventId": 11807,
+              "HttpStatus": 200,
+              "Size": 89,
+              "URL": "https://vk.com/images/icons/filter_add.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 11747,
+              "HttpStatus": 200,
+              "Size": 195,
+              "URL": "https://vk.com/images/icons/dropdown_check.png?2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 109,
+              "EventId": 11693,
+              "HttpStatus": 200,
+              "Size": 96116,
+              "URL": "https://vk.com/fonts/opensans400.woff"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 63,
+              "EventId": 11681,
+              "HttpStatus": 200,
+              "Size": 582,
+              "URL": "https://vk.com/images/svg_icons/ic_head_notify.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 11663,
+              "HttpStatus": 200,
+              "Size": 976,
+              "URL": "https://vk.com/images/deactivated_50.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 11653,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://vk.com/images/blank.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 11647,
+              "HttpStatus": 200,
+              "Size": 515,
+              "URL": "https://vk.com/images/emoji/2614.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 125,
+              "EventId": 11592,
+              "HttpStatus": 200,
+              "Size": 10712,
+              "URL": "https://vk.com/js/al/aes_light.js?3306454788"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 109,
+              "EventId": 11590,
+              "HttpStatus": 200,
+              "Size": 19644,
+              "URL": "https://vk.com/js/al/feed.js?981913053"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 109,
+              "EventId": 11588,
+              "HttpStatus": 200,
+              "Size": 73544,
+              "URL": "https://vk.com/js/al/page.js?1813218876"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 125,
+              "EventId": 11586,
+              "HttpStatus": 200,
+              "Size": 22240,
+              "URL": "https://vk.com/js/cmodules/web/stories.js?18597817533"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 125,
+              "EventId": 11570,
+              "HttpStatus": 200,
+              "Size": 19559,
+              "URL": "https://vk.com/js/al/ui_media_selector.js?1634680349"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 125,
+              "EventId": 11568,
+              "HttpStatus": 200,
+              "Size": 3646,
+              "URL": "https://vk.com/css/al/post.css?15851911726"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 110,
+              "EventId": 11563,
+              "HttpStatus": 200,
+              "Size": 10128,
+              "URL": "https://vk.com/css/al/feed.css?18066737595"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 94,
+              "EventId": 11558,
+              "HttpStatus": 200,
+              "Size": 37323,
+              "URL": "https://vk.com/css/al/page.css?15276740375"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 93,
+              "EventId": 11556,
+              "HttpStatus": 200,
+              "Size": 2058,
+              "URL": "https://vk.com/css/al/ui_media_selector.css?18376248309"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 78,
+              "EventId": 11552,
+              "HttpStatus": 200,
+              "Size": 10554,
+              "URL": "https://vk.com/css/al/stories.css?17339317550"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 125,
+              "EventId": 11532,
+              "HttpStatus": 200,
+              "Size": 17001,
+              "URL": "https://vk.com/al_im.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 11516,
+              "HttpStatus": 200,
+              "Size": 1520,
+              "URL": "https://vk.com/images/icons/chats.png?14"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 1172,
+              "EventId": 11512,
+              "HttpStatus": 200,
+              "Size": 227918,
+              "URL": "https://vk.com/feed"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 11505,
+              "HttpStatus": 200,
+              "Size": 9781,
+              "URL": "https://vk.com/al_im.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 62,
+              "EventId": 11484,
+              "HttpStatus": 200,
+              "Size": 36610,
+              "URL": "https://vk.com/js/al/emoji.js?700456431"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "audio/mpeg",
+              "DownloadTime": 141,
+              "EventId": 11456,
+              "HttpStatus": 206,
+              "Size": 61021,
+              "URL": "https://vk.com/mp3/bb3.mp3?1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 203,
+              "EventId": 11430,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://vk.com/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "audio/mpeg",
+              "DownloadTime": 78,
+              "EventId": 11407,
+              "HttpStatus": 206,
+              "Size": 93103,
+              "URL": "https://vk.com/mp3/bb2.mp3?1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "audio/mpeg",
+              "DownloadTime": 47,
+              "EventId": 11400,
+              "HttpStatus": 206,
+              "Size": 103552,
+              "URL": "https://vk.com/mp3/bb1.mp3?1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 110,
+              "EventId": 11393,
+              "HttpStatus": 200,
+              "Size": 50,
+              "URL": "https://vk.com/al_im.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 11390,
+              "HttpStatus": 200,
+              "Size": 2526,
+              "URL": "https://vk.com/notifier.php?act=storage_frame&from=vk.com&4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 11381,
+              "HttpStatus": 200,
+              "Size": 18096,
+              "URL": "https://vk.com/css/al/notifier.css?22487933082"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 78,
+              "EventId": 11361,
+              "HttpStatus": 200,
+              "Size": 94391,
+              "URL": "https://vk.com/js/cmodules/web/notifier.js?74318396731"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 11357,
+              "HttpStatus": 200,
+              "Size": 1874,
+              "URL": "https://vk.com/login.php?act=slogin&to=&s=1&__q_hash=46ebff23a4eef7c925fcaccd3a0bcbc5"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 406,
+              "EventId": 11165,
+              "HttpStatus": 200,
+              "Size": 165,
+              "URL": "https://vk.com/adguard-ajax-api/api?type=gm-xml-http-request&unique_name=Web%20of%20Trust%20Beta&url=https%3A%2F%2Frating.adguard.com%2F0.4%2Fpublic_link_json2%3Fhosts%3Dvk.com%2F%26key%3D04a3aa04ef92d65637d0633eb495e82ad648508e&data=&headers=&method=GET&overridemimetype=&user=&password=&sn=aaddc4fb44348898ae3a4fade19be7ffb44a375b75768cb88acd2a8618a2af6e"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 78,
+              "EventId": 11140,
+              "HttpStatus": 200,
+              "Size": 3902,
+              "URL": "https://vk.com/js/al/tooltips.js?3538576869"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 11131,
+              "HttpStatus": 200,
+              "Size": 5024,
+              "URL": "https://vk.com/css/al/tooltips.css?16297241287"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 188,
+              "EventId": 11087,
+              "HttpStatus": 200,
+              "Size": 158,
+              "URL": "https://vk.com/images/dropdown_arrow.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 11075,
+              "HttpStatus": 200,
+              "Size": 230,
+              "URL": "https://vk.com/images/upload.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 141,
+              "EventId": 11066,
+              "HttpStatus": 200,
+              "Size": 152,
+              "URL": "https://vk.com/images/cross_popup.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 11033,
+              "HttpStatus": 200,
+              "Size": 78711,
+              "URL": "https://vk.com/images/login/ios_ru.png?5"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 11029,
+              "HttpStatus": 200,
+              "Size": 389,
+              "URL": "https://vk.com/images/svg_icons/login_all_products_arrow.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 11025,
+              "HttpStatus": 200,
+              "Size": 71390,
+              "URL": "https://vk.com/images/login/wp_ru.png?5"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 11022,
+              "HttpStatus": 200,
+              "Size": 593,
+              "URL": "https://vk.com/images/login/platforms.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 10970,
+              "HttpStatus": 200,
+              "Size": 74037,
+              "URL": "https://vk.com/images/login/android_ru.png?5"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 46,
+              "EventId": 10965,
+              "HttpStatus": 200,
+              "Size": 706,
+              "URL": "https://vk.com/images/svg_icons/ic_head_loupe.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 10950,
+              "HttpStatus": 200,
+              "Size": 161,
+              "URL": "https://vk.com/images/backlink.gif?4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 47,
+              "EventId": 10947,
+              "HttpStatus": 200,
+              "Size": 1654,
+              "URL": "https://vk.com/images/svg_icons/ic_head_logo.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 188,
+              "EventId": 10908,
+              "HttpStatus": 200,
+              "Size": 37546,
+              "URL": "https://vk.com/js/cmodules/web/audioplayer.js?3876525056"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 172,
+              "EventId": 10903,
+              "HttpStatus": 200,
+              "Size": 26542,
+              "URL": "https://vk.com/js/lib/ui_controls.js?2713858100"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 172,
+              "EventId": 10900,
+              "HttpStatus": 200,
+              "Size": 20560,
+              "URL": "https://vk.com/js/al/ui_common.js?3489032241"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 125,
+              "EventId": 10895,
+              "HttpStatus": 200,
+              "Size": 2228,
+              "URL": "https://vk.com/js/al/index.js?3228561433"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 125,
+              "EventId": 10869,
+              "HttpStatus": 200,
+              "Size": 307,
+              "URL": "https://vk.com/js/lib/px.js?ch=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 109,
+              "EventId": 10867,
+              "HttpStatus": 200,
+              "Size": 307,
+              "URL": "https://vk.com/js/lib/px.js?ch=2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 125,
+              "EventId": 10861,
+              "HttpStatus": 200,
+              "Size": 12480,
+              "URL": "https://vk.com/js/lang0_0.js?6868"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 156,
+              "EventId": 10853,
+              "HttpStatus": 200,
+              "Size": 116011,
+              "URL": "https://vk.com/js/al/common.js?1160_3170971789"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 172,
+              "EventId": 10837,
+              "HttpStatus": 200,
+              "Size": 1613,
+              "URL": "https://vk.com/css/al/index.css?14052866184"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 140,
+              "EventId": 10834,
+              "HttpStatus": 200,
+              "Size": 15493,
+              "URL": "https://vk.com/css/al/ui_common.css?17021015746"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 140,
+              "EventId": 10831,
+              "HttpStatus": 200,
+              "Size": 4587,
+              "URL": "https://vk.com/css/al/login.css?16868337021"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 141,
+              "EventId": 10827,
+              "HttpStatus": 200,
+              "Size": 7114,
+              "URL": "https://vk.com/js/loader_nav4574894699054_0.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 125,
+              "EventId": 10825,
+              "HttpStatus": 200,
+              "Size": 47185,
+              "URL": "https://vk.com/css/al/common.css?26395599423"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 94,
+              "EventId": 10821,
+              "HttpStatus": 200,
+              "Size": 5650,
+              "URL": "https://vk.com/css/ui_controls.css?16645072150"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 10713,
+              "HttpStatus": 200,
+              "Size": 368172,
+              "URL": "https://vk.com/css/al/fonts_cnt.css?2889730895"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 172,
+              "EventId": 10663,
+              "HttpStatus": 200,
+              "Size": 26589,
+              "URL": "https://vk.com/"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "95.213.4.195",
+          "IncludeInScript": true,
+          "Name": "queuev4.vk.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 18890,
+              "EventId": 12722,
+              "HttpStatus": 200,
+              "Size": 130,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 19328,
+              "EventId": 12715,
+              "HttpStatus": 200,
+              "Size": 165,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 265,
+              "EventId": 12617,
+              "HttpStatus": 200,
+              "Size": 161,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 203,
+              "EventId": 12609,
+              "HttpStatus": 200,
+              "Size": 1091,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 12606,
+              "HttpStatus": 200,
+              "Size": 178,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 12603,
+              "HttpStatus": 200,
+              "Size": 181,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 141,
+              "EventId": 12600,
+              "HttpStatus": 200,
+              "Size": 180,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 12597,
+              "HttpStatus": 200,
+              "Size": 1527,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 141,
+              "EventId": 12576,
+              "HttpStatus": 200,
+              "Size": 179,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 1063,
+              "EventId": 12573,
+              "HttpStatus": 200,
+              "Size": 179,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 94,
+              "EventId": 12570,
+              "HttpStatus": 200,
+              "Size": 671,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 12567,
+              "HttpStatus": 200,
+              "Size": 335,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 437,
+              "EventId": 12564,
+              "HttpStatus": 200,
+              "Size": 284,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 12495,
+              "HttpStatus": 200,
+              "Size": 5593,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 94,
+              "EventId": 12352,
+              "HttpStatus": 200,
+              "Size": 264,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 1172,
+              "EventId": 12195,
+              "HttpStatus": 200,
+              "Size": 181,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 781,
+              "EventId": 12180,
+              "HttpStatus": 200,
+              "Size": 177,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 12177,
+              "HttpStatus": 200,
+              "Size": 181,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 110,
+              "EventId": 12174,
+              "HttpStatus": 200,
+              "Size": 160,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 500,
+              "EventId": 12171,
+              "HttpStatus": 200,
+              "Size": 1239,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 12168,
+              "HttpStatus": 200,
+              "Size": 279,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 62,
+              "EventId": 12160,
+              "HttpStatus": 200,
+              "Size": 396,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 1516,
+              "EventId": 12157,
+              "HttpStatus": 200,
+              "Size": 179,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 12154,
+              "HttpStatus": 200,
+              "Size": 1639,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 79,
+              "EventId": 12151,
+              "HttpStatus": 200,
+              "Size": 1193,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 125,
+              "EventId": 12127,
+              "HttpStatus": 200,
+              "Size": 181,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 12124,
+              "HttpStatus": 200,
+              "Size": 177,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 12121,
+              "HttpStatus": 200,
+              "Size": 670,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 12118,
+              "HttpStatus": 200,
+              "Size": 179,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 12111,
+              "HttpStatus": 200,
+              "Size": 179,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 12108,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "https://queuev4.vk.com/im200"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 12081,
+              "HttpStatus": 200,
+              "Size": 4522,
+              "URL": "https://queuev4.vk.com/q_frame.php?7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 11496,
+              "HttpStatus": 200,
+              "Size": 4522,
+              "URL": "https://queuev4.vk.com/q_frame.php?7"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "95.213.11.150",
+          "IncludeInScript": true,
+          "Name": "login.vk.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 12731,
+              "HttpStatus": 302,
+              "Size": 20,
+              "URL": "https://login.vk.com/?act=logout&hash=911588a3651b8c28d3&reason=tn&_origin=https://vk.com"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 125,
+              "EventId": 11346,
+              "HttpStatus": 302,
+              "Size": 20,
+              "URL": "https://login.vk.com/?act=login"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "userapi.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "93.186.238.48",
+          "IncludeInScript": false,
+          "Name": "pp.userapi.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 94,
+              "EventId": 12695,
+              "HttpStatus": 200,
+              "Size": 2288,
+              "URL": "https://pp.userapi.com/c841538/v841538914/382d3/xQxCI9IZqpQ.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1078,
+              "EventId": 12560,
+              "HttpStatus": 200,
+              "Size": 4888,
+              "URL": "https://pp.userapi.com/c639726/v639726294/60657/ZX_yVMAb5uo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1109,
+              "EventId": 12556,
+              "HttpStatus": 200,
+              "Size": 5018,
+              "URL": "https://pp.userapi.com/c637318/v637318672/5356e/tIYsN-hQEfU.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 157,
+              "EventId": 12552,
+              "HttpStatus": 200,
+              "Size": 6739,
+              "URL": "https://pp.userapi.com/c837121/v837121602/6c5dc/X0tzPX-QeY8.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 12548,
+              "HttpStatus": 200,
+              "Size": 6345,
+              "URL": "https://pp.userapi.com/c621511/v621511402/b502/kZhms2sPmO4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 12544,
+              "HttpStatus": 200,
+              "Size": 5567,
+              "URL": "https://pp.userapi.com/c629221/v629221991/3665e/QgVz49mN6Qg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 156,
+              "EventId": 12540,
+              "HttpStatus": 200,
+              "Size": 5564,
+              "URL": "https://pp.userapi.com/c840333/v840333441/e80d/rJqFbiWtP3Q.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 140,
+              "EventId": 12536,
+              "HttpStatus": 200,
+              "Size": 5240,
+              "URL": "https://pp.userapi.com/c637222/v637222046/87af6/f6_SQdbGlKY.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 110,
+              "EventId": 12534,
+              "HttpStatus": 200,
+              "Size": 3721,
+              "URL": "https://pp.userapi.com/c639618/v639618707/4c88f/xqdH-oO-3Lw.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 93,
+              "EventId": 12529,
+              "HttpStatus": 200,
+              "Size": 4186,
+              "URL": "https://pp.userapi.com/c629431/v629431763/2b7b2/8g2Tn-8TFs8.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 93,
+              "EventId": 12526,
+              "HttpStatus": 200,
+              "Size": 6283,
+              "URL": "https://pp.userapi.com/c636731/v636731077/348d0/3Ywx8YKV0qY.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 125,
+              "EventId": 12511,
+              "HttpStatus": 200,
+              "Size": 6144,
+              "URL": "https://pp.userapi.com/c840328/v840328276/12c53/dU7ON6QaGjw.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 125,
+              "EventId": 12509,
+              "HttpStatus": 200,
+              "Size": 4735,
+              "URL": "https://pp.userapi.com/c841634/v841634467/407c1/9GE7flf4rhU.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 110,
+              "EventId": 12507,
+              "HttpStatus": 200,
+              "Size": 4144,
+              "URL": "https://pp.userapi.com/c837620/v837620020/851e4/Mqxr5D6GV4s.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 109,
+              "EventId": 12503,
+              "HttpStatus": 200,
+              "Size": 7203,
+              "URL": "https://pp.userapi.com/c638431/v638431262/69020/0-1FX4rjsJY.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 12497,
+              "HttpStatus": 200,
+              "Size": 5426,
+              "URL": "https://pp.userapi.com/c637219/v637219310/5d4fb/45BzBTF3clE.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 140,
+              "EventId": 12479,
+              "HttpStatus": 200,
+              "Size": 5431,
+              "URL": "https://pp.userapi.com/c637117/v637117097/60ed/5SQfnvhDpc4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 250,
+              "EventId": 12476,
+              "HttpStatus": 200,
+              "Size": 4608,
+              "URL": "https://pp.userapi.com/c837337/v837337285/62e5f/9PR9cE0VUZs.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 203,
+              "EventId": 12474,
+              "HttpStatus": 200,
+              "Size": 4316,
+              "URL": "https://pp.userapi.com/c307906/v307906730/8e06/zZr0n1lyP0E.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 172,
+              "EventId": 12471,
+              "HttpStatus": 200,
+              "Size": 3875,
+              "URL": "https://pp.userapi.com/c840536/v840536734/299f0/C0tueKRwmLo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 109,
+              "EventId": 12469,
+              "HttpStatus": 200,
+              "Size": 4930,
+              "URL": "https://pp.userapi.com/c622921/v622921452/4fa76/650yyPJUqK4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 12462,
+              "HttpStatus": 200,
+              "Size": 5479,
+              "URL": "https://pp.userapi.com/c638628/v638628183/33454/6FI9jiJ7Ay0.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 12458,
+              "HttpStatus": 200,
+              "Size": 3831,
+              "URL": "https://pp.userapi.com/c834301/v834301494/215c7/79xf_a0weOo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 156,
+              "EventId": 12449,
+              "HttpStatus": 200,
+              "Size": 1750,
+              "URL": "https://pp.userapi.com/c841321/v841321899/2f0c6/LsQOVY6jWmQ.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 110,
+              "EventId": 12445,
+              "HttpStatus": 200,
+              "Size": 3940,
+              "URL": "https://pp.userapi.com/c834402/v834402433/39218/iebyT429NOY.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 109,
+              "EventId": 12443,
+              "HttpStatus": 200,
+              "Size": 2153,
+              "URL": "https://pp.userapi.com/c837338/v837338920/4039f/UL3EN6kbeoc.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 281,
+              "EventId": 12440,
+              "HttpStatus": 200,
+              "Size": 1937,
+              "URL": "https://pp.userapi.com/c638222/v638222840/3b325/iwWBRjDlEjg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 12437,
+              "HttpStatus": 200,
+              "Size": 2055,
+              "URL": "https://pp.userapi.com/c841522/v841522693/45310/H0Vj8J_MHR4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 12434,
+              "HttpStatus": 200,
+              "Size": 1706,
+              "URL": "https://pp.userapi.com/c840524/v840524433/1155b/y2i2G8OPuA4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 328,
+              "EventId": 12429,
+              "HttpStatus": 200,
+              "Size": 1609,
+              "URL": "https://pp.userapi.com/c836727/v836727685/3eb9c/S7ZSmmhN2tQ.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 94,
+              "EventId": 12422,
+              "HttpStatus": 200,
+              "Size": 2091,
+              "URL": "https://pp.userapi.com/c639131/v639131699/3e09e/Huniwxj6I7Q.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 12419,
+              "HttpStatus": 200,
+              "Size": 2039,
+              "URL": "https://pp.userapi.com/c841524/v841524538/37e7a/f57lGnHxQe4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 12415,
+              "HttpStatus": 200,
+              "Size": 1799,
+              "URL": "https://pp.userapi.com/c840539/v840539996/18dac/s_dJoAObc6k.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 12413,
+              "HttpStatus": 200,
+              "Size": 2109,
+              "URL": "https://pp.userapi.com/c631430/v631430447/47399/xShbwi1-uUY.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 12411,
+              "HttpStatus": 200,
+              "Size": 1824,
+              "URL": "https://pp.userapi.com/c424516/v424516370/a759/FXmX1ZvfhRU.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 125,
+              "EventId": 12396,
+              "HttpStatus": 200,
+              "Size": 1214,
+              "URL": "https://pp.userapi.com/c308226/v308226914/b5d8/0bNkmfAxUkg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 125,
+              "EventId": 12394,
+              "HttpStatus": 200,
+              "Size": 4399,
+              "URL": "https://pp.userapi.com/c628323/v628323077/cead/Cc8PFlXuPPI.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 141,
+              "EventId": 12391,
+              "HttpStatus": 200,
+              "Size": 6459,
+              "URL": "https://pp.userapi.com/c841538/v841538914/382d2/TQg5a0hyrm8.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 109,
+              "EventId": 12388,
+              "HttpStatus": 200,
+              "Size": 4520,
+              "URL": "https://pp.userapi.com/c840422/v840422401/2b37c/mSPJJ76dCjo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 12384,
+              "HttpStatus": 200,
+              "Size": 6013,
+              "URL": "https://pp.userapi.com/c836730/v836730584/529f/WZXUDu1v8xY.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 12382,
+              "HttpStatus": 200,
+              "Size": 3804,
+              "URL": "https://pp.userapi.com/c824603/v824603966/1760c/sKCZ_CXopzM.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 12354,
+              "HttpStatus": 200,
+              "Size": 1787,
+              "URL": "https://pp.userapi.com/c639221/v639221951/69950/MN9jG2y0N60.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 12349,
+              "HttpStatus": 200,
+              "Size": 1825,
+              "URL": "https://pp.userapi.com/c626131/v626131399/45bcc/Aj0Ve14HBzQ.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 234,
+              "EventId": 12006,
+              "HttpStatus": 200,
+              "Size": 20919,
+              "URL": "https://pp.userapi.com/c840127/v840127081/4f26e/j9CTBTzrxuQ.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 218,
+              "EventId": 12002,
+              "HttpStatus": 200,
+              "Size": 1908,
+              "URL": "https://pp.userapi.com/c621515/v621515700/43c40/kYnkYZQyse4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 11967,
+              "HttpStatus": 200,
+              "Size": 112280,
+              "URL": "https://pp.userapi.com/c840336/v840336142/29636/g51LkGGGtes.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 313,
+              "EventId": 11901,
+              "HttpStatus": 200,
+              "Size": 43335,
+              "URL": "https://pp.userapi.com/c540100/v540100079/3451c/G-UkQPm_8Xc.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 297,
+              "EventId": 11899,
+              "HttpStatus": 200,
+              "Size": 4477,
+              "URL": "https://pp.userapi.com/c639118/v639118448/28299/WO5F5S1F46M.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 281,
+              "EventId": 11897,
+              "HttpStatus": 200,
+              "Size": 1462,
+              "URL": "https://pp.userapi.com/c637117/v637117453/647e7/e1xZuUSDlic.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 281,
+              "EventId": 11895,
+              "HttpStatus": 200,
+              "Size": 94805,
+              "URL": "https://pp.userapi.com/c840735/v840735173/2b615/C9O1ouRvz1Q.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 282,
+              "EventId": 11893,
+              "HttpStatus": 200,
+              "Size": 5993,
+              "URL": "https://pp.userapi.com/c834404/v834404688/3cd56/zK7vtB2SpYQ.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 203,
+              "EventId": 11873,
+              "HttpStatus": 200,
+              "Size": 19844,
+              "URL": "https://pp.userapi.com/c834304/v834304207/3d551/GGwl1cWexh4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 172,
+              "EventId": 11870,
+              "HttpStatus": 200,
+              "Size": 8966,
+              "URL": "https://pp.userapi.com/c834304/v834304207/3d55e/iKIq7hfEw4o.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 140,
+              "EventId": 11862,
+              "HttpStatus": 200,
+              "Size": 19675,
+              "URL": "https://pp.userapi.com/c834304/v834304207/3d558/R6hV7_38m7s.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 140,
+              "EventId": 11860,
+              "HttpStatus": 200,
+              "Size": 8670,
+              "URL": "https://pp.userapi.com/c834304/v834304207/3d565/x2uAWyR4lPY.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 141,
+              "EventId": 11858,
+              "HttpStatus": 200,
+              "Size": 8624,
+              "URL": "https://pp.userapi.com/c834304/v834304477/3e0c9/kQbtYyjyihg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 109,
+              "EventId": 11854,
+              "HttpStatus": 200,
+              "Size": 5720,
+              "URL": "https://pp.userapi.com/c837438/v837438448/371a0/CCBtRiMmAa0.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 156,
+              "EventId": 11835,
+              "HttpStatus": 200,
+              "Size": 4181,
+              "URL": "https://pp.userapi.com/c638331/v638331449/3263e/fhSb6nlaUZk.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 125,
+              "EventId": 11833,
+              "HttpStatus": 200,
+              "Size": 2866,
+              "URL": "https://pp.userapi.com/c604720/v604720447/65532/MYQUlpMnlgE.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 140,
+              "EventId": 11831,
+              "HttpStatus": 200,
+              "Size": 3800,
+              "URL": "https://pp.userapi.com/c604720/v604720447/68fd6/MtQhlwQB5Eo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 94,
+              "EventId": 11816,
+              "HttpStatus": 200,
+              "Size": 29540,
+              "URL": "https://pp.userapi.com/c540100/v540100209/4560c/77udzT3sxJw.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 157,
+              "EventId": 11809,
+              "HttpStatus": 200,
+              "Size": 9998,
+              "URL": "https://pp.userapi.com/c540100/v540100668/4c2d7/NtvxZuYQtMY.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 313,
+              "EventId": 11755,
+              "HttpStatus": 200,
+              "Size": 72464,
+              "URL": "https://pp.userapi.com/c834401/v834401324/3aff4/CM2SYOj7EWc.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 281,
+              "EventId": 11753,
+              "HttpStatus": 200,
+              "Size": 82995,
+              "URL": "https://pp.userapi.com/c841232/v841232911/4b169/l_9uzNRf2bs.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 328,
+              "EventId": 11750,
+              "HttpStatus": 200,
+              "Size": 59976,
+              "URL": "https://pp.userapi.com/c824601/v824601522/3e71d/qpWSkvB3Cn8.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 109,
+              "EventId": 11745,
+              "HttpStatus": 200,
+              "Size": 2461,
+              "URL": "https://pp.userapi.com/c626619/v626619364/350b/LfOF5vRWl2w.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 204,
+              "EventId": 11716,
+              "HttpStatus": 200,
+              "Size": 1257,
+              "URL": "https://pp.userapi.com/c837324/v837324754/a82b/RtexMlrH_bE.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 125,
+              "EventId": 11710,
+              "HttpStatus": 200,
+              "Size": 1722,
+              "URL": "https://pp.userapi.com/c837229/v837229142/6411e/VH-c_4JBYA4.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 109,
+              "EventId": 11706,
+              "HttpStatus": 200,
+              "Size": 1670,
+              "URL": "https://pp.userapi.com/c837634/v837634338/3a144/dnOctcInyYE.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 203,
+              "EventId": 11703,
+              "HttpStatus": 200,
+              "Size": 1438,
+              "URL": "https://pp.userapi.com/c637727/v637727733/2c447/xYcAhFcny9I.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 141,
+              "EventId": 11697,
+              "HttpStatus": 200,
+              "Size": 48357,
+              "URL": "https://pp.userapi.com/c840730/v840730021/23897/gO53ZdB8LEs.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 94,
+              "EventId": 11689,
+              "HttpStatus": 200,
+              "Size": 2198,
+              "URL": "https://pp.userapi.com/c638822/v638822274/4185c/36mGJEOnQKU.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 11687,
+              "HttpStatus": 200,
+              "Size": 1952,
+              "URL": "https://pp.userapi.com/c626817/v626817880/13a83/E31OyjhaV_c.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 62,
+              "EventId": 11684,
+              "HttpStatus": 200,
+              "Size": 1714,
+              "URL": "https://pp.userapi.com/c836725/v836725855/1ce90/d8at53Ul2nA.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 11678,
+              "HttpStatus": 200,
+              "Size": 1512,
+              "URL": "https://pp.userapi.com/c615731/v615731271/11c73/XIwYqzeq-_8.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 11666,
+              "HttpStatus": 200,
+              "Size": 1795,
+              "URL": "https://pp.userapi.com/c639623/v639623960/20946/YZbs-5Tm1bc.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 141,
+              "EventId": 11659,
+              "HttpStatus": 200,
+              "Size": 1938,
+              "URL": "https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 63,
+              "EventId": 11655,
+              "HttpStatus": 200,
+              "Size": 1565,
+              "URL": "https://pp.userapi.com/c841129/v841129873/43c8b/XO0ikZAe6NY.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 94,
+              "EventId": 11650,
+              "HttpStatus": 200,
+              "Size": 1310,
+              "URL": "https://pp.userapi.com/c638320/v638320505/55b3/0FGLYWGjep0.jpg"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "top-fwz1.mail.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "217.69.133.145",
+          "IncludeInScript": false,
+          "Name": "top-fwz1.mail.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 12493,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://top-fwz1.mail.ru/counter?js=13;id=2579437;u=https%3A//vk.com/friends;r=https%3A//vk.com/feed;st=1511951270773;pid=44752200;title=%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8;s=1366*768;vp=1339*642;touch=0;hds=1;flash=;sid=d065e8dd58801c8d;ver=60;detect=1;_=0.40709616993884046"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 12062,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://top-fwz1.mail.ru/tracker?js=13;id=2579437;u=https%3A//vk.com/;r=https%3A//vk.com/feed;st=1511951243424;pid=44752200;s=1366*768;vp=1339*642;touch=0;hds=1;flash=;sid=d065e8dd58801c8d;ver=60;detect=1;_=0.4252636407022785;e=detect"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 12054,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://top-fwz1.mail.ru/counter?js=13;id=2579437;u=https%3A//vk.com/;r=https%3A//vk.com/feed;st=1511951243424;pid=44752200;title=%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8;s=1366*768;vp=1339*642;touch=0;hds=1;flash=;sid=d065e8dd58801c8d;ver=60;detect=1;_=0.35095651910985426"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 11210,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://top-fwz1.mail.ru/tracker?js=13;id=2579437;u=https%3A//vk.com/;st=1511951194877;pid=0;s=1366*768;vp=1356*642;touch=0;hds=1;flash=;sid=59a93db23780ef13;ver=60;detect=1;_=0.7287598051997386;e=detect"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 11201,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://top-fwz1.mail.ru/counter?js=13;id=2579437;u=https%3A//vk.com/;st=1511951194877;pid=0;title=%D0%94%D0%BE%D0%B1%D1%80%D0%BE%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%20%7C%20%D0%92%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B5;s=1366*768;vp=1356*642;touch=0;hds=1;flash=;sid=59a93db23780ef13;ver=60;_=0.8008524015960514"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 156,
+              "EventId": 11190,
+              "HttpStatus": 200,
+              "Size": 4204,
+              "URL": "https://top-fwz1.mail.ru/js/code.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "scorecardresearch.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.78.115.66",
+          "IncludeInScript": false,
+          "Name": "sb.scorecardresearch.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 12466,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://sb.scorecardresearch.com/p?c1=2&c2=13765216&c3=&c4=https%3A//vk.com/friends&c5=&c7=https%3A//vk.com/friends&c9=https%3A//vk.com/feed&c15=&cv=2.0&cj=1&rn=0.7245076380886346"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 12057,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://sb.scorecardresearch.com/p?c1=2&c2=13765216&c3=&c4=https%3A//vk.com/&c5=&c7=https%3A//vk.com/&c9=https%3A//vk.com/feed&c15=&cv=2.0&cj=1&rn=0.07158918423644911"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 11246,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://sb.scorecardresearch.com/p2?c1=2&c2=13765216&c3=&c4=https%3A//vk.com/&c5=&c7=https%3A//vk.com/&c9=&c15=&cv=2.0&cj=1&rn=0.43592095512913387"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 93,
+              "EventId": 11242,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://sb.scorecardresearch.com/p?c1=2&c2=13765216&c3=&c4=https%3A//vk.com/&c5=&c7=https%3A//vk.com/&c9=&c15=&cv=2.0&cj=1&rn=0.43592095512913387"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "r3.mail.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "94.100.180.72",
+          "IncludeInScript": false,
+          "Name": "r3.mail.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 79,
+              "EventId": 12022,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://r3.mail.ru/k?vk_id=44752200&src=desktop"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.211.138",
+          "IncludeInScript": false,
+          "Name": "www.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 219,
+              "EventId": 10844,
+              "HttpStatus": 200,
+              "Size": 206,
+              "URL": "https://www.googleapis.com/oauth2/v4/token"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 266,
+              "EventId": 10771,
+              "HttpStatus": 200,
+              "Size": 227,
+              "URL": "https://www.googleapis.com/oauth2/v1/userinfo"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 281,
+              "EventId": 10763,
+              "HttpStatus": 200,
+              "Size": 227,
+              "URL": "https://www.googleapis.com/oauth2/v1/userinfo"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 219,
+              "EventId": 10746,
+              "HttpStatus": 200,
+              "Size": 254,
+              "URL": "https://www.googleapis.com/oauth2/v2/IssueToken"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 188,
+              "EventId": 10741,
+              "HttpStatus": 200,
+              "Size": 207,
+              "URL": "https://www.googleapis.com/oauth2/v4/token"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 10691,
+              "HttpStatus": 200,
+              "Size": 816,
+              "URL": "https://www.googleapis.com/oauth2/v4/token"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 94,
+              "EventId": 10687,
+              "HttpStatus": 200,
+              "Size": 817,
+              "URL": "https://www.googleapis.com/oauth2/v4/token"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 156,
+              "EventId": 10667,
+              "HttpStatus": 200,
+              "Size": 758,
+              "URL": "https://www.googleapis.com/oauth2/v4/token"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.22.170",
+          "IncludeInScript": false,
+          "Name": "translate.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 10660,
+              "HttpStatus": 200,
+              "Size": 1057,
+              "URL": "https://translate.googleapis.com/translate_a/l?client=chrome&hl=ru&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.22.163",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 93,
+              "EventId": 10677,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "173.194.32.210",
+          "IncludeInScript": false,
+          "Name": "www.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "text/plain",
+              "DownloadTime": 125,
+              "EventId": 10957,
+              "HttpStatus": 200,
+              "Size": 16,
+              "URL": "https://www.google.com/searchdomaincheck?format=domain&type=chrome"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.211.142",
+          "IncludeInScript": false,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.google.octet-stream-compressible",
+              "DownloadTime": 187,
+              "EventId": 11161,
+              "HttpStatus": 200,
+              "Size": 617,
+              "URL": "https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=GSFoPoDIIN4bdqZnDpY5MA%3D%3D"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 125,
+              "EventId": 11043,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://clients4.google.com/invalidation/android/request/CHES4QEStwFBUEE5MWJIRE9tME9fNzZ4UFh2UHZCQjRFdjVQelFUNld2Z3BOSG9YVmZZT2RBNm5WcWIxbU5oT1YycmRxQzg0VjdIV2ZzTzRqSkxUVTNEaGJ0bGlFZUtyNUwzaVF5d2wwWXJXbDA5NXBGYTNnb0NwcllIMGk2SzdOMHN3WXkxN3VtUV91Qk1nUGFMa2hWT1Q0UjhNdmZ1ZEszamlvS29mQ1ZVZWsyUFk3TnpfYnB2TjVRUWhkd3MaACoCCAAyH2NvbS5nb29nbGUuY2hyb21lLmludmFsaWRhdGlvbnM"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/vnd.google.octet-stream-compressible",
+              "DownloadTime": 328,
+              "EventId": 10991,
+              "HttpStatus": 200,
+              "Size": 3554,
+              "URL": "https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=GSFoPoDIIN4bdqZnDpY5MA%3D%3D"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 203,
+              "EventId": 10923,
+              "HttpStatus": 204,
+              "Size": 0,
+              "URL": "https://clients4.google.com/invalidation/android/request/CHES4QEStwFBUEE5MWJIRE9tME9fNzZ4UFh2UHZCQjRFdjVQelFUNld2Z3BOSG9YVmZZT2RBNm5WcWIxbU5oT1YycmRxQzg0VjdIV2ZzTzRqSkxUVTNEaGJ0bGlFZUtyNUwzaVF5d2wwWXJXbDA5NXBGYTNnb0NwcllIMGk2SzdOMHN3WXkxN3VtUV91Qk1nUGFMa2hWT1Q0UjhNdmZ1ZEszamlvS29mQ1ZVZWsyUFk3TnpfYnB2TjVRUWhkd3MaACoCCAAyH2NvbS5nb29nbGUuY2hyb21lLmludmFsaWRhdGlvbnM"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.211.142",
+          "IncludeInScript": false,
+          "Name": "clients1.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 78,
+              "EventId": 12700,
+              "HttpStatus": 200,
+              "Size": 28,
+              "URL": "https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 78,
+              "EventId": 12452,
+              "HttpStatus": 200,
+              "Size": 28,
+              "URL": "https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 63,
+              "EventId": 12104,
+              "HttpStatus": 200,
+              "Size": 28,
+              "URL": "https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 94,
+              "EventId": 12025,
+              "HttpStatus": 200,
+              "Size": 28,
+              "URL": "https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/proto",
+              "DownloadTime": 203,
+              "EventId": 11252,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://clients1.google.com/tbproxy/af/query?client=Google%20Chrome"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "216.58.211.141",
+          "IncludeInScript": false,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 10953,
+              "HttpStatus": 200,
+              "Size": 295,
+              "URL": "https://accounts.google.com/GetUserInfo"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 203,
+              "EventId": 10841,
+              "HttpStatus": 200,
+              "Size": 223,
+              "URL": "https://accounts.google.com/OAuthLogin"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 265,
+              "EventId": 10757,
+              "HttpStatus": 200,
+              "Size": 212,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumAccountReconcilor,counter:0,load_time_ms:899&json=standard"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "fbcdn.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "31.13.72.12",
+          "IncludeInScript": false,
+          "Name": "static.xx.fbcdn.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 125,
+              "EventId": 11303,
+              "HttpStatus": 200,
+              "Size": 101315,
+              "URL": "https://static.xx.fbcdn.net/rsrc.php/v3ii3S4/yl/l/ru_RU/-MJeADSEdhX.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 11300,
+              "HttpStatus": 200,
+              "Size": 186,
+              "URL": "https://static.xx.fbcdn.net/rsrc.php/v3/yy/r/uPlIYLfynqH.png"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "facebook.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "31.13.72.12",
+          "IncludeInScript": false,
+          "Name": "connect.facebook.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 203,
+              "EventId": 11195,
+              "HttpStatus": 200,
+              "Size": 65865,
+              "URL": "https://connect.facebook.net/ru_RU/sdk.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "facebook.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "31.13.72.36",
+          "IncludeInScript": false,
+          "Name": "www.facebook.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "br",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 187,
+              "EventId": 11328,
+              "HttpStatus": 200,
+              "Size": 92,
+              "URL": "https://www.facebook.com/ajax/bz"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 11277,
+              "HttpStatus": 200,
+              "Size": 30147,
+              "URL": "https://www.facebook.com/v2.7/plugins/login_button.php?app_id=128749580520227&button_type=continue_with&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FlY4eZXm_YWu.js%3Fversion%3D42%23cb%3Df339f1d67d152d8%26domain%3Dvk.com%26origin%3Dhttps%253A%252F%252Fvk.com%252Ff2e365e47e2fc8c%26relation%3Dparent.parent&container_width=270&locale=ru_RU&max_rows=1&sdk=joey&size=medium&use_continue_as=true&width=264"
+            },
+            {
+              "CompressionType": "br",
+              "DataType": "image/gif",
+              "DownloadTime": 265,
+              "EventId": 11261,
+              "HttpStatus": 200,
+              "Size": 48,
+              "URL": "https://www.facebook.com/impression.php/f1262522d9df16/?api_key=128749580520227&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "31.13.72.12",
+          "IncludeInScript": false,
+          "Name": "staticxx.facebook.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 218,
+              "EventId": 11265,
+              "HttpStatus": 200,
+              "Size": 43244,
+              "URL": "https://staticxx.facebook.com/connect/xd_arbiter/r/lY4eZXm_YWu.js?version=42"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "counter.yadro.ru",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "88.212.196.123",
+          "IncludeInScript": false,
+          "Name": "counter.yadro.ru",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 12523,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://counter.yadro.ru/hit?q;rhttps%3A//vk.com/feed;s1366*768*24;uhttps%3A//vk.com/friends;0.7207829095246272"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 266,
+              "EventId": 12520,
+              "HttpStatus": 302,
+              "Size": 32,
+              "URL": "https://counter.yadro.ru/hit?rhttps%3A//vk.com/feed;s1366*768*24;uhttps%3A//vk.com/friends;0.7207829095246272"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 12051,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://counter.yadro.ru/hit?q;rhttps%3A//vk.com/feed;s1366*768*24;uhttps%3A//vk.com/;0.5143200016705731"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 12034,
+              "HttpStatus": 302,
+              "Size": 32,
+              "URL": "https://counter.yadro.ru/hit?rhttps%3A//vk.com/feed;s1366*768*24;uhttps%3A//vk.com/;0.5143200016705731"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 11256,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://counter.yadro.ru/hit?q;r;s1366*768*24;uhttps%3A//vk.com/;0.4391583583922807"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 188,
+              "EventId": 11249,
+              "HttpStatus": 302,
+              "Size": 32,
+              "URL": "https://counter.yadro.ru/hit?r;s1366*768*24;uhttps%3A//vk.com/;0.4391583583922807"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-SHA",
+          "SSLVersion": "TLS1.1"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 7
+}

@@ -1,0 +1,13 @@
+[t119]
+FileName1=t119.html
+URL1=https://vk.com/notifier.php?act=storage_frame&from=vk.com&4
+Total=2
+RequestHeaderFile=t119_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t119_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_119.xml
+FileName2=t119_emoji.html
+URL2=https://vk.com/js/al/emoji.js?700456431
+[ProtocolInfo]
+ProtocolId=QTWeb

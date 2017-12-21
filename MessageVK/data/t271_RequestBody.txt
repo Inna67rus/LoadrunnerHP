@@ -1,0 +1,1 @@
+"act=get_top_friends&al=1"

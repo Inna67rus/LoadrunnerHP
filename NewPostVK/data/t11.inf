@@ -1,0 +1,13 @@
+[t11]
+FileName1=t11.txt
+URL1=https://vk.com/notifier.php?act=a_reset
+Total=2
+RequestHeaderFile=t11_RequestHeader.txt
+RequestBodyFile=t11_RequestBody.txt
+ResponseHeaderFile=t11_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_11.xml
+FileName2=t11_api.html
+URL2=https://queuev4.vk.com/adguard-ajax-api/api?type=gm-xml-http-request&unique_name=Web%20of%20Trust%20Beta&url=https%3A%2F%2Frating.adguard.com%2F0.4%2Fpublic_link_json2%3Fhosts%3Dqueuev4.vk.com%2F%26key%3D04a3aa04ef92d65637d0633eb495e82ad648508e&data=&headers=&method=GET&overridemimetype=&user=&password=&sn=29b1835c26fc083520299b9021c644266aff33d84aceae2e4647539c645c857f
+[ProtocolInfo]
+ProtocolId=QTWeb

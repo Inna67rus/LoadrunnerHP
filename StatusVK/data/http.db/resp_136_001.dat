@@ -1,0 +1,16 @@
+
+<!-- Start: injected by Adguard -->
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts.js?ts=63647316365496&name=Adguard%20Assistant%20Beta&name=Web%20of%20Trust%20Beta" nonce="314156cfbe77423fac675dfc495b05e0" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63647504664731&amp;domain=pu.vk.com&amp;mask=111" nonce="314156cfbe77423fac675dfc495b05e0" type="text/javascript"></script>
+
+<!-- End: injected by Adguard -->
+<script type="text/javascript">
+document.domain = location.host.toString().match(/[a-zA-Z]*\.[a-zA-Z]*$/)[0];
+try {
+  parent.Upload.callbacks.oncheck3('');
+} catch(e) {
+  try {
+    console.error(e);
+  } catch (e2) {}
+}
+</script>

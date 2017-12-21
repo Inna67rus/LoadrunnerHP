@@ -1,0 +1,13 @@
+[t292]
+FileName1=t292.html
+URL1=https://vk.com/feed
+Total=2
+RequestHeaderFile=t292_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t292_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_292.xml
+FileName2=t292_chats.png
+URL2=https://vk.com/images/icons/chats.png?14
+[ProtocolInfo]
+ProtocolId=QTWeb

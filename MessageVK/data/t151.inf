@@ -1,0 +1,15 @@
+[t151]
+FileName1=t151.txt
+URL1=https://vk.com/upload_fails.php
+Total=3
+RequestHeaderFile=t151_RequestHeader.txt
+RequestBodyFile=t151_RequestBody.txt
+ResponseHeaderFile=t151_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_151.xml
+FileName2=t151_camera_50.png
+URL2=https://vk.com/images/camera_50.png
+FileName3=t151_im0200.html
+URL3=https://imv4.vk.com/im0200?act=a_check&key=361d46bf152e061dbf95540ca06d4ef8b5feb5da&mode=202&ts=1796357577&version=2&wait=25
+[ProtocolInfo]
+ProtocolId=QTWeb

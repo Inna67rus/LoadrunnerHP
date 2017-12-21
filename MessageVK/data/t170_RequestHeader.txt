@@ -1,0 +1,14 @@
+POST /al_im.php HTTP/1.1
+Host: vk.com
+Connection: keep-alive
+Content-Length: 24
+Origin: https://vk.com
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: https://vk.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remixlang=0; remixstid=504176821_064f310482fac024c2; remixflash=0.0.0; remixscreen_depth=24; remixdt=0; tmr_detect=1%7C1511524153040; remixsid=aee9b8b38a484cb7ed94f03b06f0aac4d60b060f69f17cb9c6e55
+

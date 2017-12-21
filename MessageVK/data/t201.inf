@@ -1,0 +1,11 @@
+[t201]
+FileName1=t201.txt
+URL1=https://vk.com/upload_fails.php
+Total=1
+RequestHeaderFile=t201_RequestHeader.txt
+RequestBodyFile=t201_RequestBody.txt
+ResponseHeaderFile=t201_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_201.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

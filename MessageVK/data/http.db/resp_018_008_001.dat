@@ -1,0 +1,1300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- Start: injected by Adguard -->
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts.js?ts=63647056528640&name=Adguard%20Assistant%20Beta&name=Web%20of%20Trust%20Beta" nonce="18a776147964435690a682040c2bf0eb" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63647078079067&amp;domain=vk.com&amp;mask=111" nonce="18a776147964435690a682040c2bf0eb" type="text/javascript"></script>
+
+<!-- End: injected by Adguard -->
+<link rel="shortcut icon" href="/images/icons/favicons/fav_logo.ico?5" />
+
+<link rel="apple-touch-icon" href="/images/safari_60.png?1">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/safari_76.png?1">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/safari_120.png?1">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/safari_152.png?1">
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+<meta name="description" content="" />
+
+
+<title>Новости</title>
+
+<noscript><meta http-equiv="refresh" content="0; URL=/badbrowser.php"></noscript>
+
+  <link rel="stylesheet" type="text/css" href="/css/al/fonts_cnt.css?2889730895" />
+  <link rel="stylesheet" type="text/css" href="/css/al/common.css?27821038744" />
+
+<script type="text/javascript">
+var vk = {
+  ads_rotate_interval: 120000,
+  al: parseInt('3') || 4,
+  id: 44752200,
+  intnat: '' ? true : false,
+  host: 'vk.com',
+  lang: 0,
+  rtl: parseInt('') || 0,
+  version: 4763945616879,
+  stDomains: 0,
+  zero: false,
+  contlen: 100621,
+  loginscheme: 'https',
+  ip_h: '8518eb9e04199d4c97',
+  vc_h: 'ba6da60f9558e39bdf2bd8df2e29462b',
+  navPrefix: '/',
+  dt: parseInt('0') || 0,
+  fs: parseInt('13') || 13,
+  ts: 1511523443,
+  tz: 10800,
+  pd: 0,
+  css_dir: '',
+  vcost: 7,
+  time: [2017, 11, 24, 14, 37, 23],
+  sampleUser: -1, spentLastSendTS: new Date().getTime(),
+  a11y: 0,
+  statusExportHash: '95135012c55e30a5a5',
+  audioAdsConfig: {"enabled":true,"sections":["my","user_playlists","group_playlists","my_playlists","recent","audio_feed","recs","recs_audio","recs_album","search","global_search","group_list","user_list","user_wall","group_wall","feed","other"],"day_limit_reached":false},
+  longViewTestGroup: "every_view",
+
+  pr_tpl: "<div class=\"pr %cls%\" id=\"%id%\"><div class=\"pr_bt\"><\/div><div class=\"pr_bt\"><\/div><div class=\"pr_bt\"><\/div><\/div>",
+
+  audioInlinePlayerTpl: "<div class=\"audio_inline_player _audio_inline_player no_select\">\n  <div class=\"audio_inline_player_right\">\n    <div class=\"audio_inline_player_volume\"><\/div>\n  <\/div>\n  <div class=\"audio_inline_player_left\">\n    <div class=\"audio_inline_player_progress\"><\/div>\n  <\/div>\n<\/div>",
+
+  tnsPixelType: 'has_rough'
+};
+
+window.locDomain = vk.host.match(/[a-zA-Z]+\.[a-zA-Z]+\.?$/)[0];
+var _ua = navigator.userAgent.toLowerCase();
+if (/opera/i.test(_ua) || !/msie 6/i.test(_ua) || document.domain != locDomain) document.domain = locDomain;
+var ___htest = (location.toString().match(/#(.*)/) || {})[1] || '', ___to;
+___htest = ___htest.split('#').pop();
+if (vk.al != 1 && ___htest.length && ___htest.substr(0, 1) == vk.navPrefix) {
+  if (vk.al != 3 || vk.navPrefix != '!') {
+    ___to = ___htest.replace(/^(\/|!)/, '');
+    if (___to.match(/^([^\?]*\.php|login|mobile)([^a-z0-9\.]|$)/)) ___to = '';
+    location.replace(location.protocol + '//' + location.host + '/' + ___to);
+  }
+}
+
+var StaticFiles = {
+  'common.js' : {v: 1160},
+  'fonts_cnt.css' : {v: 2889730895},
+'common.css': {v: 27821038744}
+  ,'lang0_0.js':{v:6868},'ui_common.css':{v:15664226949},'ui_common.js':{v:3700204219},'ui_media_selector.js':{v:1634680349},'ui_media_selector.css':{v:19190748693},'emoji.js':{v:700456431},'notifier.css':{v:25006553923},'stories.css':{v:18153817934},'stories.js':{v:18597817533},'page.css':{v:19568995690},'page.js':{v:1813218876},'feed.css':{v:23493857343},'feed.js':{v:981913053},'post.css':{v:19137397716},'aes_light.js':{v:3306454788},'audioplayer.js':{v:3876525056},'notifier.js':{v:78098033139}
+}
+var abp;
+</script>
+
+<link type="text/css" rel="stylesheet" href="/css/al/ui_common.css?15664226949"></link><link type="text/css" rel="stylesheet" href="/css/al/ui_media_selector.css?19190748693"></link><link type="text/css" rel="stylesheet" href="/css/al/notifier.css?25006553923"></link><link type="text/css" rel="stylesheet" href="/css/al/stories.css?18153817934"></link><link type="text/css" rel="stylesheet" href="/css/al/page.css?19568995690"></link><link type="text/css" rel="stylesheet" href="/css/al/feed.css?23493857343"></link><link type="text/css" rel="stylesheet" href="/css/al/post.css?19137397716"></link><script type="text/javascript" src="/js/loader_nav4763945616879_0.js"></script><script type="text/javascript" src="/js/al/common.js?1160_836317121"></script><script type="text/javascript" src="/js/lang0_0.js?6868"></script><script type="text/javascript" src="/js/lib/px.js?ch=1"></script><script type="text/javascript" src="/js/lib/px.js?ch=2"></script><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.vk.com/feed" /><link rel="alternate" href="android-app://com.vkontakte.android/vkontakte/m.vk.com/feed" /><meta name="msApplication-ID" content="C6965DD5.VK" /><meta name="msApplication-PackageFamilyName" content="C6965DD5.VK_v422avzh127ra" /><script type="text/javascript" src="/js/al/ui_common.js?3700204219"></script><script type="text/javascript" src="/js/al/ui_media_selector.js?1634680349"></script><script type="text/javascript" src="/js/al/emoji.js?700456431"></script><script type="text/javascript" src="/js/cmodules/web/stories.js?18597817533"></script><script type="text/javascript" src="/js/al/page.js?1813218876"></script><script type="text/javascript" src="/js/al/feed.js?981913053"></script><script type="text/javascript" src="/js/al/aes_light.js?3306454788"></script><script type="text/javascript" src="/js/cmodules/web/audioplayer.js?3876525056"></script><script type="text/javascript" src="/js/cmodules/web/notifier.js?78098033139"></script>
+
+</head>
+
+<body onresize="onBodyResize()" class="">
+  <div id="system_msg" class="fixed"></div>
+  <div id="utils"></div>
+
+  <div id="layer_bg" class="fixed"></div><div id="layer_wrap" class="scroll_fix_wrap fixed layer_wrap"><div id="layer"></div></div>
+  <div id="box_layer_bg" class="fixed"></div><div id="box_layer_wrap" class="scroll_fix_wrap fixed"><div id="box_layer"><div id="box_loader"><div class="pr pr_baw pr_medium" id="box_loader_pr"><div class="pr_bt"></div><div class="pr_bt"></div><div class="pr_bt"></div></div><div class="back"></div></div></div></div>
+
+  <div id="stl_left"></div><div id="stl_side"></div>
+
+  <script type="text/javascript">domStarted();</script>
+
+  <div class="scroll_fix_wrap _page_wrap" id="page_wrap"><div><div class="scroll_fix">
+  
+
+  <div id="page_header_cont" class="page_header_cont">
+    <div class="back"></div>
+    <div id="page_header_wrap" class="page_header_wrap">
+      <a class="top_back_link" href="" id="top_back_link" onclick="if (nav.go(this, event, {back: true}) === false) { showBackLink(); return false; }" onmousedown="tnActive(this)"></a>
+      <div id="page_header" class="p_head p_head_l0" style="width: 960px">
+        <div class="content">
+          <div id="top_nav" class="head_nav">
+  <div class="head_nav_item fl_l"><a class="top_home_link fl_l " href="/feed" aria-label="На главную" accesskey="1"><div class="top_home_logo"></div></a></div>
+  <div class="head_nav_item fl_l"><div id="ts_wrap" class="ts_wrap" onmouseover="TopSearch.initFriendsList();">
+  <input name="disable-autofill" style="display: none;" />
+  <input type="text" onmousedown="event.cancelBubble = true;" ontouchstart="event.cancelBubble = true;" class="text ts_input" id="ts_input" autocomplete="off" name="disable-autofill" placeholder="Поиск" aria-label="Поиск" />
+</div></div>
+  <div class="head_nav_item fl_l head_nav_btns"><a id="top_notify_btn" class="top_nav_btn" href="/feed?section=notifications" onmouseover="TopNotifier.preload()" onmousedown="return (checkKeyboardEvent(event) ? false : TopNotifier.show(event));" onclick="return (checkEvent(event) ? true : (checkKeyboardEvent(event) ? TopNotifier.show(event) : false));" aria-haspopup="true" accesskey="2">
+  <span class="blind_label">Уведомления</span>
+  <div class="top_nav_btn_icon"></div>
+  <div id="top_notify_count" class="top_notify_count"></div>
+</a><span id="top_audio_layer_place"></span><a id="top_audio" class="top_nav_btn _top_nav_audio_btn" href="/music" onmouseover="AudioLayer.prepare()" onmousedown="" onclick="return checkEvent(event);" aria-label="Аудиоплеер" aria-haspopup="true" accesskey="3">
+  <span class="blind_label">Аудиоплеер</span>
+  <div class="top_nav_btn_icon"></div>
+</a></div>
+  <div class="head_nav_item fl_r"><a id="top_profile_link" class="top_nav_link top_profile_link" href="/innapush" onclick="return (checkKeyboardEvent(event) ? TopMenu.clicked : checkEvent)(event);" aria-label="Настройки страницы" aria-haspopup="true" accesskey="4">
+  <span class="blind_label">Настройки страницы</span>
+  <div class="top_profile_name">Инна</div><img class="top_profile_img" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" alt="Инна" /><div class="top_profile_arrow"></div>
+</a><div id="top_profile_menu" ontouchstart="event.cancelBubble = true;" onmousedown="event.cancelBubble = true;">
+  <a class="top_profile_mrow" id="top_myprofile_link" href="/innapush" onclick="return TopMenu.select(this, event);" style="">Моя страница</a>
+  <div class="top_profile_sep" style=""></div>
+  <a class="top_profile_mrow" id="top_edit_link" href="/edit" onclick="return TopMenu.select(this, event);" style="">Редактировать</a>
+  <a class="top_profile_mrow" id="top_settings_link" href="/settings" onclick="return TopMenu.select(this, event);" style="">Настройки</a>
+  <a class="top_profile_mrow" id="top_support_link" href="/support?act=home" onclick="return TopMenu.select(this, event);">Помощь</a>
+  <div class="top_profile_sep" style=""></div>
+  <a class="top_profile_mrow" id="top_logout_link" href="https://login.vk.com/?act=logout&hash=911588a3651b8c28d3&reason=tn&_origin=https://vk.com" onclick="if (checkEvent(event) === false) { window.AudioPlayer && AudioPlayer.clearAllCacheKeys(); window.Notifier && Notifier.lcSend('logged_off'); location.href = this.href; return cancelEvent(event); }">Выйти</a>
+</div></div>
+  <div class="head_nav_item_player"><div class="top_audio_player" id="top_audio_player">
+  <button class="top_audio_player_btn top_audio_player_prev" accesskey="j"><div class="blind_label">Предыдущая аудиозапись</div><div class="top_audio_player_btn_icon"></div></button>
+  <button class="top_audio_player_btn top_audio_player_play _top_audio_player_play" accesskey="k"><div class="blind_label _top_audio_player_play_blind_label">Предыдущая аудиозапись</div><div class="top_audio_player_btn_icon"></div></button>
+  <button class="top_audio_player_btn top_audio_player_next" accesskey="l"><div class="blind_label">Следующая аудиозапись</div><div class="top_audio_player_btn_icon"></div></button>
+  <div class="top_audio_player_title_wrap"><div class="top_audio_player_title"></div></div>
+</div></div>
+</div>
+<div id="ts_cont_wrap" class="ts_cont_wrap" ontouchstart="event.cancelBubble = true;" onmousedown="event.cancelBubble = true;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="page_layout" style="width: 960px;">
+    <div id="side_bar" class="side_bar fl_l " style="">
+      <div id="side_bar_inner" class="side_bar_inner">
+        <nav>
+  <ol>
+    <li id="l_pr" class=""><a href="/innapush" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Моя Страница</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_nwsf" class=""><a href="/feed" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Новости</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_msg" class=""><a href="/im" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Сообщения</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_fr" class=""><a href="/friends" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <object type="internal/link"><a href="/friends?section=requests" onclick="nav.link && nav.link('/friends?section=requests', event); cancelEvent(event);" class="left_count_wrap fl_r left_void left_count_wrap_hovered"><span class="inl_bl left_count_sign">0</span></a></object>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Друзья</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_gr" class=""><a href="/groups" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Группы</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_ph" class=""><a href="/albums44752200" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Фотографии</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_aud" class=""><a href="/audios44752200" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Музыка</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_vid" class=""><a href="/video" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Видео</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_ap" class=""><a href="/apps" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Игры</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><div class="more_div l_main"></div><li id="l_mk" class=""><a href="/market" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Товары</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_fav" class=""><a href="/fave" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Закладки</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_doc" class=""><a href="/docs" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Документы</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li>
+  </ol>
+</nav>
+<div id="left_blocks"></div><div id="ads_left" class="ads_left_empty"></div><div class="left_menu_nav_wrap"><a class="left_menu_nav" href="/blog">Блог</a> <a class="left_menu_nav" href="/dev">Разработчикам</a> <a class="left_menu_nav" href="/ads">Реклама</a> <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this, event, {autopos: true, dy: 6});" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span><a class="left_menu_nav left_menu_more" id="left_menu_more">Ещё</a></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" href="/about">О компании</a><a class="ui_actions_menu_item" href="/jobs">Вакансии</a><a class="ui_actions_menu_item" href="/terms">Правила</a><a class="ui_actions_menu_item" href="/support?act=home">Помощь</a><a class="ui_actions_menu_item" onclick="showBox('lang.php', {act: 'lang_dialog'}, {params: {bodyStyle: 'padding: 0'}, noreload: true})" tabindex="0" role="link">Язык: русский</a></div>
+</div></div>
+      </div>
+    </div>
+
+    <div id="page_body" class="fl_r " style="width: 795px;">
+      <div id="header_wrap2">
+        <div id="header_wrap1">
+          <div id="header" style="display: none">
+            <h1 id="title"></h1>
+          </div>
+        </div>
+      </div>
+      <div id="wrap_between"></div>
+      <div id="wrap3"><div id="wrap2">
+  <div id="wrap1">
+    <div id="content"><div class="wide_column_left">
+  <div class="narrow_column_wrap">
+    <div class="narrow_column" id="narrow_column">
+      <div class="page_block ui_rmenu ui_rmenu_pr _ui_rmenu_auto_expand" id="feed_rmenu" role="list">
+  <a id="ui_rmenu_news" href="/feed" class="ui_rmenu_item _ui_item_news ui_rmenu_item_sel feed_section_news" onclick="return nav.go(this, event);">
+  <span><div class="ui_actions_menu_wrap _ui_menu_wrap feed_lists_icon ui_actions_menu_sublist" id="feed_add_list_icon" onmousedown="Feed.toggleTabsMenu(event);" onclick="return cancelEvent(event)">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" onmousedown="event.cancelBubble = true;"><div class="ui_actions_menu_item  checked" onclick="feed.checkTabsFilter(this, 'photos');">Фотографии</div><div class="ui_actions_menu_item  checked" onclick="feed.checkTabsFilter(this, 'videos');"> Видеозаписи</div><div class="ui_actions_menu_item  " onclick="feed.checkTabsFilter(this, 'friends');">Друзья</div><div class="ui_actions_menu_item  " onclick="feed.checkTabsFilter(this, 'groups');">Сообщества</div><div class="ui_actions_menu_item  " onclick="feed.checkTabsFilter(this, 'likes');">Понравилось</div><div class="ui_actions_menu_item _feed_custom_1917 " onclick="feed.checkTabsFilter(this, '1917');">1917</div><div class="ui_actions_menu_sep"></div><div class="ui_actions_menu_item feed_new_list" onclick="feed.checkTabsFilter(this, 'newlist');">Добавить вкладку</div></div>
+</div><div class="feed_filter_icon" onclick="cancelEvent(event); return feed.editHidden();"></div>Новости</span>
+</a><div id="ui_rmenu_news_list" data-sublist-id="news" class="_ui_rmenu_sublist _ui_rmenu_news_list ">
+  <a id="ui_rmenu_photos" href="/feed?section=photos" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_photos feed_section_photos " onclick="return nav.go(this, event);">
+  <span>Фотографии</span>
+</a><a id="ui_rmenu_videos" href="/feed?section=videos" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_videos feed_section_videos " onclick="return nav.go(this, event);">
+  <span> Видеозаписи</span>
+</a><a id="ui_rmenu_friends" href="/feed?section=friends" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_friends feed_section_friends ui_rmenu_item_hidden" onclick="return nav.go(this, event);">
+  <span>Друзья</span>
+</a><a id="ui_rmenu_groups" href="/feed?section=groups" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_groups feed_section_groups ui_rmenu_item_hidden" onclick="return nav.go(this, event);">
+  <span>Сообщества</span>
+</a><a id="ui_rmenu_likes" href="/feed?section=likes" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_likes feed_section_likes ui_rmenu_item_hidden" onclick="return nav.go(this, event);">
+  <span>Понравилось</span>
+</a><a id="ui_rmenu_1917" href="/feed?section=1917" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_1917 feed_section_1917 ui_rmenu_item_hidden" onclick="return nav.go(this, event);">
+  <span>1917</span>
+</a>
+</div><a id="ui_rmenu_recommended" href="/feed?section=recommended" class="ui_rmenu_item _ui_item_recommended feed_section_recommended" onclick="return nav.go(this, event);">
+  <span>Рекомендации</span>
+</a><a id="ui_rmenu_search" href="/feed?section=search" class="ui_rmenu_item _ui_item_search feed_section_search" onclick="return nav.go(this, event);">
+  <span>Поиск</span>
+</a><div class="ui_rmenu_sep"></div><a id="ui_rmenu_updates" href="/feed?section=updates" class="ui_rmenu_item _ui_item_updates feed_section_updates" onclick="return nav.go(this, event);">
+  <span>Обновления</span>
+</a><a id="ui_rmenu_comments" href="/feed?section=comments" class="ui_rmenu_item _ui_item_comments feed_section_comments" onclick="return nav.go(this, event);">
+  <span>Комментарии</span>
+</a>
+  <div class="ui_rmenu_slider _ui_rmenu_slider"></div>
+</div><div id="feed_filters">
+  <div class="page_block" id="">
+  <div class="ui_toggler_wrap hot" onclick="Feed.toggleFeedTop(this, event);">
+  <div class="_ui_toggler ui_toggler  on"></div>
+  <div class="ui_toggler_label">Сначала интересные</div>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+  <div class="wide_column_wrap">
+    <div class="wide_column" id="wide_column">
+      <div id="main_feed" class="feed_wrap  feed_submit_shown mark_top">
+  <div class="wall_module page_block feed_post_field_wrap">
+    <div id="submit_post_box" class="submit_post_box clear_fix _submit_post_box" data-from-oid="44752200" data-oid="" data-owner-name="" data-owner-photo="" data-owner-href="" onclick="return cancelEvent(event)">
+  <div id="submit_post_error" class="error"></div>
+  <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+  <div class="post_field_wrap _emoji_field_wrap">
+    <div class="emoji_smile_wrap  _emoji_wrap">
+  <div class="emoji_smile _emoji_btn" title="Используйте TAB, чтобы быстрее открывать смайлы" onmouseover="return Emoji.show(this, event);" onmouseout="return Emoji.hide(this, event);" onclick="return cancelEvent(event);">
+    <div class="emoji_smile_icon"></div>
+  </div>
+</div>
+    <div id="post_field" class="submit_post_field dark" onkeyup="Wall.postChanged()" onkeydown="onCtrlEnter(event, Wall.sendPost)" onfocus="Wall.showEditPost()" placeholder="Что у Вас нового?" contenteditable="true" role="textbox" aria-multiline="true"></div>
+  </div>
+  
+  <div id="submit_post" class="submit_post clear_fix" onclick="event.cancelBubble=true;">
+    <div id="media_preview" class="clear_fix media_preview"></div>
+    <div class="addpost_button_wrap">
+      <button class="flat_button addpost_button" id="send_post" onclick="wall.sendPost()">Отправить</button>
+    </div>
+    <div class="addpost_opt checkbox_pic friends_only_pic" id="friends_only" onclick="Wall.saveFriendsOnly(this)" onmouseover="showTooltip(this, {text: 'только для друзей', black: 1, shift: [12,10]});" aria-label="только для друзей"><span class="blind_label">только для друзей</span></div>
+    <div id="page_add_media" class="page_add_media" onclick="Wall.showEditPost()"></div>
+  </div>
+</div>
+  </div>
+  <div class="page_block stories_feed_wrap clear_fix stories_feed_not_nav_buttons" onmouseover="storiesPreloadStatic()" id="stories_feed_wrap" >
+  <div class="stories_feed_cont">
+    <div class="stories_feed_title clear_fix">
+      Истории
+      <div class="stories_feed_settings fl_r" onclick="Stories.showBlackList()">Настройки</div>
+     </div>
+    <div class="stories_feed_items_wrap">
+      <div class="stories_feed_items" id="stories_feed_items_container">
+        <div id="stories_feed_items"><a href="/space" class="stories_feed_item  story_feed_new_item" onclick="if (!event.metaKey && !event.ctrlKey) { showStory('-129636704/feed', {fromEl: this}); return false; }" id="feed_story_-129636704">
+  <div class="stories_feed_item_ava">
+    <img src="https://pp.userapi.com/c638320/v638320505/55b3/0FGLYWGjep0.jpg" class="stories_feed_item_ava_img" />
+  </div>
+  <div class="stories_feed_item_name">#ВКосмосе</div>
+  <div class="stories_feed_item_replies"></div>
+</a><a href="/ria" class="stories_feed_item  story_feed_new_item" onclick="if (!event.metaKey && !event.ctrlKey) { showStory('-15755094/feed', {fromEl: this}); return false; }" id="feed_story_-15755094">
+  <div class="stories_feed_item_ava">
+    <img src="https://pp.userapi.com/c639623/v639623960/20946/YZbs-5Tm1bc.jpg" class="stories_feed_item_ava_img" />
+  </div>
+  <div class="stories_feed_item_name">РИА Новости</div>
+  <div class="stories_feed_item_replies"></div>
+</a></div>
+        <div class="stories_feed_arrow_left disabled" id="stories_feed_arrow_left" onclick="Stories.feedPrev();"></div>
+        <div class="stories_feed_arrow_right" id="stories_feed_arrow_right" onclick="Stories.feedNext();"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="feed_recommends"></div>
+  <div class="ui_search ui_search_field_empty feed_search_wrap page_block _wrap">
+  <div class="ui_search_input_block">
+    <div class="ui_search_reset" onclick="return uiSearch.reset(this, false, event);">
+      <span class="blind_label">Отмена</span>
+    </div>
+    
+    <input type="text" class="ui_search_field _field" id="search_query" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"  placeholder="Поиск по новостям" />
+    
+  </div>
+  <div class="ui_search_filters_pane" style="display: none;">
+    <div class="ui_search_filters"></div>
+    <div class="ui_search_filters_reset" onclick="return uiSearch.removeAllFilters(this);"></div>
+  </div>
+</div>
+  <div id="feed_app_widget" class="page_block"  style="display: none;"></div>
+  <div id="feed_empty" class="page_block no_rows feed_empty">Здесь Вы будете видеть новостную ленту своих друзей.</div>
+  <div id="feed_new_posts" class="feed_new_posts page_block" onclick="Feed.showNewPosts()"></div>
+  <div class="wall_wrap clear_fix">
+    <div id="feed_wall" class="clear_fix ">
+      <div class="wall_module">
+        
+        <div id="feed_rows" class="_feed_rows">
+          <div class="feed_row "><div id="post-25117353_686789" class="_post post page_block" data-post-id="-25117353_686789" onclick="wall.postClick('-25117353_686789', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/discovery__world">
+        <img src="https://pp.userapi.com/c626418/v626418088/4c997/bqGpROibsqo.jpg" data-post-id="-25117353_686789" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/discovery__world" data-from-id="-25117353" data-post-id="-25117353_686789" data-post-click-type="post_owner_link">Discovery</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-25117353_686789"  onclick="return showWiki({w: 'wall-25117353_686789'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 14:35" time="1511523300">две минуты назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-25117353_686789', 'wall_-25117353_686789', 'af351aaa0eb7d0391a');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-25117353_686789', '8dc6f0084b353f3267');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-25117353_686789" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Дружная команда&#33;</div><div class="post_thumbed_media clear_fix" ><div class="clear_fix page_gif_large page_gif_autoplay">
+  <a class="photo page_doc_photo_href" href="/doc110088_454343287?hash=f7bea09af21572e906&dl=39d568a7a98545240c" onclick="return Page.showGif(this, event)" data-doc="110088_454343287"  data-hash="f7bea09af21572e906" data-add-hash="347a8e4538e236915c" data-add-txt="Добавить в Документы" data-share-txt="Поделиться" data-post="-25117353_686789" data-preview="1" data-thumb="https://pp.userapi.com/c623800/u293565011/d12/-3/o_21ba8b35c7.jpg" data-width="400" data-height="400" style="width:400px;height:400px;">
+    <div class="page_doc_photo" style="background-image: url(https://pp.userapi.com/c623800/u293565011/d12/-3/o_21ba8b35c7.jpg);width:400px;height:400px;background-size:cover;"></div>
+    <div class="page_gif_label">gif</div>
+    <div class="page_gif_play_icon"></div>
+    <div class="page_gif_actions"><div class="page_gif_share" onmouseover="showTooltip(this, {text: 'Поделиться', black: 1, shift: [7, 6, 6], toup: 0, needLeft: 1})" onclick="return 0 ? false : Page.shareGif(this, '110088_454343287', 'f7bea09af21572e906', event)">
+  <div class="page_gif_share_icon"></div>
+</div><div class="page_gif_add" onmouseover="return Page.overGifAdd(this, 'Добавить в Документы', '110088_454343287', event);" onclick="return Page.addGif(this, '110088_454343287', 'f7bea09af21572e906', '347a8e4538e236915c', event);">
+  <div class="page_gif_add_icon"></div>
+</div></div>
+  </a>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-25117353_686789')" onclick="return Wall.likeIt(this, '-25117353_686789', '4caaba9a93f3954842', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">71</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-25117353_686789')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-25117353_686789', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-25117353_686789')" onclick="return Wall.sharesOpen(event, '-25117353_686789');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">5</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-25117353_686789')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-25117353_686789')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">2.6K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-25117353_686789" style="">
+  <div class="replies_list _replies_list" id="replies-25117353_686789"><a id="wrh-25117353_686789" class="wr_header" onclick="return wall.showReplies('-25117353_686789', false, false, event);" offs="1/3" href="/wall-25117353_686789?offset=last&f=replies">Показать все 3 комментария</a><input type="hidden" id="start_reply-25117353_686789" value="686795" /><div id="post-25117353_686795" class="reply reply_dived clear  reply_replieable _post" data-post-id="-25117353_686795"  onclick="Wall.replyClick('-25117353_686789', 686795, event, 90688321)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/kondratov_suka_chelovek">
+      <img src="https://pp.userapi.com/c416828/v416828321/c59b/gT0iry_L0og.jpg" width="40" height="40" class="reply_img" alt="Илья Кондратов" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete-25117353_686795" class="reply_delete_button reply_action fl_r" data-title="Пожаловаться" onclick="wall.markAsSpam(this, '-25117353_686795', 'aff05bc50d59a8e869')" onmouseover="showTitle(this);" aria-label="Пожаловаться" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/kondratov_suka_chelovek" data-from-id="90688321">Илья Кондратов</a>
+      </div>
+      <div class="reply_text" ><div id="wpt-25117353_686795"><div class="wall_reply_text">Норм устроился</div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom-25117353_686795">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '-25117353_wall_reply686795', '7c2a97b6ceb8f07400', event);" onmouseover="Wall.likesShow(this, '-25117353_wall_reply686795')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-25117353_wall_reply686795')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall-25117353_686789?reply=686795"  onclick="return showWiki({w: 'wall-25117353_686789', reply: '686795'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 14:37" time="1511523421">только что</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap-25117353_686789"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-25117353_686789" onclick="return Wall.showEditReply('-25117353_686789', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-25117353_686789" value="c1eeff7a9e248177bf" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-18099999_361530" class="_post post page_block" data-post-id="-18099999_361530" onclick="wall.postClick('-18099999_361530', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/vk.fotos">
+        <img src="https://pp.userapi.com/c638028/v638028605/3e57/Fx3U8JNpCQM.jpg" data-post-id="-18099999_361530" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/vk.fotos" data-from-id="-18099999" data-post-id="-18099999_361530" data-post-click-type="post_owner_link">Лучшие фото</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-18099999_361530"  onclick="return showWiki({w: 'wall-18099999_361530'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 10:08" time="1511507291">четыре часа назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-18099999_361530', 'wall_-18099999_361530', '2a7d4a33dc23b3b06b');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-18099999_361530', 'b3c4dda1152f4dd85e');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-18099999_361530" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Божественный нимб гало</div><div class="page_post_sized_thumbs  clear_fix" style="width: 406px; height: 510px;"><a  onclick="return showPhoto('-18099999_456253141', 'wall-18099999_361530', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841624/v841624819/42af1/zQSL7CIOULA&quot;,481,604],&quot;y_&quot;:[&quot;c841624/v841624819/42af2/iqw_peFvWFo&quot;,643,807],&quot;z_&quot;:[&quot;c841624/v841624819/42af3/uqYihNdgIk8&quot;,711,893]},queue:1}, event)" style="width: 406px; height: 510px; background-image: url(https://pp.userapi.com/c841624/v841624819/42af1/zQSL7CIOULA.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-18099999_361530')" onclick="return Wall.likeIt(this, '-18099999_361530', '511d6bf2195253467b', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">781</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-18099999_361530')">Показать список оценивших</span>
+    
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-18099999_361530')" onclick="return Wall.sharesOpen(event, '-18099999_361530');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">52</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-18099999_361530')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-18099999_361530')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">35K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-18099999_361530" style="display: none">
+  <div class="replies_list _replies_list" id="replies-18099999_361530"><input type="hidden" id="start_reply-18099999_361530" value="" /></div>
+  
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row"><div id="ads_feed_placeholder"></div></div><div class="feed_row "><div id="post-78273068_29820" class="_post post page_block" data-post-id="-78273068_29820" onclick="wall.postClick('-78273068_29820', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/int_universe">
+        <img src="https://pp.userapi.com/c636622/v636622506/56fb7/PlS7X0CU_oI.jpg" data-post-id="-78273068_29820" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/int_universe" data-from-id="-78273068" data-post-id="-78273068_29820" data-post-click-type="post_owner_link">Интегральная вселенная</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-78273068_29820"  onclick="return showWiki({w: 'wall-78273068_29820'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 14:15" time="1511522100">22 минуты назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-78273068_29820', 'wall_-78273068_29820', '0f307fd5675b43a557');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-78273068_29820', '0551666f8e935382bd');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-78273068_29820" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Входя в атмосферу (реальный вид из иллюминатора)</div><div class="post_thumbed_media clear_fix" ><div class="clear_fix page_gif_large page_gif_autoplay">
+  <a class="photo page_doc_photo_href" href="/doc345303855_438525566?hash=d6eb45f61d35f3b7fe&dl=8fe6a22d34f8a2700f" onclick="return Page.showGif(this, event)" data-doc="345303855_438525566"  data-hash="d6eb45f61d35f3b7fe" data-add-hash="29535aa2773988d778" data-add-txt="Добавить в Документы" data-share-txt="Поделиться" data-post="-78273068_29820" data-preview="1" data-thumb="https://pp.userapi.com/c816329/u50017074/-3/x_57f8a23325.jpg" data-width="510" data-height="287" style="width:510px;height:287px;">
+    <div class="page_doc_photo" style="background-image: url(https://pp.userapi.com/c816329/u50017074/-3/x_57f8a23325.jpg);width:510px;height:287px;background-size:cover;"></div>
+    <div class="page_gif_label">gif</div>
+    <div class="page_gif_play_icon"></div>
+    <div class="page_gif_actions"><div class="page_gif_share" onmouseover="showTooltip(this, {text: 'Поделиться', black: 1, shift: [7, 6, 6], toup: 0, needLeft: 1})" onclick="return 0 ? false : Page.shareGif(this, '345303855_438525566', 'd6eb45f61d35f3b7fe', event)">
+  <div class="page_gif_share_icon"></div>
+</div><div class="page_gif_add" onmouseover="return Page.overGifAdd(this, 'Добавить в Документы', '345303855_438525566', event);" onclick="return Page.addGif(this, '345303855_438525566', 'd6eb45f61d35f3b7fe', '29535aa2773988d778', event);">
+  <div class="page_gif_add_icon"></div>
+</div></div>
+  </a>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-78273068_29820')" onclick="return Wall.likeIt(this, '-78273068_29820', '5b33179359c96003ac', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">20</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-78273068_29820')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-78273068_29820', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-78273068_29820')" onclick="return Wall.sharesOpen(event, '-78273068_29820');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">1</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-78273068_29820')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-78273068_29820')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">731</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-78273068_29820" style="display: none">
+  <div class="replies_list _replies_list" id="replies-78273068_29820"><input type="hidden" id="start_reply-78273068_29820" value="" /></div>
+  <div id="reply_box_wrap-78273068_29820"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-78273068_29820" onclick="return Wall.showEditReply('-78273068_29820', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-78273068_29820" value="fcd57564a58620560b" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-34245535_103922" class="_post post page_block _ads_promoted_post_data_w mailru-visibility-check" data-post-id="-34245535_103922" onclick="wall.postClick('-34245535_103922', event);wall.postClickStat(event);"onmousedown="wall.postClickStat(event);" post_view_hash="4763333185c18a2d57" data-ad="SHuxEP9h0h6rko33ULBgZOiG1Y3y2emqPMTnc63jkvHeVoDRraUp2Ic9qgaU5Qu5UCHXq87C1OGvaO77f9cDlwqgbwq3bZVFxxC4Fk7aw28N5LoUWIrt39ZdU2kfXJeX9aKnIG*i06Pt1Wch12GxX3NlbUS0xeDTHz9GRpvucjslvmrUUP3wZG/nJYl1Puj7bq/Zzagjxa6GqwgMnO/nAHsRwoxJhmt7TDSM/RdMu93yRqyWPq*M0D/BehOkHjzuaUNbn7MvDzm4KmPxTRtJ8AQh4KKRZJCxqkNuIESRJw9Jn1PFooT2hIZ2pokoXz/wPieM054KOYWyLyh/uIHK*AFbPgSP/PP5lmnPy/69xJ8wmtz8b6NZHuXEH*11V3xUyKIhcjzJfV9UKw1ouK8i69sCaqdDCB/PWTDQJKPPlEeNDeNoOVmL4*BrlKm5WZuXx8CPV0f*FLGn8ZMIYsunIQF6IqSf6ItxwBnPkmFzc5W*DkQG8NuxTHuZ6OHVpNJ3" data-ad-view="S4qmu1K/eI4jdOdrG/xrqi*usWToAwYgZE74FGu8lR/J8FJzBsNv66umtzMFv**n8q5t82XZ5pr*SPHSNn63iUfc1AvTR/nZuUj6dNttrWdj2XMGYSfoitG5ECVrySe6UEH5yJifgBowG9plgHc7XBncR0K0H9SBovXx*sJe1B*DD18st81o/aO2vzgOw/5AgFN5ezcOsncpigEyTmHSkaiG3FmrV47/sS90Az*LeDVPfv9byhzZKN9D5B2yGdaxTPzWvGY3NHsGwslfSlXIH3jtTmjxWnvbZriyu8uqVOoYGdPZZCbi98ZVvaybm9G8VDc/7DUPK6p1IRJ7EmgROQ--" data-ad-stat-impression="https://wcm.solution.weborama.fr/fcgi-bin/dispatch.fcgi?a.A=im&amp;a.si=119&amp;a.te=3799&amp;a.he=1&amp;a.wi=1&amp;a.hr=p&amp;a.ra=%5BRANDOM%5D" data-ad-block-uid="1270667090">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/pg_russia">
+        <img src="https://pp.userapi.com/c626730/v626730864/30532/VYHxE5Vmg38.jpg" data-post-id="-34245535_103922" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/pg_russia" data-from-id="-34245535" data-post-id="-34245535_103922" data-post-click-type="post_owner_link">Everydayme Россия</a><a href="/verify" class="page_verified " onmouseover="pageVerifiedTip(this, {type: 1, oid: -34245535})"></a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a class="wall_text_name_explain_promoted_post post_link" href="/wall-34245535_103922" onclick="return showWiki({w: 'wall-34245535_103922'}, false, event, {ads_params: {post_ad_data: 'SHuxEP9h0h6rko33ULBgZOiG1Y3y2emqPMTnc63jkvHeVoDRraUp2Ic9qgaU5Qu5UCHXq87C1OGvaO77f9cDlwqgbwq3bZVFxxC4Fk7aw28N5LoUWIrt39ZdU2kfXJeX9aKnIG*i06Pt1Wch12GxX3NlbUS0xeDTHz9GRpvucjslvmrUUP3wZG/nJYl1Puj7bq/Zzagjxa6GqwgMnO/nAHsRwoxJhmt7TDSM/RdMu93yRqyWPq*M0D/BehOkHjzuaUNbn7MvDzm4KmPxTRtJ8AQh4KKRZJCxqkNuIESRJw9Jn1PFooT2hIZ2pokoXz/wPieM054KOYWyLyh/uIHK*AFbPgSP/PP5lmnPy/69xJ8wmtz8b6NZHuXEH*11V3xUyKIhcjzJfV9UKw1ouK8i69sCaqdDCB/PWTDQJKPPlEeNDeNoOVmL4*BrlKm5WZuXx8CPV0f*FLGn8ZMIYsunIQF6IqSf6ItxwBnPkmFzc5W*DkQG8NuxTHuZ6OHVpNJ3', ad_block_unique_id: '1270667090'}});">Рекламная запись</a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-34245535_103922', 'wall_-34245535_103922', 'f43a3e84ef77194b40');" tabindex="0" role="link">Это не интересно</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-34245535_103922" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Длительная свежесть, вдохновлённая природой<br> <br>Познакомьтесь с новой коллекцией концентрированных кондиционеров для белья Lenor. Аромат морских минералов успокоит разум, масло ши поможет отвлечься от суеты, а цветки шелковой акации пробудят ваши чувства. <a href="/away.php?to=https%3A%2F%2Fvk.cc%2F78nZkK&post=-34245535_103922&post_ad_data=SHuxEP9h0h6rko33ULBgZOiG1Y3y2emqPMTnc63jkvHeVoDRraUp2Ic9qgaU5Qu5UCHXq87C1OGvaO77f9cDlwqgbwq3bZVFxxC4Fk7aw28N5LoUWIrt39ZdU2kfXJeX9aKnIG%2Ai06Pt1Wch12GxX3NlbUS0xeDTHz9GRpvucjslvmrUUP3wZG%2FnJYl1Puj7bq%2FZzagjxa6GqwgMnO%2FnAHsRwoxJhmt7TDSM%2FRdMu93yRqyWPq%2AM0D%2FBehOkHjzuaUNbn7MvDzm4KmPxTRtJ8AQh4KKRZJCxqkNuIESRJw9Jn1PFooT2hIZ2pokoXz%2FwPieM054KOYWyLyh%2FuIHK%2AAFbPgSP%2FPP5lmnPy%2F69xJ8wmtz8b6NZHuXEH%2A11V3xUyKIhcjzJfV9UKw1ouK8i69sCaqdDCB%2FPWTDQJKPPlEeNDeNoOVmL4%2ABrlKm5WZuXx8CPV0f%2AFLGn8ZMIYsunIQF6IqSf6ItxwBnPkmFzc5W%2ADkQG8NuxTHuZ6OHVpNJ3&cc_key=" target="_blank" target="_blank" data-post-id='-34245535_103922' data-post-click-type='link'>https://vk.cc/78nZkK</a></div><div class="post_thumbed_media clear_fix" ><div class="clear_fix page_gif_large page_gif_autoplay">
+  <a class="photo page_doc_photo_href" href="/doc4585907_450891663?hash=3ba2cd77c3a9fe1964&dl=2b4e59a0dbb6265518" onclick="return Page.showGif(this, event)" data-doc="4585907_450891663"  data-hash="3ba2cd77c3a9fe1964" data-add-hash="55f27683d26ae3fc88" data-add-txt="Добавить в Документы" data-share-txt="Поделиться" data-post="-34245535_103922" data-preview="1" data-thumb="https://pp.userapi.com/c816139/u4585907/-3/x_7b765fac15.jpg" data-width="400" data-height="400" style="width:400px;height:400px;">
+    <div class="page_doc_photo" style="background-image: url(https://pp.userapi.com/c816139/u4585907/-3/x_7b765fac15.jpg);width:400px;height:400px;background-size:cover;"></div>
+    <div class="page_gif_label">gif</div>
+    <div class="page_gif_play_icon"></div>
+    <div class="page_gif_actions"><div class="page_gif_share" onmouseover="showTooltip(this, {text: 'Поделиться', black: 1, shift: [7, 6, 6], toup: 0, needLeft: 1})" onclick="return 0 ? false : Page.shareGif(this, '4585907_450891663', '3ba2cd77c3a9fe1964', event)">
+  <div class="page_gif_share_icon"></div>
+</div><div class="page_gif_add" onmouseover="return Page.overGifAdd(this, 'Добавить в Документы', '4585907_450891663', event);" onclick="return Page.addGif(this, '4585907_450891663', '3ba2cd77c3a9fe1964', '55f27683d26ae3fc88', event);">
+  <div class="page_gif_add_icon"></div>
+</div></div>
+  </a>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-34245535_103922')" onclick="return Wall.likeIt(this, '-34245535_103922', 'a54c3fb3606fc6aecd', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">923</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-34245535_103922')">Показать список оценивших</span>
+    
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-34245535_103922')" onclick="return Wall.sharesOpen(event, '-34245535_103922');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">82</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-34245535_103922')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap no_views" onmouseover="Wall.viewsUpdate(this, '-34245535_103922')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count"></span>
+</div>
+</div>
+        <div class="replies"></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-42968101_133861" class="_post post page_block" data-post-id="-42968101_133861" onclick="wall.postClick('-42968101_133861', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/public42968101">
+        <img src="https://pp.userapi.com/c617117/v617117529/28976/XVWEgGsZc5Q.jpg" data-post-id="-42968101_133861" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/public42968101" data-from-id="-42968101" data-post-id="-42968101_133861" data-post-click-type="post_owner_link">Читающие</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-42968101_133861"  onclick="return showWiki({w: 'wall-42968101_133861'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 14:36" time="1511523360">минуту назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-42968101_133861', 'wall_-42968101_133861', '46f46b69760c3f0217');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-42968101_133861', 'e0451fa4f23e76f013');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-42968101_133861" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Обожаю выйти на улицу зимой вечером, а там так спокойно, тихо, чистый скрипящий снег.</div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 510px;"><a  onclick="return showPhoto('-42968101_456272128', 'wall-42968101_133861', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c840228/v840228581/36310/JHElMUo7W4E&quot;,604,604],&quot;y_&quot;:[&quot;c840228/v840228581/36311/QQopyUgG9sw&quot;,807,807],&quot;z_&quot;:[&quot;c840228/v840228581/36312/sCdBQ-uhnJI&quot;,957,957]},queue:1}, event)" style="width: 510px; height: 510px; background-image: url(https://pp.userapi.com/c840228/v840228581/36310/JHElMUo7W4E.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-42968101_133861')" onclick="return Wall.likeIt(this, '-42968101_133861', '67641135ea3d2c25fb', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">76</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-42968101_133861')">Показать список оценивших</span>
+    
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-42968101_133861')" onclick="return Wall.sharesOpen(event, '-42968101_133861');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">4</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-42968101_133861')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-42968101_133861')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">1.4K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-42968101_133861" style="display: none">
+  <div class="replies_list _replies_list" id="replies-42968101_133861"><input type="hidden" id="start_reply-42968101_133861" value="" /></div>
+  
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-78273068_29803" class="_post post page_block" data-post-id="-78273068_29803" onclick="wall.postClick('-78273068_29803', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/int_universe">
+        <img src="https://pp.userapi.com/c636622/v636622506/56fb7/PlS7X0CU_oI.jpg" data-post-id="-78273068_29803" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/int_universe" data-from-id="-78273068" data-post-id="-78273068_29803" data-post-click-type="post_owner_link">Интегральная вселенная</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-78273068_29803"  onclick="return showWiki({w: 'wall-78273068_29803'}, false, event);" ><span class="rel_date">сегодня в 9:15</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-78273068_29803', 'wall_-78273068_29803', '285bfe6d2b3c445c5c');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-78273068_29803', '8bb7164c563156a242');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-78273068_29803" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">IT-юмор</div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 309px;"><a  onclick="return showPhoto('-78273068_456242815', 'wall-78273068_29803', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c840136/v840136441/49040/UJufqnaKmKw&quot;,604,366]},queue:1}, event)" style="width: 510px; height: 309px; background-image: url(https://pp.userapi.com/c840136/v840136441/49040/UJufqnaKmKw.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-78273068_29803')" onclick="return Wall.likeIt(this, '-78273068_29803', '3d04e17dce16723f1c', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">138</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-78273068_29803')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-78273068_29803', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-78273068_29803')" onclick="return Wall.sharesOpen(event, '-78273068_29803');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">4</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-78273068_29803')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-78273068_29803')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">2.4K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-78273068_29803" style="">
+  <div class="replies_list _replies_list" id="replies-78273068_29803"><a id="wrh-78273068_29803" class="wr_header" onclick="return wall.showReplies('-78273068_29803', false, false, event);" offs="1/3" href="/wall-78273068_29803?offset=last&f=replies">Показать все 3 комментария</a><input type="hidden" id="start_reply-78273068_29803" value="29812" /><div id="post-78273068_29812" class="reply reply_dived clear  reply_replieable _post" data-post-id="-78273068_29812"  onclick="Wall.replyClick('-78273068_29803', 29812, event, 177365057)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/id177365057">
+      <img src="https://pp.userapi.com/c630930/v630930057/4eb1f/tCzrr6fD_Y8.jpg" width="40" height="40" class="reply_img" alt="Евгений Норин" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete-78273068_29812" class="reply_delete_button reply_action fl_r" data-title="Пожаловаться" onclick="wall.markAsSpam(this, '-78273068_29812', 'e46ab09a7bbdf90800')" onmouseover="showTitle(this);" aria-label="Пожаловаться" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/id177365057" data-from-id="177365057">Евгений Норин</a> ответил <a href="/w8guys" class="reply_to" onclick="return wall.showReply(this, '-78273068_29803', '-78273068_29807', event)" rid="435170618" onmouseover="wall.postTooltip(this, '-78273068_29812', {reply: 1})">Александре</a>
+      </div>
+      <div class="reply_text" ><div id="wpt-78273068_29812"><div class="wall_reply_text"><a class="wall_reply_greeting" href="/w8guys" onclick="return wall.showReply(this, '-78273068_29803', '-78273068_29807', event)">Александра</a>, главное чтобы не триппер</div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom-78273068_29812">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '-78273068_wall_reply29812', 'de598c117274e118f2', event);" onmouseover="Wall.likesShow(this, '-78273068_wall_reply29812')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-78273068_wall_reply29812')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall-78273068_29803?reply=29812"  onclick="return showWiki({w: 'wall-78273068_29803', reply: '29812'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 12:04" time="1511514293">два часа назад</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap-78273068_29803"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-78273068_29803" onclick="return Wall.showEditReply('-78273068_29803', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-78273068_29803" value="fcd57564a58620560b" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-26776509_700639" class="_post post page_block" data-post-id="-26776509_700639" onclick="wall.postClick('-26776509_700639', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/wowtattoo">
+        <img src="https://pp.userapi.com/c636923/v636923277/626f0/2rRN5gYvdIY.jpg" data-post-id="-26776509_700639" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/wowtattoo" data-from-id="-26776509" data-post-id="-26776509_700639" data-post-click-type="post_owner_link">Тысяча чертей, какая татуировка&#33;</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-26776509_700639"  onclick="return showWiki({w: 'wall-26776509_700639'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 14:30" time="1511523001">7 минут назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-26776509_700639', 'wall_-26776509_700639', '98730091e6847f4122');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-26776509_700639', '6222cf331de092e11b');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-26776509_700639" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Прекрасная Япония<img class="emoji" alt="&#127471;&#127477;" src="/images/emoji/D83CDDEFD83CDDF5.png"></div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 338px;"><a  onclick="return showPhoto('-26776509_456328150', 'wall-26776509_700639', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c639120/v639120065/59f3a/mb-ZJxdsZ1U&quot;,604,604],&quot;y_&quot;:[&quot;c639120/v639120065/59f3b/As_qD3nNVAo&quot;,807,807],&quot;z_&quot;:[&quot;c639120/v639120065/59f3c/IYdzeGimR6Q&quot;,1075,1075]},queue:1}, event)" style="width: 166px; height: 166px; background-image: url(https://pp.userapi.com/c639120/v639120065/59f3e/Q3sJDQ2i7Us.jpg)" class="page_post_thumb_wrap image_cover  fl_l"></a><a  onclick="return showPhoto('-26776509_456328144', 'wall-26776509_700639', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c639120/v639120065/59f21/zWEoUyhNntA&quot;,604,604],&quot;y_&quot;:[&quot;c639120/v639120065/59f22/cSEvtUk6oNY&quot;,807,807],&quot;z_&quot;:[&quot;c639120/v639120065/59f23/Tgv9OKgC0ng&quot;,1080,1080]},queue:1}, event)" style="width: 166px; height: 166px; background-image: url(https://pp.userapi.com/c639120/v639120065/59f25/DcqrruchYSk.jpg)" class="page_post_thumb_wrap image_cover  fl_l"></a><a  onclick="return showPhoto('-26776509_456328145', 'wall-26776509_700639', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c639120/v639120065/59f06/R7ajpa60DSw&quot;,604,604],&quot;y_&quot;:[&quot;c639120/v639120065/59f07/xtVlSJBhaks&quot;,807,807],&quot;z_&quot;:[&quot;c639120/v639120065/59f08/OWEaNd6EZ34&quot;,1080,1080]},queue:1}, event)" style="width: 168px; height: 166px; background-image: url(https://pp.userapi.com/c639120/v639120065/59f0a/swZJqbYnPwc.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column fl_l"></a><a  onclick="return showPhoto('-26776509_456328146', 'wall-26776509_700639', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c639120/v639120065/59f2a/ZaSUVm7ySqg&quot;,604,604],&quot;y_&quot;:[&quot;c639120/v639120065/59f2b/dDgKsCEYCvA&quot;,807,807],&quot;z_&quot;:[&quot;c639120/v639120065/59f2c/tWM33xu-cLs&quot;,1080,1080]},queue:1}, event)" style="width: 166px; height: 166px; background-image: url(https://pp.userapi.com/c639120/v639120065/59f2e/cvoV9eZb9Dc.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  onclick="return showPhoto('-26776509_456328147', 'wall-26776509_700639', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c639120/v639120065/59f33/W19o2fNuI8s&quot;,564,564]},queue:1}, event)" style="width: 166px; height: 166px; background-image: url(https://pp.userapi.com/c639120/v639120065/59f35/4gq2gWlgtqg.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  onclick="return showPhoto('-26776509_456328148', 'wall-26776509_700639', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c639120/v639120065/59f0f/do1U4EJteDY&quot;,604,604],&quot;y_&quot;:[&quot;c639120/v639120065/59f10/N6Kw5h4UH5w&quot;,807,807],&quot;z_&quot;:[&quot;c639120/v639120065/59f11/wVgHHxWyRi4&quot;,1080,1080]},queue:1}, event)" style="width: 168px; height: 166px; background-image: url(https://pp.userapi.com/c639120/v639120065/59f13/2RDhq7RD9X4.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row fl_l"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-26776509_700639')" onclick="return Wall.likeIt(this, '-26776509_700639', '927239822d86971388', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">73</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-26776509_700639')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-26776509_700639', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-26776509_700639')" onclick="return Wall.sharesOpen(event, '-26776509_700639');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">1</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-26776509_700639')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-26776509_700639')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">9.5K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-26776509_700639" style="">
+  <div class="replies_list _replies_list" id="replies-26776509_700639"><input type="hidden" id="start_reply-26776509_700639" value="700645" /><div id="post-26776509_700645" class="reply reply_dived clear  reply_replieable _post" data-post-id="-26776509_700645"  onclick="Wall.replyClick('-26776509_700639', 700645, event, 74986175)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/deadpoolinka">
+      <img src="https://pp.userapi.com/c824202/v824202408/171ce/2rg6PJb6eYQ.jpg" width="40" height="40" class="reply_img" alt="Анастасия Биттер" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete-26776509_700645" class="reply_delete_button reply_action fl_r" data-title="Пожаловаться" onclick="wall.markAsSpam(this, '-26776509_700645', '41fce4dd552290a5f5')" onmouseover="showTitle(this);" aria-label="Пожаловаться" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/deadpoolinka" data-from-id="74986175">Анастасия Биттер</a>
+      </div>
+      <div class="reply_text" ><div id="wpt-26776509_700645"><div class="wall_reply_text">Очень красиво<img class="emoji_css" alt="&#128525;" emoji="D83DDE0D" style="background-position: 0px -102px;" src="/images/blank.gif"><img class="emoji_css" alt="&#128525;" emoji="D83DDE0D" style="background-position: 0px -102px;" src="/images/blank.gif"><img class="emoji_css" alt="&#128525;" emoji="D83DDE0D" style="background-position: 0px -102px;" src="/images/blank.gif"></div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom-26776509_700645">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '-26776509_wall_reply700645', '369b4da6a2327b12e6', event);" onmouseover="Wall.likesShow(this, '-26776509_wall_reply700645')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-26776509_wall_reply700645')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall-26776509_700639?reply=700645"  onclick="return showWiki({w: 'wall-26776509_700639', reply: '700645'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 14:33" time="1511523220">три минуты назад</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap-26776509_700639"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-26776509_700639" onclick="return Wall.showEditReply('-26776509_700639', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-26776509_700639" value="beda1c250f00a50bb0" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-36648726_489452" class="_post post page_block" data-post-id="-36648726_489452" onclick="wall.postClick('-36648726_489452', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/music0107">
+        <img src="https://pp.userapi.com/c627729/v627729465/33373/4TrgjD5K5gY.jpg" data-post-id="-36648726_489452" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/music0107" data-from-id="-36648726" data-post-id="-36648726_489452" data-post-click-type="post_owner_link">01:07 MUSIC</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-36648726_489452"  onclick="return showWiki({w: 'wall-36648726_489452'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 14:25" time="1511522700">12 минут назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-36648726_489452', 'wall_-36648726_489452', '524e77f6104fcede42');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-36648726_489452', '1ebb9c803aa671364c');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-36648726_489452" class="wall_post_cont _wall_post_cont"><div class="wall_post_text"><a href="/feed?section=search&q=%230107_new">#0107_new</a></div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 510px;"><a  onclick="return showPhoto('-36648726_456249738', 'wall-36648726_489452', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c635100/v635100072/1b085/kChwGTf9q2A&quot;,604,604],&quot;y_&quot;:[&quot;c635100/v635100072/1b086/cLV4R7tthng&quot;,807,807],&quot;z_&quot;:[&quot;c635100/v635100072/1b087/xeKoHxPIK5U&quot;,960,960]},queue:1}, event)" style="width: 510px; height: 510px; background-image: url(https://pp.userapi.com/c635100/v635100072/1b085/kChwGTf9q2A.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000336004_456241152 audio_can_add audio_hq audio_has_thumb" data-full-id="2000336004_456241152" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241152,2000336004,&quot;&quot;,&quot;Gone&quot;,&quot;ionnalee&quot;,277,2,0,&quot;&quot;,0,82,&quot;feed&quot;,&quot;[]&quot;,&quot;618bb381db2b286210\/\/799a2f1caaf6eda3ff\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c840537\/v840537788\/1f9de\/yGT5PGeYLtE.jpg,https:\/\/pp.userapi.com\/c840537\/v840537788\/1f9dc\/u724sgQYqAM.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c840537/v840537788/1f9de/yGT5PGeYLtE.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:37</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=ionnalee&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">ionnalee</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Gone</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-36648726_489452')" onclick="return Wall.likeIt(this, '-36648726_489452', '9850dc2d83c27bc8cd', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">14</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-36648726_489452')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-36648726_489452', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-36648726_489452')" onclick="return Wall.sharesOpen(event, '-36648726_489452');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">1</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-36648726_489452')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-36648726_489452')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">1.5K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-36648726_489452" style="display: none">
+  <div class="replies_list _replies_list" id="replies-36648726_489452"><input type="hidden" id="start_reply-36648726_489452" value="" /></div>
+  <div id="reply_box_wrap-36648726_489452"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-36648726_489452" onclick="return Wall.showEditReply('-36648726_489452', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-36648726_489452" value="f2f17fb7868c1bc2b6" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-25117353_686553" class="_post post page_block" data-post-id="-25117353_686553" onclick="wall.postClick('-25117353_686553', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/discovery__world">
+        <img src="https://pp.userapi.com/c626418/v626418088/4c997/bqGpROibsqo.jpg" data-post-id="-25117353_686553" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/discovery__world" data-from-id="-25117353" data-post-id="-25117353_686553" data-post-click-type="post_owner_link">Discovery</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-25117353_686553"  onclick="return showWiki({w: 'wall-25117353_686553'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 11:10" time="1511511000">три часа назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-25117353_686553', 'wall_-25117353_686553', 'fce8fefb403899d6e8');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-25117353_686553', 'cdc9f4b86ee23d76c6');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-25117353_686553" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Тебе надоели боты, которые пишут фейковые отзывы про места/отели/заведения<img class="emoji" alt="&#10067;" src="/images/emoji/2753.png"><br>Боишься потратить день в пустую в новом городе<img class="emoji" alt="&#10067;" src="/images/emoji/2753.png"><br>Не знаешь, на какую сумму рассчитывать<img class="emoji" alt="&#10067;" src="/images/emoji/2753.png"><br><br>Если хотя бы на один вопрос ты ответил «ДА&#33;», тогда наш паблик Revel’n’Travel – именно то, что ты ищешь&#33;<br><a class="wall_post_more" onclick="hide(this, domPS(this)); show(domNS(this));">Показать полностью…</a><span style="display: none"> <br><img class="emoji" alt="&#128205;" src="/images/emoji/D83DDCCD.png">Советы от реальных подписчиков; <br><img class="emoji" alt="&#128205;" src="/images/emoji/D83DDCCD.png">Честные отзывы; <br><img class="emoji" alt="&#128205;" src="/images/emoji/D83DDCCD.png">Настоящие фотографии «прямо с места» и многое другое&#33; <br><br><a href="/revelntravel" class="mem_link" mention="" mention_id="club156832689" onclick="return mentionClick(this, event, {params: {_post: '-25117353_686553', _post_click_type: 'mention_link'}})" onmouseover="mentionOver(this)">Revel&#39;n&#39;Travel</a> – упивайся и путешествуй&#33;<img class="emoji" alt="&#127757;" src="/images/emoji/D83CDF0D.png"></span></div><div class="page_post_sized_thumbs  clear_fix" style="width: 407px; height: 510px;"><a  onclick="return showPhoto('-25117353_456258347', 'wall-25117353_686553', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841439/v841439154/3fc20/QUGZvDfKeSc&quot;,483,604],&quot;y_&quot;:[&quot;c841439/v841439154/3fc21/wKQZLw1vwNs&quot;,564,705]},queue:1}, event)" style="width: 407px; height: 510px; background-image: url(https://pp.userapi.com/c841439/v841439154/3fc20/QUGZvDfKeSc.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div><div class="wall_marked_as_ads" data-title="Владелец сообщества разместил эту запись платно." onmouseover="showHint(this, { width: 260, shift: [25, 10, 0] });">Реклама в сообществе «Discovery»</div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-25117353_686553')" onclick="return Wall.likeIt(this, '-25117353_686553', '0354b1ce4582c808cd', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">15</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-25117353_686553')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-25117353_686553', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '-25117353_686553')" onclick="return Wall.sharesOpen(event, '-25117353_686553');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-25117353_686553')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-25117353_686553')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">48K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-25117353_686553" style="display: none">
+  <div class="replies_list _replies_list" id="replies-25117353_686553"><input type="hidden" id="start_reply-25117353_686553" value="" /></div>
+  <div id="reply_box_wrap-25117353_686553"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-25117353_686553" onclick="return Wall.showEditReply('-25117353_686553', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-25117353_686553" value="c1eeff7a9e248177bf" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-42968101_133860" class="_post post page_block" data-post-id="-42968101_133860" onclick="wall.postClick('-42968101_133860', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/public42968101">
+        <img src="https://pp.userapi.com/c617117/v617117529/28976/XVWEgGsZc5Q.jpg" data-post-id="-42968101_133860" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/public42968101" data-from-id="-42968101" data-post-id="-42968101_133860" data-post-click-type="post_owner_link">Читающие</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-42968101_133860"  onclick="return showWiki({w: 'wall-42968101_133860'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 14:06" time="1511521560">31 минуту назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-42968101_133860', 'wall_-42968101_133860', '98ac64d4f41ee92d98');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-42968101_133860', 'c7529c7ad74d45ec30');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-42968101_133860" class="wall_post_cont _wall_post_cont"><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 487px;"><a  onclick="return showPhoto('-42968101_456272130', 'wall-42968101_133860', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c840228/v840228581/36320/Au5d9OpomwM&quot;,604,577],&quot;y_&quot;:[&quot;c840228/v840228581/36321/7rQE8OTlZSs&quot;,650,621]},queue:1}, event)" style="width: 510px; height: 487px; background-image: url(https://pp.userapi.com/c840228/v840228581/36320/Au5d9OpomwM.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-42968101_133860')" onclick="return Wall.likeIt(this, '-42968101_133860', 'c531ab3cadf097d2df', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">594</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-42968101_133860')">Показать список оценивших</span>
+    
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-42968101_133860')" onclick="return Wall.sharesOpen(event, '-42968101_133860');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">40</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-42968101_133860')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-42968101_133860')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">19K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-42968101_133860" style="display: none">
+  <div class="replies_list _replies_list" id="replies-42968101_133860"><input type="hidden" id="start_reply-42968101_133860" value="" /></div>
+  
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div>
+          <div id="feed_rows_next"><div class="feed_row"><div id="post-26776509_700370" class="_post post page_block" data-post-id="-26776509_700370" onclick="wall.postClick('-26776509_700370', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/wowtattoo">
+        <img src="https://pp.userapi.com/c636923/v636923277/626f0/2rRN5gYvdIY.jpg" data-post-id="-26776509_700370" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/wowtattoo" data-from-id="-26776509" data-post-id="-26776509_700370" data-post-click-type="post_owner_link">Тысяча чертей, какая татуировка&#33;</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-26776509_700370"  onclick="return showWiki({w: 'wall-26776509_700370'}, false, event);" ><span class="rel_date">сегодня в 9:30</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-26776509_700370', 'wall_-26776509_700370', '92f702d02c6ab9c862');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-26776509_700370', '6d6fd977c0783a8b64');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-26776509_700370" class="wall_post_cont _wall_post_cont"><div class="page_post_sized_thumbs  clear_fix" style="width: 438px; height: 510px;"><a  onclick="return showPhoto('-26776509_456328132', 'wall-26776509_700370', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c639120/v639120150/5b9b2/W_S87FBKhd4&quot;,519,604],&quot;y_&quot;:[&quot;c639120/v639120150/5b9b3/v4gNhvSYuQI&quot;,694,807],&quot;z_&quot;:[&quot;c639120/v639120150/5b9b4/nAV5IYd8-Uc&quot;,718,835]},queue:1}, event)" style="width: 438px; height: 510px; background-image: url(https://pp.userapi.com/c639120/v639120150/5b9b2/W_S87FBKhd4.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-26776509_700370')" onclick="return Wall.likeIt(this, '-26776509_700370', '538f33ff58faa67290', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">1<span class="num_delim"> </span>777</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-26776509_700370')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-26776509_700370', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-26776509_700370')" onclick="return Wall.sharesOpen(event, '-26776509_700370');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">64</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-26776509_700370')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-26776509_700370')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">94K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-26776509_700370" style="">
+  <div class="replies_list _replies_list" id="replies-26776509_700370"><a id="wrh-26776509_700370" class="wr_header" onclick="return wall.showReplies('-26776509_700370', false, false, event);" offs="1/59" href="/wall-26776509_700370?offset=last&f=replies">Показать все 59 комментариев</a><input type="hidden" id="start_reply-26776509_700370" value="700616" /><div id="post-26776509_700616" class="reply reply_dived clear  reply_replieable _post" data-post-id="-26776509_700616"  onclick="Wall.replyClick('-26776509_700370', 700616, event, 366898293)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/akseon">
+      <img src="https://pp.userapi.com/c841126/v841126406/3d2cf/PFXHu0XphTk.jpg" width="40" height="40" class="reply_img" alt="Александр Мухин" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete-26776509_700616" class="reply_delete_button reply_action fl_r" data-title="Пожаловаться" onclick="wall.markAsSpam(this, '-26776509_700616', '33da16d23d6d805ea6')" onmouseover="showTitle(this);" aria-label="Пожаловаться" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/akseon" data-from-id="366898293">Александр Мухин</a>
+      </div>
+      <div class="reply_text" ><div id="wpt-26776509_700616"><div class="wall_reply_text">9gag</div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom-26776509_700616">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '-26776509_wall_reply700616', '76ac1e0c30f5674605', event);" onmouseover="Wall.likesShow(this, '-26776509_wall_reply700616')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-26776509_wall_reply700616')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall-26776509_700370?reply=700616"  onclick="return showWiki({w: 'wall-26776509_700370', reply: '700616'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 13:48" time="1511520489">49 минут назад</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap-26776509_700370"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-26776509_700370" onclick="return Wall.showEditReply('-26776509_700370', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-26776509_700370" value="beda1c250f00a50bb0" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div></div>
+        </div>
+        <button class="flat_button secondary_dark more_link" id="show_more_link" onclick="return feed.showMore();" style="">Показать предыдущие новости</button>
+        <div id="all_shown" style="">Показаны последние новости</div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div></div>
+  </div>
+</div></div>
+    </div>
+
+    <div id="footer_wrap" class="footer_wrap fl_r" style="width: 795px;"></div>
+    <div class="clear"></div>
+  </div>
+</div></div><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2579437;pid=44752200;js=na" style="border:0;" height="1" width="1" />
+</div></noscript></div>
+  <div class="progress" id="global_prg"></div>
+
+  <script type="text/javascript">
+    if (parent && parent != window && (browser.msie || browser.opera || browser.mozilla || browser.chrome || browser.safari || browser.iphone)) {
+      document.getElementsByTagName('body')[0].innerHTML = '';
+    } else {
+      domReady();
+      updateMoney(0);
+if (browser.iphone || browser.ipad || browser.ipod) {
+  setStyle(bodyNode, {webkitTextSizeAdjust: 'none'});
+}TopMenu.init();
+initTopAudioPlayer();
+if (0) {
+  hide('support_link_td', 'top_support_link');
+}
+var ts_input = ge('ts_input');
+if (ts_input) {
+  placeholderSetup(ts_input, {back: false, reload: true, phColor: '#8fadc8'});
+}
+TopSearch.init();;shortCurrency();;setTimeout(function() {  try {    var elem = ge(String.fromCharCode.apply(null,[118,107,98,95,97,100,118]));    if (elem) {      ajax.post('/al_profile.php', {act: 'pro', section: 1, hash: 'd04132b7460ba577f0'}, {onDone: function() {}, onFail: function() { return true; }});    }  } catch (e) {}}, 5000);
+__adsLoaded = false;
+
+handlePageParams({"id":44752200,"leftblocks":"","leftads":"","ads_can_show":"1","ads_section":"feed_main","level":1,"loc":null,"wrap_page":1,"width":960,"width_dec":165,"width_dec_footer":165,"body_class":"","counters":"0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0","pvbig":1,"pvdark":1});addEvent(document, 'click', onDocumentClick);
+addLangKeys({"global_apps":"Приложения","global_friends":"Друзья","global_communities":"Сообщества","head_search_results":"Результаты поиска","global_chats":"Диалоги","global_show_all_results":"Показать все результаты","global_news_search_results":"Результаты поиска в новостях","global_emoji_cat_recent":"Часто используемые","global_emoji_cat_1":"Эмоции","global_emoji_cat_2":"Животные и растения","global_emoji_cat_3":"Жесты и люди","global_emoji_cat_4":"Еда и напитки","global_emoji_cat_5":"Спорт и активности","global_emoji_cat_6":"Путешествия и транспорт","global_emoji_cat_7":"Предметы","global_emoji_cat_8":"Символы","global_emoji_cat_9":"Флаги","stories_remove_warning":"Вы действительно хотите удалить историю?<br>Отменить действие будет невозможно.","stories_remove_confirm":"Да, удалить","stories_answer_placeholder":"Ваше сообщение…","stories_answer_sent":"Сообщение отправлено","stories_blacklist_title":"Скрыты из историй","stories_settings":"Настройки","stories_add_blacklist_title":"Скрытие из историй","stories_add_blacklist_message":"Пользователь останется в друзьях, но истории не будут показываться в новостях.","stories_add_blacklist_button":"Скрыть из историй","stories_add_blacklist_message_group":"Вы останетесь подписчиком сообщества, но истории не будут показываться в новостях.","stories_error_cant_load":"Не удалось загрузить историю.","stories_try_again":"Попробовать ещё раз","stories_error_expired":"Историю можно было посмотреть<br>в течение 24 часов после публикации","stories_error_deleted":"Автор удалил историю","stories_error_private":"Автор скрыл историю","stories_mask_tooltip":"Попробовать эту маску","stories_mask_sent":"Маска отправлена на телефон","stories_followed":"Вы подписались&#33;","stories_unfollowed":"Вы отписались","stories_is_ad":"Реклама","stories_private_story":"Приватная<br>история","stories_deleted_story":"История<br>удалена","stories_bad_browser":"Истории не поддерживаются в Вашем браузере"}, true);
+addLangKeys({"audio_delete_audio":"Удалить аудиозапись","audio_dont_show":"Больше не показывать","audio_performers_only":"по исполнителям","audio_titles_search":"по композициям","audio_global_search_found":["","В поиске найдена %s аудиозапись","В поиске найдено %s аудиозаписи","В поиске найдено %s аудиозаписей"],"wall_link_label":"Ссылка","wall_my_friends_only":"Эта запись видна только Вашим друзьям","global_photo_full_size":"Увеличить","news_return_to_news":"Новости","news_unsubscribe":"Отписаться","news_warning":"Предупреждение","news_show_all_comments":"Показать все комментарии","news_show_last_three":"Показать последние три комментария","news_unsubscribe_comments":"Отписаться от комментариев","news_unsubscribe_comments_confirm":"Отписаться от комментариев к этой записи","news_delete_list_sure_title":"Удаление вкладки","news_delete_list_sure":"Вы уверены, что хотите удалить вкладку <b>{list}<\/b>?","news_hide_list_confirm_title":"Скрытие списка","news_hide_named_list":"Вы уверены, что хотите скрыть список <b>«{title}»<\/b>?","news_hide":"Скрыть","news_show_menu":"Фильтр","news_hide_menu":"Фильтр","news_edit_tabs":"Разделы новостей","news_search_tab":"Поиск: <i>%s<\/i>","feed_add_post":"Добавить новость","news_switch_to_search":"Поиск новостей","news_top_X_percent":["","топ <b>%s%%<\/b> новостей","топ <b>%s%%<\/b> новостей","топ <b>%s%%<\/b> новостей"],"news_top_all_news":"все новости","news_top_no_news":"только мои записи","news_top_slider_about":"Вы можете передвинуть бегунок вправо или влево, чтобы определить, какие Новости будут отображаться.<br><br>Чем правее бегунок, тем <b>больше<\/b> новостей в потоке. Смещая бегунок влево, Вы оставляете самое <b>важное<\/b>.","news_x_photos":["","%s фотография","%s фотографии","%s фотографий"],"wall_user_was_tagged_on_photos":["","был отмечен на фотографиях","была отмечена на фотографиях"],"news_switch_to_articles":"К обсуждаемым новостям","news_search":"Поиск по новостям","news_photo_search":"Поиск по фотографиям","news_articles_search":"Поиск по статьям","news_show_X_reposts":["","Показать ещё %s похожую запись","Показать ещё %s похожие записи","Показать ещё %s похожих записей"],"news_hide_reposts":"Скрыть похожие записи","news_new_posts":["","Показать <b>%s<\/b> новую запись","Показать <b>%s<\/b> новые записи","Показать <b>%s<\/b> новых записей"]});
+addTemplates({"_":"_","audio_bits_to_cls":"{\"1\":\"audio_has_lyrics\",\"2\":\"audio_can_add\",\"4\":\"audio_claimed\",\"8\":\"audio_from_queue\",\"16\":\"audio_hq\",\"32\":\"audio_lpb\",\"64\":\"audio_has_thumb\",\"256\":\"audio_moder_claimed\"}","audio_row":"<div   tabindex=\"0\" class=\"audio_row audio_row_with_cover _audio_row _audio_row_%1%_%0% %cls%\" data-full-id=\"%1%_%0%\" onclick=\"return getAudioPlayer().toggleAudio(this, event)\" data-audio=\"%serialized%\" onmouseover=\"AudioUtils.onRowOver(this, event)\" onmouseleave=\"AudioUtils.onRowLeave(this, event)\">\n  <div class=\"audio_row_content _audio_row_content\">\n    <button class=\"blind_label _audio_row__play_btn\" aria-label=\"Воспроизвести \" onclick=\"getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)\"><\/button>\n\n    <div class=\"audio_row__cover\" style=\"%cover_style%\"><\/div>\n    <div class=\"audio_row__cover_back _audio_row__cover_back\"><\/div>\n    <div class=\"audio_row__cover_icon _audio_row__cover_icon\"><\/div>\n    <div class=\"audio_row__counter\"><\/div>\n    <div class=\"audio_row__play_btn\"><\/div>\n\n    <div class=\"audio_row__inner\">\n      <div class=\"audio_row__info _audio_row__info\"><div class=\"audio_row__duration _audio_row__duration\">%duration%<\/div><\/div>\n      <div class=\"audio_row__performer_title\">\n        <a href=\"%search_href%\" onmouseover=\"setTitle(this)\" class=\"audio_row__performer\">%4%<\/a>\n        <div class=\"audio_row__title _audio_row__title\" onmouseover=\"setTitle(this)\"><span class=\"audio_row__title_inner _audio_row__title_inner\">%3%<\/span><\/div>\n      <\/div>\n    <\/div>\n\n    <div class=\"audio_player__place _audio_player__place\"><\/div>\n  <\/div>\n<\/div>"});uiSearch.init('search_query', { onFocus:addClass.pbind('wide_column', 'search_focused'),onBlur:removeClass.pbind('wide_column', 'search_focused'),onEnter:Feed.onFeedSearch });cur['stories_list_feed']=[{"author":{"id":-129636704,"name":"#ВКосмосе","href":"\/space","photo":"https:\/\/pp.userapi.com\/c638320\/v638320505\/55b3\/0FGLYWGjep0.jpg","verify":"<a href=\"\/verify\" class=\"page_verified \" onmouseover=\"pageVerifiedTip(this, {type: 1, oid: -129636704})\"><\/a>"},"items":[{"raw_id":"-129636704_482453","date":"сегодня в 14:16","type":"video","preview_url":"https:\/\/story0.userapi.com\/c824700\/v824700062\/33ae7\/CLGQ2UwlrNI.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAHQAyAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A\/KqiiigD6H+HHwwtPGXh27+23i20RCxxqRktIRke6\/XFeOeMvCV54N1250u+jKTQnHsw7EH0I5r6j\/ZTkhvNdsYXiFwIp4Z2jIypVWAYH2wa9Y\/4Kh\/AvS9AtvDfjjRYILeG6BtLiO3IKgctGeAAOM8dBkAdK8XAzrU8VOM9YS06aPpb16\/I\/SuIcNhquXUKlKNqkY3uuqW6fpuvmfnCwwSKSnSDDkU2vbe5+aIKKKKQwqxp+n3Wr39tY2NtNeXt1KsEFtboXklkYgKiqOWYkgADkk1Xqxp2o3Wj6ha39jcy2d9ayrPBcwOUkikUhldWHIYEAgjoRQB9wfBP9mP4l6VZ22t2lofs+Ck9uba5EsRAw8b4i+VlzgjPBHPSvS\/2iNA+Ivjn4Fy6HeaZc6vBpcSmyjtbaaWd38xTjG3nA3Dj3r4u8P8A7R3xT0+FoLf4i+KYYZXaWSOPWLhVdmOWJAfkk9T3rdvP2gfiIul3LL4y11ZCh+cajLuyc853deT+dcuIp4aUlNU3e6s+Z6NdbbH2WDxWPnh3SnWjypPRwT0ad0ne60PHPFPgnxF4Mnhj8Q6DqWhSXALwpqVpJbmQDqVDgZAyOlYdbvivxz4i8b3EMviHXdR1yWAFYn1G6ecxgnJClicZxWFXVufG7aBRRRQB\/9k=","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c639219\/v639219062\/608b5\/4L1an22sEQQ.jpg","video_url":"https:\/\/story0.userapi.com\/c511607\/1\/u1697810\/videos\/b65b56e7cd.720.mp4?extra=TaIyt2p2Qa6S5IuD9UBZpRz8ic83d-J_WNamhZMAhR-6QRTCLpeMHW07DNy6hSalzfmHm8q273BjL6XY_4O3XrBlND1UFSybv_XJlVHpXCDIb2AN5WKjcSHMHG38YIe7D6zzlu43vuoJ-MU"},{"raw_id":"-129636704_482455","date":"сегодня в 14:16","type":"video","preview_url":"https:\/\/story0.userapi.com\/c834203\/v834203062\/33179\/cBKZZQNjp4Q.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAHQAyAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A\/KqiiigD9b\/BTj\/hDvD69zp8BH\/ftf8AGr1oJo4rhZ5PNdLq4UN6KJXCj6AADPtXC\/Cbxj\/wmGvaDoWiT2uo6fa6HGbyS3\/eNHc5hVY9wOM\/McjrnPpx7F418NHwzq91btJG\/mMbpNnH7uUmRODyOGHFfYU8bTlP2aeq\/wAl\/mcksJOMOdrf\/gn5QftGHPxx8ZH\/AKf2\/kK85r0b9or\/AJLf4y\/6\/wBv5CvOa+Vra1ZPzf5nTH4UFFFFYlBVjT9PutXv7axsbaa8vbqVYILa3QvJLIxAVFUcsxJAAHJJqvVjTtRutH1C1v7G5ls761lWeC5gcpJFIpDK6sOQwIBBHQigD9Uf2JfhjrPwa1CLxNe+G77VdKeKSO8t7HTZUkgnXYMEt3UrzypBzkV6D8ZLW\/8AiH4h0jWvDttqOgz2dmtvcG9s5JUmCIOCqZJzgLjnGQa\/P\/wF8YPi3rV1DpNv8UvEOm2t3umkWC6lwzNyxIEgyWPUnrnmup+I\/iL4i\/D6W3jj+KHiW7MsSyEi6aPGe2Nx9K7fqahU9rTjaT1T5vJLbb5HZTxFdwvOd4rRqy27d\/nueCftA6J4gsPiZrOo69ot9pH9pXLywNeWkkCzAYBKbwMgZHT1rzeup+IXjnxF421kyeIde1HXHtywhbULlpjGGwWC5PGcDOMdK5auWbbk2zj06BRRRUAf\/9k=","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c841033\/v841033062\/3dd8d\/uZy-itgtfgA.jpg","video_url":"https:\/\/story0.userapi.com\/c511601\/3\/u1697810\/videos\/a1a3e55c0a.720.mp4?extra=b3B5cDYhKJwvh-I1gv-vhnMjo9W4FdWIzGKArkD3XkinlCayTtcV0WVxyVI-xV5kgbZxuLzzZwWNeE1w7pMFVspzjt9pDWva5azQOceDnCZd8qFRolCNxtMqsu7lnMXzF7ct6Khc6TEtE-k"},{"raw_id":"-129636704_482456","date":"сегодня в 14:17","type":"video","preview_url":"https:\/\/story0.userapi.com\/c834101\/v834101062\/35392\/4wsQtQDgDvc.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAHQAyAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A\/KqiiigD9zvB\/ifwpq3gawsbLVZg1hplmlxFNEDskaIcg4AxwT3GB1NdAvhKG+tbTUzq9jBbw3IIE8WWlK4YhflHIBUZ56ivDPEfgvSfh54a8FTaXrj63b6zEdSLTxB1tPsYhhltTj+BZHcEgD7u0g8Gp7rQvEOm+DbzxP4K12efTFuHWXwXqMf2gtOqhpPLcuDGNrIcgsCGUgMMCsPZON5Pa\/8ATt+HyIvd2PzZ\/a1tUs\/2j\/HsKFSi6gcFBgcop\/rXkddv8bvEE\/ir4reJNUubN9PuLi5zJayMWaJgoUjJA9PSuIrWOqRo9AoooqhBVjT9PutXv7axsbaa8vbqVYILa3QvJLIxAVFUcsxJAAHJJqvVjTtRutH1C1v7G5ls761lWeC5gcpJFIpDK6sOQwIBBHQigD94vCfiLw\/4g8N2Oo3Xw58Ras1lo8OhzRzaX59pBLA7NMwjJ2BmkYFiRuJiTPK18\/31p488Ea42r2Oh3V\/pDOqXGmW1g8EnlHAHlxgFcx54GRlQRxX0v8Pvjm2jfslad4t\/4R2wmvJtFv7+W3ztinmgXl5RjLmQ4LHOScnvx7FLo2k+MfAGl6odLtrB9QsorrbBGoaJpIw3ysADkZxnitn7KtRVaEPdezu77diJ0K1Co6dSWqdmrI\/AP9r3w3qmifHvxXeXulXmn2Wo3jT2U11bvElxHtXLIWA3DJ5I714xXtX7Ymq6tcftB+MdL1HV73VbbS9QkgtBeTtIIUwpIUEnaD6CvFa5oLliot3sayfNJuwUUUVZJ\/\/Z","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c841633\/v841633062\/3ee4f\/pQ81fMAID8s.jpg","video_url":"https:\/\/story0.userapi.com\/c511606\/0\/u1697810\/videos\/a4cec044e1.720.mp4?extra=NtdFK-xue1TrtW3WIVVn-Gnr5XXf3uJLXTpKJ-xMlc6pfxB3M_UlSBkH4HKs9cVjrUyLKn4yd64frqI2spWtj6DSlmAjHPKugzgM7ohbicS11AeEvpH5SV0jHIpxyZYcL29t8GOWD2dDLCE"},{"raw_id":"-129636704_482458","date":"сегодня в 14:17","type":"video","preview_url":"https:\/\/story0.userapi.com\/c840624\/v840624062\/2723d\/2lIrNW_FfPA.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAHQAyAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A\/KqiiigD9dv2HG+H2seE5ri28I2Xhs6Tp9i089nrk8lxcySrhnddiBAdjEgM3UjtX09Bpnw38U6nD9gNrq89zbTBY3fzSY9yhyM9RlVGefY8nPxF8DvFl1ZeB\/A\/hfQbzw3f385CQxWGmGyvmkFuZTG7K4BYlCFbysSMRhizEnvPi\/8AE\/XrTQNEtrDxZceB7251BA17NaPG8aoP3ybWBU5GW+XjI7ZwODMq9ZZpTo0vdhK1tW9Le927Xa16WPaw+Gwry6rXlrKN+2\/T+tOp+an7Sdja6X+0D8RbKyt0tLO1168gigTOEVJmUDkk9q83rr\/jBNNc\/FHxTNcat\/b1xLqE0kmq7An2xixJm2jgbyd2O2a5CvRkrSaR4i2CiiipGFWNP0+61e\/trGxtpry9upVggtrdC8ksjEBUVRyzEkAAckmq9WNO1G60fULW\/sbmWzvrWVZ4LmBykkUikMrqw5DAgEEdCKAP0M8B\/Afx3d+GNC13StMudPu9NjiJlW1nD2tzDtILYjwGRhkg9CCD3rvfjz4K17x3p+r6nHB4i1eaS6stVgtLtHnNncYmS7SIKvMZaWMqx+bCbW4Ar47+GP7S3xLtPtVmnjbxCLS5YySwf2tPtZmGHJG7qxySe5JrrU+M\/jm2W7C+LNYIikCqDfSY+YlTxn0H5819JOPtVCtyp223v0R5tNTjzU+bda7dNT55+LPg7xB4T8XXZ17RL\/RWu5GlgF7avAJF4zt3AZxkA46HiuLrqviL468Q+ONdll1\/Wr\/WGgkkWD7dcvN5QJyQu4nAOB09K5Wvnqnxu\/dnoR2QUUUVBR\/\/2Q==","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c824701\/v824701062\/36c70\/S2YVSg79qgg.jpg","video_url":"https:\/\/story0.userapi.com\/c511604\/2\/u1697810\/videos\/af85785589.720.mp4?extra=zvu1dsvkqwDiA1TrsOeNwYW4fwfKvWgckU_EMa3_aBdyh7qzLraalZbnrnEM5TI7WYxb3hYstM1Cmc0gPl6LhLpnusU-7bkS9QA2LztKjnOtCMhYIk7XhpBRl-t48QBvhif7V6dySoRT6wk"},{"raw_id":"-129636704_482460","date":"сегодня в 14:17","type":"video","preview_url":"https:\/\/story0.userapi.com\/c840423\/v840423062\/27add\/SMcaSNBhcss.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAHQAyAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A\/KqiiigD7V8D6l4NXSfCISW1s9XtDbxz3ADssm+IEA4yPRSdoAKckck\/RUWsreWN013cyw2sciwKtxL5UJLkKzMwQlVHykEAkc8nJFeE\/sLeMLGwstZ0TWLO2niktxewzXduTkYCZEgxkA4+UkDlu\/SxrHj5PF8Gq6HoxbVXXzCsbbQHiSUDKITliQAdqqQBk5FfOPCOUZOSd4a7Pq\/wXmfV490oJPDqKjNJatN+6k+nV3afyufHXxYMbfEnxI0SCONr2RlRSCACc4yOv1rk66f4nWy2XxA1+3SB7aOK7dFgl+\/GB0VuTyBwea5ivoIaxR8tJWbQUUUVZIVY0\/T7rV7+2sbG2mvL26lWCC2t0LySyMQFRVHLMSQABySar1Y07UbrR9Qtb+xuZbO+tZVnguYHKSRSKQyurDkMCAQR0IoA+y\/BH7H\/AI\/1rwpZ3Gn6YkUWzy5IntbrzYZAPnRlEeNwYkEEnBzmuv8AB37Lni7wPqz6vfaLbXWp2A\/0H91dsyZDLIrpsA5GRnBIOTxiuOH7aniTwL4V0WSGDUp76OOKR508QXUCTSFQWkkiU7XZiSSSDknJzXO+Hv2v\/in488ay3t34jktYTD5LWtruVCJJNrPndu8z959\/PO0cenVUzOpjcNOnGlaCWutttOm43l\/1SpGftrz0drd9ev8AwTxP48eGPEegfErXbnxDouoaQ9\/fTzQNfW7xCZd\/JRmRQ45HIAHI4Ga88ruPjB4t13xL401CDWdb1LWY7C4lhtf7SvJLkwpnG1S5JA+UfkK4euKDTimhy3dwoooqyT\/\/2Q==","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c834202\/v834202062\/32a8a\/DUOIXJtyhSA.jpg","video_url":"https:\/\/story0.userapi.com\/c632802\/3\/u1697810\/videos\/0bb8ac4adc.720.mp4?extra=D09AjOZIkKDMPnNNRkHTW_2B_zHZcwU_2De31N4J_cPF-u4zq5EHLhonqW4RRfA6yAeCsnSSh9adl0Bxtc0kVGYFvnCUF6ny-ktr9ztdNvUDSOUQj5Uzy26_nRNTgNdu-fHrDJyGBk9xBtU"}],"send_hash":"1dd3a5f9b25d834ce6","blacklist_hash":"6fd16bf5b505dbf035","read_hash":"c0eede4952b4556742","remove_hash":"62dd1ec95f815229b0","can_blacklist":true,"send_mask_hash":"862d5d3e724706cd42"},{"author":{"id":-15755094,"name":"РИА Новости","href":"\/ria","photo":"https:\/\/pp.userapi.com\/c639623\/v639623960\/20946\/YZbs-5Tm1bc.jpg","verify":"<a href=\"\/verify\" class=\"page_verified \" onmouseover=\"pageVerifiedTip(this, {type: 1, oid: -15755094})\"><\/a>"},"items":[{"raw_id":"-15755094_489246","date":"вчера в 17:46","type":"video","preview_url":"https:\/\/story0.userapi.com\/c840124\/v840124536\/4eeb0\/h3jdZny7VWQ.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAMgAdAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A\/RueaK2h82eVIYgMl5GCgfia52\/+LPg\/ScRy69aTzg48iyY3EhPXG2MMe1fJ\/wATtI0jQvG2oWGjzXM8VvO73Ul8bdSlwzbyqyS\/eUKx+bbnO0c9a5eZ5NTEUKu+o8su1Zp7wxHbw2IgiE+gzx3zXFQ4doyjGq6j5Wr6rlsmrq6d7d7OSdrdWj1pVW9LH1RrH7UfhrTrnyItPvpXK7w87wQJt\/4FJu7dNteh+EvHGj+NtHTUdNuleEsUeOQFHifA3IwPcZ+noSK+FJIlJeHyYrcNvV4EW2s2I9P45D1xjr+Ve9fDbUb3Ube\/k1dZYtTDIryRWozImDtLB41J53YYDBHGTt4580yylh8PCrRVv5rv7mum\/nts3fSqVp3T36DfF\/w+8Mv4l1Z7h5oL++jmuzNBHFJLER87N86k4IDDGcYzjHFeU6foVrcXc\/8Aast9NbE\/JLIqyvKPVlNyqKenADDgfWvbb+zsptX8d6pJNDLdx6VeRxozqWijS324CnkEliSR2xXztc6tZnULaHzv3TjgKqkBidoJ5B\/L07YNeXTzPHUYqi6l3yxd7JtXu172+yWidlppfU8nAVKmKniKtVae0lGKT2UbL72038z0Dwz4P0M6nZLpeqajaap56C0Y29tAgboCzRNuznvzil8L\/DF\/iheajrt67X0MhjjikuCXfIDbiXHJJBT73TtVT4dzWsHjDQIfOhlL6hariNNuf3qjpn3r1T4K20Xgyx1yzhJuYW1CVomEoYGMOyowHYEKD79a4a+MxeNc\/aVHLlSld22bt26smMp4PN6Ps1eFWM1K7ejjaUWl03kna19L7I8s+K2tab4N+Iyarrt5eWuk6rp9zpvmWsQlMEkkTR7tuRuHzlsdeK2fCn7LVh4ytkurHxHqUIMaypNc6OYdynoV3S85Azx610HxU8HQeI7B47mFZihDoGHKsO4PY8da5n4QfEXXvA+pajpOo3BktZnD2xcklMABlySfYge5rwMNiaVR3nNxk7J+aSsmrpq\/dPS22p9DQyHEUsVVlhmvZVG5W6qT3v5PpbZ6MvRfCLRPhprlnq+peIdUgXTb2OXNzpbJFK8REoUPvYcheoz39K3fhXrl\/r0Osapdr5VrNdGK0jIBJjTI3nGPvEnj0ArsfEa+Hfi\/olxYa5aiWz3BkCuyOjDowYcg\/oc4ORT9K8JP4WsY7KzQtbDlHiTO4Y7jtXo4mv7OjKlQbfM1d\/3V8KtZPdtvpsa0sqnTxar4qWsE1FWtq979NtiPXwGWXIz8vevEfEKKJA20bgy4OOe1FFfGP4z7HB7nTeCppG1SEF2IyOCa+jLLm1TPNFFfVYDeRy5z8cT\/2Q==","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c841428\/v841428536\/3ed0c\/-jVHb7JgCgA.jpg","video_url":"https:\/\/story0.userapi.com\/c511603\/2\/u3182112\/videos\/54d2614fa0.720.mp4?extra=0obXkcFNSpRknx776Cb90luPa2i9icXeDfe_jxdwYlwnQMz8oKYPfrMLiNkjJakm-DmCdu5-h_8Bu2wIklIGkQlV3aQsR-dyQPYk1UFBmVcwRh3E7eySRJQpTfnXoqhGR-p719NPaTyVIQ"},{"raw_id":"-15755094_489254","date":"вчера в 17:49","type":"video","preview_url":"https:\/\/story0.userapi.com\/c840524\/v840524536\/26a39\/aE-RvUTt72E.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAMgAdAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A774R\/s66J+0XbeKPHP8AaUWl+Irm7udPEVrComsbyI7QtznngbDtHJQqd3OK5vxb8ItZ0Fbfw14iMOgWs++Nr94RfyJtKjzGhjcbVYthSW3ZB+UcE6P7OE1\/8N\/FHiTxRp+o3FlceMphb\/2VcQF4TcGb91dEHG3bEGGRnO9etaXinXPiDJ4v1KWW38B3\/mzfK2o3U8U3lgnbuwhGQDkjpmvjMPldCvRpVYpR03k5O79F87O6WlrM+zzjizFYXMJ4SVpQVnaKjHkTWiV0rt9b3fW9zyDVf2YvEep3c1z4Elg1+ysGht5IFgayuJ9xYCSOJ2bzB8pzht3+z6crr2jaj4a1SbS9Us5LC+tsLJBKpDAkZB\/EEHPpX1Fr3i6fRLLw14r+weGLnxDo0u500vWiu1XZU3qjA+aRknBUe2DzXnf7XfhS28SeJtH8V3kdzYxapHNCLW3um8vzIWXdKBhcb1kiJGOoJBOcnSrhI4JKr8V+ydltvfW73006aW148PmtfOG8H8MVZ3dtd9Pd00+R6j4w0uy8Kat4MhlslmazuPssUkt0YxbtIgVTt2kSE7TjkY654rhfE6a\/eeNtbji055bF5yqSrAz4XgZGOvH169ODXq\/xkntNUNhqFtEt3FAXd9vzOm0Hy5Qv8RRix2nqpYDkivFfHP7QXh34e3J1HVvEfhHVbZ1HkwWLOLuaRkBDCNHkkUKwKsDEMkjkAGvWyXFQlh1RlKKcZaXT2t5J\/p2PB4gyqvWxf1ulFvmj7zbSSs9EuZrV32XqS+IfAyNY6Tc39hdLeSahp8Hm\/PGgD3kCHcMAdMHBHb1r1nWL62+JPhvT5l06\/uhp9\/eWYmvY4wkgAhKvEA7fIVKjLYY7eQOK+UPFP7b66ubqPQfAkdzZLJH5MuuXI0xLeVCjIxd5CZsOjHaEjJwPQ59M8G\/tC3HhDwBoU\/xCh0bwP\/aCvLpdnpIYfaYPlZrmRCoKs7u3OADjgADFdOa16awkoRanV5rrl2S630108\/M8bh6nVlmMZP3acYu9+\/TZtLd7+iXU+ZPjD8Q\/H1t4ksPDOua3\/al61uftcGj3crxW5CBjvhto4H2vuyFkkbAYbjjk+Rw6gtrqEmn6dNPY39yjKJbNkhCMB8xaGzWWYngYDSDJ5PevuTxN8KfCXiG11fUNR0G1vdTuYyJJZcksWQIWxnG7YoG7GcAc8CsLwL+zt4H8PWkMcWnXN1Zg\/vbK4vZWiIJOd0YYK\/J\/iBr4+njqChbld\/wv3\/4B9ljuGcZiqrqKqnHpzSk7ff8AkkkfINvaWonsLLUtOhtJLtkS6MscNm6hiNzyM\/2i5dMOzO21cjnoOOA8QeNrj7Ymn\/Z1gt9NT7HbpFe3DgRqxOAxc8ZJIC4X5iQOa\/Qz4v8AwBvPEnw91vQfhvY6XpP294ZLu0DC0VlV9xVGVf4iq5BwMBuea8D0j\/gnf8TvicbvVNV1DQPCF0soiWz1bUDKxjCqFKfZ4nUKMHGTnBGRnJP0WXuNWHtZL+v60PNnk08BJRg3NvVtXS9LX6eZ9eOM2l9\/uH+VM0P\/AFre8Iz\/AN80UV+fQP1pbs73wrzHc55\/ed\/90V0EBK5IODgDiiivvsB\/u8DwK38Rn\/\/Z","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c840425\/v840425536\/2b7f2\/T1tosmx2KTI.jpg","video_url":"https:\/\/story0.userapi.com\/c632803\/1\/u3182112\/videos\/096b3fc264.720.mp4?extra=X1fjU2uAGTz7fuuqREYFIaS8ZLndlJdtUoOknqdFEQSpoWRyq1BqnGVesCMtX262f83E0u5c_rrpQuOYx9aVooScDxoccqUnRAQcIEo35rD70tI6cBaEow-QSomfUx2YplLz4eGbtc2AiQ"},{"raw_id":"-15755094_489257","date":"вчера в 17:51","type":"video","preview_url":"https:\/\/story0.userapi.com\/c834100\/v834100536\/348e6\/YHRhhkiLf_U.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAMgAdAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A+B\/DGsXRlj09Laa6aTKxLbgtMD2wB1HtXuPg79mr4qeMrRJtM8Aa59nk5+06jaGzhOSRxJPsQn8a\/QT9lD4s6b8afhpe+MNI8JQ+B5DrD2K6bpbO0U8SRI7OPskKPne2NrAKQOpJr2yWKPT7GWS7jtLd5sBftMENvIFwRu33UkjkDapyU5IBx1rKVZxbVj2KWCVWKnzb+X+Z+cHhn\/gn9488QXkEd1q3h3SLx2Ae3+2teSjPci2SVfTqQPcV5d8ePhpL8CfGq+HLq\/sdauDbrO8kcbwNESzDY8bZZT8ufmwSCDgV+o\/xO+JOn\/Db4f6n4w1i6uLnRtKWISQW09xeSMXbaCsQa3jYDnJztAHPSvyh\/aX+NPhj4reNIdX8HeGx4WjZZWvJJkWF7yV5C+8xIzKmN395ic8ngUUqkqjIxVClQVov3vP\/AIa34ns3\/BO\/wbrQvLjUk1aW20fVNQi0waWb6SBJl3K004RfvMoVFBGPlMnzLivqKb9qvxXp7i6i07QJdPZAlqs1tMJktyf3aeasgJIUgZIPOT3rzb9ie019Pgl\/a1pBpq+H7bw\/dW1rK7g3n22eSVDKowSqq7KhJI4z17J8QvCeu6ZDaTrZlNOlBMLSwny2C8HBHBx+hxUZXhlXqVa1ZK835fDHRL8G+92c2a4iWHjQw9F25Vd26uVm7\/gjr7X4meGvijq40bUPC8Xh7Ur2N45NTs7tblJ15crMJIt5X5SM7yQCRyMg\/l78ZvDdt4O+I+sabZyefp\/medaSDIBicAqMHkY5HPPFfUkvi6Tw\/rGo3N4pijtrC53tFkna0Zj4\/wC\/lfPmq2uka3PDLqcI1GaOBYlm8xx8mWYdCOzf\/qqpYelhqynSsr3TS8tU\/lqvn2RthI1sbh2qju09PLv56\/ofQv7CH7VFn8MfO8Fa7qCaXaXE5l03UpSwSJmGHjY5AGdxI3cZLZ6ivrH4w\/tDpomkPa6nZ2OtRODLb3Etikht0JIO3aRjOB0z+NfkRclE+RsZX5\/r+NaWh\/FXV\/Cd7HGLmW80wAo9lLKXjVT1KAnCn6V5E8rqxxn1mhXlCLveK2u+q3trvpr3R24bF4Zw9niqSk\/5v8+9v6R7N+0R8XdLvpJP7HFnbGWQGW4sZJCZYxhvL2Ocqc4yeOnSvA\/D3izfLfSXkhUyyB1APA4xj8ABW54us9J8albzT8QXLj5WHRvZq80u7O4sbh4JlMUiHBU161KDcbVJc0lpfqRWm6M06UUo+R1GujbvA4ACkY+lc1c\/6v8AE0UV2HkI3vBDHzZhk4DLxmus8RWkE80LSQxyNtxudQTRRXK\/4jPYpa0Vc\/\/Z","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c840233\/v840233536\/4b24a\/02q7vlt_UDY.jpg","video_url":"https:\/\/story0.userapi.com\/c632802\/2\/u3182112\/videos\/5f58d764f3.720.mp4?extra=Pq_NAQL5YJtffMkMc288fjNbxvZLwLD-aRuJTv-8dmJ8UfGqFjatWFGJ4jTzFh0VNIIXSutxfgsLY1aEISyamMaPJJaiaHQCQ29RoMYsG1FXzDhx_MfNtFeXnyxsp6_VXbD1YFGN3shChA"},{"raw_id":"-15755094_489263","date":"вчера в 17:54","type":"video","preview_url":"https:\/\/story0.userapi.com\/c824700\/v824700536\/35be5\/btJMqgLVPNk.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAMgAdAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A+iPDcyGNQuGz3711qlbJY7u4SMQo2c3DbEzg4OTxkHke4Feb3Q1G6iuRYX0qW1rELq5S2vxbfZ0CFWTbBbtO+Vw\/DgklcEEE1jwpZJcwTXNnPobTBEkvb60ghnEjSqQ6PqUryZG8AIIzyDg52rX5jxB4n4rA4mrgYYHlnBtPnk331tFK6a1Vr379T5rKeHYyhTxSr32asv8ANvb0PTdT8W6L\/Y\/2bTL1tQ1K9tj5baXbS3iDefmGYldQFYsVycDOOgNeJeJdI\/s\/VJLZjuKYwdrLwQCMhgCDzggjIORXUwh7q\/R9Y02+1+0gYw3NjBJd3cZIjZGPmSC2tR8wXOFYEdhkMMrxTHi5t5G2pJJEC1vmIG3AO1EPlM0fCqv3SRXqeGnFeZ5zmlWhi7Km4Nrlg7cyafxa2tG\/xNXbVrvbk49w0PqVOvf3lLZvo09UuuqW17I3rQSeIPCdnbbf7Nu\/N3yKk8y+cu3Cs6xSpu4wMPnoOOBVPxJ4s0f4IaPBdXJ0OzuXU\/ZrW10vZdXLAckMHJ9Ms3tz0qz4PuJdD1u7sNR2uDGzxYyCCjYbggduc9CMGvOGn0LWvj9r8\/i1lYWot4dLhvMC2dHj6F2AQfekblhzkd6+\/WR5HT9pmU8NCcp3lKTV3KT8pcyTv5O3Y8Wvjcaq7wSl7KMXZR5tIrpeWjat1vrc1vhn8cLT4ja9rVpcwnSrqXZLDpzPvVgASzhs4LkbScADAU8\/NjotUhhe4O9AfTFcN4kuNG1b44+H9K8KaYtktoBd3v2Zg8UXyHCbh6owzz1cd816VqGyGRQ1urHFfd5c6P1eE6EeWMle1kvy09PI+FzSWIlXlHFNOUdNG2tOzf5dGcTLrt7q2u2ms+Wpv4gvnJH91xjDKPbGfzrubv4Z6J40QnUbUmeAhY7hQN5TIYAhgQRnHBB6kdznl\/C+oaWbdzaBJZRxy4JU+4r03wjd\/btNWcsfNXMTg+o6H8sVzvDUqdH6u4+6u+vmelVxVXMMVLF1GuaW9lZdtvu+4peDvhZ4e+HtjNHodh5c8w\/eXErF5X9iew9hgU660tJX3XEn2STJ4dC6t7gjp9D+Z7dIzxupT7+3gnPGa5vUZUs5yPJb5s\/dbH9aa5pR0k0zpoKEaqUqKqJ9H+nYS\/0awvdO1Ce4sbaeaO0kZJJYVZlIHBBI4NcP8IL24kvtcjaeVo0kG1C5IXr0HaiipptupUT8jtxUYrA4aSWvvfqekaa7HTQxYlixySeetZuvDNwn+7RRXTT+I8io2qaaZ\/\/Z","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c824501\/v824501536\/35981\/WLtkTzXimdg.jpg","video_url":"https:\/\/story0.userapi.com\/c511604\/2\/u3182112\/videos\/73aaee28cb.720.mp4?extra=_M2BghYjtLbOOybwrTrl_C_3zoS1kgJDSyS1TWyCGOW7X7o796PcCXzDdXkBooyrbzLLzoGB_62nIHWIfbYxXpOgJnSzjv9b9N-VJ8xSKrzebXAjBYA-wIx8XDb05BENSh3Mwiwn5i7qZA"},{"raw_id":"-15755094_489277","date":"вчера в 17:57","type":"video","preview_url":"https:\/\/story0.userapi.com\/c841225\/v841225536\/3bc65\/sbfIeNCqGuY.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAMgAdAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A+d\/Cet+FdEufEMNp4aWxurGENFLexiaO4HmMCQOoG0KRz1J9BnVtPFmu64ippWjBmfOBaWA7EDqVI5z654NM+EfwF1rXPEk3ijxHb6laWUjRT26JHEQ3dNzP8oAUrx8pOc8V9KwXbgCK3unmEoVCkVy0hfjAGy3Uf7JwWydp612QytTTlOTv2vtp1etuujs+ui2+xpZzLDQcI0ot3vdpbdrI+aPiCdf0TwrYzy6VdWWs2jmSZwvPlsQVJUcdCO3Q5p\/7M8K+JYPFeq6gA8lxfL82OpwWb\/0KvpC4t4bGB3uIhkRk+bJHBbyuvJ2q0heQjJx0BOO2K8J1bx1p\/h26msdG8Mw6BEJpJH3OS1wScCQkEA52nkDPPPTAmtg6VLDycJuzlo3rfq7O9\/lZ2W7voc8a1XGYj2zjot7bJvT5HpEfhqSxvku7O\/ukKLtiimYSxx9Nu1WHYAYGcKPQc1NczavdQMl5qt3cR5YsvmbUJJycAYAGep\/rgV85rN8UtXANz4pmhJYYWBViVUH+4Afw6Z71bs\/hfda5qdjNr+ravrgjmV5LATMyTKrAlcs2cEBh2615qxNVwUale6jt1a62TtdfJo\/U40aUpe1o5W3J\/wA3JH5tNv12uepax4u8M6BIVv8AXLKGUdYzOpkPsFBJ\/T+XPF618XPBtzLH5lhdaooBKS\/YiEA\/2d5U9vT0rqfir+zp4c8VyaTrmh6dY6PBdW6TmCItCB8owpCDHHQ8Dkda8t1C5OgTfZbn\/RnT5AroM8duevX9a4faU6jUruT633\/UupVx1aMopUqcF3vL71aKR7FdQaZpOlpcOZmBIUHYygfMoJJwem4dq5Ww8QPoXjPS9QtFimmF3GJbeSd3EFuImkkfa20hypkBDD+FPlyPm+gPjN+yV4jsPiJeJo2mLqlu2zVJ5bG3kdo7MGbyULZGH3wRqQGJ2kFQQmF9f+F\/7EWj6ANWk8X6bbXEd2\/mLbR3TSszEsrCVwq7lCJF5eMYDPkAkk\/OSqYh1\/Zwg0lu2tP+Dfol82jixnE2EnTjClK7fa+m+\/d26bXe+h5fr1tY3fhu1fSY5BYFGeDzoXibDEnO1wCBzxx0r5e+Mfw7vvFWpWFxYsqyRxskqt06jB+vUfgK\/RX4k\/C2zstIjGiQC3jtUK+QCSCnsTzmvlXxL4eaDUWwCVYkgelelSqulLmR41SccdSkruz+\/c\/VCH\/j3i\/3B\/KsjUwDniiiu3En5nQ+M4fxEi+S\/A\/Kvj3xzEieIbtVRQolcAAcDmiivKkfcZd1P\/\/Z","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c840621\/v840621536\/27044\/DoKTbkYdYew.jpg","video_url":"https:\/\/story0.userapi.com\/c632801\/6\/u3182112\/videos\/62dd9d27db.720.mp4?extra=box_dmhDMaXU7Z5KpzqkMrbZfDTlX4jYxg5cH-nAz6JREjuYjlrcPyFNtssnUf43Uem3de6BpXKfvKKb3tm4yoIIFzkmWIf5oDkgkFQLO74axudOWFnvSl8DkWA0ogr9aGqlxEcv6oTfFg"},{"raw_id":"-15755094_489284","date":"вчера в 17:59","type":"video","preview_url":"https:\/\/story0.userapi.com\/c840329\/v840329536\/2bd95\/YpB_ex5MhIg.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAMgAdAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A+QvhT+w78QPiNotn4ivY7fw1oUuGifVA3nTp2ZIgM7T2LFc9Rkc17TF8FB4BurbTdP0RtSlmYBbiztWkAYDGWOCE\/E19qalqVtqeozb7pJxK5MVu0ckhiGMBcbkj7Z6n3zTjLvQW8UwRhGdnkSIMZG3BS2Rmz83Qv6g19ZhMkr4yMa2JrrlaT5Yra6Ts5NvVX1\/A+EzbjfDYL2mEwuCftItpTnNq9m1dQUVo7O1367M+ID+w5rvjHVJtRvVGleblzA5WLgngk8g+\/NeReJfhbpPg7VrrTrzwn4g1AQTyW63tujNbzFG2sY3Aw657iv0i8X+I7XwF4cn1rU7abbAqlvKtIkmJJ+UAyszZOB2GenU18AfEb9pP4ja\/4nvPPF5NYQyv9hjjX\/Vwk\/KGODlsBc84yK7cwwODwtOMYyfN01vfz6Kxw8PZ3nOaV5ylGLgt7rlSe6Stdt276W13P0o\/Z40KDxJb3HiO409NQsra4NpCj4KmTbmSUg9cBlUe+7uBjt\/Gdn8NPhRp8V7r3iKz8PWmS\/k6jqnlRkZJ2hWcbuSfWvHv2FvEDeMf2NtGtJLxoL7UrXVnuL23lKTRTNeTqCuOQVUoQQcjaK+SPAepx6h4X0+18Q6RbeItY0q\/msLq21eVpglwjsJX+cP8x2AgBckkV+eYb2+FU6NCo4pOzSdr769j9NzlUMyrfXsdQUntFtJvley1v5u3zsfXljrfwh\/axsfE+h6EYdZ0yzhEdykVi8MQYk7JI5SoDOpGQVyVJHPPPxF8TP2aNO8OeKrjSYvE2pQzWoG9b64yXU\/ddSAODg\/QgivtP4JeI9Xv9MuoRBa2lzYCJ0itEZIxC7FVRkbBBwCxyBwRwDkDwr9tjwCni\/xvptxI13prQCeBZrf5DOgZcZz6Ekj\/AHveinUq1ajg5tPzfN+ZWBdChKFaVJOg4uLimk4uL0a+G976731vsj6H\/Z+0T\/hS\/wAG\/DPhTSNLVQtv9pvUnO\/c8udzD5h1IbjI6CuM0f8AZQt7jx14v8Vajqlva6BrGpLfQ2pkMTxXBRRKMqxPzONwxnqc12HjX4q+F\/hzqOp3+v6jBpOmbVInZSVyOMfKCc\/4Cud+I+q6vcfDy98S+HNJuNXur3TlaySO2dJHZjuVypw2FGD0yfTNfnGGzDMJY6Sq8zpzdr6pd99NvU\/Rq+UYScOSUVH7T0vtfpdei6eTN\/VPjB8K\/gHMvhvU\/GOn2GtyMpuLKG4EkgGMjzZHyVyBnGV+9wOc15Z8XPg742+Pmo2l\/wCEtTsBYWxleTUrlnSO6eQqcRgBuEVFyemWwOQcfmr8SvD2taVqV1Pr0d1FqE8hlla7Vt7u3JLZ5zk555r9LP2CPiJqE\/wOg0rUJSx0yYRQh\/vLGyKwU\/Qk193iqayzDrEYWzbevX5+fzZ8nl2GWYSqUp\/CtbJJLfRLS6t6u\/XY8h\/aBP8AaXx0+Een3n+lWFz4htFntZ\/nilHmpwyHhh9RX6L68oj0wlQFKqCuOMfSiivmcf8AwMOvKX\/pR9lif9+qf9u\/+kn5v\/8ABTnTbSDX\/Cc8VrBHPcRgzSpGA0vzfxHGT+Nb3wYuJbKbX47eR4Ix9jwkTFQP9GTsKKK95a5bRv5\/mY5Ql9axHy\/U\/9k=","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c824601\/v824601536\/33c0d\/qdWxYhNSgQ8.jpg","video_url":"https:\/\/story0.userapi.com\/c511602\/3\/u3182112\/videos\/ea5901496d.720.mp4?extra=jiCSamzxsEXypTqmXnnbvki6H2RcnT82sJfHOQMIJOglDyWh7ZBG-Uw8AueoH5OLHnRHlU8EsqDYMiSCcbyHwhZHpIxIFfSQdUl53n1T7-2kVyjfemDSBJwCN-0TgwSwLr313kXulnPa8g"},{"raw_id":"-15755094_489295","date":"вчера в 18:02","type":"video","preview_url":"https:\/\/story0.userapi.com\/c841528\/v841528173\/3a740\/78XdbFX8H-U.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAMgAdAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A\/QNHA4NS5Fcf4yl1ySzsbTQpIrWa7ulhm1CflLOMgkyEd+gHUckdOooeLPDXirwDpMFta6\/JqsUrllmuYzJeuWPzLwmxVGSQTnHC4PUclSu6cuVQb\/zf4+tk\/wDLsjhKPsI1qteMbt6O97J2u3stdk3d76LfuZb2CF0V5VRnO1QTjJ9BUu6vHLrwzcweOdAm1XXdSu7QyJKsUpinGQCWErxRxiLaQCAQ277vGc16lb3txcGfz7KWzKStGqykEsAcbuDjB7YJyMHPNY08VZtYi0e17q6+a+RlVpYeTUcHPnaXvbaa6bN72J7Gwt73T5zeqDE6+WFJxknivm39o20GoS6Le3Ml9btLCSbWK7khSM7VG0hTyQFUfhX0rrky2+hTbpxbRBMKTjke+a+dpvBH\/CSwXdpcFJoorqS5tbaCJFCLI2Soy6g4bJ5P8QrzVmKXtKUnyzlbl1ts9Vfp+BGYZVVq06VWmueMG7q191a9vL5nhvhYabP4h02VLWRWjuUYSyTS7gwcYI+fH519L6Tc67fveW+lz2U1tZTvAzS3YLq+5iVZUU7Dja2Dj7w4rzeXwjo9l4ijsLPTb65vUn8hjFAgKS4V1AJfB+Xc2emEPOcA9Rq3wE1G9sIWOqX2lXNzd3Oo3AtboLmSYp8pKj5goRfxZsEjFdFT2dLDe0xM9eZWs1K6a12bt0Z52WvHUcwUKFJxi4u7lHlV1Ky3Svu9vXVHa+OdRuPEUc8EiN9in8yBXt7ls4AHO1IXIPIx+FYlrpP2azzHHMWQZLXEM5HXqNzQg+\/Sucl8RQ+FtQurvVJ1azkQedZkESOQQQSQflxyAOvPPauF0b46Q6tLI+leD7xIjl42cW0IIBOcMYXJ4JGPfrzX4HiqeaVKklOUpWd1K+jXZq6s\/TTr5H6ZLD4mm+Wg24+Wh7DBcmK6kitXhtpJplIUtahw5IXdy8pJOMcjjIGOK5LUvjJeajfz2uhrcaxFZuUe4fAY5JxkAKB06Yrxb4h\/tYzeGvC+um4gGnafcW72wu\/tTPKpbp5agKu70IGa+NT+054ws0WHwQgsNMGSz3MmZZmJ+83zjnr3P1r6jIeHcdVnLEVVsko3d\/VvVtdkru+raOT2kMI3LEu8u27Pu74mEiK5GeNrnH4in+GUVfDul4UDAYcD3oooxey9T6mh8PyPiL9tJ2iubKBGKQm\/uWManC5G3Bx7ZP5muG+COk2OqaNeG8s7e72Muzz4lfbktnGRxRRX6\/kH+6Q9H+Z8JmGuNn6H\/9k=","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c840735\/v840735173\/28369\/g2_PG0ByYVM.jpg","video_url":"https:\/\/story0.userapi.com\/c511607\/0\/u3182112\/videos\/98af3bb3ab.720.mp4?extra=azxfuM4CTdQxNNk2ASb-WYaeP-tOUHuSmA6iat5XN7-_3PZv1U1AAmS0ZcjEga_q3gUB-ycfPg6tY0V0Nc3q8ob8tzy96z5DvSk4sDql8bjbohBvv6kvVLeol0Fs7yeRuVjyGT2N6pKYXw"},{"raw_id":"-15755094_489298","date":"вчера в 18:03","type":"video","preview_url":"https:\/\/story0.userapi.com\/c621509\/v621509173\/386d2\/bz_nFEdpFMc.jpg","unread":true,"preview":"data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/\/gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gOTAK\/9sAQwADAgIDAgIDAwMDBAMDBAUIBQUEBAUKBwcGCAwKDAwLCgsLDQ4SEA0OEQ4LCxAWEBETFBUVFQwPFxgWFBgSFBUU\/9sAQwEDBAQFBAUJBQUJFA0LDRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQU\/8AAEQgAMgAdAwEiAAIRAQMRAf\/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC\/\/EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29\/j5+v\/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC\/\/EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29\/j5+v\/aAAwDAQACEQMRAD8A9f0e80\/xHpiXFhIYLaSdoRIYtyYA6hgcZyCNpwfu+teSftI+J5PhgljcwajCml3GYfMlmC7HHPUnGCOn+6a8R+BfxRTwx4W1HTJtT1W+8Um7uG+wWtpLds8oz5bxxwqSE8oYwcAs3U4yu3r83i7xxp4v\/E\/wy8WXuiTWXnrZeJLJbO3OpBsRshndMptdzgZACjAyzGvzerisXSxntXJ8ibSi7JSVvs3aT6d+ux7s+JqUYVKdLDVJSjpflSV15t7eaPKvE\/7StjsaG21bz5ycARK7D8CBg1P8Pr3xv4mh1J7fUrLRRDOoeLWporaViyK4IWTDY2shz0ww96910j4UeNdPs47zSfC3h3wJoMty72+pyI0k\/ltKHiyIY0iG3aODNg8jJ4rFtvgl49+GXiHWLuHW7XVrTVfISC+stHaZJEt4xEoaOZy0MirtDITnp2wT9JleZwxtWSSSS\/vJvp0Wnrq7HhzzHMMd\/vFH2cPW7v00W33n0b+xR8B9Q+Fvwy1DxlcRW48ceKrdZY4LybYlvZA5iQ84JYZmb1BjXK4bPRePvjz8In1G4t7\/AMerqOqWSLbxyzRxRqzqzFm5jKhMkYwOwxng1meL\/jJc2XiZb2ztTZLDCbO2tHuHeCOHaF2eXkLnAHzYz0APFeOaKul2MzQmNJLplZonuJGYsMDcoyfQZx04r5ynk9THYitVx0tJWUOXeMU37t3teybaWt7X0PfeFcUo8qfdNtL101fb0O61j45fDO41Vrmx+J+laXDcWK2NxZTzPLG4WOVRxtOdxdSS7Eggnk1rfD661XwzoMF\/p02v32k6rGk1pdaZsuY5UUEZDI2cegIHt3x4t4v8c6Jp1oHvILZUDAKAi5z0A\/PAr3fwefFPi34Z+GIfB+uWnhv7Cs63MU0IIkDyboyODjHz5+teTnOAeT0YV8PUsrqLvpZWk1rFczd9Lu+9riqU3KvOChZpX0bas3bZ+dup5\/8AFPUdO02WWWaQDzOgB+6w6V8yeKvilHNcvDbzFJIzlJR\/Cc1ieNfitq\/xK1trDSkeVm3uqhgC21SxxkjsDx37Vw3gLw1qfizxJM0kamxsR9pmaVC6sFOdhXI3Z6YzzX6LUnTpLnqOyOmtW15aerO90211X4ka7YW+jWLXFhBIk91f3kqoHKhnCRhiM58pjx2jfnCtj77+AeuaR4a+Gthb69HDZXXmS7LvUE8pbyPzGZJIvMxldrKeBxnnB4r5avL638S2drrenacvh4XV0z\/Y7CKJRabWVQ3O5QSI13MuAQF3cjJn1zU\/EHi\/UpNT1zxto+nW6hbSxurotDHeRxgAuig\/3id2Pl3E7e9fBZp9Y4hj9Tprkind63ldabr3db9NNNL7mM5SwMnWu3OStvZWuna29797emht\/BrQ9Oi+AejXCafapcTJK8sqwqHkO4jLHGSccc18taJK9pquvNA7QsJDgxnaR8x9KKK+4rJPmTNMZpRp27HS+C5pNY8RWsd+7XyGVQVuT5gPPoc109iP7U13XnvP9LaK6MMbT\/OURR8qDPRR2HQUUVphElHRHh1eh\/\/Z","can_comment":true,"first_frame":"https:\/\/pp.userapi.com\/c840722\/v840722173\/27570\/0nfTFDhAqoA.jpg","video_url":"https:\/\/story0.userapi.com\/c632804\/0\/u3182112\/videos\/becbc70641.720.mp4?extra=CcmAOSQ-qEFSN8VrFqmSvneLyidMsbf9M0oNym1QoQ3GkUtJ3FTn0Ajjm4hpjE3q1b8kXGN1p-FpY7GA8blwoTNU4QZhI-pEAL0lvoqwwXLLk8BBWbyXF5b9zdpVkF3YbQ3jCz0-w-g-Tw"}],"send_hash":"db54ae74cdaf4f053d","blacklist_hash":"1d18e7f5d34da700f1","read_hash":"c0eede4952b4556742","remove_hash":"62dd1ec95f815229b0","can_blacklist":true,"send_mask_hash":"862d5d3e724706cd42"}];
+Stories.initFeed();try {
+cur.lang = extend(cur.lang || {}, {
+  create_poll: 'Опрос',
+  dont_attach: 'Не прикреплять',
+  attachments_limit: ["","Одна запись не может содержать более %s вложения.","Одна запись не может содержать более %s вложений.","Одна запись не может содержать более %s вложений."]
+});
+feed.init({"section":"news","subsection":"top","count":2277,"reply_names":{"_":false,"90688321":["Илье","Илья, "],"177365057":["Евгению","Евгений, "],"74986175":["Анастасии","Анастасия, "],"366898293":["Александру","Александр, "]},"timestamp":1511523443,"offset":10,"from":"700370_1511470800_5:10","all_shown":false,"add_queue":true,"ignore_owners":true,"feed_session_id":1897785529,"loc":"feed","searchLoc":"feed?section=search","all_shown_text":"Показаны последние новости","show_more_text":"Показать предыдущие новости","empty_text":"Здесь Вы будете видеть новостную ленту своих друзей.","q":null,"reposts":null,"mentionObj":0,"source":0,"source_name":null,"list":0,"filters":"<div class=\"page_block\" id=\"\">\n  <div class=\"ui_toggler_wrap hot\" onclick=\"Feed.toggleFeedTop(this, event);\">\n  <div class=\"_ui_toggler ui_toggler  on\"><\/div>\n  <div class=\"ui_toggler_label\">Сначала интересные<\/div>\n<\/div>\n<\/div>","script":"","htitle":"Новости","feedback_dis":"<div id=\"reply_box%item%\" class=\"feedback_row_answer feedback_reply_disabled\" onclick=\"event.cancelBubble = true;\">\n  <div class=\"dld\"><span class=\"dld_inner\">%text%<\/span><\/div>\n<\/div>","max_post_len":280,"wall_type":"feed","user_id":44752200,"feed_types":{"comments":["ps","ph","vd","tp","nt","mk"],"updates":["fr","pr","ev","cm","ph","vd","nt","tp","mk","gr"],"notifications":[],"tabs":["news","photos","videos","friends","groups","likes","may9","vk2016","hockey","rio2016",1917,"cc2017"],"likes":["ps","tp","ph","vd","mk"]},"my_feed_types":{"friends":true,"groups":true,"comments":true,"person":true,"group":true,"updates":true,"likes":true,"optional_tabs":["photos","videos","friends","groups","likes",1917],"tabs":["photos","videos"]},"tabs_hash":"1511523443_4cd2582c7bb8766543","wall_tpl":{"reply_box":"<div id=\"reply_box_wrap%post_id%\"><div class=\"reply_box_inner_wrap\">\n  <div class=\"reply_fakebox_wrap\" id=\"reply_fakebox%post_id%\" onclick=\"return Wall.showEditReply('%post_id%', event)\" data-owner-photo=\"%owner_photo%\" data-owner-href=\"%owner_href%\" data-owner-name=\"%owner_name%\">\n    <a class=\"post_field_user_link _post_field_author\" href=\"\/innapush\" onclick=\"if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;\">\n  <img class=\"post_field_user_image _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n  <img class=\"post_field_user_image post_field_image_secondary _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n<\/a>\n    <div class=\"reply_fakebox\">Написать комментарий...<\/div><\/div>\n<\/div><\/div><input type=\"hidden\" id=\"post_hash%post_id%\" value=\"1511523443_bdf86e1fa9e45a2737\" can_reply_as_group=\"%can_reply_as_group%\" \/>","reply_form":"<div id=\"reply_box%post_id%\" class=\"submit_post_box reply_box clear_fix _submit_post_box\" data-from-oid=\"44752200\" data-oid=\"%oid%\" data-owner-name=\"%owner_name%\" data-owner-photo=\"%owner_photo%\" data-owner-href=\"%owner_href%\" onclick=\"return cancelEvent(event)\">\n  <div class=\"reply_form\">\n    <input type=\"hidden\" id=\"reply_to%post_id%\" value=\"\" \/>\n    <a class=\"post_field_user_link _post_field_author\" href=\"\/innapush\" onclick=\"if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;\">\n  <img class=\"post_field_user_image _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n  <img class=\"post_field_user_image post_field_image_secondary _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n<\/a>\n    <div class=\"reply_field_wrap _emoji_field_wrap\">\n      <div id=\"reply_smile%post_id%\" class=\"emoji_smile_wrap  _emoji_wrap\">\n  <div class=\"emoji_smile _emoji_btn\" title=\"Используйте TAB, чтобы быстрее открывать смайлы\" onmouseover=\"return Emoji.show(this, event);\" onmouseout=\"return Emoji.hide(this, event);\" onclick=\"return cancelEvent(event);\">\n    <div class=\"emoji_smile_icon\"><\/div>\n  <\/div>\n<\/div>\n      <div id=\"reply_field%post_id%\" class=\"reply_field submit_post_field\" onfocus=\"return Wall.showEditReply('%post_id%', event);\" contenteditable=\"true\" placeholder=\"Написать комментарий...\" role=\"textbox\" aria-multiline=\"true\"><\/div>\n    <\/div>\n    <div id=\"submit_reply%post_id%\" class=\"submit_post clear_fix\">\n      <div class=\"reply_warn clear\" id=\"reply_warn%post_id%\"><\/div>\n      <div id=\"reply_media_preview%post_id%\" class=\"reply_media_preview clear_fix media_preview\"><\/div>\n      <div class=\"addpost_button_wrap\">\n        <button class=\"flat_button addpost_button\" id=\"reply_button%post_id%\" onclick=\"wall.sendReply('%post_id%', event, {});\" onmouseover=\"wall.replySubmitTooltip('%post_id%', 1, this);\" onmouseout=\"wall.replySubmitTooltip('%post_id%', 0, this);\">Отправить<\/button>\n      <\/div>\n      %add_buttons%\n      <div class=\"page_add_media\" id=\"reply_add_media_%post_id%\"><\/div>\n      <div id=\"reply_to_title%post_id%\" class=\"reply_to_title addpost_popt\"><\/div>\n    <\/div>\n  <\/div>\n<\/div>","reply_form_official":"","reply_form_official_placeholder":"<div class=\"addpost_opt checkbox_official _post_field_official\" id=\"reply_as_group%post_id%\" onclick=\"wall.replyAsGroup(this, %oid%);\" onmouseover=\"wall.replyAsGroupOver(this);\" tabindex=\"0\" role=\"button\" aria-label=\"от имени пользователя\">\n  <img class=\"post_field_choose_image _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n  <img class=\"post_field_choose_image post_field_choose_secondary _post_field_image\" src=\"%owner_photo%\" \/>\n<\/div>","reply_multiline":false,"reply_multiline_intro":true,"reply_link_wrap":"<div class=\"reply_link_wrap\">\n  <a class=\"reply_link _reply_lnk\" tabindex=\"0\" role=\"link\">Ответить<\/a>\n<\/div>","reply_link_to":" <a class=\"reply_to\">ответила %to_user%<\/a>","reply_fast":"<div id=\"post%reply_id%\" class=\"reply reply_dived clear  _post\" data-post-id=\"%reply_id%\" >\n  <div class=\"reply_wrap _reply_content _post_content clear_fix\">\n    \n    <a class=\"reply_image\" href=\"\/innapush\">\n      <img src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" width=\"40\" height=\"40\" class=\"reply_img\" alt=\"Инна Пушкарёва\" \/>\n    <\/a>\n    <div class=\"reply_content\" >\n      \n      <div class=\"reply_author\">\n        <a class=\"author\" href=\"\/innapush\" data-from-id=\"0\">Инна Пушкарёва<\/a>%to_link%\n      <\/div>\n      <div class=\"reply_text\" ><div class=\"wall_reply_text\">%message%<\/div><\/div>\n      <div class=\"reply_footer clear_fix\" id=\"wpe_bottom%reply_id%\">\n        \n        <div class=\"reply_date\">%date%<\/div>\n        <div class=\"reply_link_wrap\">\n  <a class=\"reply_link _reply_lnk\" tabindex=\"0\" role=\"link\">Ответить<\/a>\n<\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","reply_multiline_hint":"<div class=\"reply_submit_hint_wrap\"  onclick=\"stopEvent(event);\">\n  <div class=\"reply_submit_hint_title\">Настройки отправки<\/div>\n  <div class=\"reply_submit_hint_opts\" id=\"reply_submit_hint_opts\">\n    <div class=\"radiobtn %disabled% \" data-val=\"0\" onclick=\"radiobtn(this, 0, 'reply_submit'); wall.onReplySubmitChanged(0);\"><div class=\"radiobtn_label\"><b>Enter<\/b> — отправка сообщения<br><b>Shift+Enter<\/b> — перенос строки<\/div><\/div>\n    <div class=\"radiobtn %enabled% \" data-val=\"1\" onclick=\"radiobtn(this, 1, 'reply_submit'); wall.onReplySubmitChanged(1);\"><div class=\"radiobtn_label\"><b>Ctrl+Enter<\/b> — отправка сообщения<br><b>Enter<\/b> — перенос строки<\/div><\/div>\n  <\/div>\n<\/div>","reply_button":"<a href=\"#\" class=\"post_reply _reply_wrap\" onclick=\"return Wall.showEditReply('%post_id%', event)\">\n  <i class=\"post_reply_icon _icon\"><\/i>\n  <span class=\"post_reply_link _link\">Комментировать<\/span>\n  <span class=\"post_reply_count _count\"><\/span>\n<\/a>","reply_link":"<span id=\"reply_link%post_id%\" class=\"reply_link_wrap\"><a href=\"#\" class=\"reply_link\" onclick=\"return Wall.showEditReply('%post_id%', event)\">Комментировать<\/a><\/span>","own_reply_link":"<span class=\"reply_link_wrap\"><a class=\"reply_link\" onclick=\"Wall.likeShareCustom('%post_id%')\">Ответить<\/a><\/span>","edit_link":"<span class=\"divide\">|<\/span><a onclick=\"wall.editPost(this, '%post_id%')\">Редактировать<\/a>","post_replies":"<div class=\"replies_wrap\" id=\"replies_wrap%post_id%\" style=\"display: none;\">\n  <div class=\"replies_list _replies_list\" id=\"replies%post_id%\"><input type=\"hidden\" id=\"start_reply%post_id%\" value=\"\"\/><\/div>\n  %reply_box%\n<\/div>","post":"<div id=\"post%post_id%\" class=\"_post post page_block\" data-post-id=\"%post_id%\" onclick=\"wall.postClick('%post_id%', event);\" post_view_hash=\"4763333185c18a2d57\">\n  <div class=\"_post_content\">\n    \n    <div class=\"post_header\">\n      <a class=\"post_image%online_class%\" href=\"%link%\">\n        <img src=\"%photo%\" data-post-id=\"%post_id%\" data-post-click-type=\"post_owner_img\" width=\"50\" height=\"50\" class=\"post_img\" \/>\n        <span class=\"blind_label\">.<\/span>\n      <\/a>\n      \n      <div class=\"post_header_info\">\n        <h5 class=\"post_author\">%name%<\/h5>\n        <div class=\"post_date\"><a class=\"post_link\" href=\"\/wall%post_id%\" onclick=\"return showWiki({w: 'wall%post_id%'}, false, event);\">%date%<\/a><\/div>\n        %actions%\n      <\/div>\n    <\/div>\n    <div class=\"post_content\">\n      <div class=\"post_info\">\n        <div class=\"wall_text\">%text%<\/div>\n        <div class=\"post_full_like_wrap clear_fix\">\n  <div class=\"post_full_like\">\n    <a href=\"#\" class=\"post_like _like_wrap no_likes\" onmouseover=\"Wall.likesShow(this, '%post_id%')\" onclick=\"return Wall.likeIt(this, '%post_id%', '1511523443_948638177738743227', event);\">\n      <i class=\"post_like_icon _icon\"><\/i>\n      <span class=\"post_like_link _link\">Нравится<\/span>\n      <span class=\"post_like_count _count\"><\/span>\n    <\/a>\n    <span class=\"blind_label\" tabindex=\"0\" role=\"link\" onclick=\"Wall.likesShowList(this, '%post_id%')\">Показать список оценивших<\/span>\n    %reply_button%\n    <a href=\"#\" class=\"post_share _share_wrap no_shares\"  onmouseover=\"Wall.sharesShow(this, '%post_id%')\" onclick=\"return Wall.sharesOpen(event, '%post_id%');\">\n      <i class=\"post_share_icon _icon\"><\/i>\n      <span class=\"blind_label\">Поделиться<\/span>\n      <span class=\"post_share_link _link\">Поделиться<\/span>\n      <span class=\"post_share_count _count\"><\/span>\n    <\/a>\n    <span class=\"blind_label\" tabindex=\"0\" role=\"link\" onclick=\"Wall.sharesShowList(this, '%post_id%')\">Показать список поделившихся<\/span>\n    \n  <\/div>\n  <div class=\"post_views _views_wrap no_views _auto_update\" onmouseover=\"Wall.viewsUpdate(this, '%post_id%')\">\n  <i class=\"post_views_icon _icon\"><\/i>\n  <span class=\"post_views_count _count\"><\/span>\n<\/div>\n<\/div>\n        <div class=\"replies\">%replies%<\/div>\n      <\/div>\n    <\/div>\n    \n  <\/div>\n<\/div>","reply":"<div id=\"post%reply_id%\" class=\"reply reply_dived clear %classname% _post\" data-post-id=\"%reply_id%\" %attr%>\n  <div class=\"reply_wrap _reply_content _post_content clear_fix\">\n    \n    <a class=\"reply_image\" href=\"%link%\">\n      <img src=\"%photo%\" width=\"40\" height=\"40\" class=\"reply_img\" alt=\"%name%\" \/>\n    <\/a>\n    <div class=\"reply_content\" >\n      %actions%\n      <div class=\"reply_author\">\n        <a class=\"author\" href=\"%link%\" data-from-id=\"%reply_uid%\">%name%<\/a>%to_link%\n      <\/div>\n      <div class=\"reply_text\" >%text%<\/div>\n      <div class=\"reply_footer clear_fix\" id=\"wpe_bottom%reply_id%\">\n        <a href=\"#\" class=\"like_wrap _like_wrap no_likes\" onclick=\"return Wall.likeIt(this, '%like_id%', '1511523443_948638177738743227', event);\" onmouseover=\"Wall.likesShow(this, '%like_id%')\">\n  <span class=\"blind_label\">Нравится<\/span>\n  <i class=\"like_icon _icon\"><\/i>\n  <span class=\"like_count _count\"><\/span>\n<\/a>\n<span class=\"blind_label\" tabindex=\"0\" role=\"link\" onclick=\"Wall.likesShowList(this, '%like_id%')\">Показать список оценивших<\/span>\n        <div class=\"reply_date\"><a class=\"wd_lnk\" href=\"\/wall%post_id%?reply=%reply_msg_id%\" onclick=\"return nav.go(this, event)\">%date%<\/a><\/div>\n        %answer_link%\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","del":"<a class=\"ui_actions_menu_item\" onclick=\"wall.deletePost(this, '%post_id%', '1511523443_7cfcaa492d67302b6f'); return false;\">Удалить запись<\/a>","spam":"<a class=\"ui_actions_menu_item\" onclick=\"wall.markAsSpam(this, '%post_id%', '1511523443_facc1d5989862cdeec'); return false;\">Пожаловаться<\/a>","edit":"<a class=\"ui_actions_menu_item\" onclick=\"wall.editPost(this, '%post_id%'); return false;\">Редактировать<\/a>","post_actions":"<div class=\"ui_actions_menu_wrap _ui_menu_wrap \" onmouseover=\"uiActionsMenu.show(this);\" onmouseout =\"uiActionsMenu.hide(this);\">\n  <div class=\"ui_actions_menu_icons\"  tabindex=\"0\" aria-label=\"Действия\" role=\"button\" onclick=\"uiActionsMenu.keyToggle(this, event);\"><span class=\"blind_label\">Действия<\/span><\/div>\n  <div class=\"ui_actions_menu _ui_menu\" >%actions%<\/div>\n<\/div>","del_reply":"<div id=\"reply_delete%reply_id%\" class=\"reply_delete_button reply_action fl_r\" data-title=\"Удалить\" onclick=\"wall.deletePost(this, '%reply_id%', '1511523443_7cfcaa492d67302b6f');\" onmouseover=\"showTitle(this);\" aria-label=\"Удалить\" tabindex=\"0\" role=\"link\"><\/div>","spam_reply":"<div id=\"reply_delete%reply_id%\" class=\"reply_delete_button reply_action fl_r\" data-title=\"Пожаловаться\" onclick=\"wall.markAsSpam(this, '%reply_id%', '1511523443_facc1d5989862cdeec');\" onmouseover=\"showTitle(this);\" aria-label=\"Пожаловаться\" tabindex=\"0\" role=\"link\"><\/div>","edit_reply":"<div id=\"reply_edit%reply_id%\" class=\"reply_edit_button reply_action fl_r\" data-title=\"Редактировать\" onclick=\"wall.editPost(this, '%reply_id%');\" onmouseover=\"showTitle(this);\" aria-label=\"Редактировать\" tabindex=\"0\" role=\"link\"><\/div>","reply_actions":"<div class=\"fl_r post_actions_wrap\"><div class=\"post_actions\">%actions%<\/div><\/div>","poll_stats":"<div class=\"page_poll_stat\"%handlers%>\n  <div class=\"page_poll_text\">%option_text%<\/div>\n  <div class=\"page_poll_row_wrap\">\n    <div class=\"page_poll_row_percent\">%percent%%<\/div>\n    <div class=\"page_poll_row%row_class%\">\n      <div class=\"page_poll_percent\" style=\"width: %css_percent%%\"><\/div>\n      <div class=\"page_poll_row_count\">%count%<\/div>\n    <\/div>\n  <\/div>\n<\/div>","poll_hash":"1511523443_c292e4d8b1977f52fe","date_format":"сегодня в {hour}:{minute}","time_system":false,"abs_timestamp":1511523443,"profileData":[44752200,"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg","\/innapush","Инна Пушкарёва"],"lang":{"wall_M_replies_of_N":["","%s комментарий из {link}{all}{\/link}","%s последних комментария из {link}{all}{\/link}","%s последних комментариев из {link}{all}{\/link}"],"wall_hide_replies":"Скрыть комментарии","wall_show_n_of_m_last":["","Показать последние %s комментарий из {count}","Показать последние %s комментария из {count}","Показать последние %s комментариев из {count}"],"wall_show_all_n_replies":["","Показать %s комментарий","Показать все %s комментария","Показать все %s комментариев"],"wall_N_replies":["","%s комментарий","%s комментария","%s комментариев"],"wall_three_last_replies":"три последних комментария","wall_all_replies":"все комментарии","wall_x_new_replies_more":["","Добавлен %s новый комментарий","Добавлено %s новых комментария","Добавлено %s новых комментариев"],"wall_X_people_voted":["","Проголосовал <b>%s<\/b> человек.","Проголосовало <b>%s<\/b> человека.","Проголосовало <b>%s<\/b> человек."],"wall_reply_submit_hint_1":"Shift+Enter – перевод строки","wall_reply_submit_hint_2":"Ctrl+Enter – отправка сообщения","wall_reply_submit_hint_1_more":"Enter – отправка сообщения, Shift+Enter – перевод строки","wall_reply_submit_hint_2_more":"Enter – перевод строки, Ctrl+Enter – отправка сообщения","wall_reply_post":"Ответить","wall_replied_to_group":"Сообществу","wall_reply_as_user":"от имени пользователя","wall_reply_as_group":"от имени сообщества","wall_add_photo_error":"Не удалось загрузить изображение","global_search":"Поиск","wall_just_now":["","только что","две секунды назад","три секунды назад","четыре секунды назад","пять секунд назад"],"wall_X_seconds_ago_words":["","только что","две секунды назад","три секунды назад","четыре секунды назад","пять секунд назад"],"wall_X_seconds_ago":["","%s секунду назад","%s секунды назад","%s секунд назад"],"wall_X_minutes_ago_words":["","минуту назад","две минуты назад","три минуты назад","4 минуты назад","5 минут назад"],"wall_X_minutes_ago":["","%s минуту назад","%s минуты назад","%s минут назад"],"wall_X_hours_ago_words":["","час назад","два часа назад","три часа назад","четыре часа назад","пять часов назад"],"wall_X_hours_ago":["","%s час назад","%s часа назад","%s часов назад"]},"photos":"%explain%<div class=\"post_media clear_fix\">%photos%<\/div>","grouped_posts":"<div class=\"feed_reposts_wrap%place%\" id=\"feed_reposts_wrap%place%_%random%\">\n  <div class=\"feed_reposts_first\">%first%<\/div>\n  <div class=\"feed_reposts_group\" id=\"feed_reposts%place%_%random%\">%other%<\/div>\n  <div class=\"feed_reposts_more\">\n    <a id=\"feed_reposts_more%place%_%random%\" href=\"\/feed?section=comments&reposts=%place%\" class=\"flat_button secondary_dark feed_reposts_more_link\" onclick=\"return feed.toggleReposts(this, '%place%', '%random%', event);\">%label%<\/a>\n  <\/div>\n<\/div>","custom_del":"<a class=\"ui_actions_menu_item\" onclick=\"feed.ignoreItem('%full_id%', '%item_id%', '1511523443_bcc6ad2d4c60b4a91a'); return false;\">Это не интересно<\/a>"},"qversion":17,"abs_timestamp":1511523443,"media_types":[["photo","Фотография"],["video","Видеозапись"],["audio","Аудиозапись"],["doc","Документ"],["note","Заметка"],["map","Карта"],["graffiti","Граффити"],["market","Товар",{"tt_text":"Теперь Вы можете <a onclick=\"showBox('al_market.php', {act: 'a_edit_item_box', attach: 1, from_wall: 1}); return false\">прикрепить товар<\/a> к своей записи.","tt_words":["sell","продаю","продаем","продаём","продам","продадим","продать","продажа","отдаю","отдаем","отдаём","отдам","отдадим","отдать","аренда","аренды","аренде","аренду","арендой","сдам квартиру","сдадим квартиру","сдаю квартиру","сдаем квартиру","сдаём квартиру","сдавать квартиру","сдам комнату","сдадим комнату","сдаю комнату","сдаем комнату","сдаём комнату","сдавать комнату"]}],["poll","Опрос",{"lang":{"q":"Тема опроса","a":"Варианты ответа","i":"Добавить вариант","d":"Удалить вариант","c":"Анонимное голосование"}}],["postpone","Таймер",{"lang":{"profile_choose_timer":"Время публикации","profile_wall_postpone_at":"в","profile_wall_postpone_btn":"В очередь","export_to_twitter":"экспорт в Twitter","export_to_facebook":"экспорт в Facebook","friends_only":"только для друзей"},"date":1511527043}]],"rmedia_types":[["photo","Фотография"],["video","Видеозапись"],["audio","Аудиозапись"],["doc","Документ"],["note","Заметка"],["map","Карта"],["graffiti","Граффити"],["market","Товар",{"tt_text":"Теперь Вы можете <a onclick=\"showBox('al_market.php', {act: 'a_edit_item_box', attach: 1, from_wall: 1}); return false\">прикрепить товар<\/a> к своей записи.","tt_words":["sell","продаю","продаем","продаём","продам","продадим","продать","продажа","отдаю","отдаем","отдаём","отдам","отдадим","отдать","аренда","аренды","аренде","аренду","арендой","сдам квартиру","сдадим квартиру","сдаю квартиру","сдаем квартиру","сдаём квартиру","сдавать квартиру","сдам комнату","сдадим комнату","сдаю комнату","сдаем комнату","сдаём комнату","сдавать комнату"]}],["poll","Опрос",{"lang":{"q":"Тема опроса","a":"Варианты ответа","i":"Добавить вариант","d":"Удалить вариант","c":"Анонимное голосование"}}],["postpone","Таймер",{"lang":{"profile_choose_timer":"Время публикации","profile_wall_postpone_at":"в","profile_wall_postpone_btn":"В очередь","export_to_twitter":"экспорт в Twitter","export_to_facebook":"экспорт в Facebook","friends_only":"только для друзей"},"date":1511527043}]],"share":{"url":"https:\/\/pu.vk.com\/c539422\/upload.php","hash":"dc0a25576035468d450ab1794febcc07","rhash":"e4bfa2e0bbf6c039c8b701ef33375119","timehash":"1511523443_a8c6c1e030bb504606","allow_custom_photo":true,"allow_edit_title":true,"max_title_len":100},"upload":{"url":"https:\/\/pu.vk.com\/c834204\/upload.php","params":{"act":"do_add","aid":-14,"gid":0,"mid":44752200,"hash":"cc514b6bc366291969f67e8f4420a17a","rhash":"649d1cafd16198c50c5ca16fefc8c610","vk":1,"from_host":"vk.com"},"opts":{"server":"834204","default_error":1,"error_hash":"084bf98ed83324f39a5518eec5f2578d","ext_re":"\\.(gif|jpg|jpeg|png|heic|heif)$","lang":{"max_files_warning":"Вы можете прикрепить не более 10 файлов.","wall_drop_photos_here":"Перенесите сюда фотографии, чтобы прикрепить их к записи","wall_release_photos_here":"Отпустите клавишу мыши, чтобы прикрепить фотографии","wall_photos_drag_hint":"Сюда можно перетаскивать фотографии"}}},"post_hash":"705d7c82ca3d9ae734"});
+} catch (e) {
+  debugLog(e.message, e.stack, e);
+}Page.initGifAutoplay();Page.initVideoAutoplay();  ;(function () {
+    var cb = function () {Notifier.init({"queue_id":"events_queue44752200","timestamp":1279292338,"key":"0UoaIfHzabZY86ekHpzDAEKEuSnyb8lqkTUoQ5zXrgHAUE1w2p3B92LqHJNlgKBT","uid":44752200,"version":10,"debug":false,"instance_id":"MjAxNTA1","server_url":"https:\/\/queuev4.vk.com\/im200","frame_path":"https:\/\/queuev4.vk.com\/q_frame.php?7","frame_url":"im200","refresh_url":"https:\/\/vk.com\/notifier.php","mutedPeers":[1689465,4369912,31367495,43688087,58296300,138850047,150433773,189854967,192914539,2000000016,2000000056,2000000062,2000000069,2000000073,2000000081,2000000088,2000000089,2000000090,2000000092,2000000093,2000000095],"fc":{"version":23,"state":{"clist":{"min":true,"x":-1.000000,"y":0.095710},"tabs":[],"version":23},"state_hash":"1511523443_088156539c07ad9492"}})}
+    if (window.vk && window.vk.loaded) cb(); else addEvent(window, 'DOMContentLoaded load', cb);
+  })();
+  if (!window.__dev) {
+    (new Image).src="https://r3.mail.ru/k?vk_id=44752200&src=desktop";
+  }
+;(function (d, w) {
+if (w.__dev) {
+  return
+}
+var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window);
+    }
+  </script>
+</body>
+
+</html>

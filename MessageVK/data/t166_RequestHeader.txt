@@ -1,0 +1,11 @@
+GET /?act=logout&hash=911588a3651b8c28d3&reason=tn&_origin=https://vk.com HTTP/1.1
+Host: login.vk.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://vk.com/im?sel=44752200
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remixlang=0; remixstid=1286444474_6bcae4185c3202f5a3; remixdt=0; h=1; s=1; l=44752200; p=8f8cdd4255d2834d7ef81581d24fcd5276f569fbe1b2512f1ab63; remixsid=ec24906090b9089271763f594078890c25ed8b02bc989e213bc35; remixflash=0.0.0; remixscreen_depth=24
+

@@ -1,0 +1,15 @@
+[t36]
+FileName1=t36.html
+URL1=https://vk.com/errors.php
+Total=3
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=t36_RequestBody.txt
+ResponseHeaderFile=t36_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_36.xml
+FileName2=t36_im0200.html
+URL2=https://imv4.vk.com/im0200?act=a_check&key=44e73409afbdec595b863525815b0baea883ece4&mode=202&ts=1771869856&version=2&wait=25
+FileName3=t36_im0200.html
+URL3=https://imv4.vk.com/im0200?act=a_check&key=44e73409afbdec595b863525815b0baea883ece4&mode=202&ts=1771869860&version=2&wait=25
+[ProtocolInfo]
+ProtocolId=QTWeb

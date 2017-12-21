@@ -1,0 +1,13 @@
+[t12]
+FileName1=t12.txt
+URL1=https://vk.com/al_im.php
+Total=2
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_hit.gif
+URL2=https://counter.yadro.ru/hit?q;rhttps%3A//vk.com/feed;s1366*768*24;uhttps%3A//vk.com/im;0.3882176889738249
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t143]
+FileName1=t143.html
+URL1=https://vk.com/al_im.php?__query=im&_full_page=true&_ref=left_nav&al=-1&al_id=44752200&_rndVer=93119
+Total=1
+RequestHeaderFile=t143_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t143_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_143.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

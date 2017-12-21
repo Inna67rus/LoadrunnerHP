@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 10 Nov 2017 14:26:57 GMT
+Content-Type: text/plain; charset=windows-1251
+Content-Length: 52
+Connection: keep-alive
+X-Powered-By: PHP/3.14061
+Pragma: no-cache
+Cache-control: no-store
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=0
+X-Frontend: front508117
+X-Adguard-Filtered: AdGuard for Windows; version=6.2.433.2167
+

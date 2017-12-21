@@ -1,0 +1,13 @@
+[t100]
+FileName1=t100.txt
+URL1=https://vk.com/al_im.php
+Total=2
+RequestHeaderFile=t100_RequestHeader.txt
+RequestBodyFile=t100_RequestBody.txt
+ResponseHeaderFile=t100_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_100.xml
+FileName2=t100_deactivated_50.png
+URL2=https://vk.com/images/deactivated_50.png
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,15 @@
+[t159]
+FileName1=t159.txt
+URL1=https://vk.com/al_im.php
+Total=3
+RequestHeaderFile=t159_RequestHeader.txt
+RequestBodyFile=t159_RequestBody.txt
+ResponseHeaderFile=t159_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_159.xml
+FileName2=t159_docs.html
+URL2=https://vk.com/js/al/docs.js?875239394
+FileName3=t159_msg_check.png
+URL3=https://vk.com/images/icons/msg_check.png
+[ProtocolInfo]
+ProtocolId=QTWeb

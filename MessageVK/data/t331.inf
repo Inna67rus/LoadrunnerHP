@@ -1,0 +1,17 @@
+[t331]
+FileName1=t331.txt
+URL1=https://vk.com/al_im.php
+Total=4
+RequestHeaderFile=t331_RequestHeader.txt
+RequestBodyFile=t331_RequestBody.txt
+ResponseHeaderFile=t331_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_331.xml
+FileName2=t331_smile_icon.png
+URL2=https://vk.com/images/icons/smile_icon.png
+FileName3=t331_cross.png
+URL3=https://vk.com/images/icons/cross.png
+FileName4=t331_mobile.png
+URL4=https://vk.com/images/icons/mobile.png?1
+[ProtocolInfo]
+ProtocolId=QTWeb

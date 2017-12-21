@@ -1,0 +1,13 @@
+[t285]
+FileName1=t285.html
+URL1=https://vk.com/errors.php
+Total=2
+RequestHeaderFile=t285_RequestHeader.txt
+RequestBodyFile=t285_RequestBody.txt
+ResponseHeaderFile=t285_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_285.xml
+FileName2=t285_login.html
+URL2=https://vk.com/js/al/login.js?3551917100
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,17 @@
+[t315]
+FileName1=t315.html
+URL1=https://queuev4.vk.com/im200
+Total=4
+RequestHeaderFile=t315_RequestHeader.txt
+RequestBodyFile=t315_RequestBody.txt
+ResponseHeaderFile=t315_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_315.xml
+FileName2=t315_friends.css
+URL2=https://vk.com/css/al/friends.css?16251713303
+FileName3=t315_privacy.css
+URL3=https://vk.com/css/al/privacy.css?14077004126
+FileName4=t315_friends.html
+URL4=https://vk.com/js/al/friends.js?140439177
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,17 @@
+[t157]
+FileName1=t157.html
+URL1=https://queuev4.vk.com/im200
+Total=4
+RequestHeaderFile=t157_RequestHeader.txt
+RequestBodyFile=t157_RequestBody.txt
+ResponseHeaderFile=t157_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_157.xml
+FileName2=t157_wide_dd.css
+URL2=https://vk.com/css/al/wide_dd.css?17217689159
+FileName3=t157_im0200.html
+URL3=https://imv4.vk.com/im0200?act=a_check&key=361d46bf152e061dbf95540ca06d4ef8b5feb5da&mode=202&ts=1796357579&version=2&wait=25
+FileName4=t157_im0200.html
+URL4=https://imv4.vk.com/im0200?act=a_check&key=361d46bf152e061dbf95540ca06d4ef8b5feb5da&mode=202&ts=1796357580&version=2&wait=25
+[ProtocolInfo]
+ProtocolId=QTWeb

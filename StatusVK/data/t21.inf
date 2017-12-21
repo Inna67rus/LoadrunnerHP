@@ -1,0 +1,15 @@
+[t21]
+FileName1=t21.html
+URL1=https://queuev4.vk.com/im200
+Total=3
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=t21_RequestBody.txt
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_21.xml
+FileName2=t21_profile.css
+URL2=https://vk.com/css/al/profile.css?18267609941
+FileName3=t21_profile.html
+URL3=https://vk.com/js/al/profile.js?610604261
+[ProtocolInfo]
+ProtocolId=QTWeb

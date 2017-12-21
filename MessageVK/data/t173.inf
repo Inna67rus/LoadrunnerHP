@@ -1,0 +1,9 @@
+[t173]
+SnapshotXmlFile=snapshot_173.xml
+FileName1=t173.mp4.html
+URL1=https://vk.com/images/blank.mp4
+Total=1
+RequestHeaderFile=t173_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t173_ResponseHeader.txt
+ContentType=video/mp4

@@ -1,0 +1,15 @@
+[t48]
+FileName1=t48.html
+URL1=https://vk.com/login.php?act=slogin&to=&s=1&__q_hash=fbc7892c14b5a94ad1ac2e3c2135aea1
+Total=3
+RequestHeaderFile=t48_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t48_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_48.xml
+FileName2=t48_notifier.html
+URL2=https://vk.com/js/cmodules/web/notifier.js?78098033139
+FileName3=t48_notifier.css
+URL3=https://vk.com/css/al/notifier.css?25006553923
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t43]
+FileName1=t43.txt
+URL1=https://vk.com/al_im.php
+Total=2
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=t43_RequestBody.txt
+ResponseHeaderFile=t43_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_43.xml
+FileName2=t43_im0200.html
+URL2=https://imv4.vk.com/im0200?act=a_check&key=44e73409afbdec595b863525815b0baea883ece4&mode=202&ts=1771869865&version=2&wait=25
+[ProtocolInfo]
+ProtocolId=QTWeb

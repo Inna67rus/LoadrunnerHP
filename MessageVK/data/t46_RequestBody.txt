@@ -1,0 +1,5 @@
+"host=vk.com&id=44752200&lang=0&loc=im%3Fsel%3D44752200&module=im&msg=&realloc=https%3A%2F%2Fvk"
+".com%2Fim%3Fsel%3D44752200&stack=ReferenceError%3A%20Invalid%20left-hand%20side%20in%20assignm"
+"ent%0A%20%20%20%20at%20topError%20(https%3A%2F%2Fvk.com%2Fjs%2Fal%2Fcommon.js%3F1158_124487233"
+"6%3A231%3A10)%0A%20%20%20%20at%20https%3A%2F%2Fvk.com%2Fjs%2Fcmodules%2Fweb%2Fimn.js%3F1291500"
+"49406%3A1%3A29274%0A%20%20%20%20at%20%3Canonymous%3E"

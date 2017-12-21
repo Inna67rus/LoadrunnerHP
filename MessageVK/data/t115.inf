@@ -1,0 +1,13 @@
+[t115]
+FileName1=t115.html
+URL1=https://vk.com/login?act=mobile&hash=efb796a4f704a0c3
+Total=2
+RequestHeaderFile=t115_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t115_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_115.xml
+FileName2=t115_login.html
+URL2=https://vk.com/js/al/login.js?3551917100
+[ProtocolInfo]
+ProtocolId=QTWeb

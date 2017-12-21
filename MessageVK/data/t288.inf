@@ -1,0 +1,11 @@
+[t288]
+FileName1=t288.html
+URL1=https://vk.com/notifier.php?act=storage_frame&from=vk.com&4
+Total=1
+RequestHeaderFile=t288_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t288_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_288.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

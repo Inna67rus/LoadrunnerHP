@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\work\Loadrunner\Scripts (1)\StatusVK
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ed:\work\loadrunner\scripts (1)\statusvk\\logfile.log
+d:\work\loadrunner\scripts (1)\statusvk\\combined_StatusVK.c
+d:\work\loadrunner\scripts (1)\statusvk\\pre_cci.c

@@ -1,0 +1,90 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(254): Resource "https://vk.com/js/lib/px.js?ch=2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Found resource "https://vk.com/js/al/login.js?3551917100" in HTML "https://vk.com/login?act=mobile&hash=dc16c49eb7931627"  	[MsgId: MMSG-26659]
+Action.c(254): Resource "https://vk.com/js/al/ui_common.js?3489032241" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Registered web_reg_find successful for "Text=Test" (count=1)  	[MsgId: MMSG-26364]
+Action.c(254): Error -26366: "Text=Поиск" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(254): Resource "https://vk.com/js/lib/px.js?ch=2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Found resource "https://vk.com/js/al/login.js?3551917100" in HTML "https://vk.com/login?act=mobile&hash=aaf66f375d786985"  	[MsgId: MMSG-26659]
+Action.c(254): Resource "https://vk.com/js/al/ui_common.js?3489032241" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Registered web_reg_find successful for "Text=Test" (count=1)  	[MsgId: MMSG-26364]
+Action.c(254): Error -26366: "Text=Поиск" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(254): Resource "https://vk.com/js/lib/px.js?ch=2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Found resource "https://vk.com/js/al/login.js?3551917100" in HTML "https://vk.com/login?act=mobile&hash=a68f2b4cb2a18a21"  	[MsgId: MMSG-26659]
+Action.c(254): Resource "https://vk.com/js/al/ui_common.js?3489032241" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Registered web_reg_find successful for "Text=Test" (count=1)  	[MsgId: MMSG-26364]
+Action.c(254): Error -26366: "Text=Поиск" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Action.c(254): Resource "https://vk.com/js/lib/px.js?ch=2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Found resource "https://vk.com/js/al/login.js?3551917100" in HTML "https://vk.com/login?act=mobile&hash=10e83c046f6b3959"  	[MsgId: MMSG-26659]
+Action.c(254): Resource "https://vk.com/js/al/ui_common.js?3489032241" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Registered web_reg_find successful for "Text=Test" (count=1)  	[MsgId: MMSG-26364]
+Action.c(254): Error -26366: "Text=Поиск" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+Action.c(254): Resource "https://vk.com/js/lib/px.js?ch=2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Found resource "https://vk.com/js/al/login.js?3551917100" in HTML "https://vk.com/login?act=mobile&hash=70be34690b183446"  	[MsgId: MMSG-26659]
+Action.c(254): Resource "https://vk.com/js/al/ui_common.js?3489032241" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Registered web_reg_find successful for "Text=Test" (count=1)  	[MsgId: MMSG-26364]
+Action.c(254): Error -26366: "Text=Поиск" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(149): Found resource "https://pp.userapi.com/c638628/v638628183/33455/vy115tYuJfk.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Found resource "https://pp.userapi.com/c630126/v630126957/2ba35/HZMq-v8E67A.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Found resource "https://pp.userapi.com/c639423/v639423544/5ed91/rmbMOKES9FQ.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Found resource "https://pp.userapi.com/c623831/v623831613/2238b/eH73NsqiQhA.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Found resource "https://pp.userapi.com/c841520/v841520491/47371/bB-KN0BrI6o.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Error -27723: Step download timeout (120 seconds) has expired when downloading resource "https://pp.userapi.com/c837728/v837728490/4bea8/sV6s5avbe1U.jpg". Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively  	[MsgId: MERR-27723]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(149): Found resource "https://pp.userapi.com/c840726/v840726102/5d88/u0Qru8fUlD0.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Found resource "https://pp.userapi.com/c834100/v834100946/419fa/AVKjyje_HBY.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Found resource "https://vk.com/images/camera_50.png" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Found resource "https://pp.userapi.com/c639627/v639627198/39346/4fOUeDobB7M.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Found resource "https://pp.userapi.com/c627928/v627928228/2b0ab/GY5gdRVAzm4.jpg" in HTML "https://vk.com/feed"  	[MsgId: MMSG-26659]
+Action.c(149): Error -27723: Step download timeout (120 seconds) has expired when downloading resource "https://pp.userapi.com/c638320/v638320505/55b2/E-RGlCXlryI.jpg". Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively  	[MsgId: MERR-27723]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+Action.c(254): Resource "https://vk.com/js/lib/px.js?ch=2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Found resource "https://vk.com/js/al/login.js?3551917100" in HTML "https://vk.com/login?act=mobile&hash=99c3c0a776e32568"  	[MsgId: MMSG-26659]
+Action.c(254): Resource "https://vk.com/js/al/ui_common.js?3489032241" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Registered web_reg_find successful for "Text=Test" (count=1)  	[MsgId: MMSG-26364]
+Action.c(254): Error -26366: "Text=Поиск" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+Action.c(254): Resource "https://vk.com/js/lib/px.js?ch=2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Found resource "https://vk.com/js/al/login.js?3551917100" in HTML "https://vk.com/login?act=mobile&hash=ffeafa5fde9393a9"  	[MsgId: MMSG-26659]
+Action.c(254): Resource "https://vk.com/js/al/ui_common.js?3489032241" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Registered web_reg_find successful for "Text=Test" (count=1)  	[MsgId: MMSG-26364]
+Action.c(254): Error -26366: "Text=Поиск" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

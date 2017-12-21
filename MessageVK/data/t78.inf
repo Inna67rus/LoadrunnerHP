@@ -1,0 +1,11 @@
+[t78]
+FileName1=t78.txt
+URL1=https://vk.com/upload_fails.php
+Total=1
+RequestHeaderFile=t78_RequestHeader.txt
+RequestBodyFile=t78_RequestBody.txt
+ResponseHeaderFile=t78_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_78.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

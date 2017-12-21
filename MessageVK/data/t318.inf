@@ -1,0 +1,17 @@
+[t318]
+FileName1=t318.txt
+URL1=https://vk.com/al_friends.php
+Total=4
+RequestHeaderFile=t318_RequestHeader.txt
+RequestBodyFile=t318_RequestBody.txt
+ResponseHeaderFile=t318_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_318.xml
+FileName2=t318_578962060.gif
+URL2=https://www.tns-counter.ru/V13a***R%3Ehttps://vk.com/feed*vk_com/ru/UTF-8/tmsec=vksite_total/578962060
+FileName3=t318_615482929.gif
+URL3=https://www.tns-counter.ru/V13a****vk_ad/ru/UTF-8/tmsec=vkad_cid1015708-posid1184675/615482929
+FileName4=t318_counter.gif
+URL4=https://top-fwz1.mail.ru/counter?js=13;id=2579437;u=https%3A//vk.com/friends;r=https%3A//vk.com/feed;st=1511951270773;pid=44752200;title=%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8;s=1366*768;vp=1339*642;touch=0;hds=1;flash=;sid=d065e8dd58801c8d;ver=60;detect=1;_=0.40709616993884046
+[ProtocolInfo]
+ProtocolId=QTWeb

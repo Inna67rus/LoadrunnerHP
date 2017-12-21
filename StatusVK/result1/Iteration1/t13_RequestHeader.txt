@@ -1,0 +1,10 @@
+GET /?act=logout&hash=34f6ed5466e1fa13d3&reason=tn&_origin=https://vk.com HTTP/1.1
+Referer: https://vk.com/id461703243
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Accept: */*
+Connection: Keep-Alive
+Host: login.vk.com
+Cookie: remixlang=0; remixstid=1900884085_7e393ad9dac059f6ee; h=1; s=1; l=461703243; p=955f211b02a8a54dfde0840fada0c219b94762d967d340021c877; remixsid=7fba6bbea2a27d2c3d14647f8a367dbaebffe46ac287ba482d6b4
+

@@ -1,0 +1,13 @@
+4763945616879<!>stories.css,stories.js<!>0<!>6868<!>0<!><a href="/ria" class="stories_feed_item  story_feed_new_item" onclick="if (!event.metaKey && !event.ctrlKey) { showStory('-15755094/feed', {fromEl: this}); return false; }" id="feed_story_-15755094">
+  <div class="stories_feed_item_ava">
+    <img src="https://pp.userapi.com/c639623/v639623960/20946/YZbs-5Tm1bc.jpg" class="stories_feed_item_ava_img" />
+  </div>
+  <div class="stories_feed_item_name">РИА Новости</div>
+  <div class="stories_feed_item_replies"></div>
+</a><a href="/space" class="stories_feed_item  story_feed_new_item" onclick="if (!event.metaKey && !event.ctrlKey) { showStory('-129636704/feed', {fromEl: this}); return false; }" id="feed_story_-129636704">
+  <div class="stories_feed_item_ava">
+    <img src="https://pp.userapi.com/c638320/v638320505/55b3/0FGLYWGjep0.jpg" class="stories_feed_item_ava_img" />
+  </div>
+  <div class="stories_feed_item_name">#ВКосмосе</div>
+  <div class="stories_feed_item_replies"></div>
+</a><!><!bool>

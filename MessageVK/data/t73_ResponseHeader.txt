@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 24 Nov 2017 09:51:20 GMT
+Content-Type: text/html; charset=windows-1251
+Content-Length: 26896
+Connection: keep-alive
+X-Powered-By: PHP/3.14157
+Set-Cookie: remixsts=DELETED; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; domain=.vk.com
+Pragma: no-cache
+Cache-control: no-store
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=0
+X-Frontend: front213014
+Access-Control-Expose-Headers: X-Frontend
+X-Adguard-Rule: rule=%40%40%7C%7Cvk.com%2F*.php%3F__query%3D%24document; filterId=2
+X-Adguard-Filtered: AdGuard for Windows; version=6.2.433.2167
+

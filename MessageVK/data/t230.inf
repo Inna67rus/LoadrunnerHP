@@ -1,0 +1,15 @@
+[t230]
+FileName1=t230.html
+URL1=https://vk.com/login.php?act=slogin&to=&s=1&__q_hash=22ea3cf4a923de6d194c72896ed14a29
+Total=3
+RequestHeaderFile=t230_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t230_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_230.xml
+FileName2=t230_notifier.html
+URL2=https://vk.com/js/cmodules/web/notifier.js?74318396731
+FileName3=t230_notifier.css
+URL3=https://vk.com/css/al/notifier.css?22487933082
+[ProtocolInfo]
+ProtocolId=QTWeb

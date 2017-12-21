@@ -1,0 +1,1351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<!-- Start: injected by Adguard -->
+<script src="//local.adguard.com/adguard-ajax-api/injections/userscripts.js?ts=63647056528640&name=Adguard%20Assistant%20Beta&name=Web%20of%20Trust%20Beta" nonce="18a776147964435690a682040c2bf0eb" type="text/javascript"></script>
+<script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63647078079067&amp;domain=vk.com&amp;mask=111" nonce="18a776147964435690a682040c2bf0eb" type="text/javascript"></script>
+
+<!-- End: injected by Adguard -->
+<link rel="shortcut icon" href="/images/icons/favicons/fav_logo.ico?5" />
+
+<link rel="apple-touch-icon" href="/images/safari_60.png?1">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/safari_76.png?1">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/safari_120.png?1">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/safari_152.png?1">
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+<meta name="description" content="" />
+
+
+<title>Новости</title>
+
+<noscript><meta http-equiv="refresh" content="0; URL=/badbrowser.php"></noscript>
+
+  <link rel="stylesheet" type="text/css" href="/css/al/fonts_cnt.css?2889730895" />
+  <link rel="stylesheet" type="text/css" href="/css/al/common.css?27821038744" />
+
+<script type="text/javascript">
+var vk = {
+  ads_rotate_interval: 120000,
+  al: parseInt('3') || 4,
+  id: 44752200,
+  intnat: '' ? true : false,
+  host: 'vk.com',
+  lang: 0,
+  rtl: parseInt('') || 0,
+  version: 4763945616879,
+  stDomains: 0,
+  zero: false,
+  contlen: 108116,
+  loginscheme: 'https',
+  ip_h: '8518eb9e04199d4c97',
+  vc_h: 'ba6da60f9558e39bdf2bd8df2e29462b',
+  navPrefix: '/',
+  dt: parseInt('0') || 0,
+  fs: parseInt('13') || 13,
+  ts: 1511517051,
+  tz: 10800,
+  pd: 0,
+  css_dir: '',
+  vcost: 7,
+  time: [2017, 11, 24, 12, 50, 51],
+  sampleUser: -1, spentLastSendTS: new Date().getTime(),
+  a11y: 0,
+  statusExportHash: '95135012c55e30a5a5',
+  audioAdsConfig: {"enabled":true,"sections":["my","user_playlists","group_playlists","my_playlists","recent","audio_feed","recs","recs_audio","recs_album","search","global_search","group_list","user_list","user_wall","group_wall","feed","other"],"day_limit_reached":false},
+  longViewTestGroup: "every_view",
+
+  pr_tpl: "<div class=\"pr %cls%\" id=\"%id%\"><div class=\"pr_bt\"><\/div><div class=\"pr_bt\"><\/div><div class=\"pr_bt\"><\/div><\/div>",
+
+  audioInlinePlayerTpl: "<div class=\"audio_inline_player _audio_inline_player no_select\">\n  <div class=\"audio_inline_player_right\">\n    <div class=\"audio_inline_player_volume\"><\/div>\n  <\/div>\n  <div class=\"audio_inline_player_left\">\n    <div class=\"audio_inline_player_progress\"><\/div>\n  <\/div>\n<\/div>",
+
+  tnsPixelType: 'has_rough'
+};
+
+window.locDomain = vk.host.match(/[a-zA-Z]+\.[a-zA-Z]+\.?$/)[0];
+var _ua = navigator.userAgent.toLowerCase();
+if (/opera/i.test(_ua) || !/msie 6/i.test(_ua) || document.domain != locDomain) document.domain = locDomain;
+var ___htest = (location.toString().match(/#(.*)/) || {})[1] || '', ___to;
+___htest = ___htest.split('#').pop();
+if (vk.al != 1 && ___htest.length && ___htest.substr(0, 1) == vk.navPrefix) {
+  if (vk.al != 3 || vk.navPrefix != '!') {
+    ___to = ___htest.replace(/^(\/|!)/, '');
+    if (___to.match(/^([^\?]*\.php|login|mobile)([^a-z0-9\.]|$)/)) ___to = '';
+    location.replace(location.protocol + '//' + location.host + '/' + ___to);
+  }
+}
+
+var StaticFiles = {
+  'common.js' : {v: 1160},
+  'fonts_cnt.css' : {v: 2889730895},
+'common.css': {v: 27821038744}
+  ,'lang0_0.js':{v:6868},'ui_common.css':{v:15664226949},'ui_common.js':{v:3700204219},'ui_media_selector.js':{v:1634680349},'ui_media_selector.css':{v:19190748693},'emoji.js':{v:700456431},'notifier.css':{v:25006553923},'stories.css':{v:18153817934},'stories.js':{v:18597817533},'page.css':{v:19568995690},'page.js':{v:1813218876},'feed.css':{v:23493857343},'feed.js':{v:981913053},'post.css':{v:19137397716},'aes_light.js':{v:3306454788},'audioplayer.js':{v:3876525056},'notifier.js':{v:78098033139}
+}
+var abp;
+</script>
+
+<link type="text/css" rel="stylesheet" href="/css/al/ui_common.css?15664226949"></link><link type="text/css" rel="stylesheet" href="/css/al/ui_media_selector.css?19190748693"></link><link type="text/css" rel="stylesheet" href="/css/al/notifier.css?25006553923"></link><link type="text/css" rel="stylesheet" href="/css/al/stories.css?18153817934"></link><link type="text/css" rel="stylesheet" href="/css/al/page.css?19568995690"></link><link type="text/css" rel="stylesheet" href="/css/al/feed.css?23493857343"></link><link type="text/css" rel="stylesheet" href="/css/al/post.css?19137397716"></link><script type="text/javascript" src="/js/loader_nav4763945616879_0.js"></script><script type="text/javascript" src="/js/al/common.js?1160_836317121"></script><script type="text/javascript" src="/js/lang0_0.js?6868"></script><script type="text/javascript" src="/js/lib/px.js?ch=1"></script><script type="text/javascript" src="/js/lib/px.js?ch=2"></script><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.vk.com/feed" /><link rel="alternate" href="android-app://com.vkontakte.android/vkontakte/m.vk.com/feed" /><meta name="msApplication-ID" content="C6965DD5.VK" /><meta name="msApplication-PackageFamilyName" content="C6965DD5.VK_v422avzh127ra" /><script type="text/javascript" src="/js/al/ui_common.js?3700204219"></script><script type="text/javascript" src="/js/al/ui_media_selector.js?1634680349"></script><script type="text/javascript" src="/js/al/emoji.js?700456431"></script><script type="text/javascript" src="/js/cmodules/web/stories.js?18597817533"></script><script type="text/javascript" src="/js/al/page.js?1813218876"></script><script type="text/javascript" src="/js/al/feed.js?981913053"></script><script type="text/javascript" src="/js/al/aes_light.js?3306454788"></script><script type="text/javascript" src="/js/cmodules/web/audioplayer.js?3876525056"></script><script type="text/javascript" src="/js/cmodules/web/notifier.js?78098033139"></script>
+
+</head>
+
+<body onresize="onBodyResize()" class="">
+  <div id="system_msg" class="fixed"></div>
+  <div id="utils"></div>
+
+  <div id="layer_bg" class="fixed"></div><div id="layer_wrap" class="scroll_fix_wrap fixed layer_wrap"><div id="layer"></div></div>
+  <div id="box_layer_bg" class="fixed"></div><div id="box_layer_wrap" class="scroll_fix_wrap fixed"><div id="box_layer"><div id="box_loader"><div class="pr pr_baw pr_medium" id="box_loader_pr"><div class="pr_bt"></div><div class="pr_bt"></div><div class="pr_bt"></div></div><div class="back"></div></div></div></div>
+
+  <div id="stl_left"></div><div id="stl_side"></div>
+
+  <script type="text/javascript">domStarted();</script>
+
+  <div class="scroll_fix_wrap _page_wrap" id="page_wrap"><div><div class="scroll_fix">
+  
+
+  <div id="page_header_cont" class="page_header_cont">
+    <div class="back"></div>
+    <div id="page_header_wrap" class="page_header_wrap">
+      <a class="top_back_link" href="" id="top_back_link" onclick="if (nav.go(this, event, {back: true}) === false) { showBackLink(); return false; }" onmousedown="tnActive(this)"></a>
+      <div id="page_header" class="p_head p_head_l0" style="width: 960px">
+        <div class="content">
+          <div id="top_nav" class="head_nav">
+  <div class="head_nav_item fl_l"><a class="top_home_link fl_l " href="/feed" aria-label="На главную" accesskey="1"><div class="top_home_logo"></div></a></div>
+  <div class="head_nav_item fl_l"><div id="ts_wrap" class="ts_wrap" onmouseover="TopSearch.initFriendsList();">
+  <input name="disable-autofill" style="display: none;" />
+  <input type="text" onmousedown="event.cancelBubble = true;" ontouchstart="event.cancelBubble = true;" class="text ts_input" id="ts_input" autocomplete="off" name="disable-autofill" placeholder="Поиск" aria-label="Поиск" />
+</div></div>
+  <div class="head_nav_item fl_l head_nav_btns"><a id="top_notify_btn" class="top_nav_btn" href="/feed?section=notifications" onmouseover="TopNotifier.preload()" onmousedown="return (checkKeyboardEvent(event) ? false : TopNotifier.show(event));" onclick="return (checkEvent(event) ? true : (checkKeyboardEvent(event) ? TopNotifier.show(event) : false));" aria-haspopup="true" accesskey="2">
+  <span class="blind_label">Уведомления</span>
+  <div class="top_nav_btn_icon"></div>
+  <div id="top_notify_count" class="top_notify_count"></div>
+</a><span id="top_audio_layer_place"></span><a id="top_audio" class="top_nav_btn _top_nav_audio_btn" href="/music" onmouseover="AudioLayer.prepare()" onmousedown="" onclick="return checkEvent(event);" aria-label="Аудиоплеер" aria-haspopup="true" accesskey="3">
+  <span class="blind_label">Аудиоплеер</span>
+  <div class="top_nav_btn_icon"></div>
+</a></div>
+  <div class="head_nav_item fl_r"><a id="top_profile_link" class="top_nav_link top_profile_link" href="/innapush" onclick="return (checkKeyboardEvent(event) ? TopMenu.clicked : checkEvent)(event);" aria-label="Настройки страницы" aria-haspopup="true" accesskey="4">
+  <span class="blind_label">Настройки страницы</span>
+  <div class="top_profile_name">Инна</div><img class="top_profile_img" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" alt="Инна" /><div class="top_profile_arrow"></div>
+</a><div id="top_profile_menu" ontouchstart="event.cancelBubble = true;" onmousedown="event.cancelBubble = true;">
+  <a class="top_profile_mrow" id="top_myprofile_link" href="/innapush" onclick="return TopMenu.select(this, event);" style="">Моя страница</a>
+  <div class="top_profile_sep" style=""></div>
+  <a class="top_profile_mrow" id="top_edit_link" href="/edit" onclick="return TopMenu.select(this, event);" style="">Редактировать</a>
+  <a class="top_profile_mrow" id="top_settings_link" href="/settings" onclick="return TopMenu.select(this, event);" style="">Настройки</a>
+  <a class="top_profile_mrow" id="top_support_link" href="/support?act=home" onclick="return TopMenu.select(this, event);">Помощь</a>
+  <div class="top_profile_sep" style=""></div>
+  <a class="top_profile_mrow" id="top_logout_link" href="https://login.vk.com/?act=logout&hash=911588a3651b8c28d3&reason=tn&_origin=https://vk.com" onclick="if (checkEvent(event) === false) { window.AudioPlayer && AudioPlayer.clearAllCacheKeys(); window.Notifier && Notifier.lcSend('logged_off'); location.href = this.href; return cancelEvent(event); }">Выйти</a>
+</div></div>
+  <div class="head_nav_item_player"><div class="top_audio_player" id="top_audio_player">
+  <button class="top_audio_player_btn top_audio_player_prev" accesskey="j"><div class="blind_label">Предыдущая аудиозапись</div><div class="top_audio_player_btn_icon"></div></button>
+  <button class="top_audio_player_btn top_audio_player_play _top_audio_player_play" accesskey="k"><div class="blind_label _top_audio_player_play_blind_label">Предыдущая аудиозапись</div><div class="top_audio_player_btn_icon"></div></button>
+  <button class="top_audio_player_btn top_audio_player_next" accesskey="l"><div class="blind_label">Следующая аудиозапись</div><div class="top_audio_player_btn_icon"></div></button>
+  <div class="top_audio_player_title_wrap"><div class="top_audio_player_title"></div></div>
+</div></div>
+</div>
+<div id="ts_cont_wrap" class="ts_cont_wrap" ontouchstart="event.cancelBubble = true;" onmousedown="event.cancelBubble = true;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="page_layout" style="width: 960px;">
+    <div id="side_bar" class="side_bar fl_l " style="">
+      <div id="side_bar_inner" class="side_bar_inner">
+        <nav>
+  <ol>
+    <li id="l_pr" class=""><a href="/innapush" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Моя Страница</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_nwsf" class=""><a href="/feed" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Новости</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_msg" class=""><a href="/im" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Сообщения</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_fr" class=""><a href="/friends" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <object type="internal/link"><a href="/friends?section=requests" onclick="nav.link && nav.link('/friends?section=requests', event); cancelEvent(event);" class="left_count_wrap fl_r left_void left_count_wrap_hovered"><span class="inl_bl left_count_sign">0</span></a></object>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Друзья</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_gr" class=""><a href="/groups" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Группы</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_ph" class=""><a href="/albums44752200" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Фотографии</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_aud" class=""><a href="/audios44752200" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Музыка</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_vid" class=""><a href="/video" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Видео</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_ap" class=""><a href="/apps" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Игры</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><div class="more_div l_main"></div><li id="l_mk" class=""><a href="/market" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Товары</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_fav" class=""><a href="/fave" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Закладки</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li><li id="l_doc" class=""><a href="/docs" onclick="return nav.go(this, event, {noback: true, params: {_ref: 'left_nav'}});" class="left_row">
+    <span class="left_fixer">
+      <span class="left_count_wrap fl_r left_void"><span class="inl_bl left_count_sign">0</span></span>
+      <span class="left_icon fl_l"></span>
+      <span class="left_label inl_bl">Документы</span>
+    </span>
+  </a>
+  <div class="left_settings" onclick="menuSettings(0)">
+  <div class="left_settings_inner"></div>
+</div>
+</li>
+  </ol>
+</nav>
+<div id="left_blocks"></div><div id="ads_left" class="ads_left_empty"></div><div class="left_menu_nav_wrap"><a class="left_menu_nav" href="/blog">Блог</a> <a class="left_menu_nav" href="/dev">Разработчикам</a> <a class="left_menu_nav" href="/ads">Реклама</a> <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this, event, {autopos: true, dy: 6});" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span><a class="left_menu_nav left_menu_more" id="left_menu_more">Ещё</a></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" href="/about">О компании</a><a class="ui_actions_menu_item" href="/jobs">Вакансии</a><a class="ui_actions_menu_item" href="/terms">Правила</a><a class="ui_actions_menu_item" href="/support?act=home">Помощь</a><a class="ui_actions_menu_item" onclick="showBox('lang.php', {act: 'lang_dialog'}, {params: {bodyStyle: 'padding: 0'}, noreload: true})" tabindex="0" role="link">Язык: русский</a></div>
+</div></div>
+      </div>
+    </div>
+
+    <div id="page_body" class="fl_r " style="width: 795px;">
+      <div id="header_wrap2">
+        <div id="header_wrap1">
+          <div id="header" style="display: none">
+            <h1 id="title"></h1>
+          </div>
+        </div>
+      </div>
+      <div id="wrap_between"></div>
+      <div id="wrap3"><div id="wrap2">
+  <div id="wrap1">
+    <div id="content"><div class="wide_column_left">
+  <div class="narrow_column_wrap">
+    <div class="narrow_column" id="narrow_column">
+      <div class="page_block ui_rmenu ui_rmenu_pr _ui_rmenu_auto_expand" id="feed_rmenu" role="list">
+  <a id="ui_rmenu_news" href="/feed" class="ui_rmenu_item _ui_item_news ui_rmenu_item_sel feed_section_news" onclick="return nav.go(this, event);">
+  <span><div class="ui_actions_menu_wrap _ui_menu_wrap feed_lists_icon ui_actions_menu_sublist" id="feed_add_list_icon" onmousedown="Feed.toggleTabsMenu(event);" onclick="return cancelEvent(event)">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" onmousedown="event.cancelBubble = true;"><div class="ui_actions_menu_item  checked" onclick="feed.checkTabsFilter(this, 'photos');">Фотографии</div><div class="ui_actions_menu_item  checked" onclick="feed.checkTabsFilter(this, 'videos');"> Видеозаписи</div><div class="ui_actions_menu_item  " onclick="feed.checkTabsFilter(this, 'friends');">Друзья</div><div class="ui_actions_menu_item  " onclick="feed.checkTabsFilter(this, 'groups');">Сообщества</div><div class="ui_actions_menu_item  " onclick="feed.checkTabsFilter(this, 'likes');">Понравилось</div><div class="ui_actions_menu_item _feed_custom_1917 " onclick="feed.checkTabsFilter(this, '1917');">1917</div><div class="ui_actions_menu_sep"></div><div class="ui_actions_menu_item feed_new_list" onclick="feed.checkTabsFilter(this, 'newlist');">Добавить вкладку</div></div>
+</div><div class="feed_filter_icon" onclick="cancelEvent(event); return feed.editHidden();"></div>Новости</span>
+</a><div id="ui_rmenu_news_list" data-sublist-id="news" class="_ui_rmenu_sublist _ui_rmenu_news_list ">
+  <a id="ui_rmenu_photos" href="/feed?section=photos" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_photos feed_section_photos " onclick="return nav.go(this, event);">
+  <span>Фотографии</span>
+</a><a id="ui_rmenu_videos" href="/feed?section=videos" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_videos feed_section_videos " onclick="return nav.go(this, event);">
+  <span> Видеозаписи</span>
+</a><a id="ui_rmenu_friends" href="/feed?section=friends" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_friends feed_section_friends ui_rmenu_item_hidden" onclick="return nav.go(this, event);">
+  <span>Друзья</span>
+</a><a id="ui_rmenu_groups" href="/feed?section=groups" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_groups feed_section_groups ui_rmenu_item_hidden" onclick="return nav.go(this, event);">
+  <span>Сообщества</span>
+</a><a id="ui_rmenu_likes" href="/feed?section=likes" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_likes feed_section_likes ui_rmenu_item_hidden" onclick="return nav.go(this, event);">
+  <span>Понравилось</span>
+</a><a id="ui_rmenu_1917" href="/feed?section=1917" class="ui_rmenu_subitem _ui_rmenu_subitem _ui_item_1917 feed_section_1917 ui_rmenu_item_hidden" onclick="return nav.go(this, event);">
+  <span>1917</span>
+</a>
+</div><a id="ui_rmenu_recommended" href="/feed?section=recommended" class="ui_rmenu_item _ui_item_recommended feed_section_recommended" onclick="return nav.go(this, event);">
+  <span>Рекомендации</span>
+</a><a id="ui_rmenu_search" href="/feed?section=search" class="ui_rmenu_item _ui_item_search feed_section_search" onclick="return nav.go(this, event);">
+  <span>Поиск</span>
+</a><div class="ui_rmenu_sep"></div><a id="ui_rmenu_updates" href="/feed?section=updates" class="ui_rmenu_item _ui_item_updates feed_section_updates" onclick="return nav.go(this, event);">
+  <span>Обновления</span>
+</a><a id="ui_rmenu_comments" href="/feed?section=comments" class="ui_rmenu_item _ui_item_comments feed_section_comments" onclick="return nav.go(this, event);">
+  <span>Комментарии</span>
+</a>
+  <div class="ui_rmenu_slider _ui_rmenu_slider"></div>
+</div><div id="feed_filters">
+  <div class="page_block" id="">
+  <div class="ui_toggler_wrap hot" onclick="Feed.toggleFeedTop(this, event);">
+  <div class="_ui_toggler ui_toggler  on"></div>
+  <div class="ui_toggler_label">Сначала интересные</div>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+  <div class="wide_column_wrap">
+    <div class="wide_column" id="wide_column">
+      <div id="main_feed" class="feed_wrap  feed_submit_shown mark_top">
+  <div class="wall_module page_block feed_post_field_wrap">
+    <div id="submit_post_box" class="submit_post_box clear_fix _submit_post_box" data-from-oid="44752200" data-oid="" data-owner-name="" data-owner-photo="" data-owner-href="" onclick="return cancelEvent(event)">
+  <div id="submit_post_error" class="error"></div>
+  <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+  <div class="post_field_wrap _emoji_field_wrap">
+    <div class="emoji_smile_wrap  _emoji_wrap">
+  <div class="emoji_smile _emoji_btn" title="Используйте TAB, чтобы быстрее открывать смайлы" onmouseover="return Emoji.show(this, event);" onmouseout="return Emoji.hide(this, event);" onclick="return cancelEvent(event);">
+    <div class="emoji_smile_icon"></div>
+  </div>
+</div>
+    <div id="post_field" class="submit_post_field dark" onkeyup="Wall.postChanged()" onkeydown="onCtrlEnter(event, Wall.sendPost)" onfocus="Wall.showEditPost()" placeholder="Что у Вас нового?" contenteditable="true" role="textbox" aria-multiline="true"></div>
+  </div>
+  
+  <div id="submit_post" class="submit_post clear_fix" onclick="event.cancelBubble=true;">
+    <div id="media_preview" class="clear_fix media_preview"></div>
+    <div class="addpost_button_wrap">
+      <button class="flat_button addpost_button" id="send_post" onclick="wall.sendPost()">Отправить</button>
+    </div>
+    <div class="addpost_opt checkbox_pic friends_only_pic" id="friends_only" onclick="Wall.saveFriendsOnly(this)" onmouseover="showTooltip(this, {text: 'только для друзей', black: 1, shift: [12,10]});" aria-label="только для друзей"><span class="blind_label">только для друзей</span></div>
+    <div id="page_add_media" class="page_add_media" onclick="Wall.showEditPost()"></div>
+  </div>
+</div>
+  </div>
+  <div class="page_block stories_feed_wrap clear_fix stories_feed_not_nav_buttons" onmouseover="storiesPreloadStatic()" id="stories_feed_wrap" >
+  <div class="stories_feed_cont">
+    <div class="stories_feed_title clear_fix">
+      Истории
+      <div class="stories_feed_settings fl_r" onclick="Stories.showBlackList()">Настройки</div>
+     </div>
+    <div class="stories_feed_items_wrap">
+      <div class="stories_feed_items" id="stories_feed_items_container">
+        <div id="stories_feed_items"><a href="/ria" class="stories_feed_item  story_feed_new_item" onclick="if (!event.metaKey && !event.ctrlKey) { showStory('-15755094/feed', {fromEl: this}); return false; }" id="feed_story_-15755094">
+  <div class="stories_feed_item_ava">
+    <img src="https://pp.userapi.com/c639623/v639623960/20946/YZbs-5Tm1bc.jpg" class="stories_feed_item_ava_img" />
+  </div>
+  <div class="stories_feed_item_name">РИА Новости</div>
+  <div class="stories_feed_item_replies"></div>
+</a><a href="/space" class="stories_feed_item  story_feed_new_item" onclick="if (!event.metaKey && !event.ctrlKey) { showStory('-129636704/feed', {fromEl: this}); return false; }" id="feed_story_-129636704">
+  <div class="stories_feed_item_ava">
+    <img src="https://pp.userapi.com/c638320/v638320505/55b3/0FGLYWGjep0.jpg" class="stories_feed_item_ava_img" />
+  </div>
+  <div class="stories_feed_item_name">#ВКосмосе</div>
+  <div class="stories_feed_item_replies"></div>
+</a></div>
+        <div class="stories_feed_arrow_left disabled" id="stories_feed_arrow_left" onclick="Stories.feedPrev();"></div>
+        <div class="stories_feed_arrow_right" id="stories_feed_arrow_right" onclick="Stories.feedNext();"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="feed_recommends"></div>
+  <div class="ui_search ui_search_field_empty feed_search_wrap page_block _wrap">
+  <div class="ui_search_input_block">
+    <div class="ui_search_reset" onclick="return uiSearch.reset(this, false, event);">
+      <span class="blind_label">Отмена</span>
+    </div>
+    
+    <input type="text" class="ui_search_field _field" id="search_query" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"  placeholder="Поиск по новостям" />
+    
+  </div>
+  <div class="ui_search_filters_pane" style="display: none;">
+    <div class="ui_search_filters"></div>
+    <div class="ui_search_filters_reset" onclick="return uiSearch.removeAllFilters(this);"></div>
+  </div>
+</div>
+  <div id="feed_app_widget" class="page_block"  style="display: none;"></div>
+  <div id="feed_empty" class="page_block no_rows feed_empty">Здесь Вы будете видеть новостную ленту своих друзей.</div>
+  <div id="feed_new_posts" class="feed_new_posts page_block" onclick="Feed.showNewPosts()"></div>
+  <div class="wall_wrap clear_fix">
+    <div id="feed_wall" class="clear_fix ">
+      <div class="wall_module">
+        
+        <div id="feed_rows" class="_feed_rows">
+          <div class="feed_row "><div id="post-18099999_361532" class="_post post page_block" data-post-id="-18099999_361532" onclick="wall.postClick('-18099999_361532', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/vk.fotos">
+        <img src="https://pp.userapi.com/c638028/v638028605/3e57/Fx3U8JNpCQM.jpg" data-post-id="-18099999_361532" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/vk.fotos" data-from-id="-18099999" data-post-id="-18099999_361532" data-post-click-type="post_owner_link">Лучшие фото</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-18099999_361532"  onclick="return showWiki({w: 'wall-18099999_361532'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 11:49" time="1511513374">час назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-18099999_361532', 'wall_-18099999_361532', 'fb11e3fff2ad0d34a4');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-18099999_361532', '4ab066275c2a3684ac');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-18099999_361532" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Трамвай в городе Златоуст</div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 457px;"><a  onclick="return showPhoto('-18099999_456253139', 'wall-18099999_361532', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841624/v841624819/42ac7/1JMiAyFBHXU&quot;,604,542],&quot;y_&quot;:[&quot;c841624/v841624819/42ac8/Ch1Tf4kC770&quot;,768,689]},queue:1}, event)" style="width: 510px; height: 458px; background-image: url(https://pp.userapi.com/c841624/v841624819/42ac7/1JMiAyFBHXU.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-18099999_361532')" onclick="return Wall.likeIt(this, '-18099999_361532', '708d015cbbdd49b712', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">408</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-18099999_361532')">Показать список оценивших</span>
+    
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-18099999_361532')" onclick="return Wall.sharesOpen(event, '-18099999_361532');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">16</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-18099999_361532')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-18099999_361532')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">17K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-18099999_361532" style="display: none">
+  <div class="replies_list _replies_list" id="replies-18099999_361532"><input type="hidden" id="start_reply-18099999_361532" value="" /></div>
+  
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-25117353_686457" class="_post post page_block" data-post-id="-25117353_686457" onclick="wall.postClick('-25117353_686457', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/discovery__world">
+        <img src="https://pp.userapi.com/c626418/v626418088/4c997/bqGpROibsqo.jpg" data-post-id="-25117353_686457" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/discovery__world" data-from-id="-25117353" data-post-id="-25117353_686457" data-post-click-type="post_owner_link">Discovery</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-25117353_686457"  onclick="return showWiki({w: 'wall-25117353_686457'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 9:05" time="1511503501">три часа назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-25117353_686457', 'wall_-25117353_686457', '71a2d15882940f8bc8');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-25117353_686457', '627094d73d14354500');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-25117353_686457" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Древний артефакт - маска повелителя хаски</div><div class="post_thumbed_media clear_fix" ><div class="clear_fix page_gif_large page_gif_autoplay">
+  <a class="photo page_doc_photo_href" href="/doc110088_454504270?hash=719728ab15defbc91a&dl=09dd1e7a9aa0e0c358" onclick="return Page.showGif(this, event)" data-doc="110088_454504270"  data-hash="719728ab15defbc91a" data-add-hash="178f1fe2cff426902b" data-add-txt="Добавить в Документы" data-share-txt="Поделиться" data-post="-25117353_686457" data-preview="1" data-thumb="https://pp.userapi.com/c816424/u428163563/-3/x_169efd976b.jpg" data-width="272" data-height="400" style="width:272px;height:400px;">
+    <div class="page_doc_photo" style="background-image: url(https://pp.userapi.com/c816424/u428163563/-3/x_169efd976b.jpg);width:272px;height:400px;background-size:cover;"></div>
+    <div class="page_gif_label">gif</div>
+    <div class="page_gif_play_icon"></div>
+    <div class="page_gif_actions"><div class="page_gif_share" onmouseover="showTooltip(this, {text: 'Поделиться', black: 1, shift: [7, 6, 6], toup: 0, needLeft: 1})" onclick="return 0 ? false : Page.shareGif(this, '110088_454504270', '719728ab15defbc91a', event)">
+  <div class="page_gif_share_icon"></div>
+</div><div class="page_gif_add" onmouseover="return Page.overGifAdd(this, 'Добавить в Документы', '110088_454504270', event);" onclick="return Page.addGif(this, '110088_454504270', '719728ab15defbc91a', '178f1fe2cff426902b', event);">
+  <div class="page_gif_add_icon"></div>
+</div></div>
+  </a>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-25117353_686457')" onclick="return Wall.likeIt(this, '-25117353_686457', 'cb46369c4052a87e58', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">2<span class="num_delim"> </span>249</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-25117353_686457')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-25117353_686457', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-25117353_686457')" onclick="return Wall.sharesOpen(event, '-25117353_686457');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">222</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-25117353_686457')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-25117353_686457')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">57K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-25117353_686457" style="">
+  <div class="replies_list _replies_list" id="replies-25117353_686457"><a id="wrh-25117353_686457" class="wr_header" onclick="return wall.showReplies('-25117353_686457', false, false, event);" offs="1/32" href="/wall-25117353_686457?offset=last&f=replies">Показать все 32 комментария</a><input type="hidden" id="start_reply-25117353_686457" value="686587" /><div id="post-25117353_686587" class="reply reply_dived clear  reply_replieable _post" data-post-id="-25117353_686587"  onclick="Wall.replyClick('-25117353_686457', 686587, event, 42573409)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/id42573409">
+      <img src="https://pp.userapi.com/c639727/v639727087/36204/pb3dqnJ8bn8.jpg" width="40" height="40" class="reply_img" alt="Влад Окснер" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete-25117353_686587" class="reply_delete_button reply_action fl_r" data-title="Пожаловаться" onclick="wall.markAsSpam(this, '-25117353_686587', 'e6096a0264889a8f56')" onmouseover="showTitle(this);" aria-label="Пожаловаться" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/id42573409" data-from-id="42573409">Влад Окснер</a>
+      </div>
+      <div class="reply_text" ><div id="wpt-25117353_686587"><div class="wall_reply_text">Акелу хотели сожрать)</div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom-25117353_686587">
+        <a href="#" class="like_wrap _like_wrap " onclick="return Wall.likeIt(this, '-25117353_wall_reply686587', '6b10664113d34c5a1f', event);" onmouseover="Wall.likesShow(this, '-25117353_wall_reply686587')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count">3</span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-25117353_wall_reply686587')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall-25117353_686457?reply=686587"  onclick="return showWiki({w: 'wall-25117353_686457', reply: '686587'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 12:16" time="1511514970">34 минуты назад</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap-25117353_686457"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-25117353_686457" onclick="return Wall.showEditReply('-25117353_686457', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-25117353_686457" value="c1eeff7a9e248177bf" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row"><div id="ads_feed_placeholder"></div></div><div class="feed_row "><div id="post-134224152_1154" class="_post post page_block" data-post-id="-134224152_1154" onclick="wall.postClick('-134224152_1154', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/science_travel">
+        <img src="https://pp.userapi.com/c836739/v836739278/5654a/l-5jnvsreos.jpg" data-post-id="-134224152_1154" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/science_travel" data-from-id="-134224152" data-post-id="-134224152_1154" data-post-click-type="post_owner_link">Science &amp; Travel - Астроверты</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-134224152_1154"  onclick="return showWiki({w: 'wall-134224152_1154'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 12:14" time="1511514840">36 минут назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-134224152_1154', 'wall_-134224152_1154', 'a702c1a56dab03d140');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-134224152_1154', '8024033643c830acfe');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-134224152_1154" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Друзья&#33;<br><br>Достаточно хотя бы раз побывать в Крыму, чтобы успеть в него влюбиться&#33;<br>Каждый из Вас может любить его разным, зимним со сверкающим на солнце снегу, либо солнечным и ярким в своих летних красках или осенним когда природа готовится к отдыху, примеряя на себя не менее притягательные наряды.<br><br>Ближайшие путешествия в Крым:<br><a href="/krao_ng_2018" class="mem_link" mention="" mention_id="club135437422" onclick="return mentionClick(this, event)" onmouseover="mentionOver(this)">Новый год в Крымской обсерватории&#33;</a><br><a href="/crimea_2018_05" class="mem_link" mention="" mention_id="club151206270" onclick="return mentionClick(this, event)" onmouseover="mentionOver(this)"> Майские праздники 2018 в Крымской Обсерватории&#33;</a><br><a href="/crimea_2018_07" class="mem_link" mention="" mention_id="club152340727" onclick="return mentionClick(this, event)" onmouseover="mentionOver(this)"> АстроКрым: на тёмном берегу тёплого моря&#33;</a></div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 350px;"><a  onclick="return showPhoto('-134224152_456239677', 'wall-134224152_1154', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841131/v841131248/383e9/f-_92WPmlcE&quot;,604,403],&quot;y_&quot;:[&quot;c841131/v841131248/383ea/F3qTmsUdufE&quot;,807,538],&quot;z_&quot;:[&quot;c841131/v841131248/383eb/qdBFSwhesXY&quot;,1280,853]},queue:1}, event)" style="width: 334px; height: 350px; background-image: url(https://pp.userapi.com/c841131/v841131248/383e9/f-_92WPmlcE.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  onclick="return showPhoto('-134224152_456239678', 'wall-134224152_1154', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841131/v841131248/383bf/wTt6sQHS410&quot;,604,403],&quot;y_&quot;:[&quot;c841131/v841131248/383c0/w_tV6Lt7pF4&quot;,807,538],&quot;z_&quot;:[&quot;c841131/v841131248/383c1/St4cnn361Us&quot;,1280,853],&quot;w_&quot;:[&quot;c841131/v841131248/383c2/bD3EAUn5n4Q&quot;,2560,1707]},queue:1}, event)" style="width: 170px; height: 114px; background-image: url(https://pp.userapi.com/c841131/v841131248/383c4/YPBRmvVz0Ws.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column fl_l"></a><a  onclick="return showPhoto('-134224152_456239679', 'wall-134224152_1154', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841131/v841131248/383d3/OxgwOAoUIv0&quot;,604,403],&quot;y_&quot;:[&quot;c841131/v841131248/383d4/D3Jeb7HND2w&quot;,807,538],&quot;z_&quot;:[&quot;c841131/v841131248/383d5/n0ju8GqlrwM&quot;,1280,853]},queue:1}, event)" style="width: 170px; height: 114px; background-image: url(https://pp.userapi.com/c841131/v841131248/383d7/sgb8eWo3M8o.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column fl_l"></a><a  onclick="return showPhoto('-134224152_456239680', 'wall-134224152_1154', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841131/v841131248/383c9/Wc8O9iro1C8&quot;,604,403],&quot;y_&quot;:[&quot;c841131/v841131248/383ca/RmlfXfI2YG0&quot;,807,538],&quot;z_&quot;:[&quot;c841131/v841131248/383cb/jpEAtrUdH74&quot;,1280,853],&quot;w_&quot;:[&quot;c841131/v841131248/383cc/aOON-mwtU7k&quot;,2560,1706]},queue:1}, event)" style="width: 170px; height: 112px; background-image: url(https://pp.userapi.com/c841131/v841131248/383ce/pApk8ZIz2Zw.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row fl_l"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-134224152_1154')" onclick="return Wall.likeIt(this, '-134224152_1154', '682b3ccaadaba62406', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">4</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-134224152_1154')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-134224152_1154', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '-134224152_1154')" onclick="return Wall.sharesOpen(event, '-134224152_1154');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-134224152_1154')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-134224152_1154')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">608</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-134224152_1154" style="display: none">
+  <div class="replies_list _replies_list" id="replies-134224152_1154"><input type="hidden" id="start_reply-134224152_1154" value="" /></div>
+  <div id="reply_box_wrap-134224152_1154"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-134224152_1154" onclick="return Wall.showEditReply('-134224152_1154', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-134224152_1154" value="82e082c5d333027d7a" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-25349116_1122958" class="_post post page_block _ads_promoted_post_data_w mailru-visibility-check" data-post-id="-25349116_1122958" onclick="wall.postClick('-25349116_1122958', event);wall.postClickStat(event);"onmousedown="wall.postClickStat(event);" post_view_hash="4763333185c18a2d57" data-ad="aha2EZ5W7P4T0VCv/Em4NwGKb96B2T3tFSk3wPwfHF2dWZVUTxFmGKlymhl8e5MQdDl2vvF4S3eYDu*M/ua7F6PHx*W6XjI9h8OVqpBJCqRZwUXRUAJ*OutZySYwgGyRpqMkqS*tw*diq/bQi30GzM0dt4BaTHakG8zNTrv8Sexk7x6izIleMOjnvCLQ2u6Ar7n6WbiUnxsOJT5yxEE1/sm*q4IPh4KuN*jWsN*AOcgKYD0QZtraW30/9juC7O*5C5oiay1a1Y4EEdlScEhTByhUpiwu*yEmCkNhMBrtUfkdhtSU*Zu82LaKxQ5r9N0ZWbxY6fSB4vRq*IGghud0KXaLFzloOu08b4xm62YWe7bBk1OpK2LJUkc6t5TnPy9/c21LQXCcnKJTFDrEXp44ScfcNzlLngUlL3FMlNDQ4*Lh88xskv0AentavvtQHcnxtm2jCtd0inaZk8KpXoc1GZ24KcL6UH5Nv47lw5pTQ7UTmeYNSGxD1JQ5B1HDllq2" data-ad-view="BvIwSL*NDVUq7I2lzrlfzKvV5Nq9A8kPbKab/LckVrTMcJlSwmEi0gQRaTnLT3ybpYirb7QA0aJHf0HDbtvvKuw3kvoSMfsoUFzRbbwjON5gC4WJ6tK*Rz04fkTgB8GweU7RB97Qs*R8eMXaIAO/R1Nl*tfBSX0nxj7pugm8DCKgBgkhjbFG8NBPCv/LKyo2kAiamtE7v8YV4u*D*plhZfpImAw7jHXYfvV8y6nltlXspkPDHnek96Hycbo3zFjtJoTo34zyogV0fPWHS3VSUY70POxElVlQ6Qtbpwgleyte/FBaVt8dkw6y6h8DMAMRKJtNf4OkXMdY0eXb/uYo5w--" data-ad-block-uid="677692715">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/bonprixru">
+        <img src="https://pp.userapi.com/c637727/v637727733/2c447/xYcAhFcny9I.jpg" data-post-id="-25349116_1122958" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/bonprixru" data-from-id="-25349116" data-post-id="-25349116_1122958" data-post-click-type="post_owner_link">bonprix Россия</a><a href="/verify" class="page_verified " onmouseover="pageVerifiedTip(this, {type: 1, oid: -25349116})"></a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a class="wall_text_name_explain_promoted_post post_link" href="/wall-25349116_1122958" onclick="return showWiki({w: 'wall-25349116_1122958'}, false, event, {ads_params: {post_ad_data: 'aha2EZ5W7P4T0VCv/Em4NwGKb96B2T3tFSk3wPwfHF2dWZVUTxFmGKlymhl8e5MQdDl2vvF4S3eYDu*M/ua7F6PHx*W6XjI9h8OVqpBJCqRZwUXRUAJ*OutZySYwgGyRpqMkqS*tw*diq/bQi30GzM0dt4BaTHakG8zNTrv8Sexk7x6izIleMOjnvCLQ2u6Ar7n6WbiUnxsOJT5yxEE1/sm*q4IPh4KuN*jWsN*AOcgKYD0QZtraW30/9juC7O*5C5oiay1a1Y4EEdlScEhTByhUpiwu*yEmCkNhMBrtUfkdhtSU*Zu82LaKxQ5r9N0ZWbxY6fSB4vRq*IGghud0KXaLFzloOu08b4xm62YWe7bBk1OpK2LJUkc6t5TnPy9/c21LQXCcnKJTFDrEXp44ScfcNzlLngUlL3FMlNDQ4*Lh88xskv0AentavvtQHcnxtm2jCtd0inaZk8KpXoc1GZ24KcL6UH5Nv47lw5pTQ7UTmeYNSGxD1JQ5B1HDllq2', ad_block_unique_id: '677692715'}});">Рекламная запись</a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-25349116_1122958', 'wall_-25349116_1122958', 'f3e3c6fcea93a975de');" tabindex="0" role="link">Это не интересно</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-25349116_1122958" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Хорошо выглядеть в холодное время года очень просто&#33; <img class="emoji" alt="&#9748;" src="/images/emoji/2614.png"><img class="emoji_css" alt="&#128522;" emoji="D83DDE0A" style="background-position: 0px 0px;" src="/images/blank.gif"> Вас непременно вдохновит наша новая осенне-зимняя коллекция&#33; <img class="emoji_css" alt="&#128525;" emoji="D83DDE0D" style="background-position: 0px -102px;" src="/images/blank.gif"></div><div class="page_media_thumbed_link page_media_thumbed_link_big ">
+  <div class="page_media_link_photo"><a href="/away.php?to=https%3A%2F%2Fwww.bonprix.ru%2Fkategoriya%2Fdlya-zhenshchin-odezhda-pulovery%2F%3Flandmark%3DEntry%26wkz%3D98%26iwl%3D510%26typ%3DSMA%26anbieter%3DVK_NF_Desktop_CA%26aktion%3DCA%26entryitems%3D95082195%26entrysourceID%3Dhiconversion%3Avk%3A2976215%3A%3A18262%3A%26cs_HiC_ad_id%3D2976215%26utm_content%3Dhic_2976215&post=-25349116_1122958&hash=cba85d660548d0ff12&post_ad_data=aha2EZ5W7P4T0VCv%2FEm4NwGKb96B2T3tFSk3wPwfHF2dWZVUTxFmGKlymhl8e5MQdDl2vvF4S3eYDu%2AM%2Fua7F6PHx%2AW6XjI9h8OVqpBJCqRZwUXRUAJ%2AOutZySYwgGyRpqMkqS%2Atw%2Adiq%2FbQi30GzM0dt4BaTHakG8zNTrv8Sexk7x6izIleMOjnvCLQ2u6Ar7n6WbiUnxsOJT5yxEE1%2Fsm%2Aq4IPh4KuN%2AjWsN%2AAOcgKYD0QZtraW30%2F9juC7O%2A5C5oiay1a1Y4EEdlScEhTByhUpiwu%2AyEmCkNhMBrtUfkdhtSU%2AZu82LaKxQ5r9N0ZWbxY6fSB4vRq%2AIGghud0KXaLFzloOu08b4xm62YWe7bBk1OpK2LJUkc6t5TnPy9%2Fc21LQXCcnKJTFDrEXp44ScfcNzlLngUlL3FMlNDQ4%2ALh88xskv0AentavvtQHcnxtm2jCtd0inaZk8KpXoc1GZ24KcL6UH5Nv47lw5pTQ7UTmeYNSGxD1JQ5B1HDllq2&el=snippet" target="_blank" class="page_media_link_img_wrap"><img data-width="537" data-height="240" width="510" height="228" class="page_media_link_img" src="https://pp.userapi.com/c840730/v840730021/23897/gO53ZdB8LEs.jpg"/></a></div>
+  <div class="page_media_link_desc_wrap ">
+    <div class="page_media_link_desc_block">
+      <div class="page_media_link_title"><a href="/away.php?to=https%3A%2F%2Fwww.bonprix.ru%2Fkategoriya%2Fdlya-zhenshchin-odezhda-pulovery%2F%3Flandmark%3DEntry%26wkz%3D98%26iwl%3D510%26typ%3DSMA%26anbieter%3DVK_NF_Desktop_CA%26aktion%3DCA%26entryitems%3D95082195%26entrysourceID%3Dhiconversion%3Avk%3A2976215%3A%3A18262%3A%26cs_HiC_ad_id%3D2976215%26utm_content%3Dhic_2976215&post=-25349116_1122958&hash=cba85d660548d0ff12&post_ad_data=aha2EZ5W7P4T0VCv%2FEm4NwGKb96B2T3tFSk3wPwfHF2dWZVUTxFmGKlymhl8e5MQdDl2vvF4S3eYDu%2AM%2Fua7F6PHx%2AW6XjI9h8OVqpBJCqRZwUXRUAJ%2AOutZySYwgGyRpqMkqS%2Atw%2Adiq%2FbQi30GzM0dt4BaTHakG8zNTrv8Sexk7x6izIleMOjnvCLQ2u6Ar7n6WbiUnxsOJT5yxEE1%2Fsm%2Aq4IPh4KuN%2AjWsN%2AAOcgKYD0QZtraW30%2F9juC7O%2A5C5oiay1a1Y4EEdlScEhTByhUpiwu%2AyEmCkNhMBrtUfkdhtSU%2AZu82LaKxQ5r9N0ZWbxY6fSB4vRq%2AIGghud0KXaLFzloOu08b4xm62YWe7bBk1OpK2LJUkc6t5TnPy9%2Fc21LQXCcnKJTFDrEXp44ScfcNzlLngUlL3FMlNDQ4%2ALh88xskv0AentavvtQHcnxtm2jCtd0inaZk8KpXoc1GZ24KcL6UH5Nv47lw5pTQ7UTmeYNSGxD1JQ5B1HDllq2&el=snippet" target="_blank">Выбирайте обновку прямо сейчас&#33;</a></div>
+      
+      <a href="/away.php?to=https%3A%2F%2Fwww.bonprix.ru%2Fkategoriya%2Fdlya-zhenshchin-odezhda-pulovery%2F%3Flandmark%3DEntry%26wkz%3D98%26iwl%3D510%26typ%3DSMA%26anbieter%3DVK_NF_Desktop_CA%26aktion%3DCA%26entryitems%3D95082195%26entrysourceID%3Dhiconversion%3Avk%3A2976215%3A%3A18262%3A%26cs_HiC_ad_id%3D2976215%26utm_content%3Dhic_2976215&post=-25349116_1122958&hash=cba85d660548d0ff12&post_ad_data=aha2EZ5W7P4T0VCv%2FEm4NwGKb96B2T3tFSk3wPwfHF2dWZVUTxFmGKlymhl8e5MQdDl2vvF4S3eYDu%2AM%2Fua7F6PHx%2AW6XjI9h8OVqpBJCqRZwUXRUAJ%2AOutZySYwgGyRpqMkqS%2Atw%2Adiq%2FbQi30GzM0dt4BaTHakG8zNTrv8Sexk7x6izIleMOjnvCLQ2u6Ar7n6WbiUnxsOJT5yxEE1%2Fsm%2Aq4IPh4KuN%2AjWsN%2AAOcgKYD0QZtraW30%2F9juC7O%2A5C5oiay1a1Y4EEdlScEhTByhUpiwu%2AyEmCkNhMBrtUfkdhtSU%2AZu82LaKxQ5r9N0ZWbxY6fSB4vRq%2AIGghud0KXaLFzloOu08b4xm62YWe7bBk1OpK2LJUkc6t5TnPy9%2Fc21LQXCcnKJTFDrEXp44ScfcNzlLngUlL3FMlNDQ4%2ALh88xskv0AentavvtQHcnxtm2jCtd0inaZk8KpXoc1GZ24KcL6UH5Nv47lw5pTQ7UTmeYNSGxD1JQ5B1HDllq2&el=snippet" target="_blank" class="page_media_link_url page_market_owner_link"><div class="page_media_link_text">bonprix.ru</div></a>
+    </div>
+    <div class="page_media_link_desc_block page_media_link_desc_block_button"><div class="wall_postlink_preview_btn"><a href="/away.php?to=https%3A%2F%2Fwww.bonprix.ru%2Fkategoriya%2Fdlya-zhenshchin-odezhda-pulovery%2F%3Flandmark%3DEntry%26wkz%3D98%26iwl%3D510%26typ%3DSMA%26anbieter%3DVK_NF_Desktop_CA%26aktion%3DCA%26entryitems%3D95082195%26entrysourceID%3Dhiconversion%3Avk%3A2976215%3A%3A18262%3A%26cs_HiC_ad_id%3D2976215%26utm_content%3Dhic_2976215&post=-25349116_1122958&hash=cba85d660548d0ff12&post_ad_data=aha2EZ5W7P4T0VCv%2FEm4NwGKb96B2T3tFSk3wPwfHF2dWZVUTxFmGKlymhl8e5MQdDl2vvF4S3eYDu%2AM%2Fua7F6PHx%2AW6XjI9h8OVqpBJCqRZwUXRUAJ%2AOutZySYwgGyRpqMkqS%2Atw%2Adiq%2FbQi30GzM0dt4BaTHakG8zNTrv8Sexk7x6izIleMOjnvCLQ2u6Ar7n6WbiUnxsOJT5yxEE1%2Fsm%2Aq4IPh4KuN%2AjWsN%2AAOcgKYD0QZtraW30%2F9juC7O%2A5C5oiay1a1Y4EEdlScEhTByhUpiwu%2AyEmCkNhMBrtUfkdhtSU%2AZu82LaKxQ5r9N0ZWbxY6fSB4vRq%2AIGghud0KXaLFzloOu08b4xm62YWe7bBk1OpK2LJUkc6t5TnPy9%2Fc21LQXCcnKJTFDrEXp44ScfcNzlLngUlL3FMlNDQ4%2ALh88xskv0AentavvtQHcnxtm2jCtd0inaZk8KpXoc1GZ24KcL6UH5Nv47lw5pTQ7UTmeYNSGxD1JQ5B1HDllq2&el=button" target="_blank" class="flat_button"><span class="wall_postlink_preview_btn_label">Купить</span></a></div></div>
+  </div>
+</div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-25349116_1122958')" onclick="return Wall.likeIt(this, '-25349116_1122958', '622b1b93179d67e213', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">58</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-25349116_1122958')">Показать список оценивших</span>
+    
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-25349116_1122958')" onclick="return Wall.sharesOpen(event, '-25349116_1122958');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">5</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-25349116_1122958')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap no_views" onmouseover="Wall.viewsUpdate(this, '-25349116_1122958')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count"></span>
+</div>
+</div>
+        <div class="replies"></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-78273068_29814" class="_post post page_block" data-post-id="-78273068_29814" onclick="wall.postClick('-78273068_29814', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/int_universe">
+        <img src="https://pp.userapi.com/c636622/v636622506/56fb7/PlS7X0CU_oI.jpg" data-post-id="-78273068_29814" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/int_universe" data-from-id="-78273068" data-post-id="-78273068_29814" data-post-click-type="post_owner_link">Интегральная вселенная</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-78273068_29814"  onclick="return showWiki({w: 'wall-78273068_29814'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 12:15" time="1511514900">35 минут назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-78273068_29814', 'wall_-78273068_29814', '5104cc2eb12f601ab8');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-78273068_29814', '792a9c1d0b2f731203');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-78273068_29814" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Идеально</div><div class="post_thumbed_media clear_fix" ><div class="clear_fix page_gif_large page_gif_autoplay">
+  <a class="photo page_doc_photo_href" href="/doc14025700_448103672?hash=cef0d63e3625e2a5a1&dl=ee3c3c0f61255aafe8" onclick="return Page.showGif(this, event)" data-doc="14025700_448103672"  data-hash="cef0d63e3625e2a5a1" data-add-hash="fce4a768213219cd27" data-add-txt="Добавить в Документы" data-share-txt="Поделиться" data-post="-78273068_29814" data-preview="1" data-thumb="https://pp.userapi.com/c834701/u523422/d8/-3/o_172aacd56f.jpg" data-width="220" data-height="400" style="width:220px;height:400px;">
+    <div class="page_doc_photo" style="background-image: url(https://pp.userapi.com/c834701/u523422/d8/-3/o_172aacd56f.jpg);width:220px;height:400px;background-size:cover;"></div>
+    <div class="page_gif_label">gif</div>
+    <div class="page_gif_play_icon"></div>
+    <div class="page_gif_actions"><div class="page_gif_share" onmouseover="showTooltip(this, {text: 'Поделиться', black: 1, shift: [7, 6, 6], toup: 0, needLeft: 1})" onclick="return 0 ? false : Page.shareGif(this, '14025700_448103672', 'cef0d63e3625e2a5a1', event)">
+  <div class="page_gif_share_icon"></div>
+</div><div class="page_gif_add" onmouseover="return Page.overGifAdd(this, 'Добавить в Документы', '14025700_448103672', event);" onclick="return Page.addGif(this, '14025700_448103672', 'cef0d63e3625e2a5a1', 'fce4a768213219cd27', event);">
+  <div class="page_gif_add_icon"></div>
+</div></div>
+  </a>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-78273068_29814')" onclick="return Wall.likeIt(this, '-78273068_29814', 'f113fbc27edd912165', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">27</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-78273068_29814')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-78273068_29814', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-78273068_29814')" onclick="return Wall.sharesOpen(event, '-78273068_29814');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">2</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-78273068_29814')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-78273068_29814')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">762</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-78273068_29814" style="display: none">
+  <div class="replies_list _replies_list" id="replies-78273068_29814"><input type="hidden" id="start_reply-78273068_29814" value="" /></div>
+  <div id="reply_box_wrap-78273068_29814"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-78273068_29814" onclick="return Wall.showEditReply('-78273068_29814', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-78273068_29814" value="fcd57564a58620560b" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-18099999_361531" class="_post post page_block" data-post-id="-18099999_361531" onclick="wall.postClick('-18099999_361531', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/vk.fotos">
+        <img src="https://pp.userapi.com/c638028/v638028605/3e57/Fx3U8JNpCQM.jpg" data-post-id="-18099999_361531" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/vk.fotos" data-from-id="-18099999" data-post-id="-18099999_361531" data-post-click-type="post_owner_link">Лучшие фото</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-18099999_361531"  onclick="return showWiki({w: 'wall-18099999_361531'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 11:49" time="1511513365">час назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-18099999_361531', 'wall_-18099999_361531', '5d01fae6f0992306f8');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-18099999_361531', '42cb6e9b760c374330');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-18099999_361531" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Зубр в метели</div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 510px;"><a  onclick="return showPhoto('-18099999_456253137', 'wall-18099999_361531', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841624/v841624819/42aa2/niIKu-Dfki4&quot;,604,604],&quot;y_&quot;:[&quot;c841624/v841624819/42aa3/kJ7xWZxMJjw&quot;,807,807],&quot;z_&quot;:[&quot;c841624/v841624819/42aa4/VPMTMqPW3Zk&quot;,960,960]},queue:1}, event)" style="width: 510px; height: 510px; background-image: url(https://pp.userapi.com/c841624/v841624819/42aa2/niIKu-Dfki4.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-18099999_361531')" onclick="return Wall.likeIt(this, '-18099999_361531', 'dd396c1a07ca7c0778', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">408</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-18099999_361531')">Показать список оценивших</span>
+    
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-18099999_361531')" onclick="return Wall.sharesOpen(event, '-18099999_361531');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">11</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-18099999_361531')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-18099999_361531')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">17K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-18099999_361531" style="display: none">
+  <div class="replies_list _replies_list" id="replies-18099999_361531"><input type="hidden" id="start_reply-18099999_361531" value="" /></div>
+  
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div class="feed_repost-140810956_22" id="feed_repost-140810956_22_24435"><div id="post-36003022_193753" class="_post post page_block post_copy" data-post-id="-36003022_193753" onclick="wall.postClick('-36003022_193753', event);" post_view_hash="4763333185c18a2d57" data-copy="-140810956_22">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/concertz">
+        <img src="https://pp.userapi.com/c639116/v639116478/2245/I63Av-Hr5xU.jpg" data-post-id="-36003022_193753" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/concertz" data-from-id="-36003022" data-post-id="-36003022_193753" data-post-click-type="post_owner_link">Концертная Зона</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-36003022_193753"  onclick="return showWiki({w: 'wall-36003022_193753'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 12:43" time="1511516594">7 минут назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-36003022_193753', 'wall_-36003022_193753', '1243fd4083bcc9fcd4');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-36003022_193753', '571bdcf7ad0c87219c');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-36003022_193753" class="wall_post_cont _wall_post_cont"></div><div class="copy_quote"><div class="copy_post_header">
+    <a class="copy_post_image" data-post-id="-140810956_22" data-parent-post-id="-36003022_193753" href="/muzikspaze">
+      <img src="https://pp.userapi.com/c638024/v638024952/57c29/PVfKxlFuLh8.jpg" width="40" height="40" class="copy_post_img">
+      <span class="blind_label">.</span>
+    </a>
+    <div class="copy_post_header_info">
+      <h5 class="copy_post_author"><a class="copy_author" data-post-id="-140810956_22" data-parent-post-id="-36003022_193753" href="/muzikspaze">Music Space</a> </h5>
+      <div class="copy_post_date"><a class="published_by_date"  class="post_link"  href="/wall-140810956_22"  onclick="return showWiki({w: 'wall-140810956_22'}, false, event);" >8 ноя 2017 в 15:27</a></div>
+    </div>
+</div><div class="wall_post_text">Быстро и ясно разъясняем что к чему по самым популярным вопросам перед любым концертом&#33;</div><div class="page_post_sized_thumbs  clear_fix" style="width: 496px; height: 279px;"><a href="/video-140810956_456239032?list=a335e3d72336671dda" data-video="-140810956_456239032" data-list="a335e3d72336671dda" data-duration="176" aria-label="видеозапись 5 вопросов о концертах" onclick="return showInlineVideo('-140810956_456239032', 'a335e3d72336671dda', {autoplay: 1, addParams: { post_id: '-140810956_22' }}, event, this);" style="width: 496px; height: 279px; background-image: url(https://pp.userapi.com/c639920/u14541811/video/y_b2c43d66.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_video page_post_thumb_last_column page_post_thumb_last_row"><div class="page_post_video_play_inline"></div><div class="video_thumb_label "><span class="video_thumb_label_item">YouTube</span><span class="video_thumb_label_item">2:56</span></div></a></div><div class="media_desc post_video_desc">
+  <a class="lnk" id="post_media_lnk-36003022_193753_0"  onclick="return showVideo('-140810956_456239032', 'a335e3d72336671dda', {autoplay: 1, queue: 1, addParams: { post_id: '-140810956_22' }}, event);"  href="/video-140810956_456239032?list=a335e3d72336671dda" data-video="-140810956_456239032" data-list="a335e3d72336671dda" data-duration="176" aria-label="видеозапись 5 вопросов о концертах">
+    <div class="a post_video_title">5 вопросов о концертах</div><div class="post_video_views_count">172 просмотра</div>
+  </a>
+</div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-36003022_193753')" onclick="return Wall.likeIt(this, '-36003022_193753', 'c06c3043931609f2d3', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">5</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-36003022_193753')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-36003022_193753', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '-36003022_193753')" onclick="return Wall.sharesOpen(event, '-36003022_193753');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-36003022_193753')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-36003022_193753')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">950</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-36003022_193753" style="display: none">
+  <div class="replies_list _replies_list" id="replies-36003022_193753"><input type="hidden" id="start_reply-36003022_193753" value="" /></div>
+  <div id="reply_box_wrap-36003022_193753"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-36003022_193753" onclick="return Wall.showEditReply('-36003022_193753', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-36003022_193753" value="754335ea8e99f0496a" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div></div><div class="feed_row "><div id="post-78273068_29803" class="_post post page_block" data-post-id="-78273068_29803" onclick="wall.postClick('-78273068_29803', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/int_universe">
+        <img src="https://pp.userapi.com/c636622/v636622506/56fb7/PlS7X0CU_oI.jpg" data-post-id="-78273068_29803" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/int_universe" data-from-id="-78273068" data-post-id="-78273068_29803" data-post-click-type="post_owner_link">Интегральная вселенная</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-78273068_29803"  onclick="return showWiki({w: 'wall-78273068_29803'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 9:15" time="1511504100">три часа назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-78273068_29803', 'wall_-78273068_29803', '285bfe6d2b3c445c5c');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-78273068_29803', '8bb7164c563156a242');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-78273068_29803" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">IT-юмор</div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 309px;"><a  onclick="return showPhoto('-78273068_456242815', 'wall-78273068_29803', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c840136/v840136441/49040/UJufqnaKmKw&quot;,604,366]},queue:1}, event)" style="width: 510px; height: 309px; background-image: url(https://pp.userapi.com/c840136/v840136441/49040/UJufqnaKmKw.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-78273068_29803')" onclick="return Wall.likeIt(this, '-78273068_29803', '3d04e17dce16723f1c', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">119</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-78273068_29803')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-78273068_29803', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-78273068_29803')" onclick="return Wall.sharesOpen(event, '-78273068_29803');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">4</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-78273068_29803')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-78273068_29803')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">2.1K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-78273068_29803" style="">
+  <div class="replies_list _replies_list" id="replies-78273068_29803"><a id="wrh-78273068_29803" class="wr_header" onclick="return wall.showReplies('-78273068_29803', false, false, event);" offs="1/3" href="/wall-78273068_29803?offset=last&f=replies">Показать все 3 комментария</a><input type="hidden" id="start_reply-78273068_29803" value="29812" /><div id="post-78273068_29812" class="reply reply_dived clear  reply_replieable _post" data-post-id="-78273068_29812"  onclick="Wall.replyClick('-78273068_29803', 29812, event, 177365057)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/id177365057">
+      <img src="https://pp.userapi.com/c630930/v630930057/4eb1f/tCzrr6fD_Y8.jpg" width="40" height="40" class="reply_img" alt="Евгений Норин" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete-78273068_29812" class="reply_delete_button reply_action fl_r" data-title="Пожаловаться" onclick="wall.markAsSpam(this, '-78273068_29812', 'e46ab09a7bbdf90800')" onmouseover="showTitle(this);" aria-label="Пожаловаться" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/id177365057" data-from-id="177365057">Евгений Норин</a> ответил <a href="/w8guys" class="reply_to" onclick="return wall.showReply(this, '-78273068_29803', '-78273068_29807', event)" rid="435170618" onmouseover="wall.postTooltip(this, '-78273068_29812', {reply: 1})">Александре</a>
+      </div>
+      <div class="reply_text" ><div id="wpt-78273068_29812"><div class="wall_reply_text"><a class="wall_reply_greeting" href="/w8guys" onclick="return wall.showReply(this, '-78273068_29803', '-78273068_29807', event)">Александра</a>, главное чтобы не триппер</div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom-78273068_29812">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '-78273068_wall_reply29812', 'de598c117274e118f2', event);" onmouseover="Wall.likesShow(this, '-78273068_wall_reply29812')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-78273068_wall_reply29812')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall-78273068_29803?reply=29812"  onclick="return showWiki({w: 'wall-78273068_29803', reply: '29812'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 12:04" time="1511514293">45 минут назад</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap-78273068_29803"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-78273068_29803" onclick="return Wall.showEditReply('-78273068_29803', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-78273068_29803" value="fcd57564a58620560b" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-18099999_361530" class="_post post page_block" data-post-id="-18099999_361530" onclick="wall.postClick('-18099999_361530', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/vk.fotos">
+        <img src="https://pp.userapi.com/c638028/v638028605/3e57/Fx3U8JNpCQM.jpg" data-post-id="-18099999_361530" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/vk.fotos" data-from-id="-18099999" data-post-id="-18099999_361530" data-post-click-type="post_owner_link">Лучшие фото</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-18099999_361530"  onclick="return showWiki({w: 'wall-18099999_361530'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 10:08" time="1511507291">два часа назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-18099999_361530', 'wall_-18099999_361530', '2a7d4a33dc23b3b06b');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-18099999_361530', 'b3c4dda1152f4dd85e');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-18099999_361530" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Божественный нимб гало</div><div class="page_post_sized_thumbs  clear_fix" style="width: 406px; height: 510px;"><a  onclick="return showPhoto('-18099999_456253141', 'wall-18099999_361530', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841624/v841624819/42af1/zQSL7CIOULA&quot;,481,604],&quot;y_&quot;:[&quot;c841624/v841624819/42af2/iqw_peFvWFo&quot;,643,807],&quot;z_&quot;:[&quot;c841624/v841624819/42af3/uqYihNdgIk8&quot;,711,893]},queue:1}, event)" style="width: 406px; height: 510px; background-image: url(https://pp.userapi.com/c841624/v841624819/42af1/zQSL7CIOULA.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-18099999_361530')" onclick="return Wall.likeIt(this, '-18099999_361530', '511d6bf2195253467b', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">677</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-18099999_361530')">Показать список оценивших</span>
+    
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-18099999_361530')" onclick="return Wall.sharesOpen(event, '-18099999_361530');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">45</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-18099999_361530')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-18099999_361530')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">28K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-18099999_361530" style="display: none">
+  <div class="replies_list _replies_list" id="replies-18099999_361530"><input type="hidden" id="start_reply-18099999_361530" value="" /></div>
+  
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div><div class="feed_row "><div id="post-26776509_700527" class="_post post page_block" data-post-id="-26776509_700527" onclick="wall.postClick('-26776509_700527', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/wowtattoo">
+        <img src="https://pp.userapi.com/c636923/v636923277/626f0/2rRN5gYvdIY.jpg" data-post-id="-26776509_700527" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/wowtattoo" data-from-id="-26776509" data-post-id="-26776509_700527" data-post-click-type="post_owner_link">Тысяча чертей, какая татуировка&#33;</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-26776509_700527"  onclick="return showWiki({w: 'wall-26776509_700527'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 12:30" time="1511515803">20 минут назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-26776509_700527', 'wall_-26776509_700527', '9d9bc782e3d5342f4c');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-26776509_700527', 'acfb61751de845517b');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-26776509_700527" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Уух какая<img class="emoji_css" alt="&#128520;" emoji="D83DDE08" style="background-position: 0px -425px;" src="/images/blank.gif"></div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 510px;"><a  onclick="return showPhoto('-26776509_456328191', 'wall-26776509_700527', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c834102/v834102370/34d26/Kt2L2WNXWl4&quot;,604,604],&quot;y_&quot;:[&quot;c834102/v834102370/34d27/ZhJ5pIBsayI&quot;,807,807],&quot;z_&quot;:[&quot;c834102/v834102370/34d28/WE1emCjjgWA&quot;,960,960]},queue:1}, event)" style="width: 510px; height: 510px; background-image: url(https://pp.userapi.com/c834102/v834102370/34d26/Kt2L2WNXWl4.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-26776509_700527')" onclick="return Wall.likeIt(this, '-26776509_700527', '09f85fef93058c8902', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">746</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-26776509_700527')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-26776509_700527', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-26776509_700527')" onclick="return Wall.sharesOpen(event, '-26776509_700527');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">7</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-26776509_700527')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-26776509_700527')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">30K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-26776509_700527" style="">
+  <div class="replies_list _replies_list" id="replies-26776509_700527"><a id="wrh-26776509_700527" class="wr_header" onclick="return wall.showReplies('-26776509_700527', false, false, event);" offs="1/21" href="/wall-26776509_700527?offset=last&f=replies">Показать 21 комментарий</a><input type="hidden" id="start_reply-26776509_700527" value="700566" /><div id="post-26776509_700566" class="reply reply_dived clear  reply_replieable _post" data-post-id="-26776509_700566"  onclick="Wall.replyClick('-26776509_700527', 700566, event, 196724209)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/id196724209">
+      <img src="https://pp.userapi.com/c638017/v638017240/5cd80/CqNRH23DfcQ.jpg" width="40" height="40" class="reply_img" alt="Фил Филип" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete-26776509_700566" class="reply_delete_button reply_action fl_r" data-title="Пожаловаться" onclick="wall.markAsSpam(this, '-26776509_700566', 'f1018c018db632af4f')" onmouseover="showTitle(this);" aria-label="Пожаловаться" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/id196724209" data-from-id="196724209">Фил Филип</a>
+      </div>
+      <div class="reply_text" ><div id="wpt-26776509_700566"><div class="wall_reply_text">Жопа огромная <img class="emoji_css" alt="&#128563;" emoji="D83DDE33" style="background-position: 0px -357px;" src="/images/blank.gif"></div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom-26776509_700566">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '-26776509_wall_reply700566', '58cfe4cd3332c09c4b', event);" onmouseover="Wall.likesShow(this, '-26776509_wall_reply700566')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-26776509_wall_reply700566')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall-26776509_700527?reply=700566"  onclick="return showWiki({w: 'wall-26776509_700527', reply: '700566'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 12:50" time="1511517032">только что</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap-26776509_700527"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-26776509_700527" onclick="return Wall.showEditReply('-26776509_700527', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-26776509_700527" value="beda1c250f00a50bb0" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div>
+          <div id="feed_rows_next"><div class="feed_row"><div id="post-36648726_489436" class="_post post page_block" data-post-id="-36648726_489436" onclick="wall.postClick('-36648726_489436', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image" href="/music0107">
+        <img src="https://pp.userapi.com/c627729/v627729465/33373/4TrgjD5K5gY.jpg" data-post-id="-36648726_489436" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/music0107" data-from-id="-36648726" data-post-id="-36648726_489436" data-post-click-type="post_owner_link">01:07 MUSIC</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall-36648726_489436"  onclick="return showWiki({w: 'wall-36648726_489436'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 11:24" time="1511511863">час назад</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="feed.ignoreItem('-36648726_489436', 'wall_-36648726_489436', '4edf871522c08349c1');" tabindex="0" role="link">Это не интересно</a><a class="ui_actions_menu_item" onclick="wall.markAsSpam(this, '-36648726_489436', '52bbb569a653e7322f');" tabindex="0" role="link">Пожаловаться</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt-36648726_489436" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Hurts в акустике.<br><br><a href="/music0107" class="mem_link" mention="" mention_id="club36648726" onclick="return mentionClick(this, event)" onmouseover="mentionOver(this)">Hurts</a> - Deluxe Music Session Live [EP] (2017) <br><br><a href="/feed?section=search&q=%230107_new">#0107_new</a> <a href="/feed?section=search&q=%23acoustic">#acoustic</a></div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 510px;"><a  onclick="return showPhoto('-36648726_456249740', 'wall-36648726_489436', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c841527/v841527760/3eaf6/QXCghMAYIsY&quot;,604,604],&quot;y_&quot;:[&quot;c841527/v841527760/3eaf7/v5Ya8HOR_TE&quot;,807,807],&quot;z_&quot;:[&quot;c841527/v841527760/3eaf8/QTGXqaIdwsg&quot;,1080,1080]},queue:1}, event)" style="width: 510px; height: 510px; background-image: url(https://pp.userapi.com/c841527/v841527760/3eaf6/QXCghMAYIsY.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000338601_456240763 audio_can_add audio_hq audio_has_thumb" data-full-id="2000338601_456240763" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456240763,2000338601,&quot;&quot;,&quot;Wonderful Life (Live @ Deluxe Music Session)&quot;,&quot;Hurts&quot;,250,0,0,&quot;&quot;,0,82,&quot;feed&quot;,&quot;[]&quot;,&quot;367b7f5a00b27d5a87\/\/bee35ec0e3db22b843\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c824503\/v824503403\/26b7c\/ehaPDhHoSxs.jpg,https:\/\/pp.userapi.com\/c824503\/v824503403\/26b7a\/B9rhWEinv64.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c824503/v824503403/26b7c/ehaPDhHoSxs.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:10</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Hurts&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Hurts</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Wonderful Life (Live @ Deluxe Music Session)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000336930_456241028 audio_can_add audio_hq audio_has_thumb" data-full-id="2000336930_456241028" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241028,2000336930,&quot;&quot;,&quot;Beautiful Ones (Live @ Deluxe Music Session)&quot;,&quot;Hurts&quot;,193,0,0,&quot;&quot;,0,82,&quot;feed&quot;,&quot;[]&quot;,&quot;53a0771bf1bf753dbf\/\/06396ad6279029a154\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c824503\/v824503403\/26b7c\/ehaPDhHoSxs.jpg,https:\/\/pp.userapi.com\/c824503\/v824503403\/26b7a\/B9rhWEinv64.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c824503/v824503403/26b7c/ehaPDhHoSxs.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:13</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Hurts&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Hurts</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Beautiful Ones (Live @ Deluxe Music Session)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000337610_456241023 audio_can_add audio_hq audio_has_thumb" data-full-id="2000337610_456241023" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241023,2000337610,&quot;&quot;,&quot;Ready to Go (Live @ Deluxe Music Session)&quot;,&quot;Hurts&quot;,172,0,0,&quot;&quot;,0,82,&quot;feed&quot;,&quot;[]&quot;,&quot;82f8cdbabe33c85512\/\/4dff8657618920e0f4\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c824503\/v824503403\/26b7c\/ehaPDhHoSxs.jpg,https:\/\/pp.userapi.com\/c824503\/v824503403\/26b7a\/B9rhWEinv64.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c824503/v824503403/26b7c/ehaPDhHoSxs.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">2:52</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Hurts&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Hurts</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Ready to Go (Live @ Deluxe Music Session)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '-36648726_489436')" onclick="return Wall.likeIt(this, '-36648726_489436', 'c743e1e02dedc0c275', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">154</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-36648726_489436')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('-36648726_489436', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '-36648726_489436')" onclick="return Wall.sharesOpen(event, '-36648726_489436');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">11</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '-36648726_489436')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '-36648726_489436')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">4.6K</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap-36648726_489436" style="">
+  <div class="replies_list _replies_list" id="replies-36648726_489436"><input type="hidden" id="start_reply-36648726_489436" value="489437" /><div id="post-36648726_489437" class="reply reply_dived clear  reply_replieable _post" data-post-id="-36648726_489437"  onclick="Wall.replyClick('-36648726_489436', 489437, event, -36648726)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/music0107">
+      <img src="https://pp.userapi.com/c627729/v627729465/33373/4TrgjD5K5gY.jpg" width="40" height="40" class="reply_img" alt="01:07 MUSIC" />
+    </a>
+    <div class="reply_content" >
+      
+      <div class="reply_author">
+        <a class="author" href="/music0107" data-from-id="-36648726">01:07 MUSIC</a>
+      </div>
+      <div class="reply_text" ><div id="wpt-36648726_489437"><div class="wall_reply_text"><img class="emoji_css" alt="&#10084;" emoji="2764" style="background-position: 0px -442px;" src="/images/blank.gif"></div><div class="page_post_sized_thumbs  clear_fix" style="width: 120px; height: 120px;"><a  onclick="return showPhoto('-36648726_456249741', 'wall-36648726_489437', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c635100/v635100760/25359/1IQY398VJA8&quot;,604,604],&quot;y_&quot;:[&quot;c635100/v635100760/2535a/ByKUvxLH3YM&quot;,807,807],&quot;z_&quot;:[&quot;c635100/v635100760/2535b/9sFCxzFzBNo&quot;,959,959]},queue:1}, event)" style="width: 120px; height: 120px; background-image: url(https://pp.userapi.com/c635100/v635100760/25358/YoW4odRR0Jo.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom-36648726_489437">
+        <a href="#" class="like_wrap _like_wrap " onclick="return Wall.likeIt(this, '-36648726_wall_reply489437', 'c9f457fe47c28d7012', event);" onmouseover="Wall.likesShow(this, '-36648726_wall_reply489437')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count">5</span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '-36648726_wall_reply489437')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall-36648726_489436?reply=489437"  onclick="return showWiki({w: 'wall-36648726_489436', reply: '489437'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 11:32" time="1511512378">час назад</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap-36648726_489436"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox-36648726_489436" onclick="return Wall.showEditReply('-36648726_489436', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div><input type="hidden" id="post_hash-36648726_489436" value="f2f17fb7868c1bc2b6" />
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div></div></div>
+        </div>
+        <button class="flat_button secondary_dark more_link" id="show_more_link" onclick="return feed.showMore();" style="">Показать предыдущие новости</button>
+        <div id="all_shown" style="">Показаны последние новости</div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div></div>
+  </div>
+</div></div>
+    </div>
+
+    <div id="footer_wrap" class="footer_wrap fl_r" style="width: 795px;"></div>
+    <div class="clear"></div>
+  </div>
+</div></div><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2579437;pid=44752200;js=na" style="border:0;" height="1" width="1" />
+</div></noscript></div>
+  <div class="progress" id="global_prg"></div>
+
+  <script type="text/javascript">
+    if (parent && parent != window && (browser.msie || browser.opera || browser.mozilla || browser.chrome || browser.safari || browser.iphone)) {
+      document.getElementsByTagName('body')[0].innerHTML = '';
+    } else {
+      domReady();
+      updateMoney(0);
+if (browser.iphone || browser.ipad || browser.ipod) {
+  setStyle(bodyNode, {webkitTextSizeAdjust: 'none'});
+}TopMenu.init();
+initTopAudioPlayer();
+if (0) {
+  hide('support_link_td', 'top_support_link');
+}
+var ts_input = ge('ts_input');
+if (ts_input) {
+  placeholderSetup(ts_input, {back: false, reload: true, phColor: '#8fadc8'});
+}
+TopSearch.init();;shortCurrency();
+__adsLoaded = false;
+
+handlePageParams({"id":44752200,"leftblocks":"","leftads":"","ads_can_show":"1","ads_section":"feed_main","level":1,"loc":null,"wrap_page":1,"width":960,"width_dec":165,"width_dec_footer":165,"body_class":"","counters":"0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0","pvbig":1,"pvdark":1});addEvent(document, 'click', onDocumentClick);
+addLangKeys({"global_apps":"Приложения","global_friends":"Друзья","global_communities":"Сообщества","head_search_results":"Результаты поиска","global_chats":"Диалоги","global_show_all_results":"Показать все результаты","global_news_search_results":"Результаты поиска в новостях","global_emoji_cat_recent":"Часто используемые","global_emoji_cat_1":"Эмоции","global_emoji_cat_2":"Животные и растения","global_emoji_cat_3":"Жесты и люди","global_emoji_cat_4":"Еда и напитки","global_emoji_cat_5":"Спорт и активности","global_emoji_cat_6":"Путешествия и транспорт","global_emoji_cat_7":"Предметы","global_emoji_cat_8":"Символы","global_emoji_cat_9":"Флаги","stories_remove_warning":"Вы действительно хотите удалить историю?<br>Отменить действие будет невозможно.","stories_remove_confirm":"Да, удалить","stories_answer_placeholder":"Ваше сообщение…","stories_answer_sent":"Сообщение отправлено","stories_blacklist_title":"Скрыты из историй","stories_settings":"Настройки","stories_add_blacklist_title":"Скрытие из историй","stories_add_blacklist_message":"Пользователь останется в друзьях, но истории не будут показываться в новостях.","stories_add_blacklist_button":"Скрыть из историй","stories_add_blacklist_message_group":"Вы останетесь подписчиком сообщества, но истории не будут показываться в новостях.","stories_error_cant_load":"Не удалось загрузить историю.","stories_try_again":"Попробовать ещё раз","stories_error_expired":"Историю можно было посмотреть<br>в течение 24 часов после публикации","stories_error_deleted":"Автор удалил историю","stories_error_private":"Автор скрыл историю","stories_mask_tooltip":"Попробовать эту маску","stories_mask_sent":"Маска отправлена на телефон","stories_followed":"Вы подписались&#33;","stories_unfollowed":"Вы отписались","stories_is_ad":"Реклама","stories_private_story":"Приватная<br>история","stories_deleted_story":"История<br>удалена","stories_bad_browser":"Истории не поддерживаются в Вашем браузере"}, true);
+addLangKeys({"audio_delete_audio":"Удалить аудиозапись","audio_dont_show":"Больше не показывать","audio_performers_only":"по исполнителям","audio_titles_search":"по композициям","audio_global_search_found":["","В поиске найдена %s аудиозапись","В поиске найдено %s аудиозаписи","В поиске найдено %s аудиозаписей"],"wall_link_label":"Ссылка","wall_my_friends_only":"Эта запись видна только Вашим друзьям","global_photo_full_size":"Увеличить","news_return_to_news":"Новости","news_unsubscribe":"Отписаться","news_warning":"Предупреждение","news_show_all_comments":"Показать все комментарии","news_show_last_three":"Показать последние три комментария","news_unsubscribe_comments":"Отписаться от комментариев","news_unsubscribe_comments_confirm":"Отписаться от комментариев к этой записи","news_delete_list_sure_title":"Удаление вкладки","news_delete_list_sure":"Вы уверены, что хотите удалить вкладку <b>{list}<\/b>?","news_hide_list_confirm_title":"Скрытие списка","news_hide_named_list":"Вы уверены, что хотите скрыть список <b>«{title}»<\/b>?","news_hide":"Скрыть","news_show_menu":"Фильтр","news_hide_menu":"Фильтр","news_edit_tabs":"Разделы новостей","news_search_tab":"Поиск: <i>%s<\/i>","feed_add_post":"Добавить новость","news_switch_to_search":"Поиск новостей","news_top_X_percent":["","топ <b>%s%%<\/b> новостей","топ <b>%s%%<\/b> новостей","топ <b>%s%%<\/b> новостей"],"news_top_all_news":"все новости","news_top_no_news":"только мои записи","news_top_slider_about":"Вы можете передвинуть бегунок вправо или влево, чтобы определить, какие Новости будут отображаться.<br><br>Чем правее бегунок, тем <b>больше<\/b> новостей в потоке. Смещая бегунок влево, Вы оставляете самое <b>важное<\/b>.","news_x_photos":["","%s фотография","%s фотографии","%s фотографий"],"wall_user_was_tagged_on_photos":["","был отмечен на фотографиях","была отмечена на фотографиях"],"news_switch_to_articles":"К обсуждаемым новостям","news_search":"Поиск по новостям","news_photo_search":"Поиск по фотографиям","news_articles_search":"Поиск по статьям","news_show_X_reposts":["","Показать ещё %s похожую запись","Показать ещё %s похожие записи","Показать ещё %s похожих записей"],"news_hide_reposts":"Скрыть похожие записи","news_new_posts":["","Показать <b>%s<\/b> новую запись","Показать <b>%s<\/b> новые записи","Показать <b>%s<\/b> новых записей"]});
+addTemplates({"_":"_","audio_bits_to_cls":"{\"1\":\"audio_has_lyrics\",\"2\":\"audio_can_add\",\"4\":\"audio_claimed\",\"8\":\"audio_from_queue\",\"16\":\"audio_hq\",\"32\":\"audio_lpb\",\"64\":\"audio_has_thumb\",\"256\":\"audio_moder_claimed\"}","audio_row":"<div   tabindex=\"0\" class=\"audio_row audio_row_with_cover _audio_row _audio_row_%1%_%0% %cls%\" data-full-id=\"%1%_%0%\" onclick=\"return getAudioPlayer().toggleAudio(this, event)\" data-audio=\"%serialized%\" onmouseover=\"AudioUtils.onRowOver(this, event)\" onmouseleave=\"AudioUtils.onRowLeave(this, event)\">\n  <div class=\"audio_row_content _audio_row_content\">\n    <button class=\"blind_label _audio_row__play_btn\" aria-label=\"Воспроизвести \" onclick=\"getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)\"><\/button>\n\n    <div class=\"audio_row__cover\" style=\"%cover_style%\"><\/div>\n    <div class=\"audio_row__cover_back _audio_row__cover_back\"><\/div>\n    <div class=\"audio_row__cover_icon _audio_row__cover_icon\"><\/div>\n    <div class=\"audio_row__counter\"><\/div>\n    <div class=\"audio_row__play_btn\"><\/div>\n\n    <div class=\"audio_row__inner\">\n      <div class=\"audio_row__info _audio_row__info\"><div class=\"audio_row__duration _audio_row__duration\">%duration%<\/div><\/div>\n      <div class=\"audio_row__performer_title\">\n        <a href=\"%search_href%\" onmouseover=\"setTitle(this)\" class=\"audio_row__performer\">%4%<\/a>\n        <div class=\"audio_row__title _audio_row__title\" onmouseover=\"setTitle(this)\"><span class=\"audio_row__title_inner _audio_row__title_inner\">%3%<\/span><\/div>\n      <\/div>\n    <\/div>\n\n    <div class=\"audio_player__place _audio_player__place\"><\/div>\n  <\/div>\n<\/div>"});uiSearch.init('search_query', { onFocus:addClass.pbind('wide_column', 'search_focused'),onBlur:removeClass.pbind('wide_column', 'search_focused'),onEnter:Feed.onFeedSearch });Stories.initFeed();try {
+cur.lang = extend(cur.lang || {}, {
+  create_poll: 'Опрос',
+  dont_attach: 'Не прикреплять',
+  attachments_limit: ["","Одна запись не может содержать более %s вложения.","Одна запись не может содержать более %s вложений.","Одна запись не может содержать более %s вложений."]
+});
+feed.init({"section":"news","subsection":"top","count":2223,"reply_names":{"_":false,"42573409":["Владу","Влад, "],"177365057":["Евгению","Евгений, "],"196724209":["Филу","Фил, "],"-36648726":["01:07 MUSIC","01:07 MUSIC, "]},"timestamp":1511517050,"offset":10,"from":"489436_1511470800_5:10","all_shown":false,"add_queue":true,"ignore_owners":true,"feed_session_id":1335499668,"loc":"feed","searchLoc":"feed?section=search","all_shown_text":"Показаны последние новости","show_more_text":"Показать предыдущие новости","empty_text":"Здесь Вы будете видеть новостную ленту своих друзей.","q":null,"reposts":null,"mentionObj":0,"source":0,"source_name":null,"list":0,"filters":"<div class=\"page_block\" id=\"\">\n  <div class=\"ui_toggler_wrap hot\" onclick=\"Feed.toggleFeedTop(this, event);\">\n  <div class=\"_ui_toggler ui_toggler  on\"><\/div>\n  <div class=\"ui_toggler_label\">Сначала интересные<\/div>\n<\/div>\n<\/div>","script":"","htitle":"Новости","feedback_dis":"<div id=\"reply_box%item%\" class=\"feedback_row_answer feedback_reply_disabled\" onclick=\"event.cancelBubble = true;\">\n  <div class=\"dld\"><span class=\"dld_inner\">%text%<\/span><\/div>\n<\/div>","max_post_len":280,"wall_type":"feed","user_id":44752200,"feed_types":{"comments":["ps","ph","vd","tp","nt","mk"],"updates":["fr","pr","ev","cm","ph","vd","nt","tp","mk","gr"],"notifications":[],"tabs":["news","photos","videos","friends","groups","likes","may9","vk2016","hockey","rio2016",1917,"cc2017"],"likes":["ps","tp","ph","vd","mk"]},"my_feed_types":{"friends":true,"groups":true,"comments":true,"person":true,"group":true,"updates":true,"likes":true,"optional_tabs":["photos","videos","friends","groups","likes",1917],"tabs":["photos","videos"]},"tabs_hash":"1511517050_e353028d171736b8a2","wall_tpl":{"reply_box":"<div id=\"reply_box_wrap%post_id%\"><div class=\"reply_box_inner_wrap\">\n  <div class=\"reply_fakebox_wrap\" id=\"reply_fakebox%post_id%\" onclick=\"return Wall.showEditReply('%post_id%', event)\" data-owner-photo=\"%owner_photo%\" data-owner-href=\"%owner_href%\" data-owner-name=\"%owner_name%\">\n    <a class=\"post_field_user_link _post_field_author\" href=\"\/innapush\" onclick=\"if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;\">\n  <img class=\"post_field_user_image _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n  <img class=\"post_field_user_image post_field_image_secondary _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n<\/a>\n    <div class=\"reply_fakebox\">Написать комментарий...<\/div><\/div>\n<\/div><\/div><input type=\"hidden\" id=\"post_hash%post_id%\" value=\"1511517050_303904f8820887127b\" can_reply_as_group=\"%can_reply_as_group%\" \/>","reply_form":"<div id=\"reply_box%post_id%\" class=\"submit_post_box reply_box clear_fix _submit_post_box\" data-from-oid=\"44752200\" data-oid=\"%oid%\" data-owner-name=\"%owner_name%\" data-owner-photo=\"%owner_photo%\" data-owner-href=\"%owner_href%\" onclick=\"return cancelEvent(event)\">\n  <div class=\"reply_form\">\n    <input type=\"hidden\" id=\"reply_to%post_id%\" value=\"\" \/>\n    <a class=\"post_field_user_link _post_field_author\" href=\"\/innapush\" onclick=\"if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;\">\n  <img class=\"post_field_user_image _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n  <img class=\"post_field_user_image post_field_image_secondary _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n<\/a>\n    <div class=\"reply_field_wrap _emoji_field_wrap\">\n      <div id=\"reply_smile%post_id%\" class=\"emoji_smile_wrap  _emoji_wrap\">\n  <div class=\"emoji_smile _emoji_btn\" title=\"Используйте TAB, чтобы быстрее открывать смайлы\" onmouseover=\"return Emoji.show(this, event);\" onmouseout=\"return Emoji.hide(this, event);\" onclick=\"return cancelEvent(event);\">\n    <div class=\"emoji_smile_icon\"><\/div>\n  <\/div>\n<\/div>\n      <div id=\"reply_field%post_id%\" class=\"reply_field submit_post_field\" onfocus=\"return Wall.showEditReply('%post_id%', event);\" contenteditable=\"true\" placeholder=\"Написать комментарий...\" role=\"textbox\" aria-multiline=\"true\"><\/div>\n    <\/div>\n    <div id=\"submit_reply%post_id%\" class=\"submit_post clear_fix\">\n      <div class=\"reply_warn clear\" id=\"reply_warn%post_id%\"><\/div>\n      <div id=\"reply_media_preview%post_id%\" class=\"reply_media_preview clear_fix media_preview\"><\/div>\n      <div class=\"addpost_button_wrap\">\n        <button class=\"flat_button addpost_button\" id=\"reply_button%post_id%\" onclick=\"wall.sendReply('%post_id%', event, {});\" onmouseover=\"wall.replySubmitTooltip('%post_id%', 1, this);\" onmouseout=\"wall.replySubmitTooltip('%post_id%', 0, this);\">Отправить<\/button>\n      <\/div>\n      %add_buttons%\n      <div class=\"page_add_media\" id=\"reply_add_media_%post_id%\"><\/div>\n      <div id=\"reply_to_title%post_id%\" class=\"reply_to_title addpost_popt\"><\/div>\n    <\/div>\n  <\/div>\n<\/div>","reply_form_official":"","reply_form_official_placeholder":"<div class=\"addpost_opt checkbox_official _post_field_official\" id=\"reply_as_group%post_id%\" onclick=\"wall.replyAsGroup(this, %oid%);\" onmouseover=\"wall.replyAsGroupOver(this);\" tabindex=\"0\" role=\"button\" aria-label=\"от имени пользователя\">\n  <img class=\"post_field_choose_image _post_field_image\" src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" \/>\n  <img class=\"post_field_choose_image post_field_choose_secondary _post_field_image\" src=\"%owner_photo%\" \/>\n<\/div>","reply_multiline":false,"reply_multiline_intro":true,"reply_link_wrap":"<div class=\"reply_link_wrap\">\n  <a class=\"reply_link _reply_lnk\" tabindex=\"0\" role=\"link\">Ответить<\/a>\n<\/div>","reply_link_to":" <a class=\"reply_to\">ответила %to_user%<\/a>","reply_fast":"<div id=\"post%reply_id%\" class=\"reply reply_dived clear  _post\" data-post-id=\"%reply_id%\" >\n  <div class=\"reply_wrap _reply_content _post_content clear_fix\">\n    \n    <a class=\"reply_image\" href=\"\/innapush\">\n      <img src=\"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg\" width=\"40\" height=\"40\" class=\"reply_img\" alt=\"Инна Пушкарёва\" \/>\n    <\/a>\n    <div class=\"reply_content\" >\n      \n      <div class=\"reply_author\">\n        <a class=\"author\" href=\"\/innapush\" data-from-id=\"0\">Инна Пушкарёва<\/a>%to_link%\n      <\/div>\n      <div class=\"reply_text\" ><div class=\"wall_reply_text\">%message%<\/div><\/div>\n      <div class=\"reply_footer clear_fix\" id=\"wpe_bottom%reply_id%\">\n        \n        <div class=\"reply_date\">%date%<\/div>\n        <div class=\"reply_link_wrap\">\n  <a class=\"reply_link _reply_lnk\" tabindex=\"0\" role=\"link\">Ответить<\/a>\n<\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","reply_multiline_hint":"<div class=\"reply_submit_hint_wrap\"  onclick=\"stopEvent(event);\">\n  <div class=\"reply_submit_hint_title\">Настройки отправки<\/div>\n  <div class=\"reply_submit_hint_opts\" id=\"reply_submit_hint_opts\">\n    <div class=\"radiobtn %disabled% \" data-val=\"0\" onclick=\"radiobtn(this, 0, 'reply_submit'); wall.onReplySubmitChanged(0);\"><div class=\"radiobtn_label\"><b>Enter<\/b> — отправка сообщения<br><b>Shift+Enter<\/b> — перенос строки<\/div><\/div>\n    <div class=\"radiobtn %enabled% \" data-val=\"1\" onclick=\"radiobtn(this, 1, 'reply_submit'); wall.onReplySubmitChanged(1);\"><div class=\"radiobtn_label\"><b>Ctrl+Enter<\/b> — отправка сообщения<br><b>Enter<\/b> — перенос строки<\/div><\/div>\n  <\/div>\n<\/div>","reply_button":"<a href=\"#\" class=\"post_reply _reply_wrap\" onclick=\"return Wall.showEditReply('%post_id%', event)\">\n  <i class=\"post_reply_icon _icon\"><\/i>\n  <span class=\"post_reply_link _link\">Комментировать<\/span>\n  <span class=\"post_reply_count _count\"><\/span>\n<\/a>","reply_link":"<span id=\"reply_link%post_id%\" class=\"reply_link_wrap\"><a href=\"#\" class=\"reply_link\" onclick=\"return Wall.showEditReply('%post_id%', event)\">Комментировать<\/a><\/span>","own_reply_link":"<span class=\"reply_link_wrap\"><a class=\"reply_link\" onclick=\"Wall.likeShareCustom('%post_id%')\">Ответить<\/a><\/span>","edit_link":"<span class=\"divide\">|<\/span><a onclick=\"wall.editPost(this, '%post_id%')\">Редактировать<\/a>","post_replies":"<div class=\"replies_wrap\" id=\"replies_wrap%post_id%\" style=\"display: none;\">\n  <div class=\"replies_list _replies_list\" id=\"replies%post_id%\"><input type=\"hidden\" id=\"start_reply%post_id%\" value=\"\"\/><\/div>\n  %reply_box%\n<\/div>","post":"<div id=\"post%post_id%\" class=\"_post post page_block\" data-post-id=\"%post_id%\" onclick=\"wall.postClick('%post_id%', event);\" post_view_hash=\"4763333185c18a2d57\">\n  <div class=\"_post_content\">\n    \n    <div class=\"post_header\">\n      <a class=\"post_image%online_class%\" href=\"%link%\">\n        <img src=\"%photo%\" data-post-id=\"%post_id%\" data-post-click-type=\"post_owner_img\" width=\"50\" height=\"50\" class=\"post_img\" \/>\n        <span class=\"blind_label\">.<\/span>\n      <\/a>\n      \n      <div class=\"post_header_info\">\n        <h5 class=\"post_author\">%name%<\/h5>\n        <div class=\"post_date\"><a class=\"post_link\" href=\"\/wall%post_id%\" onclick=\"return showWiki({w: 'wall%post_id%'}, false, event);\">%date%<\/a><\/div>\n        %actions%\n      <\/div>\n    <\/div>\n    <div class=\"post_content\">\n      <div class=\"post_info\">\n        <div class=\"wall_text\">%text%<\/div>\n        <div class=\"post_full_like_wrap clear_fix\">\n  <div class=\"post_full_like\">\n    <a href=\"#\" class=\"post_like _like_wrap no_likes\" onmouseover=\"Wall.likesShow(this, '%post_id%')\" onclick=\"return Wall.likeIt(this, '%post_id%', '1511517050_c75e5c3b2f9f21c6a9', event);\">\n      <i class=\"post_like_icon _icon\"><\/i>\n      <span class=\"post_like_link _link\">Нравится<\/span>\n      <span class=\"post_like_count _count\"><\/span>\n    <\/a>\n    <span class=\"blind_label\" tabindex=\"0\" role=\"link\" onclick=\"Wall.likesShowList(this, '%post_id%')\">Показать список оценивших<\/span>\n    %reply_button%\n    <a href=\"#\" class=\"post_share _share_wrap no_shares\"  onmouseover=\"Wall.sharesShow(this, '%post_id%')\" onclick=\"return Wall.sharesOpen(event, '%post_id%');\">\n      <i class=\"post_share_icon _icon\"><\/i>\n      <span class=\"blind_label\">Поделиться<\/span>\n      <span class=\"post_share_link _link\">Поделиться<\/span>\n      <span class=\"post_share_count _count\"><\/span>\n    <\/a>\n    <span class=\"blind_label\" tabindex=\"0\" role=\"link\" onclick=\"Wall.sharesShowList(this, '%post_id%')\">Показать список поделившихся<\/span>\n    \n  <\/div>\n  <div class=\"post_views _views_wrap no_views _auto_update\" onmouseover=\"Wall.viewsUpdate(this, '%post_id%')\">\n  <i class=\"post_views_icon _icon\"><\/i>\n  <span class=\"post_views_count _count\"><\/span>\n<\/div>\n<\/div>\n        <div class=\"replies\">%replies%<\/div>\n      <\/div>\n    <\/div>\n    \n  <\/div>\n<\/div>","reply":"<div id=\"post%reply_id%\" class=\"reply reply_dived clear %classname% _post\" data-post-id=\"%reply_id%\" %attr%>\n  <div class=\"reply_wrap _reply_content _post_content clear_fix\">\n    \n    <a class=\"reply_image\" href=\"%link%\">\n      <img src=\"%photo%\" width=\"40\" height=\"40\" class=\"reply_img\" alt=\"%name%\" \/>\n    <\/a>\n    <div class=\"reply_content\" >\n      %actions%\n      <div class=\"reply_author\">\n        <a class=\"author\" href=\"%link%\" data-from-id=\"%reply_uid%\">%name%<\/a>%to_link%\n      <\/div>\n      <div class=\"reply_text\" >%text%<\/div>\n      <div class=\"reply_footer clear_fix\" id=\"wpe_bottom%reply_id%\">\n        <a href=\"#\" class=\"like_wrap _like_wrap no_likes\" onclick=\"return Wall.likeIt(this, '%like_id%', '1511517050_c75e5c3b2f9f21c6a9', event);\" onmouseover=\"Wall.likesShow(this, '%like_id%')\">\n  <span class=\"blind_label\">Нравится<\/span>\n  <i class=\"like_icon _icon\"><\/i>\n  <span class=\"like_count _count\"><\/span>\n<\/a>\n<span class=\"blind_label\" tabindex=\"0\" role=\"link\" onclick=\"Wall.likesShowList(this, '%like_id%')\">Показать список оценивших<\/span>\n        <div class=\"reply_date\"><a class=\"wd_lnk\" href=\"\/wall%post_id%?reply=%reply_msg_id%\" onclick=\"return nav.go(this, event)\">%date%<\/a><\/div>\n        %answer_link%\n      <\/div>\n    <\/div>\n  <\/div>\n<\/div>","del":"<a class=\"ui_actions_menu_item\" onclick=\"wall.deletePost(this, '%post_id%', '1511517050_5e73d941791562e3e6'); return false;\">Удалить запись<\/a>","spam":"<a class=\"ui_actions_menu_item\" onclick=\"wall.markAsSpam(this, '%post_id%', '1511517050_05048fb042d0e94998'); return false;\">Пожаловаться<\/a>","edit":"<a class=\"ui_actions_menu_item\" onclick=\"wall.editPost(this, '%post_id%'); return false;\">Редактировать<\/a>","post_actions":"<div class=\"ui_actions_menu_wrap _ui_menu_wrap \" onmouseover=\"uiActionsMenu.show(this);\" onmouseout =\"uiActionsMenu.hide(this);\">\n  <div class=\"ui_actions_menu_icons\"  tabindex=\"0\" aria-label=\"Действия\" role=\"button\" onclick=\"uiActionsMenu.keyToggle(this, event);\"><span class=\"blind_label\">Действия<\/span><\/div>\n  <div class=\"ui_actions_menu _ui_menu\" >%actions%<\/div>\n<\/div>","del_reply":"<div id=\"reply_delete%reply_id%\" class=\"reply_delete_button reply_action fl_r\" data-title=\"Удалить\" onclick=\"wall.deletePost(this, '%reply_id%', '1511517050_5e73d941791562e3e6');\" onmouseover=\"showTitle(this);\" aria-label=\"Удалить\" tabindex=\"0\" role=\"link\"><\/div>","spam_reply":"<div id=\"reply_delete%reply_id%\" class=\"reply_delete_button reply_action fl_r\" data-title=\"Пожаловаться\" onclick=\"wall.markAsSpam(this, '%reply_id%', '1511517050_05048fb042d0e94998');\" onmouseover=\"showTitle(this);\" aria-label=\"Пожаловаться\" tabindex=\"0\" role=\"link\"><\/div>","edit_reply":"<div id=\"reply_edit%reply_id%\" class=\"reply_edit_button reply_action fl_r\" data-title=\"Редактировать\" onclick=\"wall.editPost(this, '%reply_id%');\" onmouseover=\"showTitle(this);\" aria-label=\"Редактировать\" tabindex=\"0\" role=\"link\"><\/div>","reply_actions":"<div class=\"fl_r post_actions_wrap\"><div class=\"post_actions\">%actions%<\/div><\/div>","poll_stats":"<div class=\"page_poll_stat\"%handlers%>\n  <div class=\"page_poll_text\">%option_text%<\/div>\n  <div class=\"page_poll_row_wrap\">\n    <div class=\"page_poll_row_percent\">%percent%%<\/div>\n    <div class=\"page_poll_row%row_class%\">\n      <div class=\"page_poll_percent\" style=\"width: %css_percent%%\"><\/div>\n      <div class=\"page_poll_row_count\">%count%<\/div>\n    <\/div>\n  <\/div>\n<\/div>","poll_hash":"1511517050_dd1843ec4cc11133c5","date_format":"сегодня в {hour}:{minute}","time_system":false,"abs_timestamp":1511517050,"profileData":[44752200,"https:\/\/pp.userapi.com\/c638221\/v638221519\/63937\/Jw8UT8wlg8Y.jpg","\/innapush","Инна Пушкарёва"],"lang":{"wall_M_replies_of_N":["","%s комментарий из {link}{all}{\/link}","%s последних комментария из {link}{all}{\/link}","%s последних комментариев из {link}{all}{\/link}"],"wall_hide_replies":"Скрыть комментарии","wall_show_n_of_m_last":["","Показать последние %s комментарий из {count}","Показать последние %s комментария из {count}","Показать последние %s комментариев из {count}"],"wall_show_all_n_replies":["","Показать %s комментарий","Показать все %s комментария","Показать все %s комментариев"],"wall_N_replies":["","%s комментарий","%s комментария","%s комментариев"],"wall_three_last_replies":"три последних комментария","wall_all_replies":"все комментарии","wall_x_new_replies_more":["","Добавлен %s новый комментарий","Добавлено %s новых комментария","Добавлено %s новых комментариев"],"wall_X_people_voted":["","Проголосовал <b>%s<\/b> человек.","Проголосовало <b>%s<\/b> человека.","Проголосовало <b>%s<\/b> человек."],"wall_reply_submit_hint_1":"Shift+Enter – перевод строки","wall_reply_submit_hint_2":"Ctrl+Enter – отправка сообщения","wall_reply_submit_hint_1_more":"Enter – отправка сообщения, Shift+Enter – перевод строки","wall_reply_submit_hint_2_more":"Enter – перевод строки, Ctrl+Enter – отправка сообщения","wall_reply_post":"Ответить","wall_replied_to_group":"Сообществу","wall_reply_as_user":"от имени пользователя","wall_reply_as_group":"от имени сообщества","wall_add_photo_error":"Не удалось загрузить изображение","global_search":"Поиск","wall_just_now":["","только что","две секунды назад","три секунды назад","четыре секунды назад","пять секунд назад"],"wall_X_seconds_ago_words":["","только что","две секунды назад","три секунды назад","четыре секунды назад","пять секунд назад"],"wall_X_seconds_ago":["","%s секунду назад","%s секунды назад","%s секунд назад"],"wall_X_minutes_ago_words":["","минуту назад","две минуты назад","три минуты назад","4 минуты назад","5 минут назад"],"wall_X_minutes_ago":["","%s минуту назад","%s минуты назад","%s минут назад"],"wall_X_hours_ago_words":["","час назад","два часа назад","три часа назад","четыре часа назад","пять часов назад"],"wall_X_hours_ago":["","%s час назад","%s часа назад","%s часов назад"]},"photos":"%explain%<div class=\"post_media clear_fix\">%photos%<\/div>","grouped_posts":"<div class=\"feed_reposts_wrap%place%\" id=\"feed_reposts_wrap%place%_%random%\">\n  <div class=\"feed_reposts_first\">%first%<\/div>\n  <div class=\"feed_reposts_group\" id=\"feed_reposts%place%_%random%\">%other%<\/div>\n  <div class=\"feed_reposts_more\">\n    <a id=\"feed_reposts_more%place%_%random%\" href=\"\/feed?section=comments&reposts=%place%\" class=\"flat_button secondary_dark feed_reposts_more_link\" onclick=\"return feed.toggleReposts(this, '%place%', '%random%', event);\">%label%<\/a>\n  <\/div>\n<\/div>","custom_del":"<a class=\"ui_actions_menu_item\" onclick=\"feed.ignoreItem('%full_id%', '%item_id%', '1511517050_35c50109fe126d9f50'); return false;\">Это не интересно<\/a>"},"qversion":17,"abs_timestamp":1511517050,"media_types":[["photo","Фотография"],["video","Видеозапись"],["audio","Аудиозапись"],["doc","Документ"],["note","Заметка"],["map","Карта"],["graffiti","Граффити"],["market","Товар",{"tt_text":"Теперь Вы можете <a onclick=\"showBox('al_market.php', {act: 'a_edit_item_box', attach: 1, from_wall: 1}); return false\">прикрепить товар<\/a> к своей записи.","tt_words":["sell","продаю","продаем","продаём","продам","продадим","продать","продажа","отдаю","отдаем","отдаём","отдам","отдадим","отдать","аренда","аренды","аренде","аренду","арендой","сдам квартиру","сдадим квартиру","сдаю квартиру","сдаем квартиру","сдаём квартиру","сдавать квартиру","сдам комнату","сдадим комнату","сдаю комнату","сдаем комнату","сдаём комнату","сдавать комнату"]}],["poll","Опрос",{"lang":{"q":"Тема опроса","a":"Варианты ответа","i":"Добавить вариант","d":"Удалить вариант","c":"Анонимное голосование"}}],["postpone","Таймер",{"lang":{"profile_choose_timer":"Время публикации","profile_wall_postpone_at":"в","profile_wall_postpone_btn":"В очередь","export_to_twitter":"экспорт в Twitter","export_to_facebook":"экспорт в Facebook","friends_only":"только для друзей"},"date":1511520650}]],"rmedia_types":[["photo","Фотография"],["video","Видеозапись"],["audio","Аудиозапись"],["doc","Документ"],["note","Заметка"],["map","Карта"],["graffiti","Граффити"],["market","Товар",{"tt_text":"Теперь Вы можете <a onclick=\"showBox('al_market.php', {act: 'a_edit_item_box', attach: 1, from_wall: 1}); return false\">прикрепить товар<\/a> к своей записи.","tt_words":["sell","продаю","продаем","продаём","продам","продадим","продать","продажа","отдаю","отдаем","отдаём","отдам","отдадим","отдать","аренда","аренды","аренде","аренду","арендой","сдам квартиру","сдадим квартиру","сдаю квартиру","сдаем квартиру","сдаём квартиру","сдавать квартиру","сдам комнату","сдадим комнату","сдаю комнату","сдаем комнату","сдаём комнату","сдавать комнату"]}],["poll","Опрос",{"lang":{"q":"Тема опроса","a":"Варианты ответа","i":"Добавить вариант","d":"Удалить вариант","c":"Анонимное голосование"}}],["postpone","Таймер",{"lang":{"profile_choose_timer":"Время публикации","profile_wall_postpone_at":"в","profile_wall_postpone_btn":"В очередь","export_to_twitter":"экспорт в Twitter","export_to_facebook":"экспорт в Facebook","friends_only":"только для друзей"},"date":1511520650}]],"share":{"url":"https:\/\/pu.vk.com\/c539220\/upload.php","hash":"9f8ab1adb832756db13f4859e3fa47b8","rhash":"a042ac71878e34562f8e25009663ccd2","timehash":"1511517050_617c4748d99433af8b","allow_custom_photo":true,"allow_edit_title":true,"max_title_len":100},"upload":{"url":"https:\/\/pu.vk.com\/c841226\/upload.php","params":{"act":"do_add","aid":-14,"gid":0,"mid":44752200,"hash":"4f26b4925d377db76a4620a1b1e9a025","rhash":"fb5eccc104b0e006f17e79b151582e4f","vk":1,"from_host":"vk.com"},"opts":{"server":"841226","default_error":1,"error_hash":"08f6f9c042b93df8474f6cfb8b4476ec","ext_re":"\\.(gif|jpg|jpeg|png|heic|heif)$","lang":{"max_files_warning":"Вы можете прикрепить не более 10 файлов.","wall_drop_photos_here":"Перенесите сюда фотографии, чтобы прикрепить их к записи","wall_release_photos_here":"Отпустите клавишу мыши, чтобы прикрепить фотографии","wall_photos_drag_hint":"Сюда можно перетаскивать фотографии"}}},"post_hash":"705d7c82ca3d9ae734"});
+} catch (e) {
+  debugLog(e.message, e.stack, e);
+}Page.initGifAutoplay();Page.initVideoAutoplay();  ;(function () {
+    var cb = function () {Notifier.init({"queue_id":"events_queue44752200","timestamp":1597748916,"key":"VZusUKgXQbNnRuXzN5fwAo6SvYAEbT_X7nAh36vosCJYzGWLqcFA3c_UldgIeig6","uid":44752200,"version":10,"debug":false,"instance_id":"NzczNTk5","server_url":"https:\/\/queuev4.vk.com\/im200","frame_path":"https:\/\/queuev4.vk.com\/q_frame.php?7","frame_url":"im200","refresh_url":"https:\/\/vk.com\/notifier.php","mutedPeers":[1689465,4369912,31367495,43688087,58296300,138850047,150433773,189854967,192914539,2000000016,2000000056,2000000062,2000000069,2000000073,2000000081,2000000088,2000000089,2000000090,2000000092,2000000093,2000000095],"fc":{"version":23,"state":{"clist":{"min":true,"x":-1.000000,"y":0.095710},"tabs":[],"version":23},"state_hash":"1511517050_f144ddea52fe59c766"}})}
+    if (window.vk && window.vk.loaded) cb(); else addEvent(window, 'DOMContentLoaded load', cb);
+  })();
+  if (!window.__dev) {
+    (new Image).src="https://r3.mail.ru/k?vk_id=44752200&src=desktop";
+  }
+;(function (d, w) {
+if (w.__dev) {
+  return
+}
+var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window);
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+[t188]
+FileName1=t188.html
+URL1=https://queuev4.vk.com/im200
+Total=1
+RequestHeaderFile=t188_RequestHeader.txt
+RequestBodyFile=t188_RequestBody.txt
+ResponseHeaderFile=t188_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_188.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

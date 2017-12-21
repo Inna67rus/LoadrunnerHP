@@ -1,0 +1,11 @@
+[t254]
+FileName1=t254.html
+URL1=https://queuev4.vk.com/im200
+Total=1
+RequestHeaderFile=t254_RequestHeader.txt
+RequestBodyFile=t254_RequestBody.txt
+ResponseHeaderFile=t254_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_254.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

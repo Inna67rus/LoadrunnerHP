@@ -1,0 +1,50 @@
+[
+    {
+        "stepId": "STEP1",
+        "stepName": "Url: vk.com",
+        "infFile": "t3.inf",
+        "time": 1513845291748
+    },
+    {
+        "stepId": "STEP2",
+        "stepName": "Submit Data: login.vk.com",
+        "infFile": "t5.inf",
+        "time": 1513845292563
+    },
+    {
+        "stepId": "STEP3",
+        "stepName": "Url: vk.com_2",
+        "infFile": "t8.inf",
+        "time": 1513845294846
+    },
+    {
+        "stepId": "STEP4",
+        "stepName": "Url: al_profile.php",
+        "infFile": "t9.inf",
+        "time": 1513845296449
+    },
+    {
+        "stepId": "STEP5",
+        "stepName": "Submit Data: al_wall.php",
+        "infFile": "t10.inf",
+        "time": 1513845297806
+    },
+    {
+        "stepId": "STEP6",
+        "stepName": "Submit Data: al_wall.php_2",
+        "infFile": "t11.inf",
+        "time": 1513845298396
+    },
+    {
+        "stepId": "STEP7",
+        "stepName": "Submit Data: al_wall.php_3",
+        "infFile": "t12.inf",
+        "time": 1513845298536
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Url: login.vk.com_2",
+        "infFile": "t13.inf",
+        "time": 1513845300143
+    }
+]

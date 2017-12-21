@@ -1,0 +1,15 @@
+[t8]
+FileName1=t8.txt
+URL1=https://vk.com/al_im.php
+Total=3
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=t8_RequestBody.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_counter.gif
+URL2=https://top-fwz1.mail.ru/counter?js=13;id=2579437;u=https%3A//vk.com/;r=https%3A//vk.com/feed;st=1510323965099;pid=44752200;title=%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8;s=1366*768;vp=1349*662;touch=1;hds=1;flash=;sid=6bd99fadd1309461;ver=60;detect=1;_=0.8707753647448335
+FileName3=t8_tracker.gif
+URL3=https://top-fwz1.mail.ru/tracker?js=13;id=2579437;u=https%3A//vk.com/;r=https%3A//vk.com/feed;st=1510323965099;pid=44752200;s=1366*768;vp=1349*662;touch=1;hds=1;flash=;sid=6bd99fadd1309461;ver=60;detect=1;_=0.26698833021921886;e=detect
+[ProtocolInfo]
+ProtocolId=QTWeb

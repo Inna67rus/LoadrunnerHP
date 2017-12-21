@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 24 Nov 2017 11:49:42 GMT
+Content-Type: text/html; charset=windows-1251
+X-Adguard-Filtered: AdGuard for Windows; version=6.2.433.2167
+Connection: keep-alive
+X-Powered-By: PHP/3.14158
+Pragma: public
+Cache-Control: maxage=345600
+Expires: Tue, 28 Nov 2017 11:49:42 GMT
+Content-Length: 2526
+Strict-Transport-Security: max-age=0
+X-Frontend: front508121
+Access-Control-Expose-Headers: X-Frontend
+

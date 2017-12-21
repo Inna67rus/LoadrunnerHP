@@ -1,0 +1,10 @@
+Start auto log messages stack - Iteration 14.	[MsgId: MMSG-10545]
+Action.c(61): Found resource "https://vk.com/js/lib/ui_controls.js?2713858100" in HTML "https://vk.com/"  	[MsgId: MMSG-26659]
+Action.c(61): Found resource "https://vk.com/js/al/ui_common.js?3489032241" in HTML "https://vk.com/"  	[MsgId: MMSG-26659]
+Action.c(61): Found resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" in HTML "https://vk.com/"  	[MsgId: MMSG-26659]
+Action.c(61): Warning -27723: Step download timeout (120 seconds) has expired when downloading resource "https://vk.com/css/al/common.css?37201300334". Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively  	[MsgId: MWAR-27723]
+Action.c(61): Aborting pending download of URL="https://vk.com/css/al/common.css?37201300334" (RelFrameId=, Internal ID=1586)  	[MsgId: MMSG-27652]
+Action.c(61): Error -35049: No match found for the requested parameter "_rndVer". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

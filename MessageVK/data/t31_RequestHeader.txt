@@ -1,0 +1,14 @@
+POST /im200 HTTP/1.1
+Host: queuev4.vk.com
+Connection: keep-alive
+Content-Length: 337
+Origin: https://queuev4.vk.com
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Referer: https://queuev4.vk.com/q_frame.php?7
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remixlang=0; remixstid=423963368_c2b72dd80ecff61f56; remixdt=0; remixsid=6355d8430becd51f3d32507763c6bacb7504a3ae6be9c772f8938; remixflash=0.0.0; remixscreen_depth=24
+

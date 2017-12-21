@@ -1,0 +1,17 @@
+[t9]
+FileName1=t9.txt
+URL1=https://vk.com/al_im.php
+Total=4
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=t9_RequestBody.txt
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9_tracker.gif
+URL2=https://top-fwz1.mail.ru/tracker?js=13;id=2579437;u=https%3A//vk.com/;r=https%3A//vk.com/feed;st=1511941587198;pid=44752200;s=1366*768;vp=1339*642;touch=0;hds=1;flash=;sid=03d8ea6fd1c9041b;ver=60;detect=1;_=0.18821734025633718;e=detect
+FileName3=t9_hit.gif
+URL3=https://counter.yadro.ru/hit?q;rhttps%3A//vk.com/feed;s1366*768*24;uhttps%3A//vk.com/;0.5845354229896649
+FileName4=t9_chats.png
+URL4=https://vk.com/images/icons/chats.png?14
+[ProtocolInfo]
+ProtocolId=QTWeb

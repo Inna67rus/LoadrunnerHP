@@ -1,0 +1,11 @@
+[t220]
+FileName1=t220.txt
+URL1=https://vk.com/al_im.php
+Total=1
+RequestHeaderFile=t220_RequestHeader.txt
+RequestBodyFile=t220_RequestBody.txt
+ResponseHeaderFile=t220_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_220.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

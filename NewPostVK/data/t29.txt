@@ -1,0 +1,1789 @@
+3453827425658<!>ui_common.css,ui_common.js<!>0<!>6867<!>0<!><input type="hidden" id="page_wall_count_all" value="16" /><input type="hidden" id="page_wall_count_own" value="15" /><div id="post44752200_1355" class="_post post page_block all own" data-post-id="44752200_1355" onclick="wall.postClick('44752200_1355', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1355" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1355" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1355"  onclick="return showWiki({w: 'wall44752200_1355'}, false, event);" ><span class="rel_date rel_date_needs_update" abs_time="сегодня в 17:26" time="1510324016">только что</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1355', 'cde8814ad226ccd7c1');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="wall.editPost(this, '44752200_1355'); return false;" tabindex="0" role="link">Редактировать</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1355', 'bdeae7f2bf5e9bc5be', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1355" class="wall_post_cont _wall_post_cont"><div class="wall_post_text zoom_text">Test_12345</div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap no_likes" onmouseover="Wall.likesShow(this, '44752200_1355')" onclick="return Wall.likeIt(this, '44752200_1355', '2d95bf9a30730e6e54', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1355')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1355', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '44752200_1355')" onclick="return Wall.sharesOpen(event, '44752200_1355');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1355')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap no_views" onmouseover="Wall.viewsUpdate(this, '44752200_1355')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count"></span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1355" style="display: none">
+  <div class="replies_list _replies_list" id="replies44752200_1355"><input type="hidden" id="start_reply44752200_1355" value="" /></div>
+  <div id="reply_box_wrap44752200_1355"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1355" onclick="return Wall.showEditReply('44752200_1355', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div id="post44752200_1274" class="_post post page_block all own post_copy" data-post-id="44752200_1274" onclick="wall.postClick('44752200_1274', event);" post_view_hash="4763333185c18a2d57" data-copy="-33496713_423776">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1274" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1274" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1274"  onclick="return showWiki({w: 'wall44752200_1274'}, false, event);" ><span class="rel_date">26 окт в 23:44</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1274', '054deb6422a7fb7fdf');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1274', '87cc653030d9ae2a8f', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1274" class="wall_post_cont _wall_post_cont"></div><div class="copy_quote"><div class="copy_post_header">
+    <a class="copy_post_image" data-post-id="-33496713_423776" data-parent-post-id="44752200_1274" href="/rock__as_soul_cry">
+      <img src="https://pp.userapi.com/c837324/v837324754/a82b/RtexMlrH_bE.jpg" width="40" height="40" class="copy_post_img">
+      <span class="blind_label">.</span>
+    </a>
+    <div class="copy_post_header_info">
+      <h5 class="copy_post_author"><a class="copy_author" data-post-id="-33496713_423776" data-parent-post-id="44752200_1274" href="/rock__as_soul_cry">&#9733;Rock как крик души&#9733;</a> </h5>
+      <div class="copy_post_date"><a class="published_by_date"  class="post_link"  href="/wall-33496713_423776"  onclick="return showWiki({w: 'wall-33496713_423776'}, false, event);" >26 окт 2017 в 18:00</a></div>
+    </div>
+</div><div class="page_post_sized_thumbs  clear_fix" style="width: 480px; height: 480px;"><a  onclick="return showPhoto('-33496713_456254855', 'wall44752200_1274', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c540100/v540100624/27eb1/mGIbTUFVWwY&quot;,480,480]},queue:1}, event)" style="width: 480px; height: 480px; background-image: url(https://pp.userapi.com/c540100/v540100624/27eb1/mGIbTUFVWwY.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000510208_370896775 audio_can_add" data-full-id="2000510208_370896775" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[370896775,2000510208,&quot;&quot;,&quot;Te Quiero Puta&amp;#33; (Piano cover)&quot;,&quot;Rammstein&quot;,218,2,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1274&quot;,&quot;[]&quot;,&quot;d69c9ebf3000509044\/\/7bb9b23cf60064c096\/\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:38</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Rammstein&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Rammstein</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Te Quiero Puta&#33; (Piano cover)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000509621_365848381 audio_can_add" data-full-id="2000509621_365848381" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[365848381,2000509621,&quot;&quot;,&quot;Amerika (piano instrumental)&quot;,&quot;Rammstein &quot;,123,2,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1274&quot;,&quot;[]&quot;,&quot;c3e4c1d5288a937a87\/\/97c11d9ce7a28e4003\/\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">2:03</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Rammstein%20&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Rammstein </a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Amerika (piano instrumental)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000509901_364938495 audio_can_add" data-full-id="2000509901_364938495" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[364938495,2000509901,&quot;&quot;,&quot;Reise, Reise (Piano Instrumental)&quot;,&quot;Rammstein&quot;,217,2,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1274&quot;,&quot;[]&quot;,&quot;5f0b964b091d175831\/\/12b4656d9deaa04518\/\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:37</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Rammstein&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Rammstein</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Reise, Reise (Piano Instrumental)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000000315_365180617 audio_can_add" data-full-id="2000000315_365180617" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[365180617,2000000315,&quot;&quot;,&quot;Wo Bist Du (Piano Cover)&quot;,&quot;Rammstein&quot;,210,2,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1274&quot;,&quot;[]&quot;,&quot;450389049702a30958\/\/7084bb68d1050030a9\/\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:30</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Rammstein&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Rammstein</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Wo Bist Du (Piano Cover)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000510764_365144721 audio_can_add" data-full-id="2000510764_365144721" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[365144721,2000510764,&quot;&quot;,&quot;Sonne(Piano Cover)&quot;,&quot;Rammstein&quot;,282,2,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1274&quot;,&quot;[]&quot;,&quot;78b502dffa8d88a56c\/\/ab72530e8486ed8c51\/\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:42</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Rammstein&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Rammstein</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Sonne(Piano Cover)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000511491_366315349 audio_can_add" data-full-id="2000511491_366315349" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[366315349,2000511491,&quot;&quot;,&quot;Pussy (Piano &amp;amp; Orchestra version)&quot;,&quot;Rammstein&quot;,212,2,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1274&quot;,&quot;[]&quot;,&quot;6e073b44bff089f990\/\/0d09f29180af572003\/\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:32</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Rammstein&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Rammstein</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Pussy (Piano &amp; Orchestra version)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000511876_365335451 audio_can_add" data-full-id="2000511876_365335451" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[365335451,2000511876,&quot;&quot;,&quot;Ich Will (Piano cover)&quot;,&quot;Rammstein&quot;,213,2,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1274&quot;,&quot;[]&quot;,&quot;f73e2976c09a2dfe9b\/\/fc1f60c145ee819cb4\/\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:33</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Rammstein&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Rammstein</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Ich Will (Piano cover)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000000071_363550121 audio_can_add" data-full-id="2000000071_363550121" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[363550121,2000000071,&quot;&quot;,&quot;Haifisch ( piano cover )&quot;,&quot;Rammstein&quot;,222,2,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1274&quot;,&quot;[]&quot;,&quot;8524b0a4b68b076177\/\/4073c0e1ce747e8adf\/\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:42</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Rammstein&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Rammstein</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Haifisch ( piano cover )</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000000825_367318905 audio_can_add" data-full-id="2000000825_367318905" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[367318905,2000000825,&quot;&quot;,&quot;Mutter (Piano cover)  &quot;,&quot;Rammstein &quot;,224,2,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1274&quot;,&quot;[]&quot;,&quot;0f8c336765df11779c\/\/697baac5973f4f37d4\/\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:44</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Rammstein%20&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Rammstein </a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Mutter (Piano cover)  </span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div><div class="wall_signed"><a class="wall_signed_by" href="/an9_mar" mention_id="id168132754" onmouseover="mentionOver(this)">Аня Мартьянова</a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '44752200_1274')" onclick="return Wall.likeIt(this, '44752200_1274', 'ba5fc12a046da3f14f', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">3</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1274')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1274', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '44752200_1274')" onclick="return Wall.sharesOpen(event, '44752200_1274');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1274')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '44752200_1274')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">84</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1274" style="display: none">
+  <div class="replies_list _replies_list" id="replies44752200_1274"><input type="hidden" id="start_reply44752200_1274" value="" /></div>
+  <div id="reply_box_wrap44752200_1274"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1274" onclick="return Wall.showEditReply('44752200_1274', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div id="post44752200_1273" class="_post post page_block all own post_copy" data-post-id="44752200_1273" onclick="wall.postClick('44752200_1273', event);" post_view_hash="4763333185c18a2d57" data-copy="-36648726_485872">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1273" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1273" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1273"  onclick="return showWiki({w: 'wall44752200_1273'}, false, event);" ><span class="rel_date">22 окт в 0:43</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1273', '7d80e8616a4a654c7d');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1273', '02ca3645319a8b4082', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1273" class="wall_post_cont _wall_post_cont"></div><div class="copy_quote"><div class="copy_post_header">
+    <a class="copy_post_image" data-post-id="-36648726_485872" data-parent-post-id="44752200_1273" href="/music0107">
+      <img src="https://pp.userapi.com/c627729/v627729465/33373/4TrgjD5K5gY.jpg" width="40" height="40" class="copy_post_img">
+      <span class="blind_label">.</span>
+    </a>
+    <div class="copy_post_header_info">
+      <h5 class="copy_post_author"><a class="copy_author" data-post-id="-36648726_485872" data-parent-post-id="44752200_1273" href="/music0107">01:07 MUSIC</a> </h5>
+      <div class="copy_post_date"><a class="published_by_date"  class="post_link"  href="/wall-36648726_485872"  onclick="return showWiki({w: 'wall-36648726_485872'}, false, event);" >21 окт 2017 в 18:35</a></div>
+    </div>
+</div><div class="wall_post_text"><a href="/music0107" class="mem_link" mention="" mention_id="club36648726" onclick="return mentionClick(this, event)" onmouseover="mentionOver(this)">Trivium</a> - The Sin And The Sentence (2017) <br><br><a href="/feed?section=search&q=%230107_new">#0107_new</a> <a href="/feed?section=search&q=%23melodic_metalcore">#melodic_metalcore</a></div><div class="page_post_sized_thumbs  clear_fix" style="width: 496px; height: 496px;"><a  onclick="return showPhoto('-36648726_456248647', 'wall44752200_1273', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c837423/v837423633/6f6df/kzTUb2bTVHY&quot;,604,604],&quot;y_&quot;:[&quot;c837423/v837423633/6f6e0/QhnMdKEs7fE&quot;,807,807],&quot;z_&quot;:[&quot;c837423/v837423633/6f6e1/XpKW8cY_DnM&quot;,1000,1000]},queue:1}, event)" style="width: 496px; height: 496px; background-image: url(https://pp.userapi.com/c837423/v837423633/6f6df/kzTUb2bTVHY.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000265205_456241535 audio_can_add audio_hq audio_has_thumb" data-full-id="2000265205_456241535" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241535,2000265205,&quot;&quot;,&quot;The Sin And The Sentence&quot;,&quot;Trivium&quot;,349,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1273&quot;,&quot;[]&quot;,&quot;1dc3791949a3b87ec6\/\/c7043fe74a9dc4baa2\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c841020\/v841020479\/33107\/eH1lx3rrUBk.jpg,https:\/\/pp.userapi.com\/c841020\/v841020479\/33105\/hyWaA_OAa9Y.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c841020/v841020479/33107/eH1lx3rrUBk.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">5:49</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">The Sin And The Sentence</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000268949_456240797 audio_can_add audio_hq audio_has_thumb" data-full-id="2000268949_456240797" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456240797,2000268949,&quot;&quot;,&quot;Beyond Oblivion&quot;,&quot;Trivium&quot;,316,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1273&quot;,&quot;[]&quot;,&quot;af8e146b28f194f5e1\/\/f7965f5585027bcc22\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c841020\/v841020479\/33107\/eH1lx3rrUBk.jpg,https:\/\/pp.userapi.com\/c841020\/v841020479\/33105\/hyWaA_OAa9Y.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c841020/v841020479/33107/eH1lx3rrUBk.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">5:16</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Beyond Oblivion</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000267169_456241137 audio_can_add audio_hq audio_has_thumb" data-full-id="2000267169_456241137" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241137,2000267169,&quot;&quot;,&quot;Other Worlds&quot;,&quot;Trivium&quot;,289,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1273&quot;,&quot;[]&quot;,&quot;d55b07c5396f2b2db9\/\/9fafd1fe85de6301e7\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c841020\/v841020479\/33107\/eH1lx3rrUBk.jpg,https:\/\/pp.userapi.com\/c841020\/v841020479\/33105\/hyWaA_OAa9Y.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c841020/v841020479/33107/eH1lx3rrUBk.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:49</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Other Worlds</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000267046_456241158 audio_can_add audio_hq audio_has_thumb" data-full-id="2000267046_456241158" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241158,2000267046,&quot;&quot;,&quot;The Heart From Your Hate&quot;,&quot;Trivium&quot;,243,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1273&quot;,&quot;[]&quot;,&quot;efea93f3caf9fff080\/\/f84c34d9c29ea7d758\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c837524\/v837524752\/62fb8\/LOZW_ZoLiCs.jpg,https:\/\/pp.userapi.com\/c837524\/v837524752\/62fb6\/uhv6TCXOgmM.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c837524/v837524752/62fb8/LOZW_ZoLiCs.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:03</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">The Heart From Your Hate</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000266757_456241189 audio_can_add audio_hq audio_has_thumb" data-full-id="2000266757_456241189" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241189,2000266757,&quot;&quot;,&quot;Betrayer&quot;,&quot;Trivium&quot;,327,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1273&quot;,&quot;[]&quot;,&quot;e46a9e61a62484daf7\/\/a087088ea08555dbad\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c841020\/v841020479\/33107\/eH1lx3rrUBk.jpg,https:\/\/pp.userapi.com\/c841020\/v841020479\/33105\/hyWaA_OAa9Y.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c841020/v841020479/33107/eH1lx3rrUBk.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">5:27</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Betrayer</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000265754_456241401 audio_can_add audio_hq audio_has_thumb" data-full-id="2000265754_456241401" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241401,2000265754,&quot;&quot;,&quot;The Wretchedness Inside&quot;,&quot;Trivium&quot;,331,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1273&quot;,&quot;[]&quot;,&quot;79ae91acbe0f9ded9b\/\/1e4aa799053ed7715f\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c841020\/v841020479\/33107\/eH1lx3rrUBk.jpg,https:\/\/pp.userapi.com\/c841020\/v841020479\/33105\/hyWaA_OAa9Y.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c841020/v841020479/33107/eH1lx3rrUBk.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">5:31</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">The Wretchedness Inside</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000267466_456241092 audio_can_add audio_hq audio_has_thumb" data-full-id="2000267466_456241092" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241092,2000267466,&quot;&quot;,&quot;Endless Night&quot;,&quot;Trivium&quot;,218,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1273&quot;,&quot;[]&quot;,&quot;6d762bcc343bc37bd5\/\/30bad006d23a01448a\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c841020\/v841020479\/33107\/eH1lx3rrUBk.jpg,https:\/\/pp.userapi.com\/c841020\/v841020479\/33105\/hyWaA_OAa9Y.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c841020/v841020479/33107/eH1lx3rrUBk.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:38</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Endless Night</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000266020_456241219 audio_can_add audio_hq audio_has_thumb" data-full-id="2000266020_456241219" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241219,2000266020,&quot;&quot;,&quot;Sever The Hand&quot;,&quot;Trivium&quot;,325,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1273&quot;,&quot;[]&quot;,&quot;afa605f02297725e80\/\/76f42d9c120f3749b0\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c841020\/v841020479\/33107\/eH1lx3rrUBk.jpg,https:\/\/pp.userapi.com\/c841020\/v841020479\/33105\/hyWaA_OAa9Y.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c841020/v841020479/33107/eH1lx3rrUBk.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">5:25</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Sever The Hand</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000267562_456241012 audio_can_add audio_hq audio_has_thumb" data-full-id="2000267562_456241012" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241012,2000267562,&quot;&quot;,&quot;Beauty In The Sorrow&quot;,&quot;Trivium&quot;,271,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1273&quot;,&quot;[]&quot;,&quot;6c884e5d262628ccc3\/\/5ccebefbffba3c5e21\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c841020\/v841020479\/33107\/eH1lx3rrUBk.jpg,https:\/\/pp.userapi.com\/c841020\/v841020479\/33105\/hyWaA_OAa9Y.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c841020/v841020479/33107/eH1lx3rrUBk.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:31</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Beauty In The Sorrow</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap no_likes" onmouseover="Wall.likesShow(this, '44752200_1273')" onclick="return Wall.likeIt(this, '44752200_1273', 'b11febb3f23910710b', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1273')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1273', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '44752200_1273')" onclick="return Wall.sharesOpen(event, '44752200_1273');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1273')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '44752200_1273')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">74</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1273" style="display: none">
+  <div class="replies_list _replies_list" id="replies44752200_1273"><input type="hidden" id="start_reply44752200_1273" value="" /></div>
+  <div id="reply_box_wrap44752200_1273"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1273" onclick="return Wall.showEditReply('44752200_1273', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div id="post44752200_1192" class="_post post page_block all own post_copy" data-post-id="44752200_1192" onclick="wall.postClick('44752200_1192', event);" post_view_hash="4763333185c18a2d57" data-copy="-36648726_482351">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1192" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1192" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1192"  onclick="return showWiki({w: 'wall44752200_1192'}, false, event);" ><span class="rel_date">22 сен в 13:05</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1192', '28434ced764f06477a');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1192', '08827e4f97f6170bcc', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1192" class="wall_post_cont _wall_post_cont"></div><div class="copy_quote"><div class="copy_post_header">
+    <a class="copy_post_image" data-post-id="-36648726_482351" data-parent-post-id="44752200_1192" href="/music0107">
+      <img src="https://pp.userapi.com/c627729/v627729465/33373/4TrgjD5K5gY.jpg" width="40" height="40" class="copy_post_img">
+      <span class="blind_label">.</span>
+    </a>
+    <div class="copy_post_header_info">
+      <h5 class="copy_post_author"><a class="copy_author" data-post-id="-36648726_482351" data-parent-post-id="44752200_1192" href="/music0107">01:07 MUSIC</a> </h5>
+      <div class="copy_post_date"><a class="published_by_date"  class="post_link"  href="/wall-36648726_482351"  onclick="return showWiki({w: 'wall-36648726_482351'}, false, event);" >22 сен 2017 в 10:08</a></div>
+    </div>
+</div><div class="wall_post_text">Один из главных альбомов года.<br><br><a href="/music0107" class="mem_link" mention="" mention_id="club36648726" onclick="return mentionClick(this, event)" onmouseover="mentionOver(this)">Enter Shikari</a> - The Spark (2017)<br><br><a href="/feed?section=search&q=%230107_new">#0107_new</a> <a href="/feed?section=search&q=%23electronicore">#electronicore</a> <a href="/feed?section=search&q=%23alternative_rock">#alternative_rock</a></div><div class="page_post_sized_thumbs  clear_fix" style="width: 496px; height: 496px;"><a  onclick="return showPhoto('-36648726_456247711', 'wall44752200_1192', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c836634/v836634663/6f717/M2v6VlNMf98&quot;,604,604],&quot;y_&quot;:[&quot;c836634/v836634663/6f718/UpFv7fpYEiU&quot;,807,807],&quot;z_&quot;:[&quot;c836634/v836634663/6f719/lG62iIFWFwQ&quot;,1080,1080]},queue:1}, event)" style="width: 496px; height: 496px; background-image: url(https://pp.userapi.com/c836634/v836634663/6f717/M2v6VlNMf98.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000208859_456241471 audio_can_add audio_hq audio_has_thumb" data-full-id="2000208859_456241471" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241471,2000208859,&quot;&quot;,&quot;The Spark&quot;,&quot;Enter Shikari&quot;,49,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1192&quot;,&quot;[]&quot;,&quot;9e72f09c791292e33f\/\/399062fcaa1ef3ba14\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c836331\/v836331077\/6658b\/ry3DM1W28DY.jpg,https:\/\/pp.userapi.com\/c836331\/v836331077\/66589\/phc88gFvNZ4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836331/v836331077/6658b/ry3DM1W28DY.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">0:49</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">The Spark</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000208751_456241492 audio_can_add audio_hq audio_has_thumb" data-full-id="2000208751_456241492" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241492,2000208751,&quot;&quot;,&quot;The Sights&quot;,&quot;Enter Shikari&quot;,200,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1192&quot;,&quot;[]&quot;,&quot;330943e8185b388904\/\/290e262ec4b3ce98d7\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c836331\/v836331077\/6658b\/ry3DM1W28DY.jpg,https:\/\/pp.userapi.com\/c836331\/v836331077\/66589\/phc88gFvNZ4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836331/v836331077/6658b/ry3DM1W28DY.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:20</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">The Sights</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000209343_456241316 audio_can_add audio_hq audio_has_thumb" data-full-id="2000209343_456241316" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241316,2000209343,&quot;&quot;,&quot;Take My Country Back&quot;,&quot;Enter Shikari&quot;,223,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1192&quot;,&quot;[]&quot;,&quot;02f7bd3aa02188d6c2\/\/1e7bcce787c64189a3\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c836331\/v836331077\/6658b\/ry3DM1W28DY.jpg,https:\/\/pp.userapi.com\/c836331\/v836331077\/66589\/phc88gFvNZ4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836331/v836331077/6658b/ry3DM1W28DY.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:43</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Take My Country Back</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000211572_456240988 audio_can_add audio_hq audio_lpb audio_has_thumb" data-full-id="2000211572_456240988" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456240988,2000211572,&quot;&quot;,&quot;Airfield&quot;,&quot;Enter Shikari&quot;,292,2,0,&quot;&quot;,0,114,&quot;user_wall:44752200_1192&quot;,&quot;[]&quot;,&quot;1296d2b45949d1b2ed\/\/5156421fbdbfe25abb\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c836331\/v836331077\/6658b\/ry3DM1W28DY.jpg,https:\/\/pp.userapi.com\/c836331\/v836331077\/66589\/phc88gFvNZ4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836331/v836331077/6658b/ry3DM1W28DY.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:52</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Airfield</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000210667_456241148 audio_can_add audio_hq audio_has_thumb" data-full-id="2000210667_456241148" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241148,2000210667,&quot;&quot;,&quot;Rabble Rouser&quot;,&quot;Enter Shikari&quot;,265,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1192&quot;,&quot;[]&quot;,&quot;7b53aa86f09b5b4f41\/\/c1d08792bff36729d3\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c836331\/v836331077\/6658b\/ry3DM1W28DY.jpg,https:\/\/pp.userapi.com\/c836331\/v836331077\/66589\/phc88gFvNZ4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836331/v836331077/6658b/ry3DM1W28DY.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:25</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Rabble Rouser</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000208247_456241609 audio_can_add audio_hq audio_has_thumb" data-full-id="2000208247_456241609" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241609,2000208247,&quot;&quot;,&quot;Shinrin-yoku&quot;,&quot;Enter Shikari&quot;,255,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1192&quot;,&quot;[]&quot;,&quot;455353d2b30ea6bfac\/\/d2833ec1f6622acd46\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c836331\/v836331077\/6658b\/ry3DM1W28DY.jpg,https:\/\/pp.userapi.com\/c836331\/v836331077\/66589\/phc88gFvNZ4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836331/v836331077/6658b/ry3DM1W28DY.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:15</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Shinrin-yoku</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000211881_456240847 audio_can_add audio_hq audio_has_thumb" data-full-id="2000211881_456240847" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456240847,2000211881,&quot;&quot;,&quot;Undercover Agents&quot;,&quot;Enter Shikari&quot;,270,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1192&quot;,&quot;[]&quot;,&quot;3e0fd55138b832afca\/\/d4aa92cb2885f15370\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c836331\/v836331077\/6658b\/ry3DM1W28DY.jpg,https:\/\/pp.userapi.com\/c836331\/v836331077\/66589\/phc88gFvNZ4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836331/v836331077/6658b/ry3DM1W28DY.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:30</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Undercover Agents</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000209453_456241301 audio_can_add audio_hq audio_has_thumb" data-full-id="2000209453_456241301" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241301,2000209453,&quot;&quot;,&quot;The Revolt Of The Atoms&quot;,&quot;Enter Shikari&quot;,284,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1192&quot;,&quot;[]&quot;,&quot;95dadb425be1f863dd\/\/ffb2e8cf59984a6773\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c836331\/v836331077\/6658b\/ry3DM1W28DY.jpg,https:\/\/pp.userapi.com\/c836331\/v836331077\/66589\/phc88gFvNZ4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836331/v836331077/6658b/ry3DM1W28DY.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:44</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">The Revolt Of The Atoms</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000210589_456241150 audio_can_add audio_hq audio_has_thumb" data-full-id="2000210589_456241150" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456241150,2000210589,&quot;&quot;,&quot;An Ode To Lost Jigsaw Pieces&quot;,&quot;Enter Shikari&quot;,357,2,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1192&quot;,&quot;[]&quot;,&quot;cad36af6633696da78\/\/e8688ec623466bc9c3\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c836331\/v836331077\/6658b\/ry3DM1W28DY.jpg,https:\/\/pp.userapi.com\/c836331\/v836331077\/66589\/phc88gFvNZ4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836331/v836331077/6658b/ry3DM1W28DY.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">5:57</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">An Ode To Lost Jigsaw Pieces</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '44752200_1192')" onclick="return Wall.likeIt(this, '44752200_1192', 'fb60c36cc05b611713', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">3</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1192')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1192', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '44752200_1192')" onclick="return Wall.sharesOpen(event, '44752200_1192');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1192')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '44752200_1192')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">144</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1192" style="display: none">
+  <div class="replies_list _replies_list" id="replies44752200_1192"><input type="hidden" id="start_reply44752200_1192" value="" /></div>
+  <div id="reply_box_wrap44752200_1192"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1192" onclick="return Wall.showEditReply('44752200_1192', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div id="post44752200_1144" class="_post post page_block all own" data-post-id="44752200_1144" onclick="wall.postClick('44752200_1144', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1144" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1144" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1144"  onclick="return showWiki({w: 'wall44752200_1144'}, false, event);" ><span class="rel_date">12 мар в 18:17</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1144', '55e574594a1dfc656b');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1144', '77311869b9121d171e', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1144" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">&quot;Вселенной потребовалось очень много времени - 14 миллиардов лет, чтобы здесь, на этой планете зародилось сознание, способное уяснить данный факт и вычислить этот срок. Вдумайтесь: 14 тысяч миллионов лет эволюции понадобилось для того, чтобы мыслящие порождения Вселенной смогли вычислить ее возраст. И мы не можем допустить, чтобы эти 14 миллиардов лет в конечном счете оказались потраченными впустую. У нас нет морального права расточать, уродовать или губить наше сознание. Мы не имеем права отрекаться от нашей воли, самой ценной и прекрасной вещи во Вселенной. Мы обязаны учиться, познавать, искать ответы на вопросы, быть честными и добросовестными людьми. И наш первейший долг состоит в соединении нашего сознания с другим, таким же свободным сознанием во имя общей цели: любви.&quot; Грегори Дэвид Робертс</div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 391px;"><a  href="/photo44752200_456239583" onclick="return showPhoto('44752200_456239583', 'wall44752200_1144', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c638225/v638225200/2c121/EFdcltIOHDY&quot;,604,403],&quot;y_&quot;:[&quot;c638225/v638225200/2c122/ll-ecy6qP38&quot;,807,538],&quot;z_&quot;:[&quot;c638225/v638225200/2c123/k3r9JyX7uks&quot;,1280,853],&quot;w_&quot;:[&quot;c638225/v638225200/2c124/ATyHan3pyb0&quot;,2560,1707]},queue:1}, event)" style="width: 510px; height: 340px; background-image: url(https://pp.userapi.com/c638225/v638225200/2c121/EFdcltIOHDY.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column fl_l"></a><a  href="/photo44752200_456239584" onclick="return showPhoto('44752200_456239584', 'wall44752200_1144', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c638225/v638225200/2c12b/q5GfYJSecJs&quot;,604,403],&quot;y_&quot;:[&quot;c638225/v638225200/2c12c/eC7nXcu8Md0&quot;,807,538],&quot;z_&quot;:[&quot;c638225/v638225200/2c12d/64EFQGpukbM&quot;,1280,853],&quot;w_&quot;:[&quot;c638225/v638225200/2c12e/YWjwg9FCb2w&quot;,2560,1707]},queue:1}, event)" style="width: 68px; height: 45px; background-image: url(https://pp.userapi.com/c638225/v638225200/2c129/Xdr53FcUzKA.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  href="/photo44752200_456239587" onclick="return showPhoto('44752200_456239587', 'wall44752200_1144', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c638225/v638225200/2c149/0PqQgiLfJ1M&quot;,604,403],&quot;y_&quot;:[&quot;c638225/v638225200/2c14a/lyXP-vV-zWA&quot;,807,538],&quot;z_&quot;:[&quot;c638225/v638225200/2c14b/VSViKkU4cRg&quot;,1280,853],&quot;w_&quot;:[&quot;c638225/v638225200/2c14c/Fbx2eD4aAGI&quot;,2560,1707]},queue:1}, event)" style="width: 68px; height: 45px; background-image: url(https://pp.userapi.com/c638225/v638225200/2c147/El_7zsFnlZo.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  href="/photo44752200_456239581" onclick="return showPhoto('44752200_456239581', 'wall44752200_1144', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c638225/v638225200/2c10d/fUrGsEYOA1E&quot;,604,403],&quot;y_&quot;:[&quot;c638225/v638225200/2c10e/MYfnR55b5iI&quot;,807,538],&quot;z_&quot;:[&quot;c638225/v638225200/2c10f/KrXtobCT0Jk&quot;,1280,853],&quot;w_&quot;:[&quot;c638225/v638225200/2c110/Zd5U96Ki4lk&quot;,2560,1707]},queue:1}, event)" style="width: 68px; height: 45px; background-image: url(https://pp.userapi.com/c638225/v638225200/2c10b/nOFmONM6V8s.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  href="/photo44752200_456239582" onclick="return showPhoto('44752200_456239582', 'wall44752200_1144', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c638225/v638225200/2c117/sFoMozCpRrI&quot;,604,403],&quot;y_&quot;:[&quot;c638225/v638225200/2c118/oPQxCt0VOtM&quot;,807,538],&quot;z_&quot;:[&quot;c638225/v638225200/2c119/jfMrPdX1hq0&quot;,1280,853],&quot;w_&quot;:[&quot;c638225/v638225200/2c11a/euA_M0U9iaU&quot;,2560,1707]},queue:1}, event)" style="width: 68px; height: 45px; background-image: url(https://pp.userapi.com/c638225/v638225200/2c115/jlNI6KwiPuA.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  href="/photo44752200_456239585" onclick="return showPhoto('44752200_456239585', 'wall44752200_1144', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c638225/v638225200/2c135/Th0FpG-nCfE&quot;,604,403],&quot;y_&quot;:[&quot;c638225/v638225200/2c136/FjlHqVbuxFk&quot;,807,538],&quot;z_&quot;:[&quot;c638225/v638225200/2c137/lnCsbwW82Dc&quot;,1280,853],&quot;w_&quot;:[&quot;c638225/v638225200/2c138/XWq_L1sCxdU&quot;,2560,1707]},queue:1}, event)" style="width: 68px; height: 45px; background-image: url(https://pp.userapi.com/c638225/v638225200/2c133/kKJ1KroXmGA.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  href="/photo44752200_456239586" onclick="return showPhoto('44752200_456239586', 'wall44752200_1144', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c638225/v638225200/2c13f/OPW84BNIX4w&quot;,604,403],&quot;y_&quot;:[&quot;c638225/v638225200/2c140/A9o2iv7GI24&quot;,807,538],&quot;z_&quot;:[&quot;c638225/v638225200/2c141/8A3Mcq05V9A&quot;,1280,853],&quot;w_&quot;:[&quot;c638225/v638225200/2c142/had3MqiKOSQ&quot;,2560,1706]},queue:1}, event)" style="width: 68px; height: 45px; background-image: url(https://pp.userapi.com/c638225/v638225200/2c13d/frpx4BVnYhw.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  href="/photo44752200_456239588" onclick="return showPhoto('44752200_456239588', 'wall44752200_1144', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c638225/v638225200/2c153/TU9lLJCKLO8&quot;,604,403],&quot;y_&quot;:[&quot;c638225/v638225200/2c154/OAr0prIrkBA&quot;,807,538],&quot;z_&quot;:[&quot;c638225/v638225200/2c155/dg3MXcaE4ys&quot;,1280,853],&quot;w_&quot;:[&quot;c638225/v638225200/2c156/f9wh8o9-Opw&quot;,2560,1707]},queue:1}, event)" style="width: 72px; height: 45px; background-image: url(https://pp.userapi.com/c638225/v638225200/2c151/6DoSB-yLZdQ.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row fl_l"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000334169_456240152 audio_can_add audio_hq audio_lpb audio_has_thumb" data-full-id="2000334169_456240152" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456240152,2000334169,&quot;&quot;,&quot;Redshift&quot;,&quot;Enter Shikari&quot;,237,0,0,&quot;&quot;,0,114,&quot;user_wall:44752200_1144&quot;,&quot;[]&quot;,&quot;c64a92f56177926638\/89d0ae7114a7a15d84\/95e672f27d26df0a63\/ab8be7e473efef1015\/&quot;,&quot;https:\/\/pp.userapi.com\/c837322\/v837322448\/453cf\/YAsOFZzXgH4.jpg,https:\/\/pp.userapi.com\/c837322\/v837322448\/453ce\/KxfeqUSsKyw.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c837322/v837322448/453cf/YAsOFZzXgH4.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:57</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Redshift</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000333901_456240190 audio_can_add audio_lpb audio_has_thumb" data-full-id="2000333901_456240190" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456240190,2000333901,&quot;&quot;,&quot;snowfall&quot;,&quot;god is an austronaut&quot;,403,0,0,&quot;&quot;,0,98,&quot;user_wall:44752200_1144&quot;,&quot;[]&quot;,&quot;e47fe7acc9de39ac30\/85bcdf02b88b0623d2\/715a8e805db32eb9ea\/34c0ee60e7c03f01e2\/&quot;,&quot;https:\/\/pp.userapi.com\/c637527\/v637527450\/44105\/9mTCjySgdLk.jpg,https:\/\/pp.userapi.com\/c637527\/v637527450\/44104\/JzxihvpacO4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c637527/v637527450/44105/9mTCjySgdLk.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">6:43</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=god%20is%20an%20austronaut&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">god is an austronaut</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">snowfall</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '44752200_1144')" onclick="return Wall.likeIt(this, '44752200_1144', '0c5049a52933dc04cf', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">10</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1144')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1144', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '44752200_1144')" onclick="return Wall.sharesOpen(event, '44752200_1144');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1144')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '44752200_1144')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">504</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1144" style="display: none">
+  <div class="replies_list _replies_list" id="replies44752200_1144"><input type="hidden" id="start_reply44752200_1144" value="" /></div>
+  <div id="reply_box_wrap44752200_1144"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1144" onclick="return Wall.showEditReply('44752200_1144', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div id="post44752200_1134" class="_post post page_block all own" data-post-id="44752200_1134" onclick="wall.postClick('44752200_1134', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1134" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1134" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1134"  onclick="return showWiki({w: 'wall44752200_1134'}, false, event);" ><span class="rel_date">4 фев в 21:20</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1134', 'daa4d3061b31eabd51');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1134', '2ebfe85e9c2a7d7a1f', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1134" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">The old appeals to racial, sexual, and religious chauvinism, and to rabid nationalist fervor are beginning not to work. A new consciousness is developing which sees the Earth as a single organism, and recognizes that an organism at war with itself is doomed. We are one planet.</div><div class="page_post_sized_thumbs  clear_fix" style="width: 386px; height: 510px;"><a  href="/photo44752200_456239498" onclick="return showPhoto('44752200_456239498', 'wall44752200_1134', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c540103/v540103485/384db/gClH_N3OByQ&quot;,423,558]},queue:1}, event)" style="width: 386px; height: 510px; background-image: url(https://pp.userapi.com/c540103/v540103485/384db/gClH_N3OByQ.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000262883_456240120 audio_can_add audio_hq" data-full-id="2000262883_456240120" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456240120,2000262883,&quot;&quot;,&quot;Red Hypergiant&quot;,&quot;Architects&quot;,130,0,0,&quot;&quot;,0,18,&quot;user_wall:44752200_1134&quot;,&quot;[]&quot;,&quot;81fd382f5b101b0c43\/9e0692c9c90d225767\/e61787fab51d4ac892\/30d6c1763f410f2611\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">2:10</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Architects&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Architects</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Red Hypergiant</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '44752200_1134')" onclick="return Wall.likeIt(this, '44752200_1134', 'b341540b0f0f3a15c8', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">7</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1134')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1134', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '44752200_1134')" onclick="return Wall.sharesOpen(event, '44752200_1134');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1134')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '44752200_1134')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">693</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1134" style="display: none">
+  <div class="replies_list _replies_list" id="replies44752200_1134"><input type="hidden" id="start_reply44752200_1134" value="" /></div>
+  <div id="reply_box_wrap44752200_1134"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1134" onclick="return Wall.showEditReply('44752200_1134', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div id="post44752200_1126" class="_post post page_block all own post_copy" data-post-id="44752200_1126" onclick="wall.postClick('44752200_1126', event);" post_view_hash="4763333185c18a2d57" data-copy="333120833_413">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1126" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1126" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1126"  onclick="return showWiki({w: 'wall44752200_1126'}, false, event);" ><span class="rel_date">27 янв в 20:53</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1126', '01b3f3c2c7342e945c');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1126', '878376893ee81fd7c1', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1126" class="wall_post_cont _wall_post_cont"></div><div class="copy_quote"><div class="copy_post_header">
+    <a class="copy_post_image" data-post-id="333120833_413" data-parent-post-id="44752200_1126" href="/alicelidell7">
+      <img src="/images/camera_50.png" width="40" height="40" class="copy_post_img">
+      <span class="blind_label">.</span>
+    </a>
+    <div class="copy_post_header_info">
+      <h5 class="copy_post_author"><a class="copy_author" data-post-id="333120833_413" data-parent-post-id="44752200_1126" href="/alicelidell7">Алиса Лидделл</a> </h5>
+      <div class="copy_post_date"><a class="published_by_date"  class="post_link"  href="/wall333120833_413"  onclick="return showWiki({w: 'wall333120833_413'}, false, event);" >27 янв 2017 в 20:40</a></div>
+    </div>
+</div><div class="page_post_sized_thumbs  clear_fix" style="width: 496px; height: 283px;"><a  href="/photo333120833_456240333" onclick="return showPhoto('333120833_456240333', 'wall44752200_1126', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c836226/v836226833/2fa6c/vbT_DrLKRXI&quot;,604,448],&quot;y_&quot;:[&quot;c836226/v836226833/2fa6d/HntRH3o4MAY&quot;,807,598],&quot;z_&quot;:[&quot;c836226/v836226833/2fa6e/2dCyET5DkfA&quot;,1280,949],&quot;w_&quot;:[&quot;c836226/v836226833/2fa6f/4dqimSIOlcU&quot;,2104,1560]},queue:1}, event)" style="width: 247px; height: 183px; background-image: url(https://pp.userapi.com/c836226/v836226833/2fa72/mT8NRFCmbrs.jpg)" class="page_post_thumb_wrap image_cover  fl_l"></a><a  href="/photo333120833_456240334" onclick="return showPhoto('333120833_456240334', 'wall44752200_1126', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c836226/v836226833/2fa76/lNKiqd1o_bs&quot;,604,455],&quot;y_&quot;:[&quot;c836226/v836226833/2fa77/HGN5z_5XPF0&quot;,807,608],&quot;z_&quot;:[&quot;c836226/v836226833/2fa78/EJ5Pbvj7ZRw&quot;,1280,964],&quot;w_&quot;:[&quot;c836226/v836226833/2fa79/y5tEUfngg2A&quot;,1296,976]},queue:1}, event)" style="width: 244px; height: 183px; background-image: url(https://pp.userapi.com/c836226/v836226833/2fa7c/4_qfTidUTRU.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column fl_l"></a><a  href="/photo333120833_456240335" onclick="return showPhoto('333120833_456240335', 'wall44752200_1126', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c836226/v836226833/2fa80/LHfsouumeFE&quot;,448,604],&quot;y_&quot;:[&quot;c836226/v836226833/2fa81/KQwg5QLb_BY&quot;,598,807],&quot;z_&quot;:[&quot;c836226/v836226833/2fa82/kx8FGmdCKsQ&quot;,780,1052]},queue:1}, event)" style="width: 95px; height: 95px; background-image: url(https://pp.userapi.com/c836226/v836226833/2fa7f/PeLXU9zrjJc.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  href="/photo333120833_456240336" onclick="return showPhoto('333120833_456240336', 'wall44752200_1126', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c836226/v836226833/2fa89/mLd5eFl-P1E&quot;,604,448],&quot;y_&quot;:[&quot;c836226/v836226833/2fa8a/bfVnzPDW1dU&quot;,807,598],&quot;z_&quot;:[&quot;c836226/v836226833/2fa8b/q9HXv07VXmc&quot;,1280,949],&quot;w_&quot;:[&quot;c836226/v836226833/2fa8c/6bfAAJCzrJg&quot;,2104,1560]},queue:1}, event)" style="width: 128px; height: 95px; background-image: url(https://pp.userapi.com/c836226/v836226833/2fa88/67vccwARXCA.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  href="/photo333120833_456240337" onclick="return showPhoto('333120833_456240337', 'wall44752200_1126', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c836226/v836226833/2fa93/cBCuoifGbjQ&quot;,604,448],&quot;y_&quot;:[&quot;c836226/v836226833/2fa94/QpL6Q0YjDms&quot;,807,598],&quot;z_&quot;:[&quot;c836226/v836226833/2fa95/nDTqksIrJU4&quot;,1280,949],&quot;w_&quot;:[&quot;c836226/v836226833/2fa96/Fg7V79uJDZY&quot;,2104,1560]},queue:1}, event)" style="width: 128px; height: 95px; background-image: url(https://pp.userapi.com/c836226/v836226833/2fa92/ySELfEKWU-g.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_row fl_l"></a><a  href="/photo333120833_456240338" onclick="return showPhoto('333120833_456240338', 'wall44752200_1126', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c836226/v836226833/2fa9d/q9yntRHSpYg&quot;,604,448],&quot;y_&quot;:[&quot;c836226/v836226833/2fa9e/Q2G185tKxn4&quot;,807,598],&quot;z_&quot;:[&quot;c836226/v836226833/2fa9f/SY3tpFQ_i-c&quot;,1280,949],&quot;w_&quot;:[&quot;c836226/v836226833/2faa0/tcOQNuGMpUU&quot;,2104,1560]},queue:1}, event)" style="width: 130px; height: 95px; background-image: url(https://pp.userapi.com/c836226/v836226833/2faa1/JaPqRyBxSKg.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row fl_l"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000244010_456240652 audio_can_add audio_lpb audio_has_thumb" data-full-id="2000244010_456240652" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456240652,2000244010,&quot;&quot;,&quot;Nuage Noir&quot;,&quot;Oiseaux-Temp&amp;#234;te &quot;,258,0,0,&quot;&quot;,0,98,&quot;user_wall:44752200_1126&quot;,&quot;[]&quot;,&quot;a5364e4244cdbc10e1\/\/6e359c9f766388a9ce\/\/&quot;,&quot;https:\/\/pp.userapi.com\/c638331\/v638331449\/748be\/I8fRaHiAtzg.jpg,https:\/\/pp.userapi.com\/c638331\/v638331449\/748bd\/pkxlsBpzWy4.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c638331/v638331449/748be/I8fRaHiAtzg.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:18</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Oiseaux-Temp%C3%AAte%20&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Oiseaux-Temp&#234;te </a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Nuage Noir</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '44752200_1126')" onclick="return Wall.likeIt(this, '44752200_1126', 'd51441323c11820a88', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">6</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1126')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1126', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '44752200_1126')" onclick="return Wall.sharesOpen(event, '44752200_1126');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1126')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap " onmouseover="Wall.viewsUpdate(this, '44752200_1126')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count">376</span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1126" style="">
+  <div class="replies_list _replies_list" id="replies44752200_1126"><a id="wrh44752200_1126" class="wr_header" onclick="return wall.showReplies('44752200_1126', false, false, event);" offs="3/6" href="/wall44752200_1126?offset=last&f=replies">Показать все 6 комментариев</a><input type="hidden" id="start_reply44752200_1126" value="1130" /><div id="post44752200_1130" class="reply reply_dived clear  reply_replieable _post" data-post-id="44752200_1130"  onclick="Wall.replyClick('44752200_1126', 1130, event, 44752200)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/innapush">
+      <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" width="40" height="40" class="reply_img" alt="Инна Пушкарёва" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete44752200_1130" class="reply_delete_button reply_action fl_r" data-title="Удалить" onclick="wall.deletePost(this, '44752200_1130', 'cd6a2358041e636c80');" onmouseover="showTitle(this);" aria-label="Удалить" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/innapush" data-from-id="44752200">Инна Пушкарёва</a> ответила <a href="/id19881034" class="reply_to" onclick="return wall.showReply(this, '44752200_1126', '44752200_1129', event)" rid="19881034" onmouseover="wall.postTooltip(this, '44752200_1130', {reply: 1})">Илье</a>
+      </div>
+      <div class="reply_text" ><div id="wpt44752200_1130"><div class="wall_reply_text"><a href="/id19881034" class="mem_link" mention="" mention_id="id19881034" onclick="return mentionClick(this, event)" onmouseover="mentionOver(this)">Ilya</a>, не наговаривай тут на меня)</div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom44752200_1130">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '44752200_wall_reply1130', '3b945f6f1e8589afd9', event);" onmouseover="Wall.likesShow(this, '44752200_wall_reply1130')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_wall_reply1130')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall44752200_1126?reply=1130"  onclick="return showWiki({w: 'wall44752200_1126', reply: '1130'}, false, event);" ><span class="rel_date">27 янв в 22:10</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div><div id="post44752200_1131" class="reply reply_dived clear  reply_replieable _post" data-post-id="44752200_1131"  onclick="Wall.replyClick('44752200_1126', 1131, event, 19881034)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/id19881034">
+      <img src="https://pp.userapi.com/c636530/v636530034/146fb/ilsAoJvoVmQ.jpg" width="40" height="40" class="reply_img" alt="Илья Дротенко" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete44752200_1131" class="reply_delete_button reply_action fl_r" data-title="Удалить" onclick="wall.deletePost(this, '44752200_1131', '6b4c7ed8f31a0db929');" onmouseover="showTitle(this);" aria-label="Удалить" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/id19881034" data-from-id="19881034">Илья Дротенко</a> ответил <a href="/innapush" class="reply_to" onclick="return wall.showReply(this, '44752200_1126', '44752200_1130', event)" rid="44752200" onmouseover="wall.postTooltip(this, '44752200_1131', {reply: 1})">Инне</a>
+      </div>
+      <div class="reply_text" ><div id="wpt44752200_1131"><div class="wall_reply_text"><a href="/innapush" class="mem_link" mention="" mention_id="id44752200" onclick="return mentionClick(this, event)" onmouseover="mentionOver(this)">Инна</a>, ох и получишь ты у меня по жопе, когда встретимся<img class="emoji" alt="&#128516;" src="/images/emoji/D83DDE04.png"></div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom44752200_1131">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '44752200_wall_reply1131', '06f47f53f19b42a3a8', event);" onmouseover="Wall.likesShow(this, '44752200_wall_reply1131')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_wall_reply1131')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall44752200_1126?reply=1131"  onclick="return showWiki({w: 'wall44752200_1126', reply: '1131'}, false, event);" ><span class="rel_date">27 янв в 22:24</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div><div id="post44752200_1132" class="reply reply_dived clear  reply_replieable _post" data-post-id="44752200_1132"  onclick="Wall.replyClick('44752200_1126', 1132, event, 44752200)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/innapush">
+      <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" width="40" height="40" class="reply_img" alt="Инна Пушкарёва" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete44752200_1132" class="reply_delete_button reply_action fl_r" data-title="Удалить" onclick="wall.deletePost(this, '44752200_1132', 'a215a118ad89490a1a');" onmouseover="showTitle(this);" aria-label="Удалить" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/innapush" data-from-id="44752200">Инна Пушкарёва</a> ответила <a href="/id19881034" class="reply_to" onclick="return wall.showReply(this, '44752200_1126', '44752200_1131', event)" rid="19881034" onmouseover="wall.postTooltip(this, '44752200_1132', {reply: 1})">Илье</a>
+      </div>
+      <div class="reply_text" ><div id="wpt44752200_1132"><div class="wall_reply_text"><a href="/id19881034" class="mem_link" mention="" mention_id="id19881034" onclick="return mentionClick(this, event)" onmouseover="mentionOver(this)">Ilya</a>, пффф)</div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom44752200_1132">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '44752200_wall_reply1132', 'b439bddd6115e171a4', event);" onmouseover="Wall.likesShow(this, '44752200_wall_reply1132')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_wall_reply1132')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall44752200_1126?reply=1132"  onclick="return showWiki({w: 'wall44752200_1126', reply: '1132'}, false, event);" ><span class="rel_date">27 янв в 22:30</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap44752200_1126"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1126" onclick="return Wall.showEditReply('44752200_1126', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div id="post44752200_1100" class="_post post page_block all own post_copy" data-post-id="44752200_1100" onclick="wall.postClick('44752200_1100', event);" post_view_hash="4763333185c18a2d57" data-copy="-72866026_228994">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1100" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1100" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1100"  onclick="return showWiki({w: 'wall44752200_1100'}, false, event);" ><span class="rel_date">9 ноя 2016</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1100', 'd958890fda6333339a');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1100', '7fc3898b2eeaefcbd0', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1100" class="wall_post_cont _wall_post_cont"></div><div class="copy_quote"><div class="copy_post_header">
+    <a class="copy_post_image" data-post-id="-72866026_228994" data-parent-post-id="44752200_1100" href="/golovolomke">
+      <img src="https://pp.userapi.com/c637723/v637723481/16284/Fn1fqcUYV2M.jpg" width="40" height="40" class="copy_post_img">
+      <span class="blind_label">.</span>
+    </a>
+    <div class="copy_post_header_info">
+      <h5 class="copy_post_author"><a class="copy_author" data-post-id="-72866026_228994" data-parent-post-id="44752200_1100" href="/golovolomke">Brain IQ</a> </h5>
+      <div class="copy_post_date"><span class="published_by_date sm">8 ноя 2016 в 21:35</span></div>
+    </div>
+</div><div class="wall_post_text">Гипотеза о квантовом перерождении человека. <br><br>Как вы думаете, как человек может повлиять на вселенную? На материальный мир, что нас окружает? Многие скажут, что мы меняем его каждую секунду при помощи человеческой силы и разума. И будут правы. Мы подчиняем себе нашу планету, запускаем ракеты в космическую пустоту и передаём сообщения со скоростью света. Но сегодня я хочу рассказать вам о том, насколько в действительности велико наше влияние на окружающую нас реальность. <br><a class="wall_post_more" onclick="hide(this, domPS(this)); show(domNS(this));">Показать полностью…</a><span style="display: none"><br><br>Если вы когда-либо увлекались физикой, то наверняка слышали о таком явлении как квантовая неопределённость, открытая Вернером Гейзенбергом в 1927 году. Попробую наглядно объяснить, что представляет собой это явление. Все мы знаем, что наш мир состоит из атомов, а они в свою очередь из элементарных частиц, таких как электроны, кванты и бозоны. Физикам так и не удалось рационально объяснить принцип неопределённости. Поэтому им ничего не оставалось, как просто принять его как данное, без каких-либо доказательств. Принять это как закон. Рас уж это происходит, то и пусть происходит. Эти маленькие частицы просто снесли крышу многим учёным того времени, так как просто не поддавались какому-либо логическому объяснению. Я уверяю, что и вы сильно удивитесь, когда поймёте суть проблемы. <br><br>Был проведён опыт: Источник, излучающий поток электронов в сторону специального экрана с фотопластинкой. Но не всё так просто. На пути электронов ставилась преграда в виде медной пластинки с двумя щелями. Любой здравомыслящий человек скажет, что после эксперимента на экране будет две засвеченные полосы напротив щелей. Так как со школы помним, что электроны - это просто маленькие заряженные частицы, вращающиеся вокруг ядер атомов. Электроны могут отрываться от них и проходить сквозь отверстия медной пластинки. Так поступила бы обычная материя. Ну не тут-то было. В действительности же на экране появляется гораздо более сложный узор из чередующихся чёрных и белых полос. Дело в том, что при прохождении через щели электроны начинают вести себя не как частицы, а как волны (подобно тому, как и фотоны, частицы света, одновременно могут быть и волнами). Потом эти волны взаимодействуют в пространстве, где-то ослабляя, а где-то усиливая друг друга, и в результате на экране появляется сложная картина из чередующихся светлых и темных полос. При этом результат эксперимента не меняется, и если пускать электроны через щель не сплошным потоком, а поодиночке, даже одна частица может быть одновременно и волной. Даже один электрон может одновременно пройти через две щели. Но причем здесь наблюдатель? С ним и без того запутанная история стала еще сложнее. Когда в подобных экспериментах физики попытались зафиксировать с помощью приборов, через какую щель в действительности проходит электрон, картинка на экране резко поменялась и стала «классической»: два засвеченных участка напротив щелей и никаких чередующихся полос. <br><br>Электроны будто не захотели проявлять свою волновую природу под пристальным взором наблюдателя. Подстроились под его инстинктивное желание увидеть простую и понятную картинку. Мистика? Вот мы и подошли к самому интересному. Если в отсутствии наблюдателя часть материи превращается в волну, энергию, то существует ли этот мир, пока на него никто не смотрит? <br><br>«Существует ли Луна, покуда на неё не смотрит мышь? А. Эйнштейн <br>Но, так или иначе, это доказывает одно, что наш разум как то влияет на наш материальный мир, и наоборот, мир как то связан с нашим разумом. Недавно американские учёные из Мичиганского университета под руководством ведущего автора исследования Джимо Борджигина провели исследование клинической смерти. Они опровергли суждение большинства о том, что после клинической смерти мозг отключается или проявляет гораздо меньшую активность, чем когда организм бодрствует. Они продемонстрировали, что это не так. Более того, теперь доподлинно известно, что мозг гораздо более активен во время умирания, чем в состоянии бодрствования. <br><br>Давно известно, что наша нервная система испускает электромагнитные волны, так как принцип её действия заключается в передачи импульсов электрического тока, а он в свою очередь создаёт магнитные поля. Так вот, мозг при всех своих удивительных качествах, является ещё подобием передающей антенны. Сейчас появляются специальные шлемы способные считывать мельчайшие импульсы нашего мозга для управления различными приспособлениями: компьютерами, роботами, машинами и даже протезами. Неспроста этот мощнейший квантовый суперкомпьютер, который мы с любовью называем мозгом, перед смертью начинает сверхактивную деятельность. Намного мощнее, чем при жизни. Многие скажут, что это из-за недостатка кислорода мозг начинает голодать и видит галлюцинации. Но согласитесь, чтобы видеть галлюцинации, мозгу не нужна такая интенсивность. Когда мы спим мы, тоже видим галлюцинации, но это даже близко не сравниться с активностью умирающего человека. Интенсивность выше ни то, что у спящего, выше, чем у бодрствующего. Как же это объяснить? <br><br>Человек не только видит галлюцинации реальнее, чем сама реальность, но и вспоминает важнейшие моменты своей жизни. То есть мозг делает нечто подобное, как компьютер сохраняет рабочий образ системы, чтобы при возникновении неполадок можно было откатиться на более раннюю, рабочую версию. А что же происходит потом? Мозг как передатчик испускает квантовую информацию образа своего сознания в космос, во вселенную. Вот зачем я рассказал вам о квантовой непостоянности. Именно тут прослеживается взаимосвязь между миром и сознанием. То, что испускает мозг, это уже не материя, это электричество, электромагнитные волны, энергия. А как мы знаем, ничто не появляется из ниоткуда, и не исчезает в никуда. А это значит, что энергия должна будет вернуться. Вернуться в этот мир. Но уже в новом человеке. Почему же тогда мы не помним информацию о прошлых жизнях? Да потому, что информация не является чем-то важным. Человеку полезен только опыт. Вот почему некоторые дети с рождения имеют способности к чему-либо. Хотя их никто этому не учил. Перерождается опыт, глубинные знания и сильнейшие чувства. Информация же отметается, как не нужный мусор. <br><br>Это доказательство основано лишь на моих личных умозаключениях, которым вы множите верить или нет. Но с одним вы поспорить не смежите. В этом, что-то есть. И это больше всего, что мы можем выразить словами.</span></div><div class="page_post_sized_thumbs  clear_fix" style="width: 496px; height: 496px;"><a  onclick="return showPhoto('-72866026_456239040', 'wall44752200_1100', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c543100/v543100143/2ebc0/nvHb4sui6zc&quot;,604,604],&quot;y_&quot;:[&quot;c543100/v543100143/2ebc1/wKvBhrsyzbc&quot;,807,807],&quot;z_&quot;:[&quot;c543100/v543100143/2ebc2/IWMqYuLNow4&quot;,1080,1080]},queue:1}, event)" style="width: 496px; height: 496px; background-image: url(https://pp.userapi.com/c543100/v543100143/2ebc0/nvHb4sui6zc.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '44752200_1100')" onclick="return Wall.likeIt(this, '44752200_1100', '53151cb7504ce6a722', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">3</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1100')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1100', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '44752200_1100')" onclick="return Wall.sharesOpen(event, '44752200_1100');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1100')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap no_views" onmouseover="Wall.viewsUpdate(this, '44752200_1100')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count"></span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1100" style="display: none">
+  <div class="replies_list _replies_list" id="replies44752200_1100"><input type="hidden" id="start_reply44752200_1100" value="" /></div>
+  <div id="reply_box_wrap44752200_1100"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1100" onclick="return Wall.showEditReply('44752200_1100', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div id="post44752200_1077" class="_post post page_block all own" data-post-id="44752200_1077" onclick="wall.postClick('44752200_1077', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1077" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1077" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1077"  onclick="return showWiki({w: 'wall44752200_1077'}, false, event);" ><span class="rel_date">22 сен 2016</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1077', '4a29df3b18c035654b');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1077', 'a79bbea381e257099a', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1077" class="wall_post_cont _wall_post_cont"><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 287px;"><a  href="/photo44752200_397557307" onclick="return showPhoto('44752200_397557307', 'wall44752200_1077', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c7008/v7008578/2df9d/WFQR5miQbHc&quot;,604,340]},queue:1}, event)" style="width: 510px; height: 287px; background-image: url(https://pp.userapi.com/c7008/v7008578/2df9d/WFQR5miQbHc.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000504143_456239142 audio_can_add audio_has_thumb" data-full-id="2000504143_456239142" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239142,2000504143,&quot;&quot;,&quot;Now We Die &quot;,&quot;Machine Head&quot;,446,0,0,&quot;&quot;,0,66,&quot;user_wall:44752200_1077&quot;,&quot;[]&quot;,&quot;1f07bc62e694f87cc6\/edafe38c8df7cf8492\/6a55d67c58ec0ae69f\/45fd82fe05ecbb7617\/&quot;,&quot;https:\/\/pp.userapi.com\/c836220\/v836220446\/43be7\/2IPlHvM0f9k.jpg,https:\/\/pp.userapi.com\/c836220\/v836220446\/43be6\/Lz5sGURtIIQ.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836220/v836220446/43be7/2IPlHvM0f9k.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">7:26</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Machine%20Head&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Machine Head</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Now We Die </span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000503825_456239228 audio_can_add" data-full-id="2000503825_456239228" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239228,2000503825,&quot;&quot;,&quot;Damage Inside&quot;,&quot;Machine Head&quot;,204,0,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1077&quot;,&quot;[]&quot;,&quot;a181138488638afe27\/2fc019fc3c7baede36\/12b190df80c928f021\/5533cfd6133cd2107b\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:24</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Machine%20Head&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Machine Head</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Damage Inside</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000504340_456239066 audio_claimed" data-full-id="2000504340_456239066" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239066,2000504340,&quot;&quot;,&quot;Brave This Storm&quot;,&quot;Trivium&quot;,273,0,0,&quot;&quot;,0,4,&quot;user_wall:44752200_1077&quot;,&quot;{\&quot;claim\&quot;:{\&quot;reason\&quot;:\&quot;\&quot;,\&quot;id\&quot;:0}}&quot;,&quot;\/967657b95fc0607952\/09aa2e0d525d98be8b\/2c110eaf85221d49a1\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:33</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Brave This Storm</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000503012_456239391 audio_can_add" data-full-id="2000503012_456239391" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239391,2000503012,&quot;&quot;,&quot;Watch The World Burn&quot;,&quot;Trivium&quot;,293,0,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1077&quot;,&quot;[]&quot;,&quot;eed55c4a09b92543cd\/2786c6fdb34bd71bd7\/61f23441b70826055e\/fd99d2aa6b3f50e7c2\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:53</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Trivium&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Trivium</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Watch The World Burn</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000500742_456239769 audio_can_add audio_hq audio_has_thumb" data-full-id="2000500742_456239769" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239769,2000500742,&quot;&quot;,&quot;All Love Is Lost&quot;,&quot;Architects&quot;,260,0,0,&quot;&quot;,0,82,&quot;user_wall:44752200_1077&quot;,&quot;[]&quot;,&quot;b0f6893eea20e3dd31\/84cc55bd1c52fcd8c0\/8d28684c00c2d8c336\/5f79db101a7d338083\/&quot;,&quot;https:\/\/pp.userapi.com\/c836520\/v836520451\/6d77f\/ONREDsc72Co.jpg,https:\/\/pp.userapi.com\/c836520\/v836520451\/6d77e\/XMQ93-vKVpo.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c836520/v836520451/6d77f/ONREDsc72Co.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:20</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Architects&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Architects</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">All Love Is Lost</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000504270_456239090 audio_can_add audio_has_thumb" data-full-id="2000504270_456239090" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239090,2000504270,&quot;&quot;,&quot;Devil&amp;#39;s Island&quot;,&quot;Architects&quot;,247,0,0,&quot;&quot;,0,66,&quot;user_wall:44752200_1077&quot;,&quot;[]&quot;,&quot;5d094c67ee55bc46f3\/86bf9323621d90f7bd\/d4be7e50431b085641\/adef60ec121c75c8d1\/&quot;,&quot;https:\/\/pp.userapi.com\/c638331\/v638331449\/3acb5\/hFo3HOmGo4g.jpg,https:\/\/pp.userapi.com\/c638331\/v638331449\/3acb4\/3WvcK91FqEA.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c638331/v638331449/3acb5/hFo3HOmGo4g.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:07</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Architects&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Architects</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Devil&#39;s Island</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000502971_456239370 audio_can_add audio_lpb" data-full-id="2000502971_456239370" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239370,2000502971,&quot;&quot;,&quot;M.I.N.E. &quot;,&quot;Five Finger Death Punch&quot;,246,0,0,&quot;&quot;,0,34,&quot;user_wall:44752200_1077&quot;,&quot;[]&quot;,&quot;bdfa0f107e20a96b43\/6d1e202a9d55dc9ed9\/3df3d6ca4210309878\/ea3d091bb419af898f\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:06</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Five%20Finger%20Death%20Punch&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Five Finger Death Punch</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">M.I.N.E. </span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000502951_456239383 audio_claimed audio_has_thumb" data-full-id="2000502951_456239383" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239383,2000502951,&quot;&quot;,&quot;Wrong Side Of Heaven&quot;,&quot;Five Finger Death Punch &quot;,336,0,0,&quot;&quot;,0,68,&quot;user_wall:44752200_1077&quot;,&quot;{\&quot;claim\&quot;:{\&quot;reason\&quot;:\&quot;geo\&quot;,\&quot;id\&quot;:0}}&quot;,&quot;\/5f7b87c0de4e90ba87\/9c28b6fba32ef52f0b\/13c66a49be9a846660\/&quot;,&quot;https:\/\/pp.userapi.com\/c841225\/v841225148\/33e3d\/FG0ZBXuxAls.jpg,https:\/\/pp.userapi.com\/c841225\/v841225148\/33e3b\/futBD8ckm0I.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c841225/v841225148/33e3d/FG0ZBXuxAls.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">5:36</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Five%20Finger%20Death%20Punch%20&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Five Finger Death Punch </a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Wrong Side Of Heaven</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000502998_456239356 audio_can_add audio_lpb" data-full-id="2000502998_456239356" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239356,2000502998,&quot;&quot;,&quot;The Black&quot;,&quot;Asking Alexandria&quot;,341,0,0,&quot;&quot;,0,34,&quot;user_wall:44752200_1077&quot;,&quot;[]&quot;,&quot;1c27778f59c8b20598\/b8bfd8645898fd9a30\/f6dda908788d59af21\/a6e72bc58362d8d0e7\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">5:41</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Asking%20Alexandria&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Asking Alexandria</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">The Black</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '44752200_1077')" onclick="return Wall.likeIt(this, '44752200_1077', 'eedd2a55ac8ea6abe5', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">10</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1077')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1077', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap no_shares"  onmouseover="Wall.sharesShow(this, '44752200_1077')" onclick="return Wall.sharesOpen(event, '44752200_1077');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count"></span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1077')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap no_views" onmouseover="Wall.viewsUpdate(this, '44752200_1077')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count"></span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1077" style="">
+  <div class="replies_list _replies_list" id="replies44752200_1077"><input type="hidden" id="start_reply44752200_1077" value="1116" /><div id="post44752200_1116" class="reply reply_dived clear  reply_replieable _post" data-post-id="44752200_1116"  onclick="Wall.replyClick('44752200_1077', 1116, event, 29671012)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/valyaevskaya">
+      <img src="https://pp.userapi.com/c841538/v841538914/382d3/xQxCI9IZqpQ.jpg" width="40" height="40" class="reply_img" alt="Валера Валяева" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete44752200_1116" class="reply_delete_button reply_action fl_r" data-title="Удалить" onclick="wall.deletePost(this, '44752200_1116', 'bda12cdf105e01bdca');" onmouseover="showTitle(this);" aria-label="Удалить" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/valyaevskaya" data-from-id="29671012">Валера Валяева</a>
+      </div>
+      <div class="reply_text" ><div id="wpt44752200_1116"><div class="page_post_sized_thumbs  clear_fix" style="width: 348px; height: 120px;"><a  onclick="return showPhoto('29671012_456240321', 'wall44752200_1116', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c604518/v604518833/1daa1/HcV0fF5Piws&quot;,604,208]},queue:1}, event)" style="width: 348px; height: 120px; background-image: url(https://pp.userapi.com/c604518/v604518833/1daa1/HcV0fF5Piws.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom44752200_1116">
+        <a href="#" class="like_wrap _like_wrap no_likes" onclick="return Wall.likeIt(this, '44752200_wall_reply1116', 'fe02e401dd7db2212f', event);" onmouseover="Wall.likesShow(this, '44752200_wall_reply1116')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count"></span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_wall_reply1116')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall44752200_1077?reply=1116"  onclick="return showWiki({w: 'wall44752200_1077', reply: '1116'}, false, event);" ><span class="rel_date">29 дек 2016</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div><div id="post44752200_1117" class="reply reply_dived clear  reply_replieable _post" data-post-id="44752200_1117"  onclick="Wall.replyClick('44752200_1077', 1117, event, 44752200)">
+  <div class="reply_wrap _reply_content _post_content clear_fix">
+    
+    <a class="reply_image" href="/innapush">
+      <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" width="40" height="40" class="reply_img" alt="Инна Пушкарёва" />
+    </a>
+    <div class="reply_content" >
+      <div class="fl_r post_actions_wrap"><div class="post_actions"><div id="reply_delete44752200_1117" class="reply_delete_button reply_action fl_r" data-title="Удалить" onclick="wall.deletePost(this, '44752200_1117', 'fb84d3dd6c4bd5f4d1');" onmouseover="showTitle(this);" aria-label="Удалить" tabindex="0" role="link"></div></div></div>
+      <div class="reply_author">
+        <a class="author" href="/innapush" data-from-id="44752200">Инна Пушкарёва</a>
+      </div>
+      <div class="reply_text" ><div id="wpt44752200_1117"><div class="wall_reply_text">Именно так&#33;</div></div></div>
+      <div class="reply_footer clear_fix" id="wpe_bottom44752200_1117">
+        <a href="#" class="like_wrap _like_wrap " onclick="return Wall.likeIt(this, '44752200_wall_reply1117', '61d9e0399d78b74c7d', event);" onmouseover="Wall.likesShow(this, '44752200_wall_reply1117')">
+  <span class="blind_label">Нравится</span>
+  <i class="like_icon _icon"></i>
+  <span class="like_count _count">1</span>
+</a>
+<span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_wall_reply1117')">Показать список оценивших</span>
+        <div class="reply_date"><a class="wd_lnk"  class="post_link"  href="/wall44752200_1077?reply=1117"  onclick="return showWiki({w: 'wall44752200_1077', reply: '1117'}, false, event);" ><span class="rel_date">29 дек 2016</span></a></div>
+        <div class="reply_link_wrap">
+  <a class="reply_link _reply_lnk" tabindex="0" role="link">Ответить</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+  <div id="reply_box_wrap44752200_1077"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1077" onclick="return Wall.showEditReply('44752200_1077', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div id="post44752200_1035" class="_post post page_block all own" data-post-id="44752200_1035" onclick="wall.postClick('44752200_1035', event);" post_view_hash="4763333185c18a2d57">
+  <div class="_post_content">
+    
+    <div class="post_header">
+      <a class="post_image _online online" href="/innapush">
+        <img src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" data-post-id="44752200_1035" data-post-click-type="post_owner_img" width="50" height="50" class="post_img" />
+        <span class="blind_label">.</span>
+      </a>
+      
+      <div class="post_header_info">
+        <h5 class="post_author"><a class="author" href="/innapush" data-from-id="44752200" data-post-id="44752200_1035" data-post-click-type="post_owner_link">Инна Пушкарёва</a> <span class="explain"><span class="wall_fixed_label">&nbsp;запись закреплена</span></span></h5>
+        <div class="post_date"><a  class="post_link"  href="/wall44752200_1035"  onclick="return showWiki({w: 'wall44752200_1035'}, false, event);" ><span class="rel_date">24 апр 2016</span></a></div>
+        <div class="ui_actions_menu_wrap _ui_menu_wrap " onmouseover="uiActionsMenu.show(this);" onmouseout="uiActionsMenu.hide(this);">
+  <div class="ui_actions_menu_icons"  tabindex="0" aria-label="Действия" role="button" onclick="uiActionsMenu.keyToggle(this, event);"><span class="blind_label">Действия</span></div>
+  <div class="ui_actions_menu _ui_menu" ><a class="ui_actions_menu_item" onclick="wall.deletePost(this, '44752200_1035', '38221fb8d36b559b32');" tabindex="0" role="link">Удалить запись</a><a class="ui_actions_menu_item" onclick="return Wall.fixPost(this, '44752200_1035', '3e7852007b2fd4ec20', 1);" tabindex="0" role="link">Закрепить</a></div>
+</div>
+      </div>
+    </div>
+    <div class="post_content">
+      <div class="post_info">
+        <div class="wall_text"><div id="wpt44752200_1035" class="wall_post_cont _wall_post_cont"><div class="wall_post_text">Life is an eternal yesterday for us.<br><br>&quot;The Lovely Bones&quot;<br>Alice Sebold</div><div class="page_post_sized_thumbs  clear_fix" style="width: 510px; height: 340px;"><a  href="/photo44752200_411949006" onclick="return showPhoto('44752200_411949006', 'wall44752200_1035', {&quot;temp&quot;:{&quot;base&quot;:&quot;https://pp.userapi.com/&quot;,&quot;x_&quot;:[&quot;c636719/v636719200/3178/IWreCLt6BqE&quot;,604,403],&quot;y_&quot;:[&quot;c636719/v636719200/3179/oCJVp8taR2Q&quot;,807,538],&quot;z_&quot;:[&quot;c636719/v636719200/317a/LER-3Keyr1w&quot;,1280,853],&quot;w_&quot;:[&quot;c636719/v636719200/317b/6SotIfdz0qo&quot;,2560,1707]},queue:1}, event)" style="width: 510px; height: 340px; background-image: url(https://pp.userapi.com/c636719/v636719200/3178/IWreCLt6BqE.jpg)" class="page_post_thumb_wrap image_cover  page_post_thumb_last_column page_post_thumb_last_row"></a></div><div class="wall_audio_rows _wall_audio_rows"><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000197031_456239874 audio_can_add audio_hq" data-full-id="2000197031_456239874" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239874,2000197031,&quot;&quot;,&quot;Гореть (acoustic)&quot;,&quot;Lumen&quot;,285,0,0,&quot;&quot;,0,18,&quot;user_wall:44752200_1035&quot;,&quot;[]&quot;,&quot;68f70ee0a49424060c\/15c6af44c14be246f9\/bf671362e2e6ff034f\/d315c7bd82fc53f28c\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:45</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Lumen&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Lumen</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Гореть (acoustic)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000200773_456239029 audio_can_add" data-full-id="2000200773_456239029" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239029,2000200773,&quot;&quot;,&quot;Nutshell (Alice In Chains cover)&quot;,&quot;Seether &amp;amp; Shinedown&quot;,248,0,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1035&quot;,&quot;[]&quot;,&quot;b56c52fe0354366957\/a496f69979583ba787\/68315130f16696ee0f\/7583b21d664a49873b\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:08</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Seether%20%26%20Shinedown&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Seether &amp; Shinedown</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Nutshell (Alice In Chains cover)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000199174_456239392 audio_can_add audio_hq" data-full-id="2000199174_456239392" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239392,2000199174,&quot;&quot;,&quot;The One True Colour (Live Acoustic at Alexandra Palace)&quot;,&quot;Enter Shikari&quot;,259,0,0,&quot;&quot;,0,18,&quot;user_wall:44752200_1035&quot;,&quot;[]&quot;,&quot;0b964185ba5c8d3b7c\/c9c590141cdbcf17b7\/2a3acceec0f239b9c2\/86393d5e0809242d1e\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:19</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">The One True Colour (Live Acoustic at Alexandra Palace)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000198791_456239511 audio_can_add audio_hq" data-full-id="2000198791_456239511" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239511,2000198791,&quot;&quot;,&quot;The Black (Acoustic)&quot;,&quot;Asking Alexandria&quot;,181,0,0,&quot;&quot;,0,18,&quot;user_wall:44752200_1035&quot;,&quot;[]&quot;,&quot;91c0932805132ae8df\/df96184251cfe8c92a\/fca0c914ba635c6183\/bb841b9cb8115cbfa6\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:01</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Asking%20Alexandria&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Asking Alexandria</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">The Black (Acoustic)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000199984_456239302 audio_can_add" data-full-id="2000199984_456239302" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239302,2000199984,&quot;&quot;,&quot;So cold (Acoustic)&quot;,&quot;Breaking Benjamin&quot;,238,0,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1035&quot;,&quot;[]&quot;,&quot;7c0b76a8537065987d\/76f20c7a256026af71\/2eec833bd93f829a60\/67b377729ac2d3d89d\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:58</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Breaking%20Benjamin&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Breaking Benjamin</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">So cold (Acoustic)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000198331_456239640 audio_can_add audio_has_thumb" data-full-id="2000198331_456239640" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239640,2000198331,&quot;&quot;,&quot;Some Day (Acoustic Version)&quot;,&quot;Shinedown&quot;,171,0,0,&quot;&quot;,0,66,&quot;user_wall:44752200_1035&quot;,&quot;[]&quot;,&quot;5936a07a6027ba09d7\/8fe23b7f14bd85ef5c\/38e6026185d3daef4e\/f346bec18216fa849a\/&quot;,&quot;https:\/\/pp.userapi.com\/c604720\/v604720447\/600a7\/p4-WMmQzqv0.jpg,https:\/\/pp.userapi.com\/c604720\/v604720447\/600a6\/ENkxBCyGGy0.jpg&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style="background-image:url(https://pp.userapi.com/c604720/v604720447/600a7/p4-WMmQzqv0.jpg)"></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">2:51</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Shinedown&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Shinedown</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Some Day (Acoustic Version)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000200395_456239156 audio_can_add" data-full-id="2000200395_456239156" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239156,2000200395,&quot;&quot;,&quot;Juggernauts (Live Acoustic at Alexandra Palace)&quot;,&quot;Enter Shikari&quot;,296,0,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1035&quot;,&quot;[]&quot;,&quot;9a42c7185eba1f95e3\/1f2ba4fa6e1ad6f98b\/9f0349005c50885632\/af1bde019b737f7edb\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:56</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Enter%20Shikari&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Enter Shikari</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Juggernauts (Live Acoustic at Alexandra Palace)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000199529_456239342 audio_can_add audio_hq" data-full-id="2000199529_456239342" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239342,2000199529,&quot;&quot;,&quot;No Matter What (New Acoustic version)&quot;,&quot;Papa Roach&quot;,231,0,0,&quot;&quot;,0,18,&quot;user_wall:44752200_1035&quot;,&quot;[]&quot;,&quot;14f8b1f9176a690a75\/e83848038945cd1e5b\/a0879cf9db4996a868\/d93a17f785e31a1a34\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">3:51</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Papa%20Roach&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Papa Roach</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">No Matter What (New Acoustic version)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div><div   tabindex="0" class="audio_row audio_row_with_cover _audio_row _audio_row_2000198053_456239757 audio_can_add" data-full-id="2000198053_456239757" onclick="return getAudioPlayer().toggleAudio(this, event)" data-audio="[456239757,2000198053,&quot;&quot;,&quot;Use Somebody (Kings of Leon Cover)&quot;,&quot;Paramore&quot;,243,0,0,&quot;&quot;,0,2,&quot;user_wall:44752200_1035&quot;,&quot;[]&quot;,&quot;d3a54aa88d3d6adcb9\/ccd8dfce8c46c323d4\/7f6473530cbce7a1b7\/982f415ddd7ef4f8f3\/&quot;,&quot;&quot;,-1]" onmouseover="AudioUtils.onRowOver(this, event)" onmouseleave="AudioUtils.onRowLeave(this, event)">
+  <div class="audio_row_content _audio_row_content">
+    <button class="blind_label _audio_row__play_btn" aria-label="Воспроизвести " onclick="getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)"></button>
+
+    <div class="audio_row__cover" style=""></div>
+    <div class="audio_row__cover_back _audio_row__cover_back"></div>
+    <div class="audio_row__cover_icon _audio_row__cover_icon"></div>
+    <div class="audio_row__counter"></div>
+    <div class="audio_row__play_btn"></div>
+
+    <div class="audio_row__inner">
+      <div class="audio_row__info _audio_row__info"><div class="audio_row__duration _audio_row__duration">4:03</div></div>
+      <div class="audio_row__performer_title">
+        <a href="/search?c[section]=audio&c[q]=Paramore&c[performer]=1" onmouseover="setTitle(this)" class="audio_row__performer">Paramore</a>
+        <div class="audio_row__title _audio_row__title" onmouseover="setTitle(this)"><span class="audio_row__title_inner _audio_row__title_inner">Use Somebody (Kings of Leon Cover)</span></div>
+      </div>
+    </div>
+
+    <div class="audio_player__place _audio_player__place"></div>
+  </div>
+</div></div></div></div>
+        <div class="post_full_like_wrap clear_fix">
+  <div class="post_full_like">
+    <a href="#" class="post_like _like_wrap " onmouseover="Wall.likesShow(this, '44752200_1035')" onclick="return Wall.likeIt(this, '44752200_1035', '3ac70e2810ceb44332', event);">
+      <i class="post_like_icon _icon"></i>
+      <span class="post_like_link _link">Нравится</span>
+      <span class="post_like_count _count">5</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.likesShowList(this, '44752200_1035')">Показать список оценивших</span>
+    <a href="#" class="post_reply _reply_wrap" onclick="return Wall.showEditReply('44752200_1035', event)">
+  <i class="post_reply_icon _icon"></i>
+  <span class="post_reply_link _link">Комментировать</span>
+  <span class="post_reply_count _count"></span>
+</a>
+    <a href="#" class="post_share _share_wrap "  onmouseover="Wall.sharesShow(this, '44752200_1035')" onclick="return Wall.sharesOpen(event, '44752200_1035');">
+      <i class="post_share_icon _icon"></i>
+      <span class="blind_label">Поделиться</span>
+      <span class="post_share_link _link">Поделиться</span>
+      <span class="post_share_count _count">1</span>
+    </a>
+    <span class="blind_label" tabindex="0" role="link" onclick="Wall.sharesShowList(this, '44752200_1035')">Показать список поделившихся</span>
+    
+  </div>
+  <div class="post_views _views_wrap no_views" onmouseover="Wall.viewsUpdate(this, '44752200_1035')">
+  <i class="post_views_icon _icon"></i>
+  <span class="post_views_count _count"></span>
+</div>
+</div>
+        <div class="replies"><div class="replies_wrap" id="replies_wrap44752200_1035" style="display: none">
+  <div class="replies_list _replies_list" id="replies44752200_1035"><input type="hidden" id="start_reply44752200_1035" value="" /></div>
+  <div id="reply_box_wrap44752200_1035"><div class="reply_box_inner_wrap">
+  <div class="reply_fakebox_wrap" id="reply_fakebox44752200_1035" onclick="return Wall.showEditReply('44752200_1035', event)" data-owner-photo="" data-owner-href="" data-owner-name="">
+    <a class="post_field_user_link _post_field_author" href="/innapush" onclick="if (!checkEvent(event)) return nav.go(this, event); event.cancelBubble = true;">
+  <img class="post_field_user_image _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+  <img class="post_field_user_image post_field_image_secondary _post_field_image" src="https://pp.userapi.com/c638221/v638221519/63937/Jw8UT8wlg8Y.jpg" />
+</a>
+    <div class="reply_fakebox">Написать комментарий...</div></div>
+</div></div>
+</div></div>
+      </div>
+    </div>
+    
+  </div>
+</div><div class="page_block no_posts">
+  <div class="no_posts_cover"></div>
+  На стене пока нет ни одной записи.
+</div><!><!json>{"_":false,"44752200":["Инне","Инна, "],"19881034":["Илье","Илья, "],"29671012":["Валере","Валера, "]}

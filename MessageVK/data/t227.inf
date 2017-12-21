@@ -1,0 +1,13 @@
+[t227]
+FileName1=t227.html
+URL1=https://vk.com/login?act=mobile&hash=c6908f088dd6d3af
+Total=2
+RequestHeaderFile=t227_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t227_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_227.xml
+FileName2=t227_login.html
+URL2=https://vk.com/js/al/login.js?3551917100
+[ProtocolInfo]
+ProtocolId=QTWeb

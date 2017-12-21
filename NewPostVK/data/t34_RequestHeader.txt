@@ -1,0 +1,11 @@
+GET /?act=logout&hash=911588a3651b8c28d3&reason=tn&_origin=https://vk.com HTTP/1.1
+Host: login.vk.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://vk.com/innapush
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remixlang=0; remixstid=210511854_3e8ab78a06827e149c; remixdt=0; h=1; s=1; l=44752200; p=eff95533bd60b43c61d5a3e015a70dff78bc347773b474c963409; remixsid=87d0975c381d2b6e3321139187a5184ee091b0d644b1112b43e8f; remixflash=0.0.0; remixscreen_depth=24
+

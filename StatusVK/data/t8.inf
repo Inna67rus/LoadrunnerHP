@@ -1,0 +1,15 @@
+[t8]
+SnapshotXmlFile=snapshot_8.xml
+FileName1=t8.mp4.html
+URL1=https://vk.com/images/blank.mp4
+Total=4
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=video/mp4
+FileName2=t8_458129643.gif
+URL2=https://www.tns-counter.ru/V13a****vk_ad/ru/UTF-8/tmsec=vkad_cid1015708-posid1184675/458129643
+FileName3=t8_k.gif
+URL3=https://r3.mail.ru/k?vk_id=44752200&src=desktop
+FileName4=t8_counter.gif
+URL4=https://top-fwz1.mail.ru/counter?js=13;id=2579437;u=https%3A//vk.com/;r=https%3A//vk.com/feed;st=1511941587198;pid=44752200;title=%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8;s=1366*768;vp=1339*642;touch=0;hds=1;flash=;sid=03d8ea6fd1c9041b;ver=60;detect=1;_=0.5865594168733395

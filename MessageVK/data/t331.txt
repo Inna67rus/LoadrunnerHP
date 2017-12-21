@@ -1,0 +1,68 @@
+4574894699054<!>writebox.js,writebox.css,emoji.js,notifier.css,ui_media_selector.css,ui_media_selector.js<!>0<!>6868<!>0<!><!bool><!><div class="mail_box_cont ">
+  
+  <div class="mail_box_to_single">
+  <div class="clear_fix mailbox_hidden_override" id="mail_box_dd">
+    <div class="fl_r wdd_arr hidden_override" ></div>
+    <input type="text" class="wdd_text fl_l hidden_override" placeholder="" id="mail_box_inp" style="display: none;"/>
+    <div class="fl_l">
+      <a class="mail_box_single_ava" href="/valyaevskaya">
+        <img class="mail_box_single_ava_img" src="https://pp.userapi.com/c841538/v841538914/382d3/xQxCI9IZqpQ.jpg" alt="Валера Валяева" />
+      </a>
+    </div>
+    <div class="fl_l mail_box_sinlgle_recepient_info">
+      <a href="/valyaevskaya" class="mail_box_label_peer">Валера Валяева</a>
+      <p class="mail_box_group_first_message"></p>
+      <p class="mail_box_label_info">online<b class="mob_onl im_status_mob_onl"  onclick="mobilePromo();" onmouseover="mobileOnlineTip(this, {mid: 29671012, was: 1})"></b> </p>
+    </div>
+  </div>
+</div>
+<div class="fl_r mail_box_to_full_cls" id="mail_box_to_full"></div>
+  <div id="mail_box_title_wrap">
+    <span></span>
+    <h4 class="subheader">Тема</h4>
+    <input type="text" class="text" id="mail_box_title" maxlength="64" onchange="curBox().changed=true;"></input>
+  </div>
+  <div class="mail_box_text_wrap _emoji_field_wrap" id="mbe_emoji_wrap">
+    <div id="mbe_smile" class="emoji_smile_wrap  _emoji_wrap">
+  <div class="emoji_smile _emoji_btn" title="Используйте TAB, чтобы быстрее открывать смайлы" onmouseover="return Emoji.show(this, event);" onmouseout="return Emoji.hide(this, event);" onclick="return cancelEvent(event);">
+    <div class="emoji_smile_icon"></div>
+  </div>
+</div>
+    <div tabindex="0" contenteditable="true" id="mail_box_editable" onkeyup="WriteBox.checkLen(this)" onkeypress="onCtrlEnter(event, WriteBox.send)" onchange="curBox().changed=true;"></div>
+  </div>
+  <div id="mail_box_warn"></div>
+
+  <div id="mail_box_added_row" class="media_preview"></div>
+
+  <div id="mail_box_controls">
+    <button class="flat_button fl_r mail_box_send_btn" id="mail_box_send" onclick="WriteBox.send()">Отправить</button>
+    <div class="fl_l" id="mail_box_add_row"><span class="link add_media_lnk" id="mail_box_add_link">Прикрепить</span></div>
+    <br class="clear" />
+  </div>
+</div><!>stManager.add(['writebox.js', 'emoji.js', 'notifier.css'], function() {
+  WriteBox.show(box, {
+    editable: 1,
+    emoji: 1,
+    title: "Новое сообщение",
+    mediaTypes: [["photo","Фотография"],["video","Видеозапись"],["audio","Аудиозапись"],["money","Деньги"],["gift","Подарок"],["doc","Документ"],["map","Карта"]],
+    toData: [29671012,"Валера Валяева","","https:\/\/pp.userapi.com\/c841538\/v841538914\/382d3\/xQxCI9IZqpQ.jpg","\/valyaevskaya",0,"1","Валерой",0],
+    hash: 'e20851715c65c4c392',
+    mail_go_to_dialog: "Перейти к диалогу с %s",
+    bannedhim: (cur.oid && cur.options && cur.options.bannedhim !== undefined ? (cur.options.bannedhim && cur.oid || '') : ''),
+    emojiRcnt: [],
+    checkedRecipent: 0,
+    lang: {
+      dont_attach: 'Не прикреплять',
+      mail_im_to_multidialog: 'Перейти к беседе',
+      mail_go_to_dialog: 'Перейти к диалогу с %s',
+      mail_not_found: 'Пользователь не найден',
+      mail_choose_recipient: 'Введите имя друга или email',
+      mail_enter_email_address: 'Введите адрес электронной почты',
+      mail_rcpnts: 'Получатели',
+      mail_rcpnt: 'Получатель',
+      mail_market_tmpl: 'Здравствуйте&#33;<br>Меня заинтересовал этот товар.'
+    }
+  });
+});
+addTemplates({"_":"_","audio_bits_to_cls":"{\"1\":\"audio_has_lyrics\",\"2\":\"audio_can_add\",\"4\":\"audio_claimed\",\"8\":\"audio_from_queue\",\"16\":\"audio_hq\",\"32\":\"audio_lpb\",\"64\":\"audio_has_thumb\",\"256\":\"audio_moder_claimed\"}","audio_row":"<div   tabindex=\"0\" class=\"audio_row audio_row_with_cover _audio_row _audio_row_%1%_%0% %cls%\" data-full-id=\"%1%_%0%\" onclick=\"return getAudioPlayer().toggleAudio(this, event)\" data-audio=\"%serialized%\" onmouseover=\"AudioUtils.onRowOver(this, event)\" onmouseleave=\"AudioUtils.onRowLeave(this, event)\">\n  <div class=\"audio_row_content _audio_row_content\">\n    <button class=\"blind_label _audio_row__play_btn\" aria-label=\"\" onclick=\"getAudioPlayer().toggleAudio(this, event); return cancelEvent(event)\"><\/button>\n\n    <div class=\"audio_row__cover\" style=\"%cover_style%\"><\/div>\n    <div class=\"audio_row__cover_back _audio_row__cover_back\"><\/div>\n    <div class=\"audio_row__cover_icon _audio_row__cover_icon\"><\/div>\n    <div class=\"audio_row__counter\"><\/div>\n    <div class=\"audio_row__play_btn\"><\/div>\n\n    <div class=\"audio_row__inner\">\n      <div class=\"audio_row__info _audio_row__info\"><div class=\"audio_row__duration _audio_row__duration\">%duration%<\/div><\/div>\n      <div class=\"audio_row__performer_title\">\n        <a href=\"%search_href%\" onmouseover=\"setTitle(this)\" class=\"audio_row__performer\">%4%<\/a>\n        <div class=\"audio_row__title _audio_row__title\" onmouseover=\"setTitle(this)\"><span class=\"audio_row__title_inner _audio_row__title_inner\">%3%<\/span><\/div>\n      <\/div>\n    <\/div>\n\n    <div class=\"audio_player__place _audio_player__place\"><\/div>\n  <\/div>\n<\/div>","audio_inline_player":"<div class=\"audio_inline_player _audio_inline_player no_select\">\n  <div class=\"audio_inline_player_right\">\n    <div class=\"audio_inline_player_volume\"><\/div>\n  <\/div>\n  <div class=\"audio_inline_player_left\">\n    <div class=\"audio_inline_player_progress\"><\/div>\n  <\/div>\n<\/div>"});
+addLangKeys({"global_store_stickers":"Магазин стикеров"});

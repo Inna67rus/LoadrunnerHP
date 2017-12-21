@@ -1,0 +1,26 @@
+Start auto log messages stack - Iteration 84.	[MsgId: MMSG-10545]
+Action.c(152): web_url("notifier.php_2") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Action.c(163): web_submit_data("notifier.php_3") started  	[MsgId: MMSG-26355]
+Action.c(163): web_submit_data("notifier.php_3") was successful, 74 body bytes, 362 header bytes  	[MsgId: MMSG-26386]
+Action.c(176): Notify: Transaction "01_login" ended with a "Pass" status (Duration: 2,0525 Wasted Time: 0,0038).	[MsgId: MMSG-16871]
+Action.c(179): Notify: Transaction "02_friends" started.	[MsgId: MMSG-16999]
+Action.c(181): web_url("al_friends.php") started  	[MsgId: MMSG-26355]
+Action.c(181): web_url("al_friends.php") was successful, 325 body bytes, 363 header bytes  	[MsgId: MMSG-26386]
+Action.c(192): web_submit_data("al_friends.php_2") started  	[MsgId: MMSG-26355]
+Action.c(192): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://vk.com/al_friends.php"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 139.	[MsgId: MMSG-10545]
+Action.c(152): web_url("notifier.php_2") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Action.c(163): web_submit_data("notifier.php_3") started  	[MsgId: MMSG-26355]
+Action.c(163): web_submit_data("notifier.php_3") was successful, 74 body bytes, 362 header bytes  	[MsgId: MMSG-26386]
+Action.c(176): Notify: Transaction "01_login" ended with a "Pass" status (Duration: 1,4825 Wasted Time: 0,0040).	[MsgId: MMSG-16871]
+Action.c(179): Notify: Transaction "02_friends" started.	[MsgId: MMSG-16999]
+Action.c(181): web_url("al_friends.php") started  	[MsgId: MMSG-26355]
+Action.c(181): web_url("al_friends.php") was successful, 325 body bytes, 363 header bytes  	[MsgId: MMSG-26386]
+Action.c(192): web_submit_data("al_friends.php_2") started  	[MsgId: MMSG-26355]
+Action.c(192): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "https://vk.com/al_friends.php"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

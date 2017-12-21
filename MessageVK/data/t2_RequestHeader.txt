@@ -1,0 +1,15 @@
+POST /?act=login HTTP/1.1
+Host: login.vk.com
+Connection: keep-alive
+Content-Length: 191
+Cache-Control: max-age=0
+Origin: https://vk.com
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://vk.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remixlang=0; remixstid=423963368_c2b72dd80ecff61f56; remixlhk=55630ae0d059ca531a; remixflash=0.0.0; remixscreen_depth=24; remixdt=0
+

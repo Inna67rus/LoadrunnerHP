@@ -1,0 +1,13 @@
+[t283]
+FileName1=t283.html
+URL1=https://queuev4.vk.com/im200
+Total=2
+RequestHeaderFile=t283_RequestHeader.txt
+RequestBodyFile=t283_RequestBody.txt
+ResponseHeaderFile=t283_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_283.xml
+FileName2=t283_im0200.html
+URL2=https://imv4.vk.com/im0200?act=a_check&key=c627c574690a89f36f9eb2de5f681d224a5c8073&mode=202&ts=1694012051&version=2&wait=25
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+GET /?act=logout&hash=911588a3651b8c28d3&reason=tn&_origin=https://vk.com HTTP/1.1
+Host: login.vk.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://vk.com/friends
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remixlang=0; remixstid=550746351_aab229b5589038cf2a; remixdt=0; h=1; s=1; l=44752200; p=bc74b3879c47b2f7fcdc1734fa18843c1e9d502b3050f057b7816; remixsid=2bf4b7198d6bcc8c74130f396d0f48b9ac6783360fe10ea1acf8a; remixflash=0.0.0; remixscreen_depth=24
+

@@ -1,0 +1,15 @@
+[t162]
+FileName1=t162.txt
+URL1=https://vk.com/al_im.php
+Total=3
+RequestHeaderFile=t162_RequestHeader.txt
+RequestBodyFile=t162_RequestBody.txt
+ResponseHeaderFile=t162_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_162.xml
+FileName2=t162_im0200.html
+URL2=https://imv4.vk.com/im0200?act=a_check&key=361d46bf152e061dbf95540ca06d4ef8b5feb5da&mode=202&ts=1796357582&version=2&wait=25
+FileName3=t162_im0200.html
+URL3=https://imv4.vk.com/im0200?act=a_check&key=361d46bf152e061dbf95540ca06d4ef8b5feb5da&mode=202&ts=1796357585&version=2&wait=25
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t319]
+FileName1=t319.html
+URL1=https://queuev4.vk.com/im200
+Total=2
+RequestHeaderFile=t319_RequestHeader.txt
+RequestBodyFile=t319_RequestBody.txt
+ResponseHeaderFile=t319_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_319.xml
+FileName2=t319_hit.gif
+URL2=https://counter.yadro.ru/hit?q;rhttps%3A//vk.com/feed;s1366*768*24;uhttps%3A//vk.com/friends;0.7207829095246272
+[ProtocolInfo]
+ProtocolId=QTWeb

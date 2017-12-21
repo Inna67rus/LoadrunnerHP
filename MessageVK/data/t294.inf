@@ -1,0 +1,17 @@
+[t294]
+FileName1=t294.txt
+URL1=https://vk.com/al_feed.php?queue
+Total=4
+RequestHeaderFile=t294_RequestHeader.txt
+RequestBodyFile=t294_RequestBody.txt
+ResponseHeaderFile=t294_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_294.xml
+FileName2=t294_post_icon.png
+URL2=https://vk.com/images/post_icon.png?10
+FileName3=t294_menu_icon.png
+URL3=https://vk.com/images/icons/menu_icon.png?7
+FileName4=t294_ic_head_audio.svg
+URL4=https://vk.com/images/svg_icons/ic_head_audio.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

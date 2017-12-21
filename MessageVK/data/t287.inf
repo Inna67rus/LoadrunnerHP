@@ -1,0 +1,15 @@
+[t287]
+FileName1=t287.html
+URL1=https://vk.com/login.php?act=slogin&to=&s=1&__q_hash=46ebff23a4eef7c925fcaccd3a0bcbc5
+Total=3
+RequestHeaderFile=t287_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t287_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_287.xml
+FileName2=t287_notifier.html
+URL2=https://vk.com/js/cmodules/web/notifier.js?74318396731
+FileName3=t287_notifier.css
+URL3=https://vk.com/css/al/notifier.css?22487933082
+[ProtocolInfo]
+ProtocolId=QTWeb

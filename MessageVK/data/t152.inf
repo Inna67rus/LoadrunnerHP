@@ -1,0 +1,13 @@
+[t152]
+FileName1=t152.html
+URL1=https://pu.vk.com/c816637/upload.php
+Total=2
+RequestHeaderFile=t152_RequestHeader.txt
+RequestBodyFile=t152_RequestBody.txt
+ResponseHeaderFile=t152_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_152.xml
+FileName2=t152_hit.gif
+URL2=https://counter.yadro.ru/hit?q;rhttps%3A//vk.com/feed;s1366*768*24;uhttps%3A//vk.com/im;0.17520111106532887
+[ProtocolInfo]
+ProtocolId=QTWeb

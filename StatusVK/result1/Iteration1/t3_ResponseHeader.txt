@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: Apache
+Date: Thu, 21 Dec 2017 08:35:15 GMT
+Content-Type: text/html; charset=windows-1251
+Content-Length: 9126
+Connection: keep-alive
+X-Powered-By: PHP/3.14336
+Set-Cookie: remixlang=0; expires=Sat, 15 Dec 2018 23:29:33 GMT; path=/; domain=.vk.com
+Set-Cookie: remixlhk=0259a463d9bcf1a908; expires=Thu, 20 Dec 2018 03:20:22 GMT; path=/; domain=.vk.com
+Set-Cookie: remixstid=1900884085_7e393ad9dac059f6ee; expires=Mon, 31 Dec 2018 12:57:50 GMT; path=/; domain=.vk.com
+Set-Cookie: remixlhk=b2ab95fc1fd7a50367; expires=Sun, 16 Dec 2018 22:39:46 GMT; path=/; domain=.vk.com
+Pragma: no-cache
+Cache-control: no-store
+X-Frame-Options: deny
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=0
+X-Frontend: front508116
+Access-Control-Expose-Headers: X-Frontend
+

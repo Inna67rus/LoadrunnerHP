@@ -1,0 +1,15 @@
+[t282]
+FileName1=t282.html
+URL1=https://queuev4.vk.com/im200
+Total=3
+RequestHeaderFile=t282_RequestHeader.txt
+RequestBodyFile=t282_RequestBody.txt
+ResponseHeaderFile=t282_ResponseHeader.txt
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_282.xml
+FileName2=t282_im0200.html
+URL2=https://imv4.vk.com/im0200?act=a_check&key=c627c574690a89f36f9eb2de5f681d224a5c8073&mode=202&ts=1694012049&version=2&wait=25
+FileName3=t282_im0200.html
+URL3=https://imv4.vk.com/im0200?act=a_check&key=c627c574690a89f36f9eb2de5f681d224a5c8073&mode=202&ts=1694012050&version=2&wait=25
+[ProtocolInfo]
+ProtocolId=QTWeb

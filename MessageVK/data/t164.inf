@@ -1,0 +1,13 @@
+[t164]
+FileName1=t164.txt
+URL1=https://vk.com/al_im.php
+Total=2
+RequestHeaderFile=t164_RequestHeader.txt
+RequestBodyFile=t164_RequestBody.txt
+ResponseHeaderFile=t164_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_164.xml
+FileName2=t164_im0200.html
+URL2=https://imv4.vk.com/im0200?act=a_check&key=361d46bf152e061dbf95540ca06d4ef8b5feb5da&mode=202&ts=1796357586&version=2&wait=25
+[ProtocolInfo]
+ProtocolId=QTWeb

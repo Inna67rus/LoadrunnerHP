@@ -1,0 +1,15 @@
+POST /c816336/upload.php HTTP/1.1
+Host: pu.vk.com
+Connection: keep-alive
+Content-Length: 975
+Cache-Control: max-age=0
+Origin: https://vk.com
+Upgrade-Insecure-Requests: 1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryynygdyez0uoJ0SWK
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://vk.com/im
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: remixlang=0; remixstid=423963368_c2b72dd80ecff61f56; remixdt=0; remixsid=6355d8430becd51f3d32507763c6bacb7504a3ae6be9c772f8938; remixflash=0.0.0; remixscreen_depth=24
+

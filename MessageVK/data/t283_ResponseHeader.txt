@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Server: Apache
+Date: Wed, 29 Nov 2017 10:18:35 GMT
+Content-Type: text/javascript; charset=UTF-8
+Content-Length: 127
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-store
+X-Frontend: front610808
+X-Adguard-Filtered: AdGuard for Windows; version=6.2.433.2167
+

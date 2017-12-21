@@ -1,0 +1,13 @@
+[t34]
+FileName1=t34.html
+URL1=https://vk.com/login?act=mobile&hash=d22c8f7b5006217e
+Total=2
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_34.xml
+FileName2=t34_login.html
+URL2=https://vk.com/js/al/login.js?3551917100
+[ProtocolInfo]
+ProtocolId=QTWeb

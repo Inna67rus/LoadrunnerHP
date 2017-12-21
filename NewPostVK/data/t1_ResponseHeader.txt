@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 10 Nov 2017 14:24:20 GMT
+Content-Type: text/html; charset=windows-1251
+X-Adguard-Filtered: AdGuard for Windows; version=6.2.433.2167
+Connection: keep-alive
+X-Powered-By: PHP/3.14061
+Set-Cookie: remixlang=0; expires=Wed, 31 Oct 2018 20:49:03 GMT; path=/; domain=.vk.com
+Set-Cookie: remixlhk=55907c79027ff29b1f; expires=Mon, 12 Nov 2018 21:00:12 GMT; path=/; domain=.vk.com
+Set-Cookie: remixstid=210511854_3e8ab78a06827e149c; expires=Tue, 13 Nov 2018 21:58:05 GMT; path=/; domain=.vk.com
+Set-Cookie: remixlhk=d1ebc490adb58dba6f; expires=Mon, 05 Nov 2018 12:27:01 GMT; path=/; domain=.vk.com
+Pragma: no-cache
+Cache-control: no-store
+X-Frame-Options: deny
+Content-Length: 25322
+Strict-Transport-Security: max-age=0
+X-Frontend: front508118
+

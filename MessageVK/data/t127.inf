@@ -1,0 +1,15 @@
+[t127]
+SnapshotXmlFile=snapshot_127.xml
+FileName1=t127.mp4.html
+URL1=https://vk.com/images/blank.mp4
+Total=4
+RequestHeaderFile=t127_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t127_ResponseHeader.txt
+ContentType=video/mp4
+FileName2=t127_k.gif
+URL2=https://r3.mail.ru/k?vk_id=44752200&src=desktop
+FileName3=t127_328414865.gif
+URL3=https://www.tns-counter.ru/V13a***R%3Ehttps://vk.com/feed*vk_com/ru/UTF-8/tmsec=vksite_total/328414865
+FileName4=t127_220674395.gif
+URL4=https://www.tns-counter.ru/V13a****vk_ad/ru/UTF-8/tmsec=vkad_cid1015708-posid1184675/220674395

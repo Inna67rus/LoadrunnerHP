@@ -1,0 +1,17 @@
+[t128]
+FileName1=t128.html
+URL1=https://queuev4.vk.com/q_frame.php?7
+Total=4
+RequestHeaderFile=t128_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t128_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_128.xml
+FileName2=t128_hit.gif
+URL2=https://counter.yadro.ru/hit?q;rhttps%3A//vk.com/feed;s1366*768*24;uhttps%3A//vk.com/;0.11419028165446332
+FileName3=t128_counter.gif
+URL3=https://top-fwz1.mail.ru/counter?js=13;id=2579437;u=https%3A//vk.com/;r=https%3A//vk.com/feed;st=1511523457463;pid=44752200;title=%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8;s=1366*768;vp=1339*642;touch=0;hds=1;flash=;sid=fc85c1f280c17e4f;ver=60;detect=1;_=0.8275270312131664
+FileName4=t128_tracker.gif
+URL4=https://top-fwz1.mail.ru/tracker?js=13;id=2579437;u=https%3A//vk.com/;r=https%3A//vk.com/feed;st=1511523457463;pid=44752200;s=1366*768;vp=1339*642;touch=0;hds=1;flash=;sid=fc85c1f280c17e4f;ver=60;detect=1;_=0.31599734375782185;e=detect
+[ProtocolInfo]
+ProtocolId=QTWeb

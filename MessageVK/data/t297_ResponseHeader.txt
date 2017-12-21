@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: Apache
+Date: Wed, 29 Nov 2017 10:27:26 GMT
+Content-Type: text/html; charset=windows-1251
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/3.14189
+Pragma: public
+Cache-Control: maxage=345600
+Expires: Sun, 03 Dec 2017 10:27:26 GMT
+X-Frontend: front610808
+X-Adguard-Filtered: AdGuard for Windows; version=6.2.433.2167
+

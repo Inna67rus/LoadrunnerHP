@@ -1,0 +1,10 @@
+GET / HTTP/1.1
+Referer: https://vk.com/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.62 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Accept: */*
+Connection: Keep-Alive
+Host: vk.com
+Cookie: remixlang=0; remixstid=2026085540_64ae65a545ffb453db; remixsid=a0da5ed9a14551da1db3a374406b23a4c1e4213ad6e2761f75186
+

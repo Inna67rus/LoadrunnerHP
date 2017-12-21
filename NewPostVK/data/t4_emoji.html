@@ -1,0 +1,1644 @@
+if (!window.Emoji) {
+var Emoji = {
+
+EMOJI_SPRITES_NUM: 3,
+
+opts: {},
+last: 0,
+shownId: false,
+hasNewStickers: false,
+preventMouseOver: false,
+
+ttShift: 45,
+
+stickers: {},
+
+TAB_EMOJI: 0,
+TAB_RECENT_STICKERS: -1,
+
+CLICK_DELAY: 500,
+SORTED_EMOJI_CATEGORIES: [-1, 1, 3, 8, 2, 4, 5, 6, 7, 9],
+CACHED_HEIGHT_PROP: '_emojiHeight',
+CACHED_WIDTH_PROP: '_emojiWidth',
+BOTTOM_REST_FOR_ADD_EMOJI_CATEGORY: 150,
+SHOW_TT_TIMEOUT: 100,
+HIDE_TT_TIMEOUT: 300,
+SHOWN_TT_CLS: 'emoji_tt_shown',
+
+init: function(txt, opts) {
+  var optId = Emoji.last;
+  opts.txt = txt;
+  opts.id = optId;
+  opts.fieldWrap = gpeByClass('_emoji_field_wrap', txt);
+  opts.emojiWrap = domByClass(opts.fieldWrap, '_emoji_wrap');
+  opts.emojiBtn = domByClass(opts.emojiWrap, '_emoji_btn');
+  opts.emojiWrap && data(opts.emojiWrap, 'optId', optId);
+  txt.emojiId = optId;
+  opts.lastLoadedEmojiCategoriesIdxes = {};
+  if (opts.forceTxt) {
+    opts.editable = 0;
+    // placeholderSetup(txt);
+    placeholderInit(txt);
+  } else {
+    opts.editable = 1;
+    setTimeout(function() {
+      // placeholderSetup(txt, {editable: 1, editableFocus: Emoji.editableFocus});
+      placeholderInit(txt, {editable: 1, editableFocus: Emoji.editableFocus, global: opts.global});
+      if (opts.shouldFocus) {
+        Emoji.editableFocus(txt, false, true);
+      }
+    }, 0);
+    if (browser.mozilla) {
+      try {
+        document.execCommand("enableObjectResizing", false, false);
+        cur.destroy.push(function() {
+          document.execCommand("enableObjectResizing", false, true);
+        });
+      } catch(e) {
+      }
+
+    }
+
+    addEvent(window, 'mousemove', Emoji.preventMouseOverHandle);
+
+    addEvent(txt, browser.opera && !browser.chrome ? 'click' : 'mousedown', function(e) {
+      if (e.target && e.target.tagName == 'IMG') {
+        if (Emoji.getCode(e.target)) {
+          Emoji.editableFocus(txt, e.target, e.offsetX > 8);
+          return cancelEvent(e);
+        }
+      }
+      if (Emoji.shown) {
+        Emoji.ttClick(optId, geByClass1('emoji_smile', opts.controlsCont), true);
+      }
+    });
+
+    if (opts.noLineBreaks) {
+      addEvent(txt, 'blur', function(e) {
+        if (!txt.textContent && !txt.innerText) {
+          each(geByTag('br', txt), function(k, br) {
+            re(br);
+          })
+        }
+      });
+    }
+
+    addEvent(txt, 'keypress keydown keyup paste', function(e) {
+      if (e.canceled) return false;
+      if (e.type == 'keydown') {
+        var noEnter = opts.ctrlSend ? opts.ctrlSend() : opts.noEnterSend;
+        if (e.keyCode == KEY.RETURN || e.keyCode == 10) {
+          if (opts.forceEnterSend && opts.onSend) {
+            opts.onSend();
+            return cancelEvent(e);
+          }
+          var ctrlSubm = (cur.ctrl_submit && !opts.noCtrlSend);
+          if ((ctrlSubm || noEnter) && (e.ctrlKey || browser.mac && e.metaKey) ||
+              !ctrlSubm && !e.shiftKey && !(e.ctrlKey || browser.mac && e.metaKey)) {
+            var composer = data(txt, 'composer');
+            if (!Emoji.emojiEnter(optId, e) || !Emoji.stickerHintMove(e) || composer && composer.wdd && isVisible(composer.wdd.listWrap)) {
+              return false;
+            }
+            if (!noEnter || (e.ctrlKey || browser.mac && e.metaKey)) {
+              Emoji.ttClick(optId, geByClass1('emoji_smile', opts.controlsCont), true);
+              opts.onSend && opts.onSend();
+              return cancelEvent(e);
+            }
+          }
+          if (opts.noLineBreaks) {
+            return cancelEvent(e);
+          }
+        }
+        if (e.ctrlKey && e.keyCode == KEY.RETURN) {
+          var val = this.value;
+          if (opts.editable) {
+            Emoji.insertHTML('<div><br/></div>');
+          } else {
+            if (typeof this.selectionStart == "number" && typeof this.selectionEnd == "number") {
+              var start = this.selectionStart;
+              this.value = val.slice(0, start) + "\n" + val.slice(this.selectionEnd);
+              this.selectionStart = this.selectionEnd = start + 1;
+            } else if (document.selection && document.selection.createRange) {
+              this.focus();
+              var range = document.selection.createRange();
+              range.text = "\r\n";
+              range.collapse(false);
+              if (browser.opera && !browser.chrome) {
+                range.moveEnd('character', 0);
+                range.moveStart('character', 0);
+              }
+              range.select();
+            }
+            txt.autosize.update();
+            setTimeout(function () {
+              txt.autosize.update();
+            }, 0);
+          }
+          return false;
+        }
+        if (e.keyCode == KEY.TAB && !(e.ctrlKey || browser.mac && e.metaKey)) {
+          var stCont = geByClass1('_sticker_hints', domPN(opts.txt));
+          if (stCont && isVisible(stCont)) {
+            var selected = geByClass1('over', stCont);
+            if (selected) {
+              Emoji.stickerHintKeyOut(optId, selected);
+            } else {
+              Emoji.stickerHintKeyOver(optId, geByClass1('emoji_sticker_item', stCont));
+            }
+
+            if (!Emoji.shown) {
+              return cancelEvent(e);
+            }
+          }
+          if (Emoji.shown) {
+            Emoji.editableFocus(txt, false, true, void(0), true);
+            Emoji.ttClick(optId, geByClass1('emoji_smile', opts.controlsCont), true);
+          } else {
+            Emoji.ttClick(optId, geByClass1('emoji_smile', opts.controlsCont), false, true, void(0), true);
+          }
+          return cancelEvent(e);
+        }
+        if (e.keyCode == KEY.ESC) {
+          var stCont = geByClass1('_sticker_hints', domPN(opts.txt)), needCancel = false;
+          if (stCont && isVisible(stCont)) {
+            Emoji.stickerHintKeyOut(optId, geByClass1('emoji_sticker_item', stCont));
+            Emoji.stickersHintsHide(stCont, opts, 100);
+            needCancel = true;
+          }
+          if (Emoji.shown) {
+            Emoji.editableFocus(txt, false, true, void(0), true);
+            Emoji.ttClick(optId, geByClass1('emoji_smile', opts.controlsCont), true);
+            needCancel = true;
+          }
+          if (needCancel) {
+            return cancelEvent(e);
+          }
+          if (opts.onEsc) {
+            return opts.onEsc(e);
+          }
+        }
+      }
+
+      if (e.type == 'paste') {
+        Emoji.onEditablePaste(txt, opts, optId, e);
+        if (opts.checkEditable) {
+          setTimeout(opts.checkEditable.pbind(optId, txt), 0);
+        }
+        Emoji.checkStickersKeywords(optId, opts);
+      } else if (e.type == 'keyup') {
+        if (opts.noLineBreaks && !txt.textContent && !txt.innerText) {
+          each(geByTag('br', txt), function(k, br) {
+            re(br);
+          })
+        }
+        if (opts.checkEditable) {
+          opts.checkEditable(optId, txt);
+        }
+        Emoji.checkStickersKeywords(optId, opts);
+      } else if (e.type == 'keydown') {
+        if (opts.checkEditable) {
+          setTimeout(opts.checkEditable.pbind(optId, txt), 0);
+        }
+        Emoji.checkStickersKeywords(optId, opts);
+      }
+
+      if (opts.onKeyAction) {
+        opts.onKeyAction(e);
+      }
+
+      if (cur.onReplyFormSizeUpdate) {
+        cur.onReplyFormSizeUpdate(e);
+      }
+
+      return true;
+    });
+  }
+
+  window.Notifier && Notifier.addRecvClbk('emoji', 0, Emoji.lcRecv, true);
+  Emoji.initStickersKeywords();
+  Emoji.checkNewStickers(opts);
+
+  Emoji.opts[Emoji.last] = opts;
+  return Emoji.last++;
+},
+
+preventMouseOverHandle: function() {
+  Emoji.preventMouseOver = false;
+},
+
+lcRecv: function(data) {
+  switch(data.act) {
+    case 'updateTabs':
+      Emoji.updateTabs(data.newStickers, data.keywords);
+      break;
+  }
+},
+
+correctCaret: function(txt) {
+  var bottom = getCaretBoundingRect(txt).bottom;
+  if (bottom < 0 || bottom > txt.offsetHeight) {
+    txt.scrollTop += bottom - txt.offsetHeight;
+  }
+},
+
+insertWithBr: function (range, text) {
+  if (text) {
+    var cleanText = text.replace(/\n/g, '<br/>');
+    var div = ce('div', { innerHTML: cleanText });
+    Emoji.cleanCont(div);
+    Emoji.insertHTML(div.innerHTML);
+  }
+},
+
+insertWithoutNL: function (range, text) {
+  if (text) {
+    var cleanText = text.replace(/\n/g, '');
+    var div = ce('div', { innerHTML: cleanText });
+    Emoji.cleanCont(div);
+    Emoji.insertHTML(div.innerHTML);
+  }
+},
+
+focusTrick: function (txt, insert, finalize, range, cont) {
+  if (!cont) {
+    cont = txt;
+  }
+  var textarea = ce('TEXTAREA', {className: 'emoji_tmp_textarea'});
+  txt.parentNode.appendChild(textarea);
+  textarea.focus();
+  setTimeout(function() {
+    var scroll = cont.scrollTop;
+    re(textarea);
+    txt.focus();
+    cont.scrollTop = scroll;
+    Emoji.setRange(range);
+    insert(clean(val(textarea)));
+    finalize(txt);
+  }, 0);
+},
+
+finalizeInsert: function(txt) {
+  Emoji.cleanCont(txt);
+  setTimeout(Emoji.correctCaret.pbind(txt), 10);
+},
+
+getClipboard: function(e) {
+  if (e.clipboardData) {
+    return clean(e.clipboardData.getData('text'));
+  } else if (window.clipboardData) {
+    return clean(window.clipboardData.getData("Text"));
+  } else {
+    return false;
+  }
+},
+
+processImagePaste: function(e, txt, opts, onDone) {
+  if (e.clipboardData != null) {
+    var clipboardData = e.clipboardData;
+
+    function _onImageBlobReady(blob) {
+      var addMedia, composer;
+
+      blob.name = blob.filename = 'upload_' + new Date().toISOString() + '_' + irand(0, 100) +  '.png';
+
+      if (hasClass(txt, '_im_text')) {
+        if (opts.uploadActions) {
+          opts.uploadActions.paste([ blob ]);
+          return;
+        }
+      } else if (txt.id == 'post_field') { // field for post submit
+        addMedia = cur.wallAddMedia;
+      } else { // replies inputs
+        composer = data(txt, 'composer');
+        addMedia = composer && composer.addMedia;
+      }
+
+      if (!addMedia) {
+        return;
+      }
+
+      if (isFunction(opts.initUploadForImagePasteCallback)) {
+        opts.initUploadForImagePasteCallback(txt, addMedia, blob);
+      }
+    }
+
+    function _checkImagesEls(cb) {
+      var timespan = Math.floor(1000 * Math.random());
+
+      var imgs = geByTag('img', txt);
+      for (var j = 0, len = imgs.length; j < len; j++) {
+        var img = imgs[j];
+        img['_before_paste_' + timespan] = true;
+      }
+
+      return setTimeout(function() {
+        var imgs = geByTag('img', txt);
+        var pastedImage = false;
+
+        for (var k = 0, len1 = imgs.length; k < len1; k++) {
+          var img = imgs[k];
+          if (!img['_before_paste_' + timespan]) {
+            cb(img.src);
+            re(img);
+            pastedImage = true;
+          }
+        }
+
+        if (!pastedImage) {
+          onDone();
+        }
+      }, 1);
+    }
+
+    function _handleImage(src) {
+      if (src.match(/^webkit\-fake\-url\:\/\//)) {
+        return;
+      }
+
+      var loader = new Image();
+      loader.crossOrigin = 'anonymous';
+      loader.onload = function() {
+        var canvas = document.createElement('canvas');
+        canvas.width = loader.width;
+        canvas.height = loader.height;
+        var ctx = canvas.getContext('2d');
+        ctx.drawImage(loader, 0, 0, canvas.width, canvas.height);
+
+        canvas.toBlob(function(blob) {
+          _onImageBlobReady(blob);
+        }, 'image/png');
+
+        onDone(true);
+      };
+
+      return loader.src = src;
+    }
+
+    if (clipboardData.items) { // best way
+      var imagePaste = false;
+
+      for (var j = 0, len = clipboardData.items.length; j < len; j++) {
+        var item = clipboardData.items[j];
+
+        if (item.type.match(/^image\//)) {
+          var reader = new FileReader();
+          reader.onload = function(event) {
+            return _handleImage(event.target.result);
+          };
+          reader.readAsDataURL(item.getAsFile());
+
+          imagePaste = true;
+        } else if (item.type === 'text/plain') {
+          return onDone();
+        }
+      }
+
+      return imagePaste;
+
+    } else { // no images or FF
+      if (-1 !== Array.prototype.indexOf.call(clipboardData.types, 'text/plain')) {
+        return onDone();
+      }
+
+      _checkImagesEls(function(src) {
+        return _handleImage(src);
+      });
+    }
+
+  } else {
+    onDone();
+  }
+},
+
+onEditablePaste: function(txt, opts, optId, e, onlyFocus) {
+  var range = false;
+
+  if (txt.getAttribute('contenteditable') === 'true') {
+    range = Emoji.getRange();
+  }
+
+  var text = this.getClipboard(e);
+  var textRangeAndNoFocus = text && range && !onlyFocus;
+
+  if (e.clipboardData && inArray('text/html', e.clipboardData.types) && inArray('Files', e.clipboardData.types)) {
+    cancelEvent(e);
+  }
+
+  var isImagePaste = this.processImagePaste(e, txt, opts, (function(isImagePaste) {
+    if (isImagePaste) {
+      return;
+    }
+
+    if (textRangeAndNoFocus) {
+      opts.noLineBreaks ? this.insertWithoutNL(range, text) : this.insertWithBr(range, text);
+      setTimeout(this.finalizeInsert.bind(this, txt), 0);
+    } else if (range) {
+      this.focusTrick(txt, opts.noLineBreaks ? this.insertWithoutNL.pbind(range) : this.insertWithBr.pbind(range), this.finalizeInsert.bind(this, txt), range);
+    }
+  }).bind(this));
+
+  if (isImagePaste || textRangeAndNoFocus) {
+    cancelEvent(e);
+  }
+},
+
+cleanCont: function(cont) {
+  var el = cont.firstChild;
+  while (el) {
+    var next = el.nextSibling;
+    switch (el.nodeType) {
+      case 1:
+        if (el.id == 'tmp_paste_cont') break;
+        if (el.tagName == 'DIV' || el.tagName == 'P' || el.tagName == 'SPAN') {
+          el.setAttribute('style', '');
+          el.className = '';
+          el.id = '';
+          Emoji.cleanCont(el);
+        } else if (el.tagName == 'IMG') {
+          if (!Emoji.getCode(el)) {
+            re(el);
+          }
+        } else if (el.tagName != 'BR' ){
+          var text = Emoji.editableVal(el, {saveEmoji: true});
+          var f = cf(clean(text).replace(/\n/g, '<br/>'));
+          var last = f.lastChild;
+          el.parentNode.replaceChild(f, el);
+          //if (last) {
+          //  Emoji.editableFocus(cont, last, true);
+          //}
+        }
+        break;
+      case 3:
+        var str = clean(el.textContent || el.innerText);
+
+        if (str && str.match(Emoji.emojiRegEx)) { // emoji pasted
+          str = str.replace(Emoji.emojiRegEx, Emoji.emojiReplace)//.replace(/\uFE0F/g, '');
+          el.parentNode.replaceChild(cf(str), el);
+        }
+        break;
+    }
+    el = next;
+  }
+},
+
+focus: function(cont, shouldScroll) {
+  Emoji.editableFocus(cont, false, true);
+  var el = cont.parentNode;
+
+  if (shouldScroll) {
+    var y = getXY(el)[1];
+    var sc = scrollGetY();
+    var height = window.innerHeight ? window.innerHeight : (document.documentElement.clientHeight ? document.documentElement.clientHeight : boxLayerBG.offsetHeight);
+    var elSize = getSize(el)[1];
+    if (sc+height < y + elSize) {
+      scrollToY(y - height + elSize + 60, 100);
+    } else if (sc > y) {
+      scrollToY(y - 60, 100);
+    }
+  }
+},
+
+destroy: function(optId) {
+  Emoji.opts[optId].txt.blur();
+  if (Emoji.opts[optId].imagesLoader) {
+    Emoji.opts[optId].imagesLoader.destroy();
+  }
+  delete Emoji.opts[optId];
+},
+
+editableFocus: function(editable, obj, after, noCollapse, noForce) {
+  if (!editable || (noForce && document.activeElement === editable)) {
+    return false;
+  }
+  editable = ge(editable);
+  editable.focus();
+  if (editable.phonfocus) {
+    editable.phonfocus();
+  }
+  if (typeof window.getSelection != 'undefined' && typeof document.createRange != 'undefined') {
+    var sel = window.getSelection();
+    if (browser.opera && !browser.chrome && !after) {
+      sel.collapse(obj || editable, 0);
+    } else {
+      var range = document.createRange();
+      if (obj) {
+        range.selectNode(obj);
+      } else {
+        range.selectNodeContents(editable);
+      }
+
+      if (browser.mozilla && editable.innerHTML === '<br>') {
+        editable.innerHTML = ''; // fix strange ff behaviour, inserting empty brs in contenteidtable
+      }
+
+      if (!noCollapse) {
+        range.collapse(!after);
+      }
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    }
+  } else if (typeof document.body.createTextRange != 'undefined') {
+    var textRange = document.body.createTextRange();
+    textRange.moveToElementText(obj || editable);
+    textRange.collapse(!after);
+    textRange.select();
+  }
+},
+
+getRange: function() {
+  if (window.getSelection) {
+    sel = window.getSelection();
+    if (sel.getRangeAt && sel.rangeCount) {
+      return sel.getRangeAt(0);
+    }
+  } else if (document.selection && document.selection.createRange) {
+    return document.selection.createRange();
+  }
+  return null;
+},
+
+setRange: function(range) {
+  if (window.getSelection) {
+    sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+  } else if (document.selection && range.select) {
+    range.select();
+  }
+},
+
+val: function(cont, value) {
+  if (value === undefined) {
+    return Emoji.editableVal(cont);
+  } else {
+    value = Emoji.emojiToHTML(value, true);
+    value = value.replace(/ $/, '&nbsp;');
+    if (cont.setValue) {
+      cont.setValue(value);
+      cont.phonblur && cont.phonblur();
+    } else {
+      cont.innerHTML = value;
+    }
+    Emoji.updateStickersHints();
+    var composer = data(cont, 'composer');
+    if (composer && window.Composer) {
+      setTimeout(Composer.updateAutoComplete.pbind(composer));
+    }
+    return true;
+  }
+},
+
+editableVal: function(cont, opts) {
+  if (!cont) return '';
+  if (cont.tagName == 'TEXTAREA') return val(cont);
+  var el = cont.firstChild;
+  var v = '';
+  var contTag = new RegExp('^(DIV|P|LI|OL|TR|TD|BLOCKQUOTE)$');
+  while (el) {
+    switch (el.nodeType) {
+      case 3:
+        var str = el.data.replace(/^\n|\n$/g, ' ').replace(/[\n\xa0]/g, ' ').replace(/[ ]+/g, ' ');
+        v += str;
+        break;
+      case 1:
+        var str = Emoji.editableVal(el);
+        if (el.tagName && el.tagName.match(contTag) && str) {
+          if (str.substr(-1) != '\n') {
+            str += '\n';
+          }
+
+          var prev = el.previousSibling;
+          while (prev && prev.nodeType == 3 && trim(prev.nodeValue) == '') {
+            prev = prev.previousSibling;
+          }
+          if (prev && !(prev.tagName && (prev.tagName.match(contTag) || prev.tagName == 'BR'))) {
+            str = '\n' + str;
+          }
+
+        } else if (el.tagName == 'IMG') {
+          var code = Emoji.getCode(el);
+          if (code) {
+            if (opts && opts.saveEmoji) {
+              str += Emoji.getEmojiHTML(code);
+            } else {
+              str += Emoji.codeToChr(code);
+            }
+          }
+        } else if (el.tagName == 'BR') {
+          str += '\n';
+        }
+        v += str;
+        break;
+    }
+    el = el.nextSibling;
+  }
+  return v;
+},
+
+cssEmoji: {
+  'D83DDE0A': [0, ':-)'], 'D83DDE03': [1, ':-D'], 'D83DDE09': [2, ';-)'], 'D83DDE06': [3, 'xD'], 'D83DDE1C': [4, ';-P'], 'D83DDE0B': [5, ':-p'], 'D83DDE0D': [6, '8-)'], 'D83DDE0E': [7, 'B-)'], 'D83DDE12': [8, ':-('], 'D83DDE0F': [9, ';-]'], 'D83DDE14': [10, '3('], 'D83DDE22': [11, ':\'('], 'D83DDE2D': [12, ':_('], 'D83DDE29': [13, ':(('], 'D83DDE28': [14, ':o'], 'D83DDE10': [15, ':|'], 'D83DDE0C': [16, '3-)'], 'D83DDE20': [17, '>('], 'D83DDE21': [18, '>(('], 'D83DDE07': [19, 'O:)'], 'D83DDE30': [20, ';o'], 'D83DDE33': [21, '8|'], 'D83DDE32': [22, '8o'], 'D83DDE37': [23, ':X'], 'D83DDE1A': [24, ':-*'], 'D83DDE08': [25, '}:)'], '2764': [26 , '<3'], 'D83DDC4D': [27, ':like:'], 'D83DDC4E': [28, ':dislike:'], '261D': [29, ':up:'], '270C': [30, ':v:'], 'D83DDC4C': [31, ':ok:']
+},
+imgEmoji: {'D83DDE15': 1, 'D83DDE1F': 1, 'D83DDE2E': 1, 'D83DDE34': 1},
+
+getEmojiHTML: function(code, symbol, enabled, is_tab) {
+
+  if (code.match(Emoji.emojiJoinersRegEx)) {
+    code = code.replace('FE0F', '') + 'FE0F';
+
+    if (!inArray(code, Emoji.emojiWithJoiners)) {
+      var smiles = code.replace('FE0F', '').split(Emoji.emojiJoinersRegEx);
+      var out = '';
+      for(var i = 0; i < smiles.length; i++) {
+        if (!smiles[i]) {
+          continue;
+        }
+        out += Emoji.getEmojiHTML(smiles[i], Emoji.codeToChr(smiles[i]), enabled, is_tab);
+      }
+      return out;
+    } else  if (symbol) {
+      symbol = symbol.replace(/\uFE0F/g, '');
+      symbol += Emoji.codeToChr('FE0F');
+    }
+  }
+
+  var editable = (browser.msie && intval(browser.version) > 8) ? ' contenteditable="false"' : '';
+  if (Emoji.cssEmoji[code] != undefined) {
+    var num = -Emoji.cssEmoji[code][0] * 17;
+    return '<img'+editable+' src="/images/blank.gif" emoji="'+code+'" '+(symbol ? 'alt="'+symbol+'"' : symbol)+' class="emoji_css" style="background-position: 0px '+num+'px;" />';
+  } else {
+    if (!Emoji.imgEmoji[code] && symbol && !enabled) {
+      return symbol;
+    } else if (is_tab) {
+      var code_lower_case = code.toLowerCase();
+      var spriteId = parseInt(code_lower_case, 16) % Emoji.EMOJI_SPRITES_NUM;
+      return '<i class="emoji emoji_sprite_' + spriteId + ' emoji_' + code_lower_case + '" emoji="' + code + '" '+(symbol ? 'alt="'+symbol+'"' : '')+'></i>';
+    } else {
+      return '<img class="emoji" '+(symbol ? 'alt="'+symbol+'"' : '')+' src="/images/emoji/'+code+(window.devicePixelRatio >= 2 ? '_2x' : '')+'.png" />';
+    }
+  }
+},
+
+codeToChr: function(code) {
+  var len = Math.round(code.length / 4);
+  var chr = '';
+  var i = 0;
+  while(len--) {
+    chr += String.fromCharCode(parseInt(code.substr(i, 4), 16))
+    i += 4;
+  }
+  return chr;
+},
+
+checkEditable: function(optId, obj, options) {
+  var scH = obj.scrollHeight;
+  var opts = Emoji.opts[optId];
+  if (!opts) {
+    return false;
+  }
+  if (!opts.scPaddings) {
+    opts.scPaddings = intval(getStyle(obj, 'paddingTop')) + intval(getStyle(obj, 'paddingBottom'));
+  }
+  scH -= opts.scPaddings;
+  var bl = opts.tt;
+  if (scH > options.height + (browser.mozilla && opts.isChat ? 0 : 5)) {
+    if (!opts.isSized) {
+      setStyle(obj, {height: options.height+'px', overflowY: 'auto'});
+      var sm = geByClass1('emoji_smile', opts.controlsCont);
+      var pt = geByClass1('emoji_smile_icon_promo', opts.controlsCont);
+      var ph = ge('im_upload');
+      var diff = sbWidth();
+      setStyle(sm, vk.rtl ? {left: 1 + diff} : {right: 1 + diff});
+      if (pt) {
+        setStyle(pt, vk.rtl ? {left: 2 + diff} : {right: 2 + diff});
+      }
+      if (ph) {
+        setStyle(ph.parentNode, vk.rtl ? {left: 1 + diff} : {right: 1 + diff});
+      }
+      if (bl) setStyle(bl, vk.rtl ? {left: (opts.ttDiff || 31) + diff} : {right: (opts.ttDiff || 31) + diff})
+      opts.isSized = true;
+    }
+  } else if (opts.isSized) {
+    setStyle(obj, {height: 'auto', overflowY: 'hidden'});
+    var sm = geByClass1('emoji_smile', opts.controlsCont);
+    var pt = geByClass1('emoji_smile_icon_promo', opts.controlsCont);
+    var ph = ge('im_upload');
+    setStyle(sm, vk.rtl ? {left: 1} : {right: 1});
+    if (pt) {
+      setStyle(pt, vk.rtl ? {left: 2} : {right: 2});
+    }
+    if (ph) {
+      setStyle(ph.parentNode, vk.rtl ? {left: 1}: {right: 1});
+    }
+    if (bl) setStyle(bl, vk.rtl ? {left: (opts.ttDiff || 31)} : {right: (opts.ttDiff || 31)})
+    opts.isSized = false;
+  }
+  if (opts.onResize) {
+    opts.onResize();
+  }
+},
+
+stickersHintsShow: function(el, opts, delay) {
+  if (!isVisible(el)) {
+    fadeIn(el, delay);
+  }
+  if (!opts.stickerEventsInited) {
+    var inner = el && geByClass1('_sticker_hints_inner', el);
+    opts.onHintsWheel = Emoji.onWheelStickersHints.pbind(inner);
+    addEvent(inner, 'DOMMouseScroll wheel', opts.onHintsWheel);
+    addEvent(document, 'keydown', Emoji.stickerHintMove);
+    opts.onHintsMouseDown = function() {
+      opts.hintsClicked = true;
+      setTimeout(function() {
+        delete opts.hintsClicked;
+      }, 0);
+    }
+    addEvent(el, 'mousedown', opts.onHintsMouseDown);
+    if (opts.txt) {
+      if (opts.onTxtFocus) {
+        removeEvent(opts.txt, 'focus', opts.onTxtFocus);
+        delete opts.onTxtFocus;
+      }
+      opts.onTxtBlur = function(ev) {
+        if (opts.hintsClicked) {
+          cancelEvent(ev);
+          return true;
+        }
+        Emoji.stickersHintsHide(el, opts, delay);
+      }
+      addEvent(opts.txt, 'blur', opts.onTxtBlur);
+    }
+    opts.stickerEventsInited = true;
+  }
+  Emoji.checkStickersHintsSize(el, opts);
+},
+
+stickersHintsHide: function(el, opts, delay) {
+  fadeOut(el, delay);
+  removeEvent(document, 'keydown', Emoji.stickerHintMove);
+  if (opts.onHintsMouseDown) {
+    removeEvent(el, 'mousedown', Emoji.onHintsMouseDown);
+  }
+  if (opts.onHintsWheel) {
+    var inner = el && geByClass1('_sticker_hints_inner', el);
+    removeEvent(inner, 'DOMMouseScroll wheel', Emoji.onHintsWheel);
+  }
+  if (opts.txt) {
+    if (opts.onTxtBlur) {
+      removeEvent(opts.txt, 'blur', opts.onTxtBlur);
+      delete opts.onTxtBlur;
+    }
+    opts.onTxtFocus = function() {
+      var stCont = opts.txt && geByClass1('_sticker_hints', domPN(opts.txt));
+      if (stCont && !isVisible(stCont)) {
+        delete opts.stickerHintsString;
+        Emoji.checkStickersKeywords(opts.id, opts, false);
+      }
+    }
+    addEvent(opts.txt, 'focus', opts.onTxtFocus);
+  }
+  delete opts.stickerEventsInited;
+  delete Emoji.shownHintId;
+},
+
+stickerHintOver: function(el) {
+  Emoji.stickerHintOut(el);
+  addClass(el, 'over');
+},
+
+stickerHintOut: function(el) {
+  each(geByClass('over', domPN(el)), function() {
+    removeClass(this, 'over');
+  });
+},
+
+stickerHintClick: function(optId, stickerId, el) {
+  var opts = Emoji.opts[optId] || {},
+      text = opts.txt,
+      stCont = text && geByClass1('_sticker_hints', domPN(text)),
+      sticker_referrer = 'suggestion_' + Emoji.getStickersHintsQuery(text);
+
+  if (stickerId < 0) {
+    Emoji.previewSticker(false, el, {stickerId: -stickerId, sticker_referrer: sticker_referrer});
+  } else {
+    val(text, '');
+    Emoji.stickerClick(optId, stickerId, 256, el, sticker_referrer);
+    if (opts.checkEditable) {
+      opts.checkEditable(optId, text);
+    }
+  }
+  Emoji.stickersHintsHide(stCont, opts, 0);
+
+  return false;
+},
+
+stickerHintKeyOver: function(optId, el) {
+  Emoji.stickerHintOver(el);
+  Emoji.shownHintId = optId;
+},
+
+stickerHintKeyOut: function(optId, el) {
+  Emoji.stickerHintOut(el);
+  delete Emoji.shownHintId;
+},
+
+stickerHintMove: function(e) {
+  var optId = Emoji.shownHintId;
+  if (optId === undefined) {
+    return true;
+  }
+
+  var opts = Emoji.opts[optId],
+      stCont = opts && geByClass1('_sticker_hints', domPN(opts.txt));
+  if (stCont && isVisible(stCont)) {
+    var el = geByClass1('over', stCont) || geByClass1('emoji_sticker_item', stCont);
+    switch (e.keyCode) {
+      case KEY.LEFT:
+        el = domPS(el);
+        if (el) {
+          Emoji.stickerHintOver(el);
+          Emoji.checkStickersHintsScroll(el);
+        }
+        cancelEvent(e);
+        return false;
+        break;
+      case KEY.RIGHT:
+        el = domNS(el);
+        if (el) {
+          Emoji.stickerHintOver(el);
+          Emoji.checkStickersHintsScroll(el);
+        }
+        cancelEvent(e);
+        return false;
+        break;
+      case KEY.ENTER:
+        el.click();
+        cancelEvent(e);
+        return false;
+        break;
+    }
+  }
+  return true;
+},
+
+checkStickersHintsSize: function(el, opts, animated) {
+  if (animated) {
+    addClass(el, '_margin_transition');
+    removeClassDelayed(el, '_margin_transition');
+  }
+
+  setStyle(el, {marginLeft: 0});
+  var gap = 10,
+      hintXY = getXY(el),
+      hintSize = getSize(el),
+      emojiXY = Emoji.getEmojiTtXY(opts.tt);
+
+  if (opts.tt && emojiXY &&
+      emojiXY[0] && hintXY[0] + hintSize[0] + gap > emojiXY[0] &&
+      hintXY[1] + hintSize[1] > emojiXY[1]) {
+    setStyle(el, {marginLeft: emojiXY[0] - hintXY[0] - hintSize[0] - gap});
+  }
+
+  while (getXY(el)[0] < 0 && domFC(el)) {
+    re(domFC(el));
+  }
+  if (!domFC(el)) {
+    Emoji.stickersHintsHide(el, opts, 0);
+  }
+},
+
+getEmojiTtXY: function(tooltip) {
+  var result;
+
+  if (tooltip && hasClass(tooltip, Emoji.SHOWN_TT_CLS)) {
+    result = getXY(tooltip);
+  } else {
+    result = [0, 0];
+  }
+
+  return result;
+},
+
+getStickersHintsQuery: function(el) {
+  var str = Emoji.val(el);
+  if (str.length > 30) {
+    return '';
+  }
+
+  var cur = window.cur.wallLayer ? wkcur : window.cur,
+      replyName = cur.reply_to && window.Wall && Wall.getReplyName(cur.reply_to[0]);
+  if (replyName && replyName[1]) {
+    str = str.replace(new RegExp('^(' + escapeRE(replyName[1]) + ')'), '');
+  }
+
+  each(Emoji.cssEmoji, function(code, data) {
+    var re = new RegExp('(\\s|^)(' + escapeRE(data[1]) + (data[1][data[1].length - 1] == ')' ? '+' : '') + ')([\\s\\.,]|$)', 'g');
+    str = str.replace(re, function(match, pre, smile, space) {
+      return (pre || '') + Emoji.codeToChr(code)+(space || '');
+    });
+  });
+  str = str.replace(/^[\s\uFEFF\xA0]+|[\.!\?\n]+$/g, '').toLowerCase().replace('¸', 'å');
+
+  return str;
+},
+
+checkStickersKeywords: function(optId, opts, force) {
+  if (opts.noStickers || !window.stickersKeywords ||
+    !window.stickersKeywordsData || !window.stickersKeywordsData.length) {
+    return false;
+  }
+
+  var delay = force ? 0 : 100,
+      text = opts.txt,
+      stCont = geByClass1('_sticker_hints', domPN(text)),
+      showHints = function() {
+    var str = Emoji.getStickersHintsQuery(text);
+    if (!stCont) {
+      stCont = Emoji.initStickersHints(text);
+      if (!stCont) {
+        return false;
+      }
+    }
+    if (str == opts.stickerHintsString) return;
+    if (str && stickersKeywords[str] && stickersKeywords[str].length) {
+      var stickers = Emoji.sortStickersHints(text, stickersKeywords[str]),
+          stickerSize = (window.devicePixelRatio >= 2) ? '128' : '64', html = '';
+      each(stickers, function() {
+        html += rs(Emoji.hintsStickerItem(), {
+          optId: optId,
+          selId: 0,
+          stickerId: Math.abs(this),
+          class: (this < 0 ? 'promo' : ''),
+          onclick: 'Emoji.stickerHintClick(' + optId + ', ' + this + ', this)',
+          stickerSize: stickerSize
+        });
+      });
+      Emoji.showStickersHints(stCont, opts, html);
+    } else {
+      Emoji.stickersHintsHide(stCont, opts, delay);
+    }
+    opts.stickerHintsString = str;
+  }
+  if (force) {
+    showHints();
+  } else {
+    clearTimeout(opts.stickerHintTT);
+    opts.stickerHintTT = setTimeout(showHints, stCont && isVisible(stCont) ? 0 : 200);
+  }
+},
+
+showStickersHints: function(stCont, opts, html) {
+  var inner = stCont && geByClass1('_sticker_hints_inner', stCont);
+  if (!inner || opts.noStickers) {
+    return false;
+  }
+
+  val(inner, html);
+  Emoji.stickersHintsShow(stCont, opts, 100);
+  inner.scrollLeft = 0;
+  Emoji.checkStickersHintsScroll(stCont, inner.scrollLeft);
+},
+
+checkStickersHintsScroll: function(el, newLeft) {
+  var stCont = domClosest('_sticker_hints', el),
+      inner = stCont && geByClass1('_sticker_hints_inner', stCont),
+      arrowLeft = stCont && geByClass1('_sticker_left', stCont),
+      arrowRight = stCont && geByClass1('_sticker_right', stCont);
+  if (!inner) {
+    return false;
+  }
+
+  if (hasClass(el, 'emoji_sticker_item')) {
+    var maxLeft = el.offsetLeft - 8 - getSize(arrowLeft)[0],
+        minLeft = el.offsetLeft + getSize(el)[1] + 2 + getSize(arrowRight)[0] - inner.clientWidth;
+    if (inner.scrollLeft > maxLeft) {
+      inner.scrollLeft = maxLeft;
+    }
+    if (inner.scrollLeft < minLeft) {
+      inner.scrollLeft = minLeft;
+    }
+    newLeft = inner.scrollLeft;
+  }
+
+  toggle(arrowLeft, newLeft > 0);
+  toggle(arrowRight, newLeft + inner.clientWidth < inner.scrollWidth);
+},
+
+scrollStickersHints: function(el, dir, ev) {
+  var stCont = domClosest('_sticker_hints', el),
+      inner = stCont && geByClass1('_sticker_hints_inner', stCont),
+      arrowLeft = stCont && geByClass1('_sticker_left', stCont),
+      arrowRight = stCont && geByClass1('_sticker_right', stCont);;
+  if (!inner) {
+    return false;
+  }
+
+  var newLeft = inner.scrollLeft + dir * (inner.clientWidth - 2 * getSize(el)[0]),
+      hints = geByClass('emoji_sticker_item', inner);
+  each(hints, function(i, el) {
+    if (dir > 0 && el.offsetLeft - 8 - getSize(arrowLeft)[0] > newLeft) {
+      newLeft = hints[i - 1] && hints[i - 1].offsetLeft - 8 - getSize(arrowLeft)[0] || newLeft;
+      return false;
+    } else if (dir < 0 && el.offsetLeft + getSize(el)[1] + 2 + getSize(arrowRight)[0] - inner.clientWidth > newLeft) {
+      newLeft = el.offsetLeft + getSize(el)[1] + 2 + getSize(arrowRight)[0] - inner.clientWidth || newLeft;
+      return false;
+    }
+  });
+  newLeft = Math.max(0, Math.min(inner.scrollWidth - inner.clientWidth, newLeft));
+  animate(inner, {scrollLeft: newLeft}, {duration: Math.abs(inner.scrollLeft - newLeft) + 50, transition: Fx.Transitions.easeOutCubic});
+  Emoji.checkStickersHintsScroll(inner, newLeft);
+},
+
+onWheelStickersHints: function(inner, ev) {
+  var delta;
+  if (ev.type == 'wheel') { // gecko >= 17, webkit
+    delta = (Math.abs(ev.deltaY) > Math.abs(ev.deltaX)) ? -ev.deltaY : -ev.deltaX;
+  } else if (ev.wheelDeltaY !== void(0)) { // presto, old webkit
+    delta = ev.wheelDeltaY;
+  } else if (ev.wheelDelta !== void(0)) { // ie 8 - 11
+    delta = ev.wheelDelta;
+  } else if (ev.detail && ev.axis === 2) { // gecko < 17
+    delta = -ev.detail;
+  }
+  if (Math.abs(delta) >= 120) {
+    delta = 74 * Math.max(-1, Math.min(1, delta));
+  }
+  inner.scrollLeft -= delta;
+  Emoji.checkStickersHintsScroll(inner, inner.scrollLeft);
+  cancelEvent(ev);
+},
+
+sortStickersHints: function(el, stickers) {
+  var recent = (Emoji.stickers[-1] || {}).stickers || [],
+      result = [], added = {};
+
+  each(recent, function() {
+    if (inArray(this[0], stickers)) {
+      result.push(this[0]);
+      added[this[0]] = 1;
+    }
+  });
+
+  each(stickers, function() {
+    if (!added[this]) {
+      result.push(this);
+    }
+  });
+
+  if (cur.stickersPromoteTestGroup) {
+    var promoteCount = 0;
+    for (var i = 0; i < result.length; i++) {
+      var stickerId = result[i];
+
+      if (stickerId > 0) {
+        continue;
+      }
+
+      switch (cur.stickersPromoteTestGroup) {
+        case 'second_last':
+          if (promoteCount === 0) {
+            result.splice(1, 0, result.splice(i, 1))
+          }
+          break;
+        case 'third_last':
+          if (promoteCount === 0) {
+            result.splice(2, 0, result.splice(i, 1))
+          }
+          break;
+        case 'third_four':
+          if (promoteCount === 0) {
+            result.splice(2, 0, result.splice(i, 1))
+          } else if (promoteCount === 1) {
+            result.splice(3, 0, result.splice(i, 1))
+          }
+          break;
+      }
+      promoteCount++
+    }
+  }
+
+  return result;
+},
+
+initStickersHints: function(el) {
+  if (!el) {
+    return false;
+  }
+
+  return domPN(el).insertBefore(se('<div class="_sticker_hints sticker_hints_tt"><div class="sticker_hints_arrow sticker_left _sticker_left" onclick="Emoji.scrollStickersHints(this, -1, event)"></div><div class="_sticker_hints_inner sticker_hints_inner"></div><div class="sticker_hints_arrow sticker_right _sticker_right" onclick="Emoji.scrollStickersHints(this, 1, event)"></div></div>'), el);
+},
+
+updateStickersHints: function(force) {
+  if (Emoji.opts) {
+    each(Emoji.opts, function(optId, opts) {
+      if (force) {
+        delete opts.stickerHintsString;
+      }
+      Emoji.checkStickersKeywords(optId, opts, true);
+    });
+  }
+},
+
+initStickersKeywords: function() {
+  if (!window.stickersKeywordsData) {
+    var data = ls.get('stickers_keywords');
+    if (data && data.time && data.time > vkNow() - 86400000 * (2 + Math.random())) {
+      window.stickersKeywordsData = data.keywords;
+    }
+  }
+  if (window.stickersKeywordsData) {
+    Emoji.setStickersKeywords(window.stickersKeywordsData);
+  }
+},
+
+cachedStickersKeywordsTime: function() {
+  var data = ls.get('stickers_keywords');
+  return data && data.time ? Math.floor(data.time / 1000) : 0;
+},
+
+setStickersKeywords: function(keywords, update) {
+  if (!keywords) {
+    return false;
+  }
+
+  window.stickersKeywords = {};
+
+  var el = ce('div');
+  var sep = '\n';
+  var acc = [];
+  var str = '';
+
+  keywords.forEach(function(item) {
+    var words = item.words || [];
+    var user = item.user_stickers || [];
+    var promo = item.promoted_stickers || [];
+    var res = user.concat(promo.map(function(id) {
+      return -id;
+    }));
+
+    words.forEach(function(word) {
+      str += sep + word;
+      acc.push(res);
+    });
+  });
+
+  val(el, str);
+
+  str = el.textContent || el.innerText;
+
+  str && str.slice(sep.length).split(sep).forEach(function(word, i) {
+    window.stickersKeywords[word] = acc[i];
+  });
+
+  if (!Emoji.stickers[-1]) {
+    var recent = ls.get('recent_stickers');
+    if (recent) {
+      Emoji.stickers[-1] = recent;
+    }
+  }
+
+  if (update) {
+    ls.set('stickers_keywords', {time: vkNow(), keywords: keywords});
+    Emoji.updateStickersHints(true);
+  }
+},
+
+emojiEnter: function(optId, e) {
+  var opts = Emoji.opts[optId],
+    ctrlSend = (opts.ctrlSend ? opts.ctrlSend() : opts.noEnterSend) || (cur.ctrl_submit && !opts.noCtrlSend);
+  if (
+    opts.emojiFocused &&
+    opts.emojiOvered &&
+    opts.openedByTabKey &&
+    (ctrlSend ? !(e.ctrlKey || browser.mac && e.metaKey) : !e.shiftKey)
+  ) {
+    if (opts.curTab === 0) {
+      var img = geByTag1('img', opts.emojiOvered) || geByTag1('i', opts.emojiOvered);
+      Emoji.addEmoji(optId, Emoji.getCode(img), opts.emojiOvered);
+    }
+    return cancelEvent(e);
+  }
+  return true;
+},
+
+insertHTML: function(html) {
+  if (browser.msie && parseInt(browser.version) < 12) {
+    if (document.selection) {
+      var r = document.selection.createRange();
+      if (r.pasteHTML) {
+        r.pasteHTML(html);
+      }
+    } else {
+      var r = document.getSelection().getRangeAt(0);
+      var n = document.createElement("span");
+      r.surroundContents(n);
+      n.innerHTML = html;
+      r.collapse(false);
+    }
+  } else {
+    if (html) {
+      document.execCommand('insertHTML', false, html);
+    }
+  }
+},
+
+addEmoji: function(optId, code, obj) {
+  if (optId === false || code === false) {
+    return false;
+  }
+  var opts = Emoji.opts[optId];
+  if (vkNow() - opts.ttShowT < Emoji.CLICK_DELAY) {
+    return
+  }
+  if (opts.editable) {
+    var img = Emoji.getEmojiHTML(code, Emoji.codeToChr(code), true);
+    var editable = opts.txt;
+    var sel = window.getSelection ? window.getSelection() : false;
+    if (sel && sel.rangeCount) {
+      r = sel.getRangeAt(0);
+      if (r.commonAncestorContainer) {
+        var rCont = r.commonAncestorContainer;
+      } else {
+        var rCont = r.parentElement ? r.parentElement() : r.item(0);
+      }
+    } else {
+      var rCont = false;
+    }
+    el = rCont;
+    while(el && el != editable) {
+      el = el.parentNode;
+    }
+    var edLast = (editable.lastChild || {});
+    if (browser.mozilla && edLast.tagName == 'BR' && !edLast.previousSibling) {
+      re(editable.lastChild);
+    }
+    if (!el) {
+      Emoji.editableFocus(editable, false, true);
+    }
+    Emoji.insertHTML(img);
+    var emojies = geByClass('emoji', editable);
+    emojies.push.apply(emojies, geByClass('emoji_css', editable));
+    for (i in emojies) {
+      var prev = emojies[i].previousSibling;
+      if (prev && prev.nodeType == 3 && prev.textContent && prev.textContent.charCodeAt(0) == 32) {
+        var p = prev.previousSibling;
+        if (p && p.nodeType == 3 && p.textContent && p.textContent.charCodeAt(p.textContent.length - 1) == 160) {
+          re(prev);
+        }
+      }
+    }
+    if (editable.check) editable.check();
+    setTimeout(Emoji.correctCaret.pbind(editable), 5);
+  } else {
+    var textArea = opts.txt;
+    var val = textArea.value;
+    if (browser.iphone || browser.ipad) {
+      var text = Emoji.codeToChr(code);
+    } else {
+      var text = Emoji.cssEmoji[code][1]+' ';
+    }
+    var endIndex, range;
+    if (textArea.selectionStart != undefined && textArea.selectionEnd != undefined) {
+      endIndex = textArea.selectionEnd;
+      textArea.value = val.slice(0, textArea.selectionStart) + text + val.slice(endIndex);
+      textArea.selectionStart = textArea.selectionEnd = endIndex + text.length;
+    } else if (typeof document.selection != 'undefined' && typeof document.selection.createRange != 'undefined') {
+      textArea.focus();
+      range = document.selection.createRange();
+      range.text = text;
+      range.select();
+    }
+  }
+  if (opts.checkEditable) {
+    opts.checkEditable(optId, opts.txt);
+  }
+  Emoji.checkStickersKeywords(optId, opts);
+  if (opts.saveDraft) {
+    opts.saveDraft();
+  }
+  Emoji.incrRecentEmojiRate(optId, code);
+},
+
+showShadow: function() {
+  return !(browser.msie && browser.version < 10);
+},
+
+scrollToggleArrow: function(isShow, side, opts, noAnim) {
+  var s = geByClass1('emoji_tabs_'+side+'_s', opts.tt)
+  if (noAnim) {
+    (isShow ? show : hide)(s);
+  } else if (isShow) {
+    fadeIn(s, 200);
+  } else {
+    fadeOut(s, 200);
+  }
+  opts[side+'Shown'] = isShow;
+},
+
+scrollTabs: function(optId, right) {
+  var opts = Emoji.opts[optId];
+  if (!opts) {
+    return;
+  }
+  var cont = geByClass1('emoji_tabs_wrap', opts.tt);
+  var maxScroll = cont.firstChild.clientWidth - cont.clientWidth;
+  if (right) {
+    var mPos = right == 2 ? cont.scrollLeft : cont.scrollLeft + 5*34;
+    if (mPos >= maxScroll) {
+      mPos = maxScroll;
+      var rs = geByClass1('emoji_tabs_r_s', opts.tt)
+      fadeOut(rs, 200);
+      opts.rShown = false;
+      Emoji.scrollToggleArrow(false, 'r', opts);
+    }
+    if (mPos && !opts.lShown) {
+      Emoji.scrollToggleArrow(true, 'l', opts);
+    }
+  }
+  if (!right || right == 2) {
+    var mPos = right == 2 ? cont.scrollLeft : Math.max(cont.scrollLeft - 5*34, 0);
+    if (mPos <= 0) {
+      mPos = 0;
+      Emoji.scrollToggleArrow(false, 'l', opts);
+    }
+    if (mPos < maxScroll && !opts.rShown) {
+      Emoji.scrollToggleArrow(true, 'r', opts);
+    }
+  }
+  if (right == 2) { // update arrows only
+    return;
+  }
+  opts.scrollLeft = mPos;
+  animate(cont, {scrollLeft: mPos}, 300);
+},
+
+scrollToTab: function(tabId, optId) {
+  var opts = Emoji.opts[optId], tt = opts.tt;
+  var cont = geByClass1('emoji_tabs_wrap', tt);
+  var tab = geByClass1('emoji_tab_' + tabId, tt);
+  if (!tab) {
+    return;
+  }
+  var tween = data(cont, 'tween');
+  if (tween && tween.isTweening && tabId == opts.curTab) {
+    return;
+  }
+  var tabWidth = getSize(tab)[0];
+  var tabPos = tab.offsetLeft, contW = getSize(cont)[0];
+  var centerPos = tabPos - contW / 2 + 10;
+
+  if (tabPos + tabWidth < cont.scrollLeft) {
+    cont.scrollLeft = Math.max(tabPos, cont.scrollLeft - contW / 2);
+  } else if (tabPos + tabWidth - cont.scrollLeft > contW) {
+    cont.scrollLeft = Math.min(tabPos + tabWidth - cont.scrollLeft, cont.scrollLeft + contW / 2);
+  }
+
+  animate(cont, {scrollLeft: centerPos}, 300, function () {
+    Emoji.scrollTabs(optId, 2);
+  });
+  Emoji.selectTab(optId, tabId, tab);
+},
+
+selectTab: function (optId, selId, obj) {
+  var opts = Emoji.opts[optId], tt = opts.tt;
+  var tabsCont = geByClass1('emoji_tabs', tt);
+  var selEl = geByClass1('emoji_tab_sel', tabsCont);
+
+  removeClass(selEl, 'emoji_tab_sel');
+  addClass(obj, 'emoji_tab_sel');
+  opts.curTab = selId;
+  cur.stickersTab = selId;
+  ls.set('stickers_tab', selId);
+},
+
+tabsWheel: function(e, optId) {
+  cancelEvent(e);
+
+  var opts = Emoji.opts[optId];
+  var delta = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
+  var cont = geByClass1('emoji_tabs_wrap', opts.tt);
+
+  var curScroll = cont.scrollLeft;
+  cont.scrollLeft += delta;
+  if (curScroll == cont.scrollLeft) {
+    return;
+  }
+
+  Emoji.scrollTabs(optId, 2);
+},
+
+show: function(obj, ev) {
+  var optId = data(domPN(obj), 'optId');
+  if (isUndefined(optId)) return;
+  Emoji.ttShow(optId, obj, ev);
+},
+
+hide: function(obj, ev, force) {
+  var optId = data(domPN(obj), 'optId');
+  if (isUndefined(optId)) return;
+  Emoji.ttHide(optId, obj, ev, force);
+},
+
+ttShow: function(optId, obj, ev) {
+  var opts = Emoji.opts[optId];
+  clearTimeout(opts.ctt);
+  clearTimeout(opts.stt);
+  if (opts.scrolling) {
+    opts.afterScrollFn = false;
+  }
+  if (opts.ttShown) return;
+  if (obj) opts.obj = obj;
+  else obj = opts.obj;
+
+  opts.stt = setTimeout(function () {
+    Emoji.ttClick(optId, obj, false, true, ev);
+  }, Emoji.SHOW_TT_TIMEOUT);
+
+},
+
+ttHide: function(optId, obj, ev, force) {
+  var opts = Emoji.opts[optId];
+  clearTimeout(opts.stt);
+  if (!opts.ttShown) return;
+  if (opts.scrolling) {
+    opts.afterScrollFn = Emoji.ttHide.pbind(optId, obj, ev, force);
+    return;
+  }
+  obj = obj || opts.obj || geByClass1('emoji_smile', opts.controlsCont);
+  var hideTT = function() {
+    Emoji.ttClick(optId, obj, true, false, ev);
+  };
+
+  if (force) {
+    hideTT();
+  } else {
+    clearTimeout(opts.ctt);
+    opts.ctt = setTimeout(hideTT, Emoji.HIDE_TT_TIMEOUT);
+  }
+},
+
+ttClick: function(optId, obj, needHide, needShow, ev, tabKey) {
+  var opts = Emoji.opts[optId];
+  if (!opts) {
+    return;
+  }
+  if ((needHide && !Emoji.shown) || (needShow && Emoji.shown)) {
+    return;
+  }
+  if (!obj) {
+    obj = Emoji.shown || ge((cur.peer == -3) ? 'imw_smile' : 'im_smile');
+    if (!obj) return;
+  }
+  if (obj.tt && obj.tt.destroy) {
+    obj.tt.destroy();
+  }
+  if (!opts.tt && opts.sharedTT && opts.sharedTT.emojiTT) {
+    opts.tt = opts.sharedTT.emojiTT;
+    opts.emojiScroll = opts.sharedTT.emojiScroll;
+    opts.allEmojiId = opts.sharedTT.emojiAllId;
+  }
+  var tt = opts.tt;
+  if (!tt) {
+    var prevTab = ls.get('stickers_tab');
+    if (!prevTab) {
+      prevTab = Emoji.TAB_EMOJI;
+    }
+    opts.curTab = cur.stickersTab = Emoji.TAB_EMOJI;
+    if (prevTab != Emoji.TAB_EMOJI && !opts.noStickers) {
+      Emoji.stickers[Emoji.TAB_RECENT_STICKERS] = ls.get('recent_stickers');
+      opts.curTab = cur.stickersTab = prevTab;
+    }
+    var tabs = '<div class="emoji_tabs_l_s" onclick="Emoji.scrollTabs('+optId+', 0);"><div class="emoji_sprite emoji_tabs_l_sc"></div><div class="emoji_sprite emoji_tabs_l_si"></div></div><div class="emoji_tabs_r_s" onclick="Emoji.scrollTabs('+optId+', 1);"><div class="emoji_sprite emoji_tabs_r_sc"></div><div class="emoji_sprite emoji_tabs_r_si"></div></div>';
+    tabs += Emoji.getTabsCode([[0, 1]], optId);
+    tabs += '<span class="emoji_tabs_wrap"><span id="emoji_tabs_cont_'+optId+'" class="emoji_tabs_cont">';
+    if (!opts.noStickers && window.emojiStickers !== false && window.emojiStickers !== undefined) {
+      tabs += Emoji.getTabsCode(window.emojiStickers, optId);
+    }
+    var classAddr = '';
+    var shopEvents = 'onclick="Emoji.showStickersStore('+optId+');"';
+    var shopHint = 'showTooltip(this, {text: \''+getLang('global_store_stickers')+'\', shift: [4,6,6], showdt: 0, black: 1});';
+    if (opts.rPointer) {
+      shopEvents += ' onmouseover="addClass(this.parentNode.parentNode.parentNode, \'emoji_shop_over\');'+shopHint+'"  onmouseout="removeClass(this.parentNode.parentNode.parentNode, \'emoji_shop_over\');"';
+    } else {
+      shopEvents += ' onmouseover="'+shopHint+'"';
+    }
+    tabs += '</span></span>';
+    if (!opts.noStickers) {
+      tabs += '<a class="fl_r emoji_shop" '+shopEvents+'><div class="emoji_sprite emoji_shop_icon">'+(Emoji.hasNewStickers ? '<div class="emoji_shop_icon_badge">'+Math.abs(Emoji.hasNewStickers)+'</div>' : '')+'</div></a>';
+    }
+    if (!Emoji.showShadow()) {
+      classAddr += ' emoji_no_opacity';
+    }
+    if (opts.noStickers || opts.hideStickersInitial) {
+      classAddr += ' emoji_no_tabs';
+    }
+    var tt = ce('div', {
+      id: 'emoji_block_'+optId,
+      className: 'emoji_tt_wrap tt_down' + classAddr,
+      innerHTML: '<div class="emoji_block_cont"><div class="emoji_block_rel"><div class="emoji_list_cont"><div class="emoji_cats_title_helper"></div><div class="emoji_list"><div class="emoji_scroll emoji_scroll_smiles"></div><div class="emoji_scroll emoji_scroll_stickers"></div></div></div></div><div class="emoji_tabs clear_fix">'+tabs+'</div></div>',
+      onmouseover: function(e) {
+        if (!hasClass(tt, 'emoji_animated')) Emoji.ttShow(optId, false, e);
+      },
+      onmouseout: function(e) {
+        if (!hasClass(tt, 'emoji_animated')) Emoji.ttHide(optId, false, e);
+      }
+    });
+    opts.tt = tt;
+    Emoji.reappendEmoji(optId, tt);
+    Emoji.emojiOver(optId, geByClass1('emoji_scroll_smiles', tt).firstChild);
+
+    each(['emoji_tabs_l_s', 'emoji_tabs_r_s', 'emoji_tabs_wrap'], function() {
+      addEvent(geByClass1(this, opts.tt), 'DOMMouseScroll wheel', function(e) {
+        Emoji.tabsWheel(e, optId);
+      });
+    });
+
+    if (opts.sharedTT) {
+      opts.sharedTT.emojiTT = tt;
+    }
+    Emoji.checkEmojiSlider(opts);
+  }
+  clearTimeout(opts.ttEmojiHide);
+
+  if (Emoji.shownId !== false && Emoji.shownId != optId) {
+    Emoji.ttClick(Emoji.shownId, geByClass1('emoji_smile', Emoji.opts[Emoji.shownId].controlsCont), true);
+  }
+  Emoji.preventMouseOver = false;
+
+  if (!opts.emojiExpanded) {
+    Emoji.emojiExpand(optId, tt);
+  }
+  if (Emoji.shown) {
+    Emoji.hideTt(tt);
+    var stCont = geByClass1('_sticker_hints', domPN(opts.txt));
+    if (stCont && isVisible(stCont)) {
+      Emoji.checkStickersHintsSize(stCont, opts, true);
+    }
+    Emoji.shown = false;
+    Emoji.shownId = false;
+    opts.ttShown = false;
+    opts.emojiFocused = false;
+    cur.onMouseClick = false;
+    removeEvent(document, 'keydown', Emoji.emojiMove);
+    removeClass(obj, 'emoji_smile_on');
+    if (opts.onHide) {
+      opts.onHide();
+    }
+  } else {
+    opts.openedByTabKey = !!tabKey;
+    Emoji.showTt(tt);
+    Emoji.repositionEmoji(optId, obj, tt);
+
+    var stCont = geByClass1('_sticker_hints', domPN(opts.txt));
+    if (stCont && isVisible(stCont)) {
+      Emoji.checkStickersHintsSize(stCont, opts, true);
+    }
+    Emoji.shownId = optId;
+    Emoji.shown = obj;
+    cur.emojiList = geByClass1('emoji_list', tt);
+    opts.ttShown = true;
+    opts.ttShowT = vkNow();
+    opts.emojiFocused = true;
+    removeEvent(document, 'keydown', Emoji.emojiMove);
+    setTimeout(function() {
+      cur.onMouseClick = function(e) {
+        var el = e.target;
+        while(el) {
+          if (el.id == 'im_texts' || hasClass(el, 'emoji_tt_wrap') || hasClass(el, 'imw_emoji_wrap')) {
+            return false;
+          }
+          el = el.parentNode;
+        }
+        Emoji.ttClick(optId, false, true);
+      }
+      addEvent(document, 'keydown', Emoji.emojiMove);
+    }, 0);
+    addClass(obj, 'emoji_smile_on');
+    if (opts.emojiScroll && opts.emojiExpanded) {
+      opts.emojiScroll.update();
+      if (browser.msie && opts.curTab === 0 && opts.emojiOvered) {
+        Emoji.scrollToListEl(optId, opts.emojiOvered);
+      }
+    }
+    Emoji.tabSwitch(opts.curTab, opts.curTab, optId);
+    opts.onRecentEmojiUpdate && opts.onRecentEmojiUpdate();
+
+    if (opts.onShow) {
+      opts.onShow();
+    }
+  }
+  each(geByClass('emoji_smile_icon_promo'), function(i, el) {
+    removeEvent(geByClass1('emoji_smile_icon', el.parentNode), 'mouseover');
+    re(el);
+    Emoji.noNewStickers = true;
+  });
+
+  if (opts.noStickersStore) {
+    addClass(geByClass1('emoji_tabs', 'emoji_block_'+optId), 'emoji_tabs_no_store');
+  } else {
+    removeClass(geByClass1('emoji_tabs', 'emoji_block_'+optId), 'emoji_tabs_no_store');
+  }
+  return cancelEvent(ev);
+},
+curEmojiKeys: {},
+curEmojiCats: {1: ['D83DDE04', 'D83DDE01', 'D83DDE0A', 'D83DDE03', 'D83EDD23', 'D83DDE06', 'D83DDE09', 'D83DDE1C', 'D83DDE0B', 'D83EDD17', 'D83DDE0D', 'D83DDE0E', 'D83DDE12', 'D83DDE0F', 'D83DDE42', 'D83DDE43', 'D83DDE14', 'D83DDE22', 'D83DDE2D', 'D83DDE29', 'D83DDE28', 'D83DDE10', 'D83DDE0C', 'D83EDD24', 'D83DDE07', 'D83DDE30', 'D83EDD27', 'D83DDE32', 'D83EDD22', 'D83DDE33', 'D83DDE37', 'D83DDE02', '2764', 'D83DDC8B', 'D83DDE1A', 'D83DDE15', 'D83DDE2F', 'D83DDE26', 'D83DDE35', 'D83DDE44', 'D83EDD14', 'D83DDE20', 'D83DDE21', 'D83DDE1D', 'D83DDE34', 'D83DDE18', 'D83DDE17', 'D83DDE19', 'D83DDE1F', 'D83DDE41', '2639', 'D83DDE2C', 'D83DDE36', 'D83EDD10', 'D83DDE2B', '263A', 'D83DDE00', 'D83DDE25', 'D83DDE1B', 'D83DDE16', 'D83DDE24', 'D83DDE23', 'D83DDE27', 'D83DDE11', 'D83DDE05', 'D83DDE2E', 'D83DDE1E', 'D83DDE13', 'D83DDE31', 'D83EDD13', 'D83EDD11', 'D83DDE2A', 'D83EDD12', 'D83EDD15', 'D83EDD25', 'D83EDD20', 'D83DDE08', 'D83DDC7F', 'D83DDC7D', 'D83DDC7B', 'D83DDE38', 'D83DDE39', 'D83DDE3C', 'D83DDE3D', 'D83DDE3E', 'D83DDE3F', 'D83DDE3B', 'D83DDE40', 'D83DDE3A', 'D83DDE48', 'D83DDE49', 'D83DDE4A', 'D83DDCA9', 'D83DDC80', 'D83DDC79', 'D83DDC7A'], 2: ['D83CDF31', 'D83CDF32', 'D83CDF33', 'D83CDF34', 'D83CDF37', 'D83CDF38', 'D83CDF45', 'D83CDF46', 'D83CDF47', 'D83CDF48', 'D83CDF49', 'D83CDF4A', 'D83CDF4B', 'D83CDF4C', 'D83CDF4D', 'D83CDF4E', 'D83CDF4F', 'D83CDF50', 'D83CDF51', 'D83DDC00', 'D83DDC01', 'D83DDC038', 'D8'D83DDC038', 'D8'D83DDC036

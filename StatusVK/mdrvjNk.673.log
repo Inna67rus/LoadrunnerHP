@@ -1,0 +1,21 @@
+Error: missing newline in C:\Users\InnaPush\Documents\VuGen\Scripts\WebHttpHtml6\Test.dat	[MsgId: MERR-13874]
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(254): Resource "https://vk.com/js/lib/px.js?ch=2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Found resource "https://vk.com/js/al/login.js?3551917100" in HTML "https://vk.com/login?act=mobile&hash=71ca375c5e005306"  	[MsgId: MMSG-26659]
+Action.c(254): Resource "https://vk.com/js/al/ui_common.js?3489032241" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Registered web_reg_find successful for "Text=Test" (count=1)  	[MsgId: MMSG-26364]
+Action.c(254): Error -26366: "Text=Поиск" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(254): Resource "https://vk.com/js/lib/px.js?ch=2" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Found resource "https://vk.com/js/al/login.js?3551917100" in HTML "https://vk.com/login?act=mobile&hash=22e87be4eab46f86"  	[MsgId: MMSG-26659]
+Action.c(254): Resource "https://vk.com/js/al/ui_common.js?3489032241" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Resource "https://vk.com/js/cmodules/web/audioplayer.js?3876525056" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(254): Registered web_reg_find successful for "Text=Test" (count=1)  	[MsgId: MMSG-26364]
+Action.c(254): Error -26366: "Text=Поиск" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

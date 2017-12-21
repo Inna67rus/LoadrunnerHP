@@ -1,0 +1,18 @@
+<script type="text/javascript">
+var _ua = navigator.userAgent;
+var locDomain = 'vk.com'.match(/[a-zA-Z]+\.[a-zA-Z]+\.?$/)[0];
+if (/opera/i.test(_ua) || !/msie 6/i.test(_ua) || document.domain != locDomain) {
+  document.domain = locDomain;
+}
+parent.__qlClear();
+addEvent = parent.addEvent;
+vk = parent.vk;
+parent.stManager.add(['notifier.js', 'notifier.css'], function() {
+  Notifier = parent.Notifier;
+    ;(function () {
+    var cb = function () {Notifier.init({"queue_id":"events_queue461703243","timestamp":347602283,"key":"fUanI2Y3UdSmE2KFyVY_FG_BKfyTHOYmbCZriYhUgr7gqOYuf6oDO3UFOHCAnzZF","uid":"461703243","version":10,"debug":false,"instance_id":"OTg5OTc2","server_url":"https:\/\/queuev4.vk.com\/im243","frame_path":"https:\/\/queuev4.vk.com\/q_frame.php?7","frame_url":"im243","refresh_url":"https:\/\/vk.com\/notifier.php","mutedPeers":[],"fc":{"version":23,"state":{"clist":{"min":true,"x":false,"y":false},"version":23},"state_hash":"1513845319_862926e681e6b4cb16"}})}
+    if (window.vk && window.vk.loaded) cb(); else addEvent(window, 'DOMContentLoaded load', cb);
+  })();
+  parent.onLoginDone('/id461703243', {name: 'Алиса Тестовна', photo_50: 'https://pp.userapi.com/c841625/v841625557/41317/1XUIJDA3qaA.jpg'});
+});
+</script>

@@ -1,0 +1,17 @@
+[t277]
+FileName1=t277.txt
+URL1=https://vk.com/al_im.php
+Total=4
+RequestHeaderFile=t277_RequestHeader.txt
+RequestBodyFile=t277_RequestBody.txt
+ResponseHeaderFile=t277_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_277.xml
+FileName2=t277_history_end.png
+URL2=https://vk.com/images/icons/history_end.png
+FileName3=t277_docs.html
+URL3=https://vk.com/js/al/docs.js?875239394
+FileName4=t277_msg_check.png
+URL4=https://vk.com/images/icons/msg_check.png
+[ProtocolInfo]
+ProtocolId=QTWeb

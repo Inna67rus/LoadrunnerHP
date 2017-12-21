@@ -1,0 +1,11 @@
+[t166]
+FileName1=t166.html
+URL1=https://vk.com/login?act=mobile&hash=02f75fe49c4410de
+Total=1
+RequestHeaderFile=t166_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t166_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_166.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

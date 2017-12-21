@@ -1,0 +1,13 @@
+[t236]
+FileName1=t236.txt
+URL1=https://vk.com/al_im.php
+Total=2
+RequestHeaderFile=t236_RequestHeader.txt
+RequestBodyFile=t236_RequestBody.txt
+ResponseHeaderFile=t236_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_236.xml
+FileName2=t236_chats.png
+URL2=https://vk.com/images/icons/chats.png?14
+[ProtocolInfo]
+ProtocolId=QTWeb
